@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="wrap">
+  <div class="crumbs"><a href="{{ edition_path }}">Week {{ f.week }}</a> / {% if story.kind == 'beat' %}<a href="/teams/{{ T(story.roster_id).slug }}/">{{ T(story.roster_id).name }}</a>{% else %}{{ story.kicker }}{% endif %}</div>
+  {% if story.kind == 'beat' %}{% set t = T(story.roster_id) %}{% set res = result(story.roster_id) %}
+  <div class="teamhead" style="--tc:{{ t.color }}"><span class="meta num">{{ res.wl == 'W' and 'Win' or 'Loss' }} · {{ "%.2f"|format(res.pts) }}–{{ "%.2f"|format(res.opp_pts) }} vs {{ T(res.opp).name }} · {{ dash(t.record) }}</span><h1>{{ t.name }}</h1><span class="big num">{{ dash(t.record) }}</span></div>
+  {% endif %}
+  <header class="story-head">
+    <span class="tag">{{ story.kicker or (T(story.roster_id).name ~ ' beat') }}</span>
+    <h1>{{ story.headline }}</h1>
+    {% if story.dek %}<p class="dek">{{ story.dek }}</p>{% endif %}
+  </header>
+</div>
+<section class="wrap" style="padding-bottom:30px">
+  <div class="article">
+    <article>
+      {% set rep = T(story.by_roster_id or story.roster_id) %}
+      <div class="byline"><span class="av" style="background:{{ rep.color }}">{{ initials(rep.reporter) }}</span><span><b>{{ rep.reporter }}</b> · {{ rep.name }} beat · Week {{ f.week }}, {{ f.season }}</span></div>
+      {% for p in story.body %}<p>{{ p }}</p>{% if loop.index == 2 and story.pull %}<div class="pull">{{ story.pull }}</div>{% endif %}{% endfor %}
+    </article>
+    {% set m = story_matchup(story) %}
+    <aside class="chart" aria-label="Lead tracker">
+      <div class="scorebox num" style="margin-bottom:14px"><span>{{ T(m.winner).name }}</span><span>{{ "%.2f"|format(m.sides[0].points) }}</span><span class="l">{{ T(m.loser).name }}</span><span class="l">{{ "%.2f"|format(m.sides[1].points) }}</span></div>
+      {% set persp = story.persp_roster_id or story.roster_id or m.winner %}
+      <h3>Lead Tracker</h3>
+      <p class="sub">Margin all weekend. Above the line, {{ T(persp).name }} leads.</p>
+      <div data-race="{{ m.matchup_id }}" data-persp="{{ persp }}" data-mode="full" data-label="Lead tracker for {{ T(m.winner).name }} versus {{ T(m.loser).name }}"></div>
+      <div class="legend"><span><i class="sw" style="background:var(--sand)"></i>{{ T(persp).name }} ahead</span><span><i class="sw" style="background:var(--loss)"></i>{{ T(other(m, persp)).name }} ahead</span></div>
+    </aside>
+  </div>
+</section>
+{% set m = story_matchup(story) %}
+<section class="sec"><div class="wrap">
+  <div class="sh"><h2>Box <em>Score</em></h2><span class="tag">Starters and bench · fantasy points</span></div>
+  <div class="lineups num">
+    {% for side in m.sides %}{% set t = T(side.roster_id) %}
+    <div class="lu" style="--tc:{{ t.color }}"><h3>{{ t.name }} · {{ "%.2f"|format(side.points) }}</h3>
+      <table>
+        {% for p in side.starters %}<tr><td class="pos">{{ p.pos or '' }}</td><td>{{ p.name }}{% if p.on_bye %} <span class="note" style="color:var(--loss)">(bye)</span>{% endif %}</td><td>{{ "%.2f"|format(p.pts) }}</td></tr>{% endfor %}
+        <tr><td colspan="3" class="sub">Bench</td></tr>
+        {% for p in side.bench %}<tr class="bench"><td class="pos">{{ p.pos or '' }}</td><td>{{ p.name }}</td><td>{{ "%.2f"|format(p.pts) }}</td></tr>{% endfor %}
+      </table>
+    </div>
+    {% endfor %}
+  </div>
+</div></section>
+<section class="sec"><div class="wrap">
+  <div class="sh"><h2>More from <em>Week {{ f.week }}</em></h2></div>
+  <div class="list">
+    {% for o in others(story) %}
+    <a class="row" href="{{ story_path(o) }}"><span class="wk">{{ o.kind == 'beat' and dash(T(o.roster_id).record) or 'WK ' ~ f.week }}</span><div><h3>{{ o.headline }}</h3><p>{{ o.kind == 'beat' and (T(o.roster_id).name ~ ' beat') or o.kicker }}</p></div></a>
+    {% endfor %}
+  </div>
+</div></section>
+{% endblock %}

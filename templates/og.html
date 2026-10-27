@@ -1,0 +1,16 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"BC";font-style:italic;font-weight:900;src:url("{{ font_dir }}/barlow-condensed-latin-900-italic.woff2") format("woff2")}
+@font-face{font-family:"BC";font-style:normal;font-weight:800;src:url("{{ font_dir }}/barlow-condensed-latin-800-normal.woff2") format("woff2")}
+html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:#09090A}
+.c{position:relative;width:1200px;height:630px;box-sizing:border-box;padding:56px 60px;display:flex;flex-direction:column;justify-content:flex-end;
+  background:radial-gradient(90% 90% at 88% 10%,rgba(216,187,136,.30),transparent 60%),linear-gradient(160deg,#2A1A0B 0%,#120C07 45%,#09090A 100%);
+  color:#F3EEE4;font-family:"BC",Impact,sans-serif;overflow:hidden}
+.crest{position:absolute;right:56px;top:48px;width:330px;height:307px;background:url("{{ crest }}") center/cover;border-radius:22px;border:6px solid #F3EEE4;transform:rotate(5deg);box-shadow:0 24px 50px rgba(0,0,0,.6)}
+.brand{position:absolute;left:60px;top:52px;font-weight:800;font-size:30px;letter-spacing:.14em;text-transform:uppercase;color:#D8BB88}
+.k{font-weight:800;font-size:30px;letter-spacing:.1em;text-transform:uppercase;color:#FF5A1F;margin-bottom:10px}
+.h{font-style:italic;font-weight:900;text-transform:uppercase;font-size:{{ size }}px;line-height:.9;max-width:{{ maxw }}px}
+.bar{position:absolute;left:0;right:0;bottom:0;height:12px;background:{{ color }}}
+</style></head>
+<body><div class="c"><span class="brand">{{ brand }}</span><span class="crest"></span><div class="k">{{ kicker }}</div><div class="h">{{ headline }}</div><div class="bar"></div></div></body></html>

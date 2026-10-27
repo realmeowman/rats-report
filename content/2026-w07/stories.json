@@ -1,0 +1,206 @@
+{
+  "lead": {
+    "matchup_id": 1,
+    "slug": "up-43-on-sunday-down-58-by-monday",
+    "by_roster_id": 1,
+    "persp_roster_id": 1,
+    "kicker": "Game of the Week",
+    "headline": "Up 43 on Sunday. Down 58 by Monday.",
+    "dek": "Big Stric Energy climbed out of a 50-point hole, built a blowout-sized lead, then watched four Cowboys take it apart on national TV.",
+    "slam": [
+      {
+        "value": "+43.82",
+        "tone": "good"
+      },
+      {
+        "value": "−58.06",
+        "tone": "bad"
+      }
+    ],
+    "slam_caption": "Sun 4:02 PM → Monday final",
+    "pull": "Four Cowboys. Monday night. No one left to answer.",
+    "body": [
+      "At 10:10 a.m. Pacific on Sunday, this one looked finished. Poochinski had banked Caleb Williams (22.12) and Luther Burden III (23.7) from Thursday night in Chicago and led by 50.32 before most of the league had coffee.",
+      "Then the Packers game in Detroit happened. Josh Jacobs, claimed off waivers at 12:11 a.m. Wednesday, ran for 20.1. Jordan Love hit Tucker Kraft for a 14-yard touchdown late in the first quarter, and at 1:52 p.m. Big Stric Energy led for the first time all week. By 4:02 p.m. the lead was 43.82.",
+      "The problem was the calendar. Poochinski still had Dak Prescott, CeeDee Lamb, Javonte Williams and Brandon Aubrey for Monday night in Philadelphia. Big Stric Energy took a 25.12-point lead into Monday with no starters left to play. Saquon Barkley did play Monday. He scored 15.1, from the bench.",
+      "The lead lasted 49 minutes past kickoff. At 6:04 p.m. Monday, an 11-yard Javonte Williams run put Poochinski in front for good. Prescott finished with 23.28, Lamb with 24.4, Williams with 21.5 and Aubrey with 14.0, a combined 83.18 from the Cowboys. Final: 181.50 to 123.44.",
+      "Big Stric Energy is 1-6 with six straight losses, and 1-4 in games decided by fewer than 10 points over two seasons. Poochinski is 6-1 and leads the league in points."
+    ]
+  },
+  "games": [
+    {
+      "matchup_id": 4,
+      "slug": "decided-by-0-86",
+      "by_roster_id": 3,
+      "persp_roster_id": 3,
+      "kicker": "Decided by 0.86",
+      "headline": "One catch short: the champ survives Pickens",
+      "dek": "deeboliciouskins needed 16.56 from George Pickens on Monday night. He finished with 15.7.",
+      "pull": "Needed 16.56. Got 15.7.",
+      "body": [
+        "The lead changed hands four times, and it started Thursday. D'Andre Swift put deeboliciouskins in front in Chicago at 5:38 p.m.; Drake Maye scrambled to the 1-yard line at 6:01 p.m. and took it back.",
+        "Sunday was the real fight. deeboliciouskins went up 14.34 at 1:18 p.m. behind Tony Pollard, a 6:35 a.m. pickup who went for 36.5. Twenty-one minutes later Amon-Ra St. Brown caught a 28-yarder from Jared Goff and Maye I touch your TDs? led again.",
+        "By Sunday night the margin was 16.56, and deeboliciouskins had one starter left: George Pickens, Monday night in Philadelphia. Pickens caught enough to make it interesting and finished with 15.7.",
+        "Drake Maye (28.44), Zay Flowers (27.7), Amon-Ra St. Brown (24.2) and Bucky Irving (24.0) carried the defending champion, who also started Breece Hall for zero. Final: 178.76 to 177.90."
+      ]
+    },
+    {
+      "matchup_id": 3,
+      "slug": "a-39-point-lead-gone-by-dinner",
+      "by_roster_id": 5,
+      "persp_roster_id": 5,
+      "kicker": "Collapse",
+      "headline": "A 39-point lead, gone by dinner",
+      "dek": "Bad things man bad things was finished playing by 4:26 p.m. Sunday. AB81 was not.",
+      "pull": "Up 39.34 at 4:26 p.m. Behind by 7:00.",
+      "body": [
+        "At 4:26 p.m. Sunday, Bad things man bad things led by 39.34 and every starter had played. Trey McBride had 27.1. Over two seasons, this team had never lost a game decided by under 10 points.",
+        "AB81 still had Seattle on Sunday night. Jaxon Smith-Njigba went for 31.3, and at 7:00 p.m. a 10-yard Sam Darnold scramble put AB81 ahead 118.50 to 117.94.",
+        "Monday made it close. AB81 had the Eagles defense and DeVonta Smith going, Dallas won 38-21, Philadelphia’s defense finished at -4.0 and Smith scored zero. The lead shrank. It held: 122.08 to 117.94.",
+        "Ollie Gordon II scored 17.3 on the Bad Things bench. Isaiah Likely scored 3.2 in the flex."
+      ]
+    },
+    {
+      "matchup_id": 2,
+      "slug": "cherry-blossom-drops-186",
+      "by_roster_id": 4,
+      "persp_roster_id": 4,
+      "kicker": "Week’s high score",
+      "headline": "Cherry Blossom drops 186.3",
+      "dek": "Santa Clara’s Finest led by 27.9 early Sunday afternoon. Cherry Blossom outscored them by more than 90 from there.",
+      "body": [
+        "Santa Clara’s Finest jumped out early Sunday and led by 27.9 at 1:09 p.m., with Joe Burrow (28.88) and Colston Loveland (19.9) doing the work.",
+        "Jared Goff’s 15-yard completion to Jahmyr Gibbs at 2:03 p.m. put Cherry Blossom ahead for good. Tee Higgins (26.8), Bo Nix (26.18) and Jameson Williams (26.1) did the rest.",
+        "A Tuesday stat correction trimmed Bo Nix by a tenth of a point, so the official final is 186.30 to 122.86, still the top score of the week."
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "roster_id": 2,
+      "headline": "The quietest 6-1 team you’ll ever see",
+      "pull": "Four moves. Six wins.",
+      "body": [
+        "Four roster moves all season. Jahmyr Gibbs first overall, CeeDee Lamb in the second round, then hands off the wheel. The result is the league’s top point total, 1,198.44, and a Monday night where four Cowboys starters went for 83.18.",
+        "Quinshon Judkins scored 23.4 on the bench and it did not matter.",
+        "The front office was down 50.32 on Sunday morning and up 58.06 on Monday night. It does not appear to have touched anything in between."
+      ]
+    },
+    {
+      "roster_id": 1,
+      "headline": "Six straight losses, and the bench keeps scoring",
+      "pull": "Braelon Allen: 19.4, on the bench.",
+      "body": [
+        "The Wednesday claims tell the story. Josh Jacobs delivered 20.1. Jalen Coker went straight into the starting lineup and scored 1.9 while Braelon Allen put up 19.4 on the bench.",
+        "None of it decided a 58-point loss. This beat has seen the pattern before, though. Last December’s first-round playoff loss to Poochinski was 139.78 to 124.58, with Trevor Lawrence scoring 44.3 on the bench. A week later, the 5th-place game was lost with Lawrence on the bench again, for 31.16.",
+        "1-6. Six straight. Next up: whoever is willing to make the first trade in league history."
+      ]
+    },
+    {
+      "roster_id": 3,
+      "headline": "The champ finally gets one to bounce his way",
+      "body": [
+        "Last season’s title ran through the waiver wire: 46 moves, most in the league. This season has nine moves and a 2-5 record.",
+        "Week 7 had a bit of both seasons in it. Drake Maye (28.44), Zay Flowers (27.7) and Amon-Ra St. Brown (24.2) built the lead, Breece Hall started and scored zero, and the margin that saved the week was 0.86.",
+        "By the standings, the defending champion now holds the last of six playoff spots."
+      ]
+    },
+    {
+      "roster_id": 6,
+      "headline": "The best pickup of the week came in a loss",
+      "body": [
+        "At 6:35 a.m. Sunday, this front office added Tony Pollard. Four minutes later, T.J. Hockenson. Pollard went for 36.5, the most on the roster. Hockenson added 13.5.",
+        "It came down to George Pickens on Monday night needing 16.56. He got 15.7. That’s two straight losses for a team that ranks second in the league in points.",
+        "For the archive: this franchise has now added Marcus Mariota four separate times."
+      ]
+    },
+    {
+      "roster_id": 4,
+      "headline": "186.3, two 20-point games on the bench, and Tom Brady",
+      "body": [
+        "Tee Higgins (26.8), Bo Nix (26.18) and Jameson Williams (26.1) carried the week’s top score. The bench had Tre Tucker (21.3) and Michael Penix Jr. (20.42) too.",
+        "This front office moves rarely, four transactions this season, and it drafted like a museum curator: Rob Gronkowski in round 9 and Tom Brady, born 1977, in round 14.",
+        "Three straight wins. 3-4."
+      ]
+    },
+    {
+      "roster_id": 7,
+      "headline": "From the No. 1 seed to the fewest points in the league",
+      "body": [
+        "Last year: 10-4, the top seed and a trip to the final. This year: 1-6 and 966.04 points, last in the league.",
+        "Joe Burrow (28.88) showed up. The lineup didn’t. J.K. Dobbins (8.3, added Thursday at 6:13 p.m. during the game in Chicago) and Juwan Johnson (1.7) started while Cam Skattebo (19.1) and Emanuel Wilson (18.5) sat.",
+        "Sixteen moves this season, two of them after 11 p.m. The team still does not roster Brock Purdy."
+      ]
+    },
+    {
+      "roster_id": 5,
+      "headline": "Busiest front office in the league, first close loss in two years",
+      "body": [
+        "Twenty moves this season, most in the league, including dropping Justin Herbert at 5:16 a.m. Wednesday.",
+        "At 4:26 p.m. Sunday this team led by 39.34 with its whole lineup finished. Seattle’s night game took it away. Ollie Gordon II scored 17.3 on the bench; Isaiah Likely scored 3.2 in the flex.",
+        "Over two seasons, this team had never lost a game decided by under 10 points. It’s 2-1 in those games now, and 5-2 overall."
+      ]
+    },
+    {
+      "roster_id": 8,
+      "headline": "Zero moves, three zeros, one win",
+      "body": [
+        "The lineup included Mike Evans (0), DeVonta Smith (0) and Cam Little, a Jacksonville kicker, during Jacksonville’s bye. It won anyway, behind Jaxon Smith-Njigba’s 31.3.",
+        "This front office has not made a single roster move in 2026. Last season it made eight and went 3-11.",
+        "6-1. The evidence suggests leaving it alone."
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "roster_id": 2,
+      "blurb": "Most points in the league. Beat the team that led them by 43.82."
+    },
+    {
+      "roster_id": 8,
+      "blurb": "Sixth in points, tied for first in wins. We can’t explain it either."
+    },
+    {
+      "roster_id": 5,
+      "blurb": "One bad Sunday night doesn’t erase five wins. The bench management might."
+    },
+    {
+      "roster_id": 6,
+      "blurb": "Second in points and two straight losses. Better than 4-3."
+    },
+    {
+      "roster_id": 4,
+      "blurb": "Three straight wins and the week’s top score."
+    },
+    {
+      "roster_id": 3,
+      "blurb": "The defending champion holds the last playoff spot. Six of eight get in."
+    },
+    {
+      "roster_id": 1,
+      "blurb": "Can build a lead. Has not learned to keep one."
+    },
+    {
+      "roster_id": 7,
+      "blurb": "Last year’s top seed, this year’s lowest scorer. Doesn’t roster Brock Purdy."
+    }
+  ],
+  "external_facts": [
+    {
+      "claim": "Dallas beat Philadelphia 38-21 on Monday Night Football in Week 7",
+      "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-cowboys-run-past-eagles-38-21"
+    },
+    {
+      "claim": "Sleeper showed Bo Nix at 26.28 on Monday night; Tuesday's data shows 26.18 (stat correction)",
+      "source": "Sleeper matchups API, Mon 10/26 8:37 PM snapshot vs Tue 10/27 pull"
+    },
+    {
+      "claim": "Monday Night Football kicked off at 5:15 PM Pacific; 6:04 PM is 49 minutes later",
+      "source": "https://www.sportbusy.com/nfl-week/7/"
+    },
+    {
+      "claim": "Cherry Blossom went from down 27.9 to up 63.44, a 91.34-point swing (more than 90)",
+      "source": "derived from facts.json race"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "publication": "The R.A.T.S. Report",
+  "short_name": "R.A.T.S. Report",
+  "league_id": "1389754469251555328",
+  "timezone": "America/Los_Angeles",
+  "site_url": "https://REPLACE-WITH-SITE-URL",
+  "noindex": true,
+  "teams": {
+    "1": {"color": "#7DBE1E", "reporter": "Gil Tremont"},
+    "2": {"color": "#1F6FEB", "reporter": "Renata Okafor"},
+    "3": {"color": "#0E9F8E", "reporter": "Theo Barrientos"},
+    "4": {"color": "#D9468F", "reporter": "Walt Esposito"},
+    "5": {"color": "#D7263D", "reporter": "Marcus Leight"},
+    "6": {"color": "#E8660C", "reporter": "Priya Mandell"},
+    "7": {"color": "#B8870B", "reporter": "Dana Kowalczyk"},
+    "8": {"color": "#7C4DFF", "reporter": "Cal Duvernay"}
+  }
+}
