@@ -243,3 +243,15 @@ a.beat:hover h3, a.story-s:hover h3{color:var(--sand)}
 .statthumb span{position:relative;z-index:1;font-family:var(--cond);font-weight:900;font-style:italic;font-size:34px;color:#fff}
 .smartbg{--tc:#178F55} .dumbbg{--tc:#B3261E}
 @media (max-width:760px){.moves{grid-template-columns:1fr}}
+
+/* hero spacing: the tile sizes to its content instead of stretching to the rail */
+.hero{align-items:start}
+.tile{min-height:0;justify-content:flex-start;gap:0;padding:32px}
+.tile .slam{margin-bottom:clamp(32px,5vw,64px);gap:6px}
+.tile .copy{max-width:min(100%,640px)}
+.tile .art{width:min(40%,330px)}
+.rail{gap:10px}
+.story-s{grid-template-columns:104px minmax(0,1fr);padding:9px}
+.story-s .thumb{height:70px}
+.story-s h3{font-size:19px}
+@media (max-width:980px){.tile{min-height:0}}

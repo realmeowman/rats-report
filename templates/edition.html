@@ -26,7 +26,7 @@
       <div class="s num">{{ T(gm.winner).name }} {{ "%.2f"|format(gm.sides[0].points) }} · {{ T(gm.loser).name }} {{ "%.2f"|format(gm.sides[1].points) }}</div></div>
     </a>
     {% endfor %}
-    {% for x in s.features[:3] %}
+    {% for x in s.features[:1] %}
     <a class="story-s" href="{{ story_path(x) }}">
       <div class="thumb statthumb" style="--tc:{{ T(x.roster_ids[0]).color if x.roster_ids else 'var(--brown)' }}"><span class="num">{{ x.stat or '' }}</span></div>
       <div><span class="tag">{{ x.kicker }}</span><h3>{{ x.headline }}</h3>{% if x.stat_label %}<div class="s">{{ x.stat_label }}</div>{% endif %}</div>
