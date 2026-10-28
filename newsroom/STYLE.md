@@ -38,6 +38,17 @@ pretends to.
   for the hero graphic (e.g. biggest lead and final margin) with tone good/bad and a caption.
 - `games`: one story for every other matchup. 2-4 paragraphs each.
 - `beats`: one story for every team, by that team's reporter. 2-3 paragraphs each.
+- `smart_move` / `dumb_move`: the best and worst decision of the week, each with `roster_id`,
+  `stat` (one big number), `stat_label`, `headline`, `dek`, `body` (3 paragraphs). Start from
+  `decision_candidates` (pickups that paid off, drops that backfired, points left on the bench,
+  lineups that would have won, starters on bye), but pick the best story, not just the biggest
+  number. A dumb move that changed a result beats one that didn't.
+- `swing_plays`: 3-5 single plays that moved a matchup, each `{play_id, headline, blurb}` where
+  `play_id` comes from `matchups[].big_plays[].id`. Favor lead changes and plays that decided
+  close games; spread them across matchups.
+- `features`: 2-4 more top stories about the week beyond single games: the waiver wire
+  (`unrostered_scorers`), a drop that came back to bite, league-wide trends, history. Each has
+  `slug`, `kicker`, `headline`, `dek`, `body`, optional `stat`/`stat_label` and `roster_ids`.
 - `rankings`: every team, ordered, one-line blurb each.
 - `external_facts`: any outside fact you used, with source.
 
@@ -50,7 +61,13 @@ Slugs: lowercase-hyphenated, unique within the week.
 - `matchups[].lead_changes`: every time the lead flipped, with the play.
 - `matchups[].entering_final_day`: score going into the last game day and who had players left.
 - `matchups[].sides[].best_bench`, `zero_starters`, `bye_starters`, `starter_stacks`.
-- `transactions`: every move this week with Pacific timestamps and how the added player did.
+- `transactions`: every move this week with Pacific timestamps, how the added player did and
+  how the dropped player did.
+- `matchups[].big_plays`: biggest single plays and every lead change, with the play text,
+  game, quarter, swing and the score before and after.
+- `matchups[].sides[].optimal_points`, `points_left_on_bench`, `should_have_started`,
+  `should_have_sat`, and `optimal_would_have_won` for the loser.
+- `decision_candidates` and `unrostered_scorers` for Smart Move / Dumb Move and the wire.
 - `awards`: high score, low score, closest game, biggest blowout, best pickup.
 - `teams[]`: record, standing, points rank, streak.
 - `history`: past seasons' records, moves, bench habits, playoffs, notable draft picks,

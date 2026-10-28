@@ -77,6 +77,7 @@
       if (m === "high") p = pts.reduce(function (a, b) { return b[1] > a[1] ? b : a; });
       else if (m === "low") p = pts.reduce(function (a, b) { return b[1] < a[1] ? b : a; });
       else p = pts[pts.length - 1];
+      if (p === pts[pts.length - 1]) m = "end";
       if (done[p[0]] || Math.abs(p[1]) < 0.01) return;
       done[p[0]] = 1;
       var px = X(p[0]), py = y(p[1]), v = (p[1] > 0 ? "+" : "") + p[1].toFixed(2);

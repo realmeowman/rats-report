@@ -82,6 +82,10 @@ def main():
         lid = lg.get("previous_league_id")
     dump({"current_season": current_season, "week": week, "chain": chain}, "chain.json")
 
+    for w in range(1, week + 1):
+        dump(get_json(f"{SLEEPER}/stats/nfl/regular/{current_season}/{w}"), current_season, f"stats_{w}.json")
+    print("sleeper weekly stats", flush=True)
+
     dump(get_json(f"{SLEEPER}/players/nfl"), "players.json")
     print("sleeper players", flush=True)
 

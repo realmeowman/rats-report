@@ -26,6 +26,12 @@
       <div class="s num">{{ T(gm.winner).name }} {{ "%.2f"|format(gm.sides[0].points) }} · {{ T(gm.loser).name }} {{ "%.2f"|format(gm.sides[1].points) }}</div></div>
     </a>
     {% endfor %}
+    {% for x in s.features[:3] %}
+    <a class="story-s" href="{{ story_path(x) }}">
+      <div class="thumb statthumb" style="--tc:{{ T(x.roster_ids[0]).color if x.roster_ids else 'var(--brown)' }}"><span class="num">{{ x.stat or '' }}</span></div>
+      <div><span class="tag">{{ x.kicker }}</span><h3>{{ x.headline }}</h3>{% if x.stat_label %}<div class="s">{{ x.stat_label }}</div>{% endif %}</div>
+    </a>
+    {% endfor %}
   </div>
 </section>
 
@@ -46,6 +52,56 @@
     </aside>
   </div>
 </div></section>
+
+{% if s.smart_move or s.dumb_move %}
+<section id="moves" class="sec"><div class="wrap">
+  <div class="sh"><h2>Smart Move / <em>Dumb Move</em></h2><span class="tag">The best and worst decisions of Week {{ f.week }}</span></div>
+  <div class="moves">
+    {% for mv in moves %}{% set t = T(mv.roster_id) %}
+    <a class="move {{ 'smart' if mv.kind == 'smart_move' else 'dumb' }}" href="{{ story_path(mv) }}">
+      <div class="mtop"><span class="mlabel">{{ 'Smart Move' if mv.kind == 'smart_move' else 'Dumb Move' }}</span><span class="mteam" style="--tc:{{ t.color }}">{{ t.name }}</span></div>
+      <div class="mstat num">{{ mv.stat }}</div>{% if mv.stat_label %}<div class="mstatl">{{ mv.stat_label }}</div>{% endif %}
+      <h3>{{ mv.headline }}</h3>
+      <p>{{ mv.dek or mv.body[0] }}</p>
+      <span class="more">Read the breakdown →</span>
+    </a>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}
+
+{% if s.swing_plays %}
+<section id="plays" class="sec"><div class="wrap">
+  <div class="sh"><h2>Plays That <em>Swung It</em></h2><span class="tag">Single snaps that moved a matchup</span></div>
+  <div class="plays">
+    {% for sp in s.swing_plays %}{% set p = sp.play %}{% set gm = M(p.matchup_id) %}
+    {% set ben = gm.winner if p.net_for_winner >= 0 else gm.loser %}
+    <a class="play" href="{{ game_path(gm) }}">
+      <div class="pmeta"><span>{{ p.time }}</span><span>{{ p.game }}{% if p.quarter %} · Q{{ p.quarter }}{% endif %}</span></div>
+      <div class="pswing num" style="--tc:{{ T(ben).color }}"><b>+{{ "%.2f"|format(p.net_for_winner|abs) }}</b><span>{{ T(ben).name }}</span>{% if p.changed_lead %}<i>Lead change</i>{% endif %}</div>
+      <h3>{{ sp.headline }}</h3>
+      <p class="pdesc">{{ p.desc }}</p>
+      <p>{{ sp.blurb }}</p>
+      <div class="pscore num"><span>{{ T(gm.winner).name }} {{ "%.2f"|format(p.score_before[0]) }} → {{ "%.2f"|format(p.score_after[0]) }}</span><span>{{ T(gm.loser).name }} {{ "%.2f"|format(p.score_before[1]) }} → {{ "%.2f"|format(p.score_after[1]) }}</span></div>
+    </a>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}
+
+{% if s.features %}
+<section id="more" class="sec"><div class="wrap">
+  <div class="sh"><h2>More Top <em>Stories</em></h2><span class="tag">What else happened in Week {{ f.week }}</span></div>
+  <div class="feats">
+    {% for x in s.features %}
+    <a class="feat" href="{{ story_path(x) }}" style="--tc:{{ T(x.roster_ids[0]).color if x.roster_ids else 'var(--sand)' }}">
+      {% if x.stat %}<div class="fstat num">{{ x.stat }}</div>{% if x.stat_label %}<div class="mstatl">{{ x.stat_label }}</div>{% endif %}{% endif %}
+      <span class="tag">{{ x.kicker }}</span><h3>{{ x.headline }}</h3><p>{{ x.dek }}</p><span class="more">Read more →</span>
+    </a>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}
 
 <section id="games" class="sec"><div class="wrap">
   <div class="sh"><h2>Around the <em>League</em></h2><span class="tag">Margins from first kickoff to the final whistle</span></div>

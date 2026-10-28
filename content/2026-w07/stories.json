@@ -201,6 +201,113 @@
     {
       "claim": "Cherry Blossom went from down 27.9 to up 63.44, a 91.34-point swing (more than 90)",
       "source": "derived from facts.json race"
+    },
+    {
+      "claim": "16 starting QBs (2 per team x 8 teams); 13 of them scored under Malik Willis's 26.02",
+      "source": "derived from facts.json lineups"
+    },
+    {
+      "claim": "Pollard 36.5 + Hockenson 13.5 = 50 points",
+      "source": "derived from facts.json"
+    },
+    {
+      "claim": "Sleeper history covers 2025 weeks 1-18 and 2026 weeks 1-7 = 25 weeks; Week 11 deadline is four weeks after Week 7",
+      "source": "derived from facts.json"
+    }
+  ],
+  "smart_move": {
+    "roster_id": 6,
+    "stat": "+36.5",
+    "stat_label": "Tony Pollard, added Sunday 6:35 AM",
+    "headline": "Up at dawn, Pollard in the lineup",
+    "dek": "deeboliciouskins added Tony Pollard at 6:35 a.m. Sunday. He scored 36.5, the most on the roster.",
+    "body": [
+      "At 6:35 a.m. Pacific on Sunday, deeboliciouskins dropped Terry McLaurin and added Tony Pollard. Four minutes later it added T.J. Hockenson and dropped Jacory Croskey-Merritt. Both went straight into the starting lineup.",
+      "Pollard ran 36 yards for a touchdown at 10:07 a.m. and finished with 36.5, the best pickup in the league this week. Hockenson caught a touchdown from Kyler Murray at 12:06 p.m. and finished with 13.5. Together the two Sunday-morning adds scored 50 points.",
+      "It also produced the only perfect lineup of the week: deeboliciouskins left 0.0 points on the bench. The team lost by 0.86 anyway. Smart moves don’t come with a guarantee."
+    ]
+  },
+  "dumb_move": {
+    "roster_id": 5,
+    "stat": "21.5",
+    "stat_label": "Points left on the bench in a 4.14-point loss",
+    "headline": "Cut Brissett, started Young, lost by 4.14",
+    "dek": "Bad things man bad things cut Jacoby Brissett for Bryce Young. Brissett then threw a touchdown to its own tight end.",
+    "body": [
+      "At 12:11 a.m. Wednesday, Bad things man bad things claimed Bryce Young on waivers and dropped Jacoby Brissett. Young started at quarterback and scored 7.42. Brissett scored 16.48 for Arizona, including a 7-yard touchdown pass at 3:18 p.m. to Trey McBride, who plays for Bad things man bad things.",
+      "The lineup had more problems. Tyler Shough scored 14.82 on the bench. Ollie Gordon II scored 17.3 on the bench while Isaiah Likely scored 3.2 in the flex.",
+      "The best possible lineup from this roster scored 139.44. AB81 scored 122.08. Bad things man bad things lost 122.08 to 117.94, leaving 21.5 points on the bench in a game decided by 4.14."
+    ]
+  },
+  "swing_plays": [
+    {
+      "play_id": "m1-p3",
+      "headline": "The touchdown that flipped Sunday",
+      "blurb": "Jordan Love to Tucker Kraft put Big Stric Energy in front for the first time all week. The lead grew to 43.82 by 4:02 p.m."
+    },
+    {
+      "play_id": "m2-p5",
+      "headline": "Bo Nix runs 62 yards",
+      "blurb": "Cherry Blossom had just taken the lead. Nix’s touchdown scramble was worth 12.2 by itself, and Santa Clara’s Finest never got close again."
+    },
+    {
+      "play_id": "m3-p11",
+      "headline": "Darnold scrambles, Lob City sinks",
+      "blurb": "Bad things man bad things had been done since 4:26 p.m. A 10-yard Sam Darnold run in the Sunday night game gave AB81 a lead it kept."
+    },
+    {
+      "play_id": "m1-p7",
+      "headline": "Eleven yards, and Monday turned",
+      "blurb": "A Javonte Williams run 49 minutes after kickoff put Poochinski ahead to stay. Big Stric Energy had no one left to answer."
+    },
+    {
+      "play_id": "m4-p10",
+      "headline": "Pickens gets Deebo within 5.56",
+      "blurb": "A 21-yard Dak Prescott touchdown to George Pickens made it a one-catch game. Pickens added a few more yards, and it ended 0.86 short."
+    }
+  ],
+  "features": [
+    {
+      "slug": "waiver-wire-quarterback",
+      "kicker": "The Wire",
+      "stat": "26.02",
+      "stat_label": "Malik Willis, unrostered",
+      "headline": "The best free agent was a quarterback",
+      "dek": "In a two-quarterback league, nobody rostered Malik Willis. He outscored 13 of the 16 starting quarterbacks.",
+      "body": [
+        "R.A.T.S. starts two quarterbacks per team, which puts 16 starting quarterbacks on the field every week. Malik Willis was not one of them. He was not on any roster at all, and he scored 26.02.",
+        "Only three starting quarterbacks scored more: Joe Burrow (28.88), Drake Maye (28.44) and Bo Nix (26.18). Bryce Young, a Wednesday waiver claim, started and scored 7.42. Patrick Mahomes started and scored 7.0.",
+        "Willis was not alone on the wire. Tight end Mason Taylor scored 25.2 without an owner, and the Tampa Bay defense scored 25.0."
+      ]
+    },
+    {
+      "slug": "kirk-cousins-revenge",
+      "kicker": "Cut and Run",
+      "roster_ids": [
+        7
+      ],
+      "stat": "20.4",
+      "stat_label": "Kirk Cousins, the week he was dropped",
+      "headline": "Kirk Cousins, released Thursday, 20.4 on Sunday",
+      "dek": "Santa Clara’s Finest dropped Cousins during Thursday’s game. He threw a touchdown on Sunday to a player on another R.A.T.S. roster.",
+      "body": [
+        "At 6:13 p.m. Thursday, with the game in Chicago under way, Santa Clara’s Finest added J.K. Dobbins and dropped Kirk Cousins.",
+        "Dobbins started and scored 8.3. Cousins scored 20.4 for Las Vegas, including a 15-yard touchdown pass to Ashton Jeanty at 3:59 p.m. Jeanty plays for Big Stric Energy.",
+        "Santa Clara’s Finest started Aaron Rodgers at quarterback. He scored 13.08. The team is 1-6, last in the league in points with 966.04."
+      ]
+    },
+    {
+      "slug": "zero-trades",
+      "kicker": "League Business",
+      "stat": "0",
+      "stat_label": "Trades in R.A.T.S. history",
+      "headline": "Two seasons, zero trades",
+      "dek": "Eight teams, 25 weeks of Sleeper history, not one trade. The deadline is Week 11.",
+      "body": [
+        "The transaction log goes back to the start of the 2025 season. It contains waiver claims, free-agent pickups and drops. It does not contain a single trade.",
+        "That leaves four weeks before the Week 11 deadline. The candidates write themselves. Big Stric Energy and Santa Clara’s Finest are both 1-6, and both carry quarterbacks they took in the first round: Josh Allen and Joe Burrow.",
+        "Six of the eight teams make the playoffs. Both 1-6 teams are still alive. A trade would at least be something new."
+      ]
     }
   ]
 }

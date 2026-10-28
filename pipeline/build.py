@@ -48,7 +48,22 @@ class Edition:
         for b in s["beats"]:
             b["kind"] = "beat"
             b["slug"] = f["teams"][str(b["roster_id"])]["slug"]
-        self.stories = [s["lead"]] + s["games"] + s["beats"]
+        # team beats run in standings order
+        s["beats"].sort(key=lambda b: f["teams"][str(b["roster_id"])]["standing"])
+        for k, label in (("smart_move", "Smart Move"), ("dumb_move", "Dumb Move")):
+            if s.get(k):
+                s[k]["kind"] = k
+                s[k]["slug"] = k.replace("_", "-")
+                s[k].setdefault("kicker", label)
+        s.setdefault("features", [])
+        for x in s["features"]:
+            x["kind"] = "feature"
+        s.setdefault("swing_plays", [])
+        plays = {p["id"]: dict(p, matchup_id=m["matchup_id"]) for m in f["matchups"] for p in m.get("big_plays", [])}
+        for sp in s["swing_plays"]:
+            sp["play"] = plays[sp["play_id"]]
+        self.moves = [s[k] for k in ("smart_move", "dumb_move") if s.get(k)]
+        self.stories = [s["lead"]] + s["games"] + s["features"] + self.moves + s["beats"]
 
     def T(self, rid):
         return self.f["teams"][str(rid)]
@@ -69,7 +84,11 @@ class Edition:
         return f"{self.base}{st['slug']}/"
 
     def story_matchup(self, st):
-        return self.M(st["matchup_id"]) if st.get("matchup_id") is not None else self.team_matchup(st["roster_id"])
+        if st.get("matchup_id") is not None:
+            return self.M(st["matchup_id"])
+        if st.get("roster_id") is not None:
+            return self.team_matchup(st["roster_id"])
+        return None
 
     def game_path(self, m):
         for st in [self.s["lead"]] + self.s["games"]:
@@ -149,7 +168,7 @@ def main():
         except Exception:
             gl = g
         return dict(cfg=CFG, f=E.f, s=E.s, T=E.T, M=E.M, result=E.result, story_path=E.story_path,
-                    story_matchup=E.story_matchup, game_path=E.game_path, other=E.other, dash=dash, initials=initials,
+                    story_matchup=E.story_matchup, game_path=E.game_path, moves=E.moves, other=E.other, dash=dash, initials=initials,
                     ordinal=ordinal, race_json=E.race_json(), edition_path=E.base, site_url=site_url, path=path,
                     page_title=title, description=desc, og_image=og, og_title=og_title, og_type=og_type,
                     noindex=CFG.get("noindex", True), build_id=build_id, generated_label=gl, tzname="Pacific time"
@@ -170,6 +189,10 @@ def main():
             if st["kind"] == "beat":
                 t = E.T(st["roster_id"])
                 kicker, color = f"{t['name']} beat · Week {f['week']}", t["color"]
+            elif st["kind"] in ("smart_move", "dumb_move", "feature"):
+                rid = st.get("roster_id") or (st.get("roster_ids") or [None])[0]
+                kicker = f"Week {f['week']} · {st['kicker']}"
+                color = {"smart_move": "#3DDC84", "dumb_move": "#FF5252"}.get(st["kind"]) or (E.T(rid)["color"] if rid else "#D8BB88")
             else:
                 m = E.M(st["matchup_id"])
                 kicker, color = f"Week {f['week']} · {st['kicker']}", E.T(st.get("persp_roster_id") or m["winner"])["color"]

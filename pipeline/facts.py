@@ -159,6 +159,30 @@ def week_facts(L, week):
             team_game[tm] = gid
     game_end = df.groupby("game_id").t.max()
     ev = score_events(df, g2s, sc)
+    playmeta = {}
+    for r in df.itertuples(index=False):
+        playmeta.setdefault(r.t, (r.game_id, r.qtr))
+    try:
+        wstats = load(season, f"stats_{week}.json")
+    except FileNotFoundError:
+        wstats = {}
+
+    def league_pts(pid):
+        s_ = wstats.get(str(pid)) or {}
+        return r2(sum((s_.get(k) or 0) * v for k, v in sc.items()))
+
+    slots = [x for x in lg["roster_positions"] if x not in ("BN", "IR", "TAXI")]
+    flex_ok = {"FLEX": {"RB", "WR", "TE"}, "WRRB_FLEX": {"RB", "WR"}, "REC_FLEX": {"WR", "TE"}, "SUPER_FLEX": {"QB", "RB", "WR", "TE"}}
+
+    def optimal(rows):
+        pool = sorted(rows, key=lambda r: -r["pts"])
+        used, total, lineup = set(), 0.0, []
+        for slot in sorted(slots, key=lambda x: x in flex_ok):
+            ok = flex_ok.get(slot, {slot})
+            pick = next((r for r in pool if r["id"] not in used and r.get("pos") in ok), None)
+            if pick:
+                used.add(pick["id"]); total += pick["pts"]; lineup.append(pick)
+        return r2(total), used
 
     days = sorted({local(t).date() for t in game_start})
     first_kick = df.t.min()
@@ -254,8 +278,46 @@ def week_facts(L, week):
                     pre_best[A["roster_id"]] = (round(xa - xb, 2), t)
                 if xb - xa > pre_best[B["roster_id"]][0]:
                     pre_best[B["roster_id"]] = (round(xb - xa, 2), t)
+        # biggest single plays: net swing within this matchup, grouped by play; running score includes everything
+        grouped = collections.OrderedDict()
+        run_a = run_b = 0.0
+        for t, side, v, pid, d in merged:
+            if not d.startswith("end-of-game"):
+                g = grouped.setdefault((t, d), {"net": 0.0, "players": {A["roster_id"]: [], B["roster_id"]: []},
+                                                "before": [r2(run_a), r2(run_b)]})
+                g["net"] += v if side == 0 else -v
+                g["players"][sides[side]["roster_id"]].append({"name": L.pname(pid), "pts": r2(v)})
+            if side == 0:
+                run_a += v
+            else:
+                run_b += v
+            if not d.startswith("end-of-game"):
+                grouped[(t, d)]["after"] = [r2(run_a), r2(run_b)]
+        plays = []
+        for (t, d), g in grouped.items():
+            gid, q = playmeta.get(t, (None, None))
+            desc = re.sub(r"\((Shotgun|No Huddle, Shotgun|No Huddle|Run formation)\)\s*", "", d)
+            desc = re.sub(r"\b\d{1,2}-(?=[A-Z][a-z]?\.)", "", desc).strip()
+            plays.append({"time": fmt_time(t), "game": gid.replace(f"{season}_{week:02d}_", "").replace("_", " @ ") if gid else None,
+                          "quarter": int(q) if q == q and q else None, "desc": desc, "net_for_winner": r2(g["net"]),
+                          "players": g["players"], "score_before": g["before"], "score_after": g["after"]})
+        for p_ in plays:
+            sb_, sa_ = p_["score_before"], p_["score_after"]
+            p_["changed_lead"] = (sb_[0] - sb_[1]) * (sa_[0] - sa_[1]) < 0 or ((sb_[0] == sb_[1]) != (sa_[0] == sa_[1]) and sa_[0] != sa_[1])
+        top = sorted(plays, key=lambda p_: -abs(p_["net_for_winner"]))[:6]
+        keep = top + [p_ for p_ in plays if p_["changed_lead"] and p_ not in top]
+        keep.sort(key=lambda p_: plays.index(p_))
+        for i, p_ in enumerate(keep):
+            p_["id"] = f"m{a['matchup_id']}-p{i + 1}"
+        big_plays = keep
         for s in sides:
             s.pop("tl")
+            opt, opt_ids = optimal(s["starters"] + s["bench"])
+            st_ids = {r["id"] for r in s["starters"]}
+            s["optimal_points"] = opt
+            s["points_left_on_bench"] = r2(opt - s["points"])
+            s["should_have_started"] = [{"name": r["name"], "pos": r["pos"], "pts": r["pts"]} for r in s["bench"] if r["id"] in opt_ids]
+            s["should_have_sat"] = [{"name": r["name"], "pos": r["pos"], "pts": r["pts"]} for r in s["starters"] if r["id"] not in opt_ids]
             pb = pre_best[s["roster_id"]]
             s["max_lead_before_final_day"] = {"margin": pb[0], "time": fmt_time(pb[1]) if pb[1] is not None else None}
             stack = collections.defaultdict(lambda: {"players": [], "pts": 0.0})
@@ -267,8 +329,10 @@ def week_facts(L, week):
             s["bye_starters"] = [r["name"] for r in s["starters"] if r.get("on_bye")]
             s["best_bench"] = s["bench"][0] if s["bench"] else None
             s["max_lead"] = {"margin": best[s["roster_id"]][0], "time": fmt_time(best[s["roster_id"]][1]) if best[s["roster_id"]][1] is not None else None}
+        A["optimal_would_have_won"] = None
+        B["optimal_would_have_won"] = B["optimal_points"] > A["points"]
         out_m.append({"matchup_id": a["matchup_id"], "winner": A["roster_id"], "loser": B["roster_id"],
-                      "margin": r2(A["points"] - B["points"]), "sides": sides, "lead_changes": changes,
+                      "margin": r2(A["points"] - B["points"]), "sides": sides, "lead_changes": changes, "big_plays": big_plays,
                       "entering_final_day": final_day, "race": race,
                       "rebuilt_matches_official": abs(sa - A["points"]) < 0.5 and abs(sb - B["points"]) < 0.5})
 
@@ -294,9 +358,20 @@ def week_facts(L, week):
                 continue
             tx.append({"time": fmt_time(ts), "ts": t["status_updated"], "type": t["type"], "rosters": t["roster_ids"],
                        "adds": [{"name": L.pname(p), "to": rid, "pts": r2(pts_this_week.get(p, 0)), "started": p in started} for p, rid in (t.get("adds") or {}).items()],
-                       "drops": [{"name": L.pname(p), "from": rid} for p, rid in (t.get("drops") or {}).items()],
+                       "drops": [{"name": L.pname(p), "from": rid, "pts_this_week": league_pts(p)} for p, rid in (t.get("drops") or {}).items()],
                        "faab": (t.get("settings") or {}).get("waiver_bid")})
     tx.sort(key=lambda x: x["ts"])
+    rostered = {p for r in rosters for p in (r.get("players") or [])}
+    fa = []
+    for pid in wstats:
+        info = L.players.get(str(pid)) or {}
+        if pid in rostered or info.get("position") not in ("QB", "RB", "WR", "TE", "K", "DEF"):
+            continue
+        v = league_pts(pid)
+        if v >= 15:
+            fa.append({"name": L.pname(pid), "pos": info.get("position"), "nfl_team": info.get("team"), "pts": v})
+    fa.sort(key=lambda x: -x["pts"])
+    week_facts.free_agents = fa[:10]
     return out_m, tx, segments, pbp_complete, first_kick.isoformat()
 
 
@@ -418,6 +493,31 @@ def history(L, week):
     return hist
 
 
+def decisions(f):
+    """Candidates for Smart Move / Dumb Move, scored by impact. Writers choose; these are facts."""
+    out = []
+    for m in f["matchups"]:
+        for s in m["sides"]:
+            rid, won = s["roster_id"], s["roster_id"] == m["winner"]
+            opp = next(x for x in m["sides"] if x["roster_id"] != rid)["points"]
+            if s["points_left_on_bench"] >= 5:
+                out.append({"kind": "lineup_cost", "roster_id": rid, "impact": s["points_left_on_bench"],
+                            "changed_result": (not won) and s["optimal_points"] > opp,
+                            "detail": {"optimal_points": s["optimal_points"], "actual": s["points"], "opponent": opp,
+                                       "should_have_started": s["should_have_started"], "should_have_sat": s["should_have_sat"]}})
+            for name in s["bye_starters"]:
+                out.append({"kind": "started_player_on_bye", "roster_id": rid, "impact": 0, "detail": {"player": name, "won_anyway": won}})
+    for t in f["transactions"]:
+        for a in t["adds"]:
+            if a["started"] and a["pts"] >= 12:
+                out.append({"kind": "pickup_paid_off", "roster_id": a["to"], "impact": a["pts"], "detail": dict(a, time=t["time"])})
+        for d in t["drops"]:
+            if d.get("pts_this_week", 0) >= 12:
+                out.append({"kind": "drop_backfired", "roster_id": d["from"], "impact": d["pts_this_week"], "detail": dict(d, time=t["time"])})
+    out.sort(key=lambda x: -x["impact"])
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--week", type=int)
@@ -455,7 +555,9 @@ def main():
                    "biggest_blowout": max(out_m, key=lambda m: m["margin"])["matchup_id"] if out_m else None,
                    "best_pickup_started": best_add},
         "history": history(L, week),
+        "unrostered_scorers": getattr(week_facts, "free_agents", []),
     }
+    facts["decision_candidates"] = decisions(facts)
     out = os.path.join(ROOT, "content", f"{season}-w{week:02d}")
     os.makedirs(out, exist_ok=True)
     json.dump(facts, open(os.path.join(out, "facts.json"), "w"), indent=1, default=str)

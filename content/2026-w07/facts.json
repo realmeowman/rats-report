@@ -2,7 +2,7 @@
  "publication": "The R.A.T.S. Report",
  "season": "2026",
  "week": 7,
- "generated_at": "2026-10-27T16:17-07:00",
+ "generated_at": "2026-10-27T17:03-07:00",
  "league": {
   "num_teams": 8,
   "format": "2-QB PPR",
@@ -284,6 +284,42 @@
        "game_day": "Sun"
       }
      ],
+     "optimal_points": 195.9,
+     "points_left_on_bench": 14.4,
+     "should_have_started": [
+      {
+       "name": "Quinshon Judkins",
+       "pos": "RB",
+       "pts": 23.4
+      },
+      {
+       "name": "Dameon Pierce",
+       "pos": "RB",
+       "pts": 11.8
+      },
+      {
+       "name": "Tyler Higbee",
+       "pos": "TE",
+       "pts": 3.4
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "Chase Brown",
+       "pos": "RB",
+       "pts": 9.8
+      },
+      {
+       "name": "Chris Olave",
+       "pos": "WR",
+       "pts": 11.6
+      },
+      {
+       "name": "Sam LaPorta",
+       "pos": "TE",
+       "pts": 2.8
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 50.32,
       "time": "Sun 10:10 AM"
@@ -326,7 +362,8 @@
      "max_lead": {
       "margin": 58.06,
       "time": "Mon 8:18 PM"
-     }
+     },
+     "optimal_would_have_won": null
     },
     {
      "roster_id": 1,
@@ -471,6 +508,32 @@
        "on_bye": true
       }
      ],
+     "optimal_points": 153.44,
+     "points_left_on_bench": 30.0,
+     "should_have_started": [
+      {
+       "name": "Braelon Allen",
+       "pos": "RB",
+       "pts": 19.4
+      },
+      {
+       "name": "Saquon Barkley",
+       "pos": "RB",
+       "pts": 15.1
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "Nico Collins",
+       "pos": "WR",
+       "pts": 2.6
+      },
+      {
+       "name": "Jalen Coker",
+       "pos": "WR",
+       "pts": 1.9
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 43.82,
       "time": "Sun 4:02 PM"
@@ -498,7 +561,8 @@
      "max_lead": {
       "margin": 43.82,
       "time": "Sun 4:02 PM"
-     }
+     },
+     "optimal_would_have_won": false
     }
    ],
    "lead_changes": [
@@ -521,6 +585,276 @@
      ],
      "player": "Javonte Williams",
      "play": "(11:15) 33-J.Williams right guard to DAL 47 for 11 yards (54-J.Trotter)."
+    }
+   ],
+   "big_plays": [
+    {
+     "time": "Thu 5:24 PM",
+     "game": "NE @ CHI",
+     "quarter": 1,
+     "desc": "(11:30) C.Williams pass short right to L.Burden to NE 28 for 26 yards (C.Woodson).",
+     "net_for_winner": 4.64,
+     "players": {
+      "2": [
+       {
+        "name": "Caleb Williams",
+        "pts": 1.04
+       },
+       {
+        "name": "Luther Burden III",
+        "pts": 3.6
+       }
+      ],
+      "1": []
+     },
+     "score_before": [
+      0.0,
+      0.0
+     ],
+     "score_after": [
+      4.64,
+      0.0
+     ],
+     "changed_lead": true,
+     "id": "m1-p1"
+    },
+    {
+     "time": "Thu 5:46 PM",
+     "game": "NE @ CHI",
+     "quarter": 1,
+     "desc": "(2:32) C.Williams pass deep left to L.Burden to NE 4 for 58 yards (K.Byard).",
+     "net_for_winner": 9.12,
+     "players": {
+      "2": [
+       {
+        "name": "Caleb Williams",
+        "pts": 2.32
+       },
+       {
+        "name": "Luther Burden III",
+        "pts": 6.8
+       }
+      ],
+      "1": []
+     },
+     "score_before": [
+      5.08,
+      0.0
+     ],
+     "score_after": [
+      14.2,
+      0.0
+     ],
+     "changed_lead": false,
+     "id": "m1-p2"
+    },
+    {
+     "time": "Sun 1:52 PM",
+     "game": "GB @ DET",
+     "quarter": 1,
+     "desc": "(1:04) J.Love pass short right to T.Kraft for 14 yards, TOUCHDOWN.",
+     "net_for_winner": -12.96,
+     "players": {
+      "2": [],
+      "1": [
+       {
+        "name": "Jordan Love",
+        "pts": 0.56
+       },
+       {
+        "name": "Jordan Love",
+        "pts": 4.0
+       },
+       {
+        "name": "Tucker Kraft",
+        "pts": 2.4
+       },
+       {
+        "name": "Tucker Kraft",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      68.42,
+      61.8
+     ],
+     "score_after": [
+      68.42,
+      74.76
+     ],
+     "changed_lead": true,
+     "id": "m1-p3"
+    },
+    {
+     "time": "Sun 3:05 PM",
+     "game": "GB @ DET",
+     "quarter": 3,
+     "desc": "(12:22) J.Love pass short left to J.Jacobs for 25 yards, TOUCHDOWN.",
+     "net_for_winner": -14.5,
+     "players": {
+      "2": [],
+      "1": [
+       {
+        "name": "Jordan Love",
+        "pts": 1.0
+       },
+       {
+        "name": "Jordan Love",
+        "pts": 4.0
+       },
+       {
+        "name": "Josh Jacobs",
+        "pts": 3.5
+       },
+       {
+        "name": "Josh Jacobs",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      74.42,
+      88.94
+     ],
+     "score_after": [
+      74.42,
+      103.44
+     ],
+     "changed_lead": false,
+     "id": "m1-p4"
+    },
+    {
+     "time": "Sun 3:59 PM",
+     "game": "LA @ LV",
+     "quarter": 4,
+     "desc": "(13:18) K.Cousins pass short right to A.Jeanty for 15 yards, TOUCHDOWN.",
+     "net_for_winner": -8.5,
+     "players": {
+      "2": [],
+      "1": [
+       {
+        "name": "Ashton Jeanty",
+        "pts": 2.5
+       },
+       {
+        "name": "Ashton Jeanty",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      77.92,
+      112.8
+     ],
+     "score_after": [
+      77.92,
+      121.3
+     ],
+     "changed_lead": false,
+     "id": "m1-p5"
+    },
+    {
+     "time": "Mon 5:38 PM",
+     "game": "DAL @ PHI",
+     "quarter": 1,
+     "desc": "(5:37) D.Prescott pass short right to C.Lamb for 9 yards, TOUCHDOWN.",
+     "net_for_winner": 12.26,
+     "players": {
+      "2": [
+       {
+        "name": "Dak Prescott",
+        "pts": 0.36
+       },
+       {
+        "name": "Dak Prescott",
+        "pts": 4.0
+       },
+       {
+        "name": "CeeDee Lamb",
+        "pts": 1.9
+       },
+       {
+        "name": "CeeDee Lamb",
+        "pts": 6.0
+       }
+      ],
+      "1": []
+     },
+     "score_before": [
+      108.72,
+      123.44
+     ],
+     "score_after": [
+      120.98,
+      123.44
+     ],
+     "changed_lead": false,
+     "id": "m1-p6"
+    },
+    {
+     "time": "Mon 6:04 PM",
+     "game": "DAL @ PHI",
+     "quarter": 2,
+     "desc": "(11:15) J.Williams right guard to DAL 47 for 11 yards (J.Trotter).",
+     "net_for_winner": 1.1,
+     "players": {
+      "2": [
+       {
+        "name": "Javonte Williams",
+        "pts": 1.1
+       }
+      ],
+      "1": []
+     },
+     "score_before": [
+      123.38,
+      123.44
+     ],
+     "score_after": [
+      124.48,
+      123.44
+     ],
+     "changed_lead": true,
+     "id": "m1-p7"
+    },
+    {
+     "time": "Mon 7:25 PM",
+     "game": "DAL @ PHI",
+     "quarter": 3,
+     "desc": "(1:36) D.Prescott pass deep left to C.Lamb for 16 yards, TOUCHDOWN.",
+     "net_for_winner": 13.24,
+     "players": {
+      "2": [
+       {
+        "name": "Dak Prescott",
+        "pts": 0.64
+       },
+       {
+        "name": "Dak Prescott",
+        "pts": 4.0
+       },
+       {
+        "name": "CeeDee Lamb",
+        "pts": 2.6
+       },
+       {
+        "name": "CeeDee Lamb",
+        "pts": 6.0
+       }
+      ],
+      "1": []
+     },
+     "score_before": [
+      147.12,
+      123.44
+     ],
+     "score_after": [
+      160.36,
+      123.44
+     ],
+     "changed_lead": false,
+     "id": "m1-p8"
     }
    ],
    "entering_final_day": {
@@ -1714,6 +2048,22 @@
        "on_bye": true
       }
      ],
+     "optimal_points": 187.86,
+     "points_left_on_bench": 9.1,
+     "should_have_started": [
+      {
+       "name": "Woody Marks",
+       "pos": "RB",
+       "pts": 9.1
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "Breece Hall",
+       "pos": "RB",
+       "pts": 0.0
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 32.0,
       "time": "Sun 11:05 AM"
@@ -1734,7 +2084,8 @@
      "max_lead": {
       "margin": 32.0,
       "time": "Sun 11:05 AM"
-     }
+     },
+     "optimal_would_have_won": null
     },
     {
      "roster_id": 6,
@@ -1871,6 +2222,10 @@
        "on_bye": true
       }
      ],
+     "optimal_points": 177.9,
+     "points_left_on_bench": 0.0,
+     "should_have_started": [],
+     "should_have_sat": [],
      "max_lead_before_final_day": {
       "margin": 14.34,
       "time": "Sun 1:18 PM"
@@ -1897,7 +2252,8 @@
      "max_lead": {
       "margin": 14.34,
       "time": "Sun 1:18 PM"
-     }
+     },
+     "optimal_would_have_won": false
     }
    ],
    "lead_changes": [
@@ -1940,6 +2296,304 @@
      ],
      "player": "Amon-Ra St. Brown",
      "play": "(8:31) (Shotgun) 16-J.Goff pass deep right to 14-A.St. Brown to GB 40 for 28 yards (25-K.Nixon)."
+    }
+   ],
+   "big_plays": [
+    {
+     "time": "Thu 5:17 PM",
+     "game": "NE @ CHI",
+     "quarter": 1,
+     "desc": "(14:49) D.Maye pass short right to R.Stevenson pushed ob at 50 for 19 yards (J.Johnson).",
+     "net_for_winner": 0.76,
+     "players": {
+      "3": [
+       {
+        "name": "Drake Maye",
+        "pts": 0.76
+       }
+      ],
+      "6": []
+     },
+     "score_before": [
+      0.0,
+      0.0
+     ],
+     "score_after": [
+      0.76,
+      0.0
+     ],
+     "changed_lead": true,
+     "id": "m4-p1"
+    },
+    {
+     "time": "Thu 5:38 PM",
+     "game": "NE @ CHI",
+     "quarter": 1,
+     "desc": "(6:28) C.Williams pass short left to D.Swift to CHI 24 for no gain (C.Elliss; C.Woods).",
+     "net_for_winner": -1.0,
+     "players": {
+      "3": [],
+      "6": [
+       {
+        "name": "D'Andre Swift",
+        "pts": 1.0
+       }
+      ]
+     },
+     "score_before": [
+      1.32,
+      0.6
+     ],
+     "score_after": [
+      1.32,
+      1.6
+     ],
+     "changed_lead": true,
+     "id": "m4-p2"
+    },
+    {
+     "time": "Thu 6:01 PM",
+     "game": "NE @ CHI",
+     "quarter": 2,
+     "desc": "(11:37) D.Maye scrambles right guard to CHI 1 for 6 yards (C.Phillips). New England challenged the short of the goal line ruling, and the play w",
+     "net_for_winner": 6.7,
+     "players": {
+      "3": [
+       {
+        "name": "Drake Maye",
+        "pts": 0.7
+       },
+       {
+        "name": "Drake Maye",
+        "pts": 6.0
+       }
+      ],
+      "6": []
+     },
+     "score_before": [
+      3.04,
+      8.1
+     ],
+     "score_after": [
+      9.74,
+      8.1
+     ],
+     "changed_lead": true,
+     "id": "m4-p3"
+    },
+    {
+     "time": "Sun 10:05 AM",
+     "game": "CIN @ BAL",
+     "quarter": 1,
+     "desc": "(13:45) T.Huntley pass short right to Z.Flowers for 48 yards, TOUCHDOWN.",
+     "net_for_winner": 11.8,
+     "players": {
+      "3": [
+       {
+        "name": "Zay Flowers",
+        "pts": 5.8
+       },
+       {
+        "name": "Zay Flowers",
+        "pts": 6.0
+       }
+      ],
+      "6": []
+     },
+     "score_before": [
+      30.94,
+      21.4
+     ],
+     "score_after": [
+      42.74,
+      21.4
+     ],
+     "changed_lead": false,
+     "id": "m4-p4"
+    },
+    {
+     "time": "Sun 10:07 AM",
+     "game": "CLE @ TEN",
+     "quarter": 1,
+     "desc": "(13:04) T.Pollard right tackle for 36 yards, TOUCHDOWN.",
+     "net_for_winner": -9.6,
+     "players": {
+      "3": [],
+      "6": [
+       {
+        "name": "Tony Pollard",
+        "pts": 3.6
+       },
+       {
+        "name": "Tony Pollard",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      43.38,
+      21.3
+     ],
+     "score_after": [
+      43.38,
+      30.9
+     ],
+     "changed_lead": false,
+     "id": "m4-p5"
+    },
+    {
+     "time": "Sun 12:06 PM",
+     "game": "IND @ MIN",
+     "quarter": 4,
+     "desc": "(14:41) K.Murray pass short left to T.Hockenson for 5 yards, TOUCHDOWN.",
+     "net_for_winner": -11.7,
+     "players": {
+      "3": [],
+      "6": [
+       {
+        "name": "Kyler Murray",
+        "pts": 0.2
+       },
+       {
+        "name": "Kyler Murray",
+        "pts": 4.0
+       },
+       {
+        "name": "T.J. Hockenson",
+        "pts": 1.5
+       },
+       {
+        "name": "T.J. Hockenson",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      90.64,
+      70.54
+     ],
+     "score_after": [
+      90.64,
+      82.24
+     ],
+     "changed_lead": false,
+     "id": "m4-p6"
+    },
+    {
+     "time": "Sun 12:09 PM",
+     "game": "SF @ ATL",
+     "quarter": 4,
+     "desc": "(15:00) M.Penix pass deep left to D.London for 21 yards, TOUCHDOWN.",
+     "net_for_winner": 9.1,
+     "players": {
+      "3": [
+       {
+        "name": "Drake London",
+        "pts": 3.1
+       },
+       {
+        "name": "Drake London",
+        "pts": 6.0
+       }
+      ],
+      "6": []
+     },
+     "score_before": [
+      90.64,
+      82.24
+     ],
+     "score_after": [
+      99.74,
+      82.24
+     ],
+     "changed_lead": false,
+     "id": "m4-p7"
+    },
+    {
+     "time": "Sun 12:35 PM",
+     "game": "CIN @ BAL",
+     "quarter": 4,
+     "desc": "(7:29) J.Burrow pass short right to J.Chase for 2 yards, TOUCHDOWN.",
+     "net_for_winner": -7.2,
+     "players": {
+      "3": [],
+      "6": [
+       {
+        "name": "Ja'Marr Chase",
+        "pts": 1.2
+       },
+       {
+        "name": "Ja'Marr Chase",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      106.6,
+      98.42
+     ],
+     "score_after": [
+      106.6,
+      105.62
+     ],
+     "changed_lead": false,
+     "id": "m4-p8"
+    },
+    {
+     "time": "Sun 1:39 PM",
+     "game": "GB @ DET",
+     "quarter": 1,
+     "desc": "(8:31) J.Goff pass deep right to A.St. Brown to GB 40 for 28 yards (K.Nixon).",
+     "net_for_winner": 3.8,
+     "players": {
+      "3": [
+       {
+        "name": "Amon-Ra St. Brown",
+        "pts": 3.8
+       }
+      ],
+      "6": []
+     },
+     "score_before": [
+      143.86,
+      147.2
+     ],
+     "score_after": [
+      147.66,
+      147.2
+     ],
+     "changed_lead": true,
+     "id": "m4-p9"
+    },
+    {
+     "time": "Mon 6:11 PM",
+     "game": "DAL @ PHI",
+     "quarter": 2,
+     "desc": "(5:44) D.Prescott pass deep right to G.Pickens for 21 yards, TOUCHDOWN.",
+     "net_for_winner": -9.1,
+     "players": {
+      "3": [],
+      "6": [
+       {
+        "name": "George Pickens",
+        "pts": 3.1
+       },
+       {
+        "name": "George Pickens",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      178.76,
+      164.1
+     ],
+     "score_after": [
+      178.76,
+      173.2
+     ],
+     "changed_lead": false,
+     "id": "m4-p10"
     }
    ],
    "entering_final_day": {
@@ -3285,6 +3939,32 @@
        "on_bye": true
       }
      ],
+     "optimal_points": 201.6,
+     "points_left_on_bench": 15.3,
+     "should_have_started": [
+      {
+       "name": "Tre Tucker",
+       "pos": "WR",
+       "pts": 21.3
+      },
+      {
+       "name": "Michael Penix Jr.",
+       "pos": "QB",
+       "pts": 20.42
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "Jared Goff",
+       "pos": "QB",
+       "pts": 18.02
+      },
+      {
+       "name": "Travis Kelce",
+       "pos": "TE",
+       "pts": 8.4
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 64.94,
       "time": "Sun 4:23 PM"
@@ -3312,7 +3992,8 @@
      "max_lead": {
       "margin": 64.94,
       "time": "Sun 4:23 PM"
-     }
+     },
+     "optimal_would_have_won": null
     },
     {
      "roster_id": 7,
@@ -3449,6 +4130,32 @@
        "game_day": "Sun"
       }
      ],
+     "optimal_points": 150.46,
+     "points_left_on_bench": 27.6,
+     "should_have_started": [
+      {
+       "name": "Cam Skattebo",
+       "pos": "RB",
+       "pts": 19.1
+      },
+      {
+       "name": "Emanuel Wilson",
+       "pos": "RB",
+       "pts": 18.5
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "J.K. Dobbins",
+       "pos": "RB",
+       "pts": 8.3
+      },
+      {
+       "name": "Juwan Johnson",
+       "pos": "TE",
+       "pts": 1.7
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 27.9,
       "time": "Sun 1:09 PM"
@@ -3475,7 +4182,8 @@
      "max_lead": {
       "margin": 27.9,
       "time": "Sun 1:09 PM"
-     }
+     },
+     "optimal_would_have_won": false
     }
    ],
    "lead_changes": [
@@ -3488,6 +4196,265 @@
      ],
      "player": "Jared Goff",
      "play": "(14:03) (Shotgun) 16-J.Goff pass short middle to 0-J.Gibbs to GB 20 for 15 yards (59-T.Hopper)."
+    }
+   ],
+   "big_plays": [
+    {
+     "time": "Thu 5:45 PM",
+     "game": "NE @ CHI",
+     "quarter": 1,
+     "desc": "(3:30) C.Williams pass short left to C.Loveland pushed ob at CHI 37 for 11 yards (C.Elliss).",
+     "net_for_winner": -2.1,
+     "players": {
+      "4": [],
+      "7": [
+       {
+        "name": "Colston Loveland",
+        "pts": 2.1
+       }
+      ]
+     },
+     "score_before": [
+      0.0,
+      0.0
+     ],
+     "score_after": [
+      0.0,
+      2.1
+     ],
+     "changed_lead": true,
+     "id": "m2-p1"
+    },
+    {
+     "time": "Thu 7:06 PM",
+     "game": "NE @ CHI",
+     "quarter": 3,
+     "desc": "(9:48) C.Williams pass short left to C.Loveland for 12 yards, TOUCHDOWN.",
+     "net_for_winner": -8.2,
+     "players": {
+      "4": [],
+      "7": [
+       {
+        "name": "Colston Loveland",
+        "pts": 2.2
+       },
+       {
+        "name": "Colston Loveland",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      0.0,
+      8.6
+     ],
+     "score_after": [
+      0.0,
+      16.8
+     ],
+     "changed_lead": false,
+     "id": "m2-p2"
+    },
+    {
+     "time": "Sun 1:40 PM",
+     "game": "GB @ DET",
+     "quarter": 1,
+     "desc": "(7:08) J.Goff pass short left to J.Williams for 16 yards, TOUCHDOWN.",
+     "net_for_winner": 13.24,
+     "players": {
+      "4": [
+       {
+        "name": "Jared Goff",
+        "pts": 0.64
+       },
+       {
+        "name": "Jared Goff",
+        "pts": 4.0
+       },
+       {
+        "name": "Jameson Williams",
+        "pts": 2.6
+       },
+       {
+        "name": "Jameson Williams",
+        "pts": 6.0
+       }
+      ],
+      "7": []
+     },
+     "score_before": [
+      71.86,
+      92.36
+     ],
+     "score_after": [
+      85.1,
+      92.36
+     ],
+     "changed_lead": false,
+     "id": "m2-p3"
+    },
+    {
+     "time": "Sun 2:03 PM",
+     "game": "GB @ DET",
+     "quarter": 2,
+     "desc": "(14:03) J.Goff pass short middle to J.Gibbs to GB 20 for 15 yards (T.Hopper).",
+     "net_for_winner": 0.6,
+     "players": {
+      "4": [
+       {
+        "name": "Jared Goff",
+        "pts": 0.6
+       }
+      ],
+      "7": []
+     },
+     "score_before": [
+      92.68,
+      93.06
+     ],
+     "score_after": [
+      93.28,
+      93.06
+     ],
+     "changed_lead": true,
+     "id": "m2-p4"
+    },
+    {
+     "time": "Sun 2:21 PM",
+     "game": "DEN @ ARI",
+     "quarter": 2,
+     "desc": "(3:57) B.Nix scrambles up the middle for 62 yards, TOUCHDOWN.",
+     "net_for_winner": 12.2,
+     "players": {
+      "4": [
+       {
+        "name": "Bo Nix",
+        "pts": 6.2
+       },
+       {
+        "name": "Bo Nix",
+        "pts": 6.0
+       }
+      ],
+      "7": []
+     },
+     "score_before": [
+      101.74,
+      93.06
+     ],
+     "score_after": [
+      113.94,
+      93.06
+     ],
+     "changed_lead": false,
+     "id": "m2-p5"
+    },
+    {
+     "time": "Sun 2:28 PM",
+     "game": "LA @ LV",
+     "quarter": 2,
+     "desc": "(4:20) M.Stafford pass short left to P.Nacua for 11 yards, TOUCHDOWN.",
+     "net_for_winner": 8.1,
+     "players": {
+      "4": [
+       {
+        "name": "Puka Nacua",
+        "pts": 2.1
+       },
+       {
+        "name": "Puka Nacua",
+        "pts": 6.0
+       }
+      ],
+      "7": []
+     },
+     "score_before": [
+      115.88,
+      93.06
+     ],
+     "score_after": [
+      123.98,
+      93.06
+     ],
+     "changed_lead": false,
+     "id": "m2-p6"
+    },
+    {
+     "time": "Sun 3:05 PM",
+     "game": "DEN @ ARI",
+     "quarter": 3,
+     "desc": "(10:36) B.Nix pass short left to R.Harvey for 52 yards, TOUCHDOWN.",
+     "net_for_winner": -6.12,
+     "players": {
+      "4": [
+       {
+        "name": "Bo Nix",
+        "pts": 2.08
+       },
+       {
+        "name": "Bo Nix",
+        "pts": 4.0
+       }
+      ],
+      "7": [
+       {
+        "name": "RJ Harvey",
+        "pts": 6.2
+       },
+       {
+        "name": "RJ Harvey",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      131.74,
+      94.76
+     ],
+     "score_after": [
+      137.82,
+      106.96
+     ],
+     "changed_lead": false,
+     "id": "m2-p7"
+    },
+    {
+     "time": "Sun 3:18 PM",
+     "game": "GB @ DET",
+     "quarter": 3,
+     "desc": "(6:40) J.Goff pass short middle to J.Williams for 10 yards, TOUCHDOWN [L.Van Ness].",
+     "net_for_winner": 12.4,
+     "players": {
+      "4": [
+       {
+        "name": "Jared Goff",
+        "pts": 0.4
+       },
+       {
+        "name": "Jared Goff",
+        "pts": 4.0
+       },
+       {
+        "name": "Jameson Williams",
+        "pts": 2.0
+       },
+       {
+        "name": "Jameson Williams",
+        "pts": 6.0
+       }
+      ],
+      "7": []
+     },
+     "score_before": [
+      143.74,
+      106.96
+     ],
+     "score_after": [
+      156.14,
+      106.96
+     ],
+     "changed_lead": false,
+     "id": "m2-p8"
     }
    ],
    "entering_final_day": {
@@ -4561,6 +5528,32 @@
        "game_day": "Sun"
       }
      ],
+     "optimal_points": 141.78,
+     "points_left_on_bench": 19.7,
+     "should_have_started": [
+      {
+       "name": "Carnell Tate",
+       "pos": "WR",
+       "pts": 9.9
+      },
+      {
+       "name": "Dallas Goedert",
+       "pos": "TE",
+       "pts": 9.8
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "DeVonta Smith",
+       "pos": "WR",
+       "pts": 0.0
+      },
+      {
+       "name": "Mike Evans",
+       "pos": "WR",
+       "pts": 0.0
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 23.32,
       "time": "Sun 10:34 AM"
@@ -4607,7 +5600,8 @@
      "max_lead": {
       "margin": 23.32,
       "time": "Sun 10:34 AM"
-     }
+     },
+     "optimal_would_have_won": null
     },
     {
      "roster_id": 5,
@@ -4744,6 +5738,32 @@
        "game_day": "Sun"
       }
      ],
+     "optimal_points": 139.44,
+     "points_left_on_bench": 21.5,
+     "should_have_started": [
+      {
+       "name": "Ollie Gordon II",
+       "pos": "RB",
+       "pts": 17.3
+      },
+      {
+       "name": "Tyler Shough",
+       "pos": "QB",
+       "pts": 14.82
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "Bryce Young",
+       "pos": "QB",
+       "pts": 7.42
+      },
+      {
+       "name": "Isaiah Likely",
+       "pos": "TE",
+       "pts": 3.2
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 39.34,
       "time": "Sun 4:26 PM"
@@ -4785,7 +5805,8 @@
      "max_lead": {
       "margin": 39.34,
       "time": "Sun 4:26 PM"
-     }
+     },
+     "optimal_would_have_won": true
     }
    ],
    "lead_changes": [
@@ -4828,6 +5849,330 @@
      ],
      "player": "Sam Darnold",
      "play": "(12:55) (Shotgun) 14-S.Darnold scrambles right end to KC 46 for 10 yards (32-N.Bolton)."
+    }
+   ],
+   "big_plays": [
+    {
+     "time": "Thu 5:17 PM",
+     "game": "NE @ CHI",
+     "quarter": 1,
+     "desc": "(14:49) D.Maye pass short right to R.Stevenson pushed ob at 50 for 19 yards (J.Johnson).",
+     "net_for_winner": 2.9,
+     "players": {
+      "8": [
+       {
+        "name": "Rhamondre Stevenson",
+        "pts": 2.9
+       }
+      ],
+      "5": []
+     },
+     "score_before": [
+      0.0,
+      0.0
+     ],
+     "score_after": [
+      2.9,
+      0.0
+     ],
+     "changed_lead": true,
+     "id": "m3-p1"
+    },
+    {
+     "time": "Thu 6:44 PM",
+     "game": "NE @ CHI",
+     "quarter": 2,
+     "desc": "(:03) D.Maye pass short right to R.Stevenson for 48 yards, TOUCHDOWN.",
+     "net_for_winner": 11.8,
+     "players": {
+      "8": [
+       {
+        "name": "Rhamondre Stevenson",
+        "pts": 5.8
+       },
+       {
+        "name": "Rhamondre Stevenson",
+        "pts": 6.0
+       }
+      ],
+      "5": []
+     },
+     "score_before": [
+      8.0,
+      0.0
+     ],
+     "score_after": [
+      19.8,
+      0.0
+     ],
+     "changed_lead": false,
+     "id": "m3-p2"
+    },
+    {
+     "time": "Sun 10:50 AM",
+     "game": "TB @ CAR",
+     "quarter": 2,
+     "desc": "(9:18) B.Young pass deep middle to D.Waller for 50 yards, TOUCHDOWN.",
+     "net_for_winner": -6.0,
+     "players": {
+      "8": [],
+      "5": [
+       {
+        "name": "Bryce Young",
+        "pts": 2.0
+       },
+       {
+        "name": "Bryce Young",
+        "pts": 4.0
+       }
+      ]
+     },
+     "score_before": [
+      30.0,
+      13.48
+     ],
+     "score_after": [
+      30.0,
+      19.48
+     ],
+     "changed_lead": false,
+     "id": "m3-p3"
+    },
+    {
+     "time": "Sun 11:38 AM",
+     "game": "TB @ CAR",
+     "quarter": 3,
+     "desc": "(14:54) B.Young pass short right to T.McMillan to CAR 38 for 12 yards (T.Smith; I.Melifonwu).",
+     "net_for_winner": -2.68,
+     "players": {
+      "8": [],
+      "5": [
+       {
+        "name": "Bryce Young",
+        "pts": 0.48
+       },
+       {
+        "name": "Tetairoa McMillan",
+        "pts": 2.2
+       }
+      ]
+     },
+     "score_before": [
+      33.3,
+      32.32
+     ],
+     "score_after": [
+      33.3,
+      35.0
+     ],
+     "changed_lead": true,
+     "id": "m3-p4"
+    },
+    {
+     "time": "Sun 11:46 AM",
+     "game": "SF @ ATL",
+     "quarter": 3,
+     "desc": "(7:34) B.Purdy pass short middle to G.Kittle to ATL 35 for 20 yards (J.Bates; X.Watts).",
+     "net_for_winner": 3.0,
+     "players": {
+      "8": [
+       {
+        "name": "George Kittle",
+        "pts": 3.0
+       }
+      ],
+      "5": []
+     },
+     "score_before": [
+      33.3,
+      35.0
+     ],
+     "score_after": [
+      36.3,
+      35.0
+     ],
+     "changed_lead": true,
+     "id": "m3-p5"
+    },
+    {
+     "time": "Sun 11:51 AM",
+     "game": "NYG @ HOU",
+     "quarter": 3,
+     "desc": "(14:16) J.McCarthy pass short middle to I.Likely to NYG 40 for 8 yards (A.Al-Shaair; M.Stewart).",
+     "net_for_winner": -1.8,
+     "players": {
+      "8": [],
+      "5": [
+       {
+        "name": "Isaiah Likely",
+        "pts": 1.8
+       }
+      ]
+     },
+     "score_before": [
+      35.9,
+      35.0
+     ],
+     "score_after": [
+      35.9,
+      36.8
+     ],
+     "changed_lead": true,
+     "id": "m3-p6"
+    },
+    {
+     "time": "Sun 2:45 PM",
+     "game": "LA @ LV",
+     "quarter": 2,
+     "desc": "(1:25) K.Williams left end for 17 yards, TOUCHDOWN.",
+     "net_for_winner": 7.7,
+     "players": {
+      "8": [
+       {
+        "name": "Kyren Williams",
+        "pts": 1.7
+       },
+       {
+        "name": "Kyren Williams",
+        "pts": 6.0
+       }
+      ],
+      "5": []
+     },
+     "score_before": [
+      68.72,
+      77.14
+     ],
+     "score_after": [
+      76.42,
+      77.14
+     ],
+     "changed_lead": false,
+     "id": "m3-p7"
+    },
+    {
+     "time": "Sun 3:18 PM",
+     "game": "DEN @ ARI",
+     "quarter": 3,
+     "desc": "(3:54) J.Brissett pass short right to T.McBride for 7 yards, TOUCHDOWN.",
+     "net_for_winner": -7.7,
+     "players": {
+      "8": [],
+      "5": [
+       {
+        "name": "Trey McBride",
+        "pts": 1.7
+       },
+       {
+        "name": "Trey McBride",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      76.38,
+      87.34
+     ],
+     "score_after": [
+      76.38,
+      95.04
+     ],
+     "changed_lead": false,
+     "id": "m3-p8"
+    },
+    {
+     "time": "Sun 5:58 PM",
+     "game": "KC @ SEA",
+     "quarter": 2,
+     "desc": "(11:19) S.Darnold pass short middle to J.Smith-Njigba to KC 20 for 33 yards (N.Williams; A.Gilman).",
+     "net_for_winner": 5.62,
+     "players": {
+      "8": [
+       {
+        "name": "Sam Darnold",
+        "pts": 1.32
+       },
+       {
+        "name": "Jaxon Smith-Njigba",
+        "pts": 4.3
+       }
+      ],
+      "5": []
+     },
+     "score_before": [
+      86.0,
+      117.94
+     ],
+     "score_after": [
+      91.62,
+      117.94
+     ],
+     "changed_lead": false,
+     "id": "m3-p9"
+    },
+    {
+     "time": "Sun 6:23 PM",
+     "game": "KC @ SEA",
+     "quarter": 2,
+     "desc": "(1:49) S.Darnold pass deep left to J.Smith-Njigba pushed ob at KC 1 for 27 yards (M.Delane). The Replay Official reviewed the runner was out o",
+     "net_for_winner": 14.92,
+     "players": {
+      "8": [
+       {
+        "name": "Sam Darnold",
+        "pts": 1.12
+       },
+       {
+        "name": "Sam Darnold",
+        "pts": 4.0
+       },
+       {
+        "name": "Jaxon Smith-Njigba",
+        "pts": 3.8
+       },
+       {
+        "name": "Jaxon Smith-Njigba",
+        "pts": 6.0
+       }
+      ],
+      "5": []
+     },
+     "score_before": [
+      93.68,
+      117.94
+     ],
+     "score_after": [
+      108.6,
+      117.94
+     ],
+     "changed_lead": false,
+     "id": "m3-p10"
+    },
+    {
+     "time": "Sun 7:00 PM",
+     "game": "KC @ SEA",
+     "quarter": 3,
+     "desc": "(12:55) S.Darnold scrambles right end to KC 46 for 10 yards (N.Bolton).",
+     "net_for_winner": 1.0,
+     "players": {
+      "8": [
+       {
+        "name": "Sam Darnold",
+        "pts": 1.0
+       }
+      ],
+      "5": []
+     },
+     "score_before": [
+      117.5,
+      117.94
+     ],
+     "score_after": [
+      118.5,
+      117.94
+     ],
+     "changed_lead": true,
+     "id": "m3-p11"
     }
    ],
    "entering_final_day": {
@@ -5858,7 +7203,8 @@
    "drops": [
     {
      "name": "Jacksonville Jaguars D/ST",
-     "from": 3
+     "from": 3,
+     "pts_this_week": 0.0
     }
    ],
    "faab": null
@@ -5881,7 +7227,8 @@
    "drops": [
     {
      "name": "De'Von Achane",
-     "from": 4
+     "from": 4,
+     "pts_this_week": 0.0
     }
    ],
    "faab": null
@@ -5904,7 +7251,8 @@
    "drops": [
     {
      "name": "New England Patriots D/ST",
-     "from": 5
+     "from": 5,
+     "pts_this_week": 2.0
     }
    ],
    "faab": null
@@ -5927,7 +7275,8 @@
    "drops": [
     {
      "name": "Jacoby Brissett",
-     "from": 5
+     "from": 5,
+     "pts_this_week": 16.48
     }
    ],
    "faab": null
@@ -5950,7 +7299,8 @@
    "drops": [
     {
      "name": "Tyler Allgeier",
-     "from": 1
+     "from": 1,
+     "pts_this_week": 7.9
     }
    ],
    "faab": null
@@ -5991,7 +7341,8 @@
    "drops": [
     {
      "name": "Ladd McConkey",
-     "from": 5
+     "from": 5,
+     "pts_this_week": 0.0
     }
    ],
    "faab": null
@@ -6014,7 +7365,8 @@
    "drops": [
     {
      "name": "Justin Herbert",
-     "from": 5
+     "from": 5,
+     "pts_this_week": 0.0
     }
    ],
    "faab": null
@@ -6037,7 +7389,8 @@
    "drops": [
     {
      "name": "MarShawn Lloyd",
-     "from": 4
+     "from": 4,
+     "pts_this_week": 5.5
     }
    ],
    "faab": null
@@ -6060,7 +7413,8 @@
    "drops": [
     {
      "name": "Kirk Cousins",
-     "from": 7
+     "from": 7,
+     "pts_this_week": 20.4
     }
    ],
    "faab": null
@@ -6083,7 +7437,8 @@
    "drops": [
     {
      "name": "Terry McLaurin",
-     "from": 6
+     "from": 6,
+     "pts_this_week": 0.0
     }
    ],
    "faab": null
@@ -6106,7 +7461,8 @@
    "drops": [
     {
      "name": "Jacory Croskey-Merritt",
-     "from": 6
+     "from": 6,
+     "pts_this_week": 0.0
     }
    ],
    "faab": null
@@ -6787,5 +8143,381 @@
    "3": 1,
    "7": 2
   }
- }
+ },
+ "unrostered_scorers": [
+  {
+   "name": "Malik Willis",
+   "pos": "QB",
+   "nfl_team": "MIA",
+   "pts": 26.02
+  },
+  {
+   "name": "Mason Taylor",
+   "pos": "TE",
+   "nfl_team": "NYJ",
+   "pts": 25.2
+  },
+  {
+   "name": "Tampa Bay Buccaneers D/ST",
+   "pos": "DEF",
+   "nfl_team": "TB",
+   "pts": 25.0
+  },
+  {
+   "name": "KC Concepcion Jr.",
+   "pos": "WR",
+   "nfl_team": "CLE",
+   "pts": 23.2
+  },
+  {
+   "name": "Omar Cooper Jr.",
+   "pos": "WR",
+   "nfl_team": "NYJ",
+   "pts": 22.5
+  },
+  {
+   "name": "Caleb Douglas",
+   "pos": "WR",
+   "nfl_team": "MIA",
+   "pts": 21.0
+  },
+  {
+   "name": "Kirk Cousins",
+   "pos": "QB",
+   "nfl_team": "LV",
+   "pts": 20.4
+  },
+  {
+   "name": "Makai Lemon",
+   "pos": "WR",
+   "nfl_team": "PHI",
+   "pts": 19.7
+  },
+  {
+   "name": "Deshaun Watson",
+   "pos": "QB",
+   "nfl_team": "CLE",
+   "pts": 19.22
+  },
+  {
+   "name": "Davis Allen",
+   "pos": "TE",
+   "nfl_team": "LAR",
+   "pts": 18.0
+  }
+ ],
+ "decision_candidates": [
+  {
+   "kind": "pickup_paid_off",
+   "roster_id": 6,
+   "impact": 36.5,
+   "detail": {
+    "name": "Tony Pollard",
+    "to": 6,
+    "pts": 36.5,
+    "started": true,
+    "time": "Sun 6:35 AM"
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 1,
+   "impact": 30.0,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 153.44,
+    "actual": 123.44,
+    "opponent": 181.5,
+    "should_have_started": [
+     {
+      "name": "Braelon Allen",
+      "pos": "RB",
+      "pts": 19.4
+     },
+     {
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "pts": 15.1
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "Nico Collins",
+      "pos": "WR",
+      "pts": 2.6
+     },
+     {
+      "name": "Jalen Coker",
+      "pos": "WR",
+      "pts": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 7,
+   "impact": 27.6,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 150.46,
+    "actual": 122.86,
+    "opponent": 186.3,
+    "should_have_started": [
+     {
+      "name": "Cam Skattebo",
+      "pos": "RB",
+      "pts": 19.1
+     },
+     {
+      "name": "Emanuel Wilson",
+      "pos": "RB",
+      "pts": 18.5
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "J.K. Dobbins",
+      "pos": "RB",
+      "pts": 8.3
+     },
+     {
+      "name": "Juwan Johnson",
+      "pos": "TE",
+      "pts": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 5,
+   "impact": 21.5,
+   "changed_result": true,
+   "detail": {
+    "optimal_points": 139.44,
+    "actual": 117.94,
+    "opponent": 122.08,
+    "should_have_started": [
+     {
+      "name": "Ollie Gordon II",
+      "pos": "RB",
+      "pts": 17.3
+     },
+     {
+      "name": "Tyler Shough",
+      "pos": "QB",
+      "pts": 14.82
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "Bryce Young",
+      "pos": "QB",
+      "pts": 7.42
+     },
+     {
+      "name": "Isaiah Likely",
+      "pos": "TE",
+      "pts": 3.2
+     }
+    ]
+   }
+  },
+  {
+   "kind": "drop_backfired",
+   "roster_id": 7,
+   "impact": 20.4,
+   "detail": {
+    "name": "Kirk Cousins",
+    "from": 7,
+    "pts_this_week": 20.4,
+    "time": "Thu 6:13 PM"
+   }
+  },
+  {
+   "kind": "pickup_paid_off",
+   "roster_id": 1,
+   "impact": 20.1,
+   "detail": {
+    "name": "Josh Jacobs",
+    "to": 1,
+    "pts": 20.1,
+    "started": true,
+    "time": "Wed 12:11 AM"
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 8,
+   "impact": 19.7,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 141.78,
+    "actual": 122.08,
+    "opponent": 117.94,
+    "should_have_started": [
+     {
+      "name": "Carnell Tate",
+      "pos": "WR",
+      "pts": 9.9
+     },
+     {
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "pts": 9.8
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "pts": 0.0
+     },
+     {
+      "name": "Mike Evans",
+      "pos": "WR",
+      "pts": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "drop_backfired",
+   "roster_id": 5,
+   "impact": 16.48,
+   "detail": {
+    "name": "Jacoby Brissett",
+    "from": 5,
+    "pts_this_week": 16.48,
+    "time": "Wed 12:11 AM"
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 4,
+   "impact": 15.3,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 201.6,
+    "actual": 186.3,
+    "opponent": 122.86,
+    "should_have_started": [
+     {
+      "name": "Tre Tucker",
+      "pos": "WR",
+      "pts": 21.3
+     },
+     {
+      "name": "Michael Penix Jr.",
+      "pos": "QB",
+      "pts": 20.42
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "Jared Goff",
+      "pos": "QB",
+      "pts": 18.02
+     },
+     {
+      "name": "Travis Kelce",
+      "pos": "TE",
+      "pts": 8.4
+     }
+    ]
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 2,
+   "impact": 14.4,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 195.9,
+    "actual": 181.5,
+    "opponent": 123.44,
+    "should_have_started": [
+     {
+      "name": "Quinshon Judkins",
+      "pos": "RB",
+      "pts": 23.4
+     },
+     {
+      "name": "Dameon Pierce",
+      "pos": "RB",
+      "pts": 11.8
+     },
+     {
+      "name": "Tyler Higbee",
+      "pos": "TE",
+      "pts": 3.4
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "Chase Brown",
+      "pos": "RB",
+      "pts": 9.8
+     },
+     {
+      "name": "Chris Olave",
+      "pos": "WR",
+      "pts": 11.6
+     },
+     {
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "pts": 2.8
+     }
+    ]
+   }
+  },
+  {
+   "kind": "pickup_paid_off",
+   "roster_id": 6,
+   "impact": 13.5,
+   "detail": {
+    "name": "T.J. Hockenson",
+    "to": 6,
+    "pts": 13.5,
+    "started": true,
+    "time": "Sun 6:39 AM"
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 3,
+   "impact": 9.1,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 187.86,
+    "actual": 178.76,
+    "opponent": 177.9,
+    "should_have_started": [
+     {
+      "name": "Woody Marks",
+      "pos": "RB",
+      "pts": 9.1
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "Breece Hall",
+      "pos": "RB",
+      "pts": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "started_player_on_bye",
+   "roster_id": 8,
+   "impact": 0,
+   "detail": {
+    "player": "Cam Little",
+    "won_anyway": true
+   }
+  }
+ ]
 }

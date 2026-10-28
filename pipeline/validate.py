@@ -86,6 +86,17 @@ def text_items(s):
         for x in story.get("slam", []):
             yield where + ".slam", x["value"]
     yield from g(s["lead"], "lead")
+    for k in ("smart_move", "dumb_move"):
+        if s.get(k):
+            yield from g(s[k], k)
+            yield k + ".stat", s[k].get("stat", "")
+            yield k + ".stat_label", s[k].get("stat_label", "")
+    for i, x in enumerate(s.get("features", [])):
+        yield from g(x, f"features[{i}]")
+        yield f"features[{i}].stat", x.get("stat", "")
+        yield f"features[{i}].stat_label", x.get("stat_label", "")
+    for i, x in enumerate(s.get("swing_plays", [])):
+        yield from g(x, f"swing_plays[{i}]")
     for i, x in enumerate(s.get("games", [])):
         yield from g(x, f"games[{i}]")
     for x in s.get("beats", []):
@@ -122,7 +133,19 @@ def main():
     if len(set(slugs)) != len(slugs) or any(not re.fullmatch(r"[a-z0-9-]+", x) for x in slugs):
         errors.append("story slugs must be unique, lowercase, letters/numbers/hyphens")
 
+    play_ids = {p["id"] for m in f["matchups"] for p in m.get("big_plays", [])}
+    for sp in s.get("swing_plays", []):
+        if sp.get("play_id") not in play_ids:
+            errors.append(f"swing play id {sp.get('play_id')} not in facts big_plays")
+    for k in ("smart_move", "dumb_move"):
+        if s.get(k) and str(s[k].get("roster_id")) not in tids:
+            errors.append(f"{k} roster_id not a team")
+    fslugs = [x.get("slug", "") for x in s.get("features", [])]
+    if len(set(fslugs + slugs)) != len(fslugs + slugs) or any(not re.fullmatch(r"[a-z0-9-]+", x) for x in fslugs):
+        errors.append("feature slugs must be unique, lowercase, letters/numbers/hyphens")
     for where, txt in text_items(s):
+        if not txt:
+            continue
         t = txt.replace("–", "-").replace("−", "-").replace(",", "")
         for m in re.finditer(r"\b(\d{1,2}):(\d{2})\s*([ap])\.?m\.?", t, re.I):
             key = f"{int(m.group(1))}:{m.group(2)} {m.group(3).upper()}M"
