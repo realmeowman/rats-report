@@ -34,6 +34,10 @@ sports-radio columnist with a deadline and opinions.
 - Timing is the story. Use the timestamps: when a lead peaked, when it flipped, when a move was
   made (a 6:35 a.m. pickup, an 11:32 p.m. add), who was left for the final game day.
 - Every team gets real coverage: what happened, why, and one thing that matters next.
+- The fantasy teams are the stars. Make the R.A.T.S. team the subject of the sentence, never the
+  NFL team: "handed the whole thing to Poochinski", not "to the Dallas Cowboys". Players appear as
+  that fantasy team's assets ("Poochinski's Monday stack", "its receiver Jameson Williams").
+  Mention NFL teams or real games only when needed to explain timing, and briefly.
 - Use team names as they appear in Sleeper (keep their capitalization). Owners are "the front
   office" or "this franchise", never real names.
 - Opinions and jokes are yours. Facts are not: every number, time, name and event still comes
