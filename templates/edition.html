@@ -63,6 +63,34 @@
 </div></section>
 {% endif %}
 
+{% if bench %}{% set bt = T(bench.roster_id) %}
+<section id="bench" class="sec"><div class="wrap">
+  <div class="sh"><h2>Bench <em>Beat</em></h2><span class="tag">Points that sat while games were lost</span></div>
+  <div class="benchgrid">
+    <a class="benchlead card" href="{{ story_path(bench) }}">
+      <div class="mtop"><span class="who">{{ av(bt, 34) }}{{ bt.name }}</span>{% for b in f.bench_report if b.roster_id == bench.roster_id and b.cost_the_game %}<span class="costtag">Cost them the game</span>{% endfor %}</div>
+      <div class="bstat num">{{ bench.stat }}</div>{% if bench.stat_label %}<div class="mstatl">{{ bench.stat_label }}</div>{% endif %}
+      <h3>{{ bench.headline }}</h3>
+      <p>{{ bench.dek }}</p>
+      {% for b in f.bench_report if b.roster_id == bench.roster_id %}
+      <div class="swaps">{% for x in b.swaps %}
+        <div class="swap num"><span class="in">{{ x.start.name }} <b>{{ "%.2f"|format(x.start.pts) }}</b></span><span class="arrow">sat behind</span><span class="out">{{ x.instead_of.name }} <b>{{ "%.2f"|format(x.instead_of.pts) }}</b></span></div>
+      {% endfor %}</div>
+      {% endfor %}
+      <span class="more">The full breakdown →</span>
+    </a>
+    <div class="benchboard card">
+      <h3>Points left on the bench</h3>
+      {% set top = (f.bench_report|map(attribute='points_left')|max) or 1 %}
+      {% for b in f.bench_report|sort(attribute='points_left', reverse=True) %}{% set t = T(b.roster_id) %}
+      <div class="bb num">{{ av(t, 26) }}<span class="nm">{{ t.name }}</span><span class="bar"><i style="width:{{ (b.points_left / top * 100)|round(1) }}%;background:{{ 'var(--loss)' if b.cost_the_game else 'var(--sand)' }}"></i></span><b>{{ "%.2f"|format(b.points_left) }}</b></div>
+      {% endfor %}
+      <p class="sub">Red: the best lineup on the roster would have won.</p>
+    </div>
+  </div>
+</div></section>
+{% endif %}
+
 {% if s.swing_plays %}
 <section id="plays" class="sec"><div class="wrap">
   <div class="sh"><h2>Plays That <em>Swung It</em></h2><span class="tag">One snap. Whole matchup.</span></div>

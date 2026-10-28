@@ -55,6 +55,11 @@ sports-radio columnist with a deadline and opinions.
   `decision_candidates` (pickups that paid off, drops that backfired, points left on the bench,
   lineups that would have won, starters on bye), but pick the best story, not just the biggest
   number. A dumb move that changed a result beats one that didn't.
+- `bench_beat`: the team whose bench cost it the most, ideally a game. Use `bench_report`:
+  teams with `cost_the_game` true come first; then the biggest `points_left`. Fields: `roster_id`,
+  `stat` (points left), `stat_label`, `headline`, `dek`, `body` (3 paragraphs). Name the swaps
+  from `bench_report[].swaps`. The page shows the swaps and a league-wide bench leaderboard
+  automatically. Don't pick the same team and story as `dumb_move`.
 - `swing_plays`: 3-5 single plays that moved a matchup, each `{play_id, headline, blurb}` where
   `play_id` comes from `matchups[].big_plays[].id`. Favor lead changes and plays that decided
   close games; spread them across matchups.
@@ -80,6 +85,7 @@ Slugs: lowercase-hyphenated, unique within the week.
 - `matchups[].sides[].optimal_points`, `points_left_on_bench`, `should_have_started`,
   `should_have_sat`, and `optimal_would_have_won` for the loser.
 - `decision_candidates` and `unrostered_scorers` for Smart Move / Dumb Move and the wire.
+- `bench_report`: every team's points left on the bench, whether it cost the game, and the swaps.
 - `awards`: high score, low score, closest game, biggest blowout, best pickup.
 - `teams[]`: record, standing, points rank, streak.
 - `history`: past seasons' records, moves, bench habits, playoffs, notable draft picks,

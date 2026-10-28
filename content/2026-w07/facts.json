@@ -2,7 +2,7 @@
  "publication": "The R.A.T.S. Report",
  "season": "2026",
  "week": 7,
- "generated_at": "2026-10-27T18:51-07:00",
+ "generated_at": "2026-10-27T19:12-07:00",
  "league": {
   "num_teams": 8,
   "format": "2-QB PPR",
@@ -328,6 +328,47 @@
        "pts": 2.8
       }
      ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "Quinshon Judkins",
+        "pos": "RB",
+        "pts": 23.4
+       },
+       "instead_of": {
+        "name": "Chris Olave",
+        "pos": "WR",
+        "pts": 11.6
+       },
+       "gain": 11.8
+      },
+      {
+       "start": {
+        "name": "Dameon Pierce",
+        "pos": "RB",
+        "pts": 11.8
+       },
+       "instead_of": {
+        "name": "Chase Brown",
+        "pos": "RB",
+        "pts": 9.8
+       },
+       "gain": 2.0
+      },
+      {
+       "start": {
+        "name": "Tyler Higbee",
+        "pos": "TE",
+        "pts": 3.4
+       },
+       "instead_of": {
+        "name": "Sam LaPorta",
+        "pos": "TE",
+        "pts": 2.8
+       },
+       "gain": 0.6
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 50.32,
       "time": "Sun 10:10 AM"
@@ -540,6 +581,34 @@
        "name": "Jalen Coker",
        "pos": "WR",
        "pts": 1.9
+      }
+     ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "Braelon Allen",
+        "pos": "RB",
+        "pts": 19.4
+       },
+       "instead_of": {
+        "name": "Nico Collins",
+        "pos": "WR",
+        "pts": 2.6
+       },
+       "gain": 16.8
+      },
+      {
+       "start": {
+        "name": "Saquon Barkley",
+        "pos": "RB",
+        "pts": 15.1
+       },
+       "instead_of": {
+        "name": "Jalen Coker",
+        "pos": "WR",
+        "pts": 1.9
+       },
+       "gain": 13.2
       }
      ],
      "max_lead_before_final_day": {
@@ -2072,6 +2141,21 @@
        "pts": 0.0
       }
      ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "Woody Marks",
+        "pos": "RB",
+        "pts": 9.1
+       },
+       "instead_of": {
+        "name": "Breece Hall",
+        "pos": "RB",
+        "pts": 0.0
+       },
+       "gain": 9.1
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 32.0,
       "time": "Sun 11:05 AM"
@@ -2234,6 +2318,7 @@
      "points_left_on_bench": 0.0,
      "should_have_started": [],
      "should_have_sat": [],
+     "bench_swaps": [],
      "max_lead_before_final_day": {
       "margin": 14.34,
       "time": "Sun 1:18 PM"
@@ -3973,6 +4058,34 @@
        "pts": 8.4
       }
      ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "Tre Tucker",
+        "pos": "WR",
+        "pts": 21.3
+       },
+       "instead_of": {
+        "name": "Travis Kelce",
+        "pos": "TE",
+        "pts": 8.4
+       },
+       "gain": 12.9
+      },
+      {
+       "start": {
+        "name": "Michael Penix Jr.",
+        "pos": "QB",
+        "pts": 20.42
+       },
+       "instead_of": {
+        "name": "Jared Goff",
+        "pos": "QB",
+        "pts": 18.02
+       },
+       "gain": 2.4
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 64.94,
       "time": "Sun 4:23 PM"
@@ -4162,6 +4275,34 @@
        "name": "Juwan Johnson",
        "pos": "TE",
        "pts": 1.7
+      }
+     ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "Emanuel Wilson",
+        "pos": "RB",
+        "pts": 18.5
+       },
+       "instead_of": {
+        "name": "Juwan Johnson",
+        "pos": "TE",
+        "pts": 1.7
+       },
+       "gain": 16.8
+      },
+      {
+       "start": {
+        "name": "Cam Skattebo",
+        "pos": "RB",
+        "pts": 19.1
+       },
+       "instead_of": {
+        "name": "J.K. Dobbins",
+        "pos": "RB",
+        "pts": 8.3
+       },
+       "gain": 10.8
       }
      ],
      "max_lead_before_final_day": {
@@ -5562,6 +5703,34 @@
        "pts": 0.0
       }
      ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "Carnell Tate",
+        "pos": "WR",
+        "pts": 9.9
+       },
+       "instead_of": {
+        "name": "DeVonta Smith",
+        "pos": "WR",
+        "pts": 0.0
+       },
+       "gain": 9.9
+      },
+      {
+       "start": {
+        "name": "Dallas Goedert",
+        "pos": "TE",
+        "pts": 9.8
+       },
+       "instead_of": {
+        "name": "Mike Evans",
+        "pos": "WR",
+        "pts": 0.0
+       },
+       "gain": 9.8
+      }
+     ],
      "max_lead_before_final_day": {
       "margin": 23.32,
       "time": "Sun 10:34 AM"
@@ -5770,6 +5939,34 @@
        "name": "Isaiah Likely",
        "pos": "TE",
        "pts": 3.2
+      }
+     ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "Ollie Gordon II",
+        "pos": "RB",
+        "pts": 17.3
+       },
+       "instead_of": {
+        "name": "Isaiah Likely",
+        "pos": "TE",
+        "pts": 3.2
+       },
+       "gain": 14.1
+      },
+      {
+       "start": {
+        "name": "Tyler Shough",
+        "pos": "QB",
+        "pts": 14.82
+       },
+       "instead_of": {
+        "name": "Bryce Young",
+        "pos": "QB",
+        "pts": 7.42
+       },
+       "gain": 7.4
       }
      ],
      "max_lead_before_final_day": {
@@ -8526,6 +8723,285 @@
     "player": "Cam Little",
     "won_anyway": true
    }
+  }
+ ],
+ "bench_report": [
+  {
+   "roster_id": 5,
+   "points_left": 21.5,
+   "optimal_points": 139.44,
+   "actual": 117.94,
+   "opponent": 122.08,
+   "lost": true,
+   "cost_the_game": true,
+   "margin": 4.14,
+   "swaps": [
+    {
+     "start": {
+      "name": "Ollie Gordon II",
+      "pos": "RB",
+      "pts": 17.3
+     },
+     "instead_of": {
+      "name": "Isaiah Likely",
+      "pos": "TE",
+      "pts": 3.2
+     },
+     "gain": 14.1
+    },
+    {
+     "start": {
+      "name": "Tyler Shough",
+      "pos": "QB",
+      "pts": 14.82
+     },
+     "instead_of": {
+      "name": "Bryce Young",
+      "pos": "QB",
+      "pts": 7.42
+     },
+     "gain": 7.4
+    }
+   ]
+  },
+  {
+   "roster_id": 1,
+   "points_left": 30.0,
+   "optimal_points": 153.44,
+   "actual": 123.44,
+   "opponent": 181.5,
+   "lost": true,
+   "cost_the_game": false,
+   "margin": 58.06,
+   "swaps": [
+    {
+     "start": {
+      "name": "Braelon Allen",
+      "pos": "RB",
+      "pts": 19.4
+     },
+     "instead_of": {
+      "name": "Nico Collins",
+      "pos": "WR",
+      "pts": 2.6
+     },
+     "gain": 16.8
+    },
+    {
+     "start": {
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "pts": 15.1
+     },
+     "instead_of": {
+      "name": "Jalen Coker",
+      "pos": "WR",
+      "pts": 1.9
+     },
+     "gain": 13.2
+    }
+   ]
+  },
+  {
+   "roster_id": 7,
+   "points_left": 27.6,
+   "optimal_points": 150.46,
+   "actual": 122.86,
+   "opponent": 186.3,
+   "lost": true,
+   "cost_the_game": false,
+   "margin": 63.44,
+   "swaps": [
+    {
+     "start": {
+      "name": "Emanuel Wilson",
+      "pos": "RB",
+      "pts": 18.5
+     },
+     "instead_of": {
+      "name": "Juwan Johnson",
+      "pos": "TE",
+      "pts": 1.7
+     },
+     "gain": 16.8
+    },
+    {
+     "start": {
+      "name": "Cam Skattebo",
+      "pos": "RB",
+      "pts": 19.1
+     },
+     "instead_of": {
+      "name": "J.K. Dobbins",
+      "pos": "RB",
+      "pts": 8.3
+     },
+     "gain": 10.8
+    }
+   ]
+  },
+  {
+   "roster_id": 8,
+   "points_left": 19.7,
+   "optimal_points": 141.78,
+   "actual": 122.08,
+   "opponent": 117.94,
+   "lost": false,
+   "cost_the_game": false,
+   "margin": 4.14,
+   "swaps": [
+    {
+     "start": {
+      "name": "Carnell Tate",
+      "pos": "WR",
+      "pts": 9.9
+     },
+     "instead_of": {
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "pts": 0.0
+     },
+     "gain": 9.9
+    },
+    {
+     "start": {
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "pts": 9.8
+     },
+     "instead_of": {
+      "name": "Mike Evans",
+      "pos": "WR",
+      "pts": 0.0
+     },
+     "gain": 9.8
+    }
+   ]
+  },
+  {
+   "roster_id": 4,
+   "points_left": 15.3,
+   "optimal_points": 201.6,
+   "actual": 186.3,
+   "opponent": 122.86,
+   "lost": false,
+   "cost_the_game": false,
+   "margin": 63.44,
+   "swaps": [
+    {
+     "start": {
+      "name": "Tre Tucker",
+      "pos": "WR",
+      "pts": 21.3
+     },
+     "instead_of": {
+      "name": "Travis Kelce",
+      "pos": "TE",
+      "pts": 8.4
+     },
+     "gain": 12.9
+    },
+    {
+     "start": {
+      "name": "Michael Penix Jr.",
+      "pos": "QB",
+      "pts": 20.42
+     },
+     "instead_of": {
+      "name": "Jared Goff",
+      "pos": "QB",
+      "pts": 18.02
+     },
+     "gain": 2.4
+    }
+   ]
+  },
+  {
+   "roster_id": 2,
+   "points_left": 14.4,
+   "optimal_points": 195.9,
+   "actual": 181.5,
+   "opponent": 123.44,
+   "lost": false,
+   "cost_the_game": false,
+   "margin": 58.06,
+   "swaps": [
+    {
+     "start": {
+      "name": "Quinshon Judkins",
+      "pos": "RB",
+      "pts": 23.4
+     },
+     "instead_of": {
+      "name": "Chris Olave",
+      "pos": "WR",
+      "pts": 11.6
+     },
+     "gain": 11.8
+    },
+    {
+     "start": {
+      "name": "Dameon Pierce",
+      "pos": "RB",
+      "pts": 11.8
+     },
+     "instead_of": {
+      "name": "Chase Brown",
+      "pos": "RB",
+      "pts": 9.8
+     },
+     "gain": 2.0
+    },
+    {
+     "start": {
+      "name": "Tyler Higbee",
+      "pos": "TE",
+      "pts": 3.4
+     },
+     "instead_of": {
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "pts": 2.8
+     },
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "roster_id": 3,
+   "points_left": 9.1,
+   "optimal_points": 187.86,
+   "actual": 178.76,
+   "opponent": 177.9,
+   "lost": false,
+   "cost_the_game": false,
+   "margin": 0.86,
+   "swaps": [
+    {
+     "start": {
+      "name": "Woody Marks",
+      "pos": "RB",
+      "pts": 9.1
+     },
+     "instead_of": {
+      "name": "Breece Hall",
+      "pos": "RB",
+      "pts": 0.0
+     },
+     "gain": 9.1
+    }
+   ]
+  },
+  {
+   "roster_id": 6,
+   "points_left": 0.0,
+   "optimal_points": 177.9,
+   "actual": 177.9,
+   "opponent": 178.76,
+   "lost": true,
+   "cost_the_game": false,
+   "margin": 0.86,
+   "swaps": []
   }
  ]
 }

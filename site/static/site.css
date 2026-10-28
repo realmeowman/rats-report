@@ -257,3 +257,28 @@ footer p{margin:0 0 6px;max-width:80ch}
   .tracker .line{stroke-dasharray:var(--len);stroke-dashoffset:var(--len);animation:draw 1.6s ease-out .2s forwards}
   @keyframes draw{to{stroke-dashoffset:0}}
 }
+
+/* bench beat */
+.benchgrid{display:grid;gap:14px}
+.benchlead{padding:18px;display:grid;gap:8px;align-content:start;border-top:6px solid var(--sand);min-width:0}
+.benchlead:hover h3{color:var(--sand)}
+.benchlead h3{font-family:var(--cond);font-weight:800;font-size:24px;line-height:1.02;text-transform:uppercase;margin:4px 0 0;text-wrap:balance}
+.benchlead p{margin:0;font-size:15.5px;color:var(--body)}
+.bstat{font-family:var(--cond);font-weight:900;font-style:italic;font-size:72px;line-height:.85;color:var(--sand)}
+.costtag{font-family:var(--cond);font-weight:800;font-size:12px;letter-spacing:.08em;text-transform:uppercase;background:var(--loss);color:#0A0A0B;padding:3px 8px;border-radius:4px}
+.swaps{display:grid;gap:6px;margin-top:4px}
+.swap{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center;background:var(--panel2);border-radius:8px;padding:8px 10px;font-family:var(--cond);font-weight:700;font-size:15px}
+.swap .in{color:var(--win)} .swap .out{color:var(--mute);text-align:right}
+.swap b{color:var(--ink);margin-left:4px}
+.swap .arrow{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.benchboard{padding:16px;display:grid;gap:8px;align-content:start}
+.benchboard h3{font-family:var(--cond);font-weight:900;font-style:italic;font-size:22px;text-transform:uppercase;margin:0 0 4px}
+.bb{display:grid;grid-template-columns:auto minmax(0,9rem) minmax(0,1fr) auto;gap:10px;align-items:center;font-family:var(--cond);font-weight:700;font-size:15px}
+.bb .nm{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bb .bar{height:10px;background:var(--panel2);border-radius:5px;overflow:hidden}
+.bb .bar i{display:block;height:100%;border-radius:5px}
+.bb b{font-size:16px;min-width:3.6ch;text-align:right}
+.benchboard .sub{font-size:13px;color:var(--mute);margin:4px 0 0}
+.benchbg{--tc:#7A5A2E}
+@media (max-width:420px){.bb{grid-template-columns:auto minmax(0,1fr) auto}.bb .bar{grid-column:2/4;grid-row:2}.swap{grid-template-columns:1fr}.swap .out{text-align:left}}
+@media (min-width:980px){.benchgrid{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}}

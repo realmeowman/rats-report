@@ -83,7 +83,7 @@ class Edition:
             b["slug"] = f["teams"][str(b["roster_id"])]["slug"]
         # team beats run in standings order
         s["beats"].sort(key=lambda b: f["teams"][str(b["roster_id"])]["standing"])
-        for k, label in (("smart_move", "Smart Move"), ("dumb_move", "Dumb Move")):
+        for k, label in (("smart_move", "Smart Move"), ("dumb_move", "Dumb Move"), ("bench_beat", "Bench Beat")):
             if s.get(k):
                 s[k]["kind"] = k
                 s[k]["slug"] = k.replace("_", "-")
@@ -96,7 +96,8 @@ class Edition:
         for sp in s["swing_plays"]:
             sp["play"] = plays[sp["play_id"]]
         self.moves = [s[k] for k in ("smart_move", "dumb_move") if s.get(k)]
-        self.stories = [s["lead"]] + s["games"] + s["features"] + self.moves + s["beats"]
+        self.bench = s.get("bench_beat")
+        self.stories = [s["lead"]] + s["games"] + s["features"] + self.moves + ([self.bench] if self.bench else []) + s["beats"]
 
     def T(self, rid):
         return self.f["teams"][str(rid)]
@@ -204,7 +205,7 @@ def main():
         except Exception:
             gl = g
         return dict(cfg=CFG, f=E.f, s=E.s, T=E.T, M=E.M, result=E.result, story_path=E.story_path,
-                    story_matchup=E.story_matchup, game_path=E.game_path, moves=E.moves, other=E.other, dash=dash, initials=initials,
+                    story_matchup=E.story_matchup, game_path=E.game_path, moves=E.moves, bench=E.bench, other=E.other, dash=dash, initials=initials,
                     ordinal=ordinal, race_json=E.race_json(), edition_path=E.base, site_url=site_url, path=path,
                     page_title=title, description=desc, og_image=og, og_title=og_title, og_type=og_type,
                     noindex=CFG.get("noindex", True), build_id=build_id, generated_label=gl, tzname="Pacific time"
@@ -225,10 +226,10 @@ def main():
             if st["kind"] == "beat":
                 t = E.T(st["roster_id"])
                 kicker, color = f"{t['name']} Insider · Week {f['week']}", t["color"]
-            elif st["kind"] in ("smart_move", "dumb_move", "feature"):
+            elif st["kind"] in ("smart_move", "dumb_move", "feature", "bench_beat"):
                 rid = st.get("roster_id") or (st.get("roster_ids") or [None])[0]
                 kicker = f"Week {f['week']} · {st['kicker']}"
-                color = {"smart_move": "#3DDC84", "dumb_move": "#FF5252"}.get(st["kind"]) or (E.T(rid)["color"] if rid else "#D8BB88")
+                color = {"smart_move": "#3DDC84", "dumb_move": "#FF5252", "bench_beat": "#D8BB88"}.get(st["kind"]) or (E.T(rid)["color"] if rid else "#D8BB88")
             else:
                 m = E.M(st["matchup_id"])
                 kicker, color = f"Week {f['week']} · {st['kicker']}", E.T(st.get("persp_roster_id") or m["winner"])["color"]

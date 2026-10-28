@@ -8,8 +8,8 @@
 
   {% if story.kind == 'beat' %}{% set t = T(story.roster_id) %}{% set res = result(story.roster_id) %}
   <div class="teamhead" style="--tc:{{ t.color }}">{{ av(t, 84, "ring") }}<div><span class="meta num">{{ ordinal(t.standing) }} · {{ dash(t.record) }} · {{ 'Won' if res.wl == 'W' else 'Lost' }} {{ "%.2f"|format(res.pts) }}–{{ "%.2f"|format(res.opp_pts) }} vs {{ T(res.opp).name }}</span><h1>{{ t.name }}</h1></div></div>
-  {% elif story.kind in ('smart_move', 'dumb_move') %}{% set t = T(story.roster_id) %}
-  <div class="teamhead {{ 'smartbg' if story.kind == 'smart_move' else 'dumbbg' }}">{{ av(t, 84, "ring") }}<div><span class="meta">{{ 'Smart Move' if story.kind == 'smart_move' else 'Dumb Move' }} of the Week · {{ t.name }}</span><h1 class="num">{{ story.stat }}</h1>{% if story.stat_label %}<span class="meta">{{ story.stat_label }}</span>{% endif %}</div></div>
+  {% elif story.kind in ('smart_move', 'dumb_move', 'bench_beat') %}{% set t = T(story.roster_id) %}
+  <div class="teamhead {{ {'smart_move':'smartbg','dumb_move':'dumbbg','bench_beat':'benchbg'}[story.kind] }}">{{ av(t, 84, "ring") }}<div><span class="meta">{{ {'smart_move':'Smart Move of the Week','dumb_move':'Dumb Move of the Week','bench_beat':'Bench Beat'}[story.kind] }} · {{ t.name }}</span><h1 class="num">{{ story.stat }}</h1>{% if story.stat_label %}<span class="meta">{{ story.stat_label }}</span>{% endif %}</div></div>
   {% endif %}
 
   <header class="story-head">

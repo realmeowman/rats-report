@@ -86,7 +86,7 @@ def text_items(s):
         for x in story.get("slam", []):
             yield where + ".slam", x["value"]
     yield from g(s["lead"], "lead")
-    for k in ("smart_move", "dumb_move"):
+    for k in ("smart_move", "dumb_move", "bench_beat"):
         if s.get(k):
             yield from g(s[k], k)
             yield k + ".stat", s[k].get("stat", "")
@@ -137,7 +137,7 @@ def main():
     for sp in s.get("swing_plays", []):
         if sp.get("play_id") not in play_ids:
             errors.append(f"swing play id {sp.get('play_id')} not in facts big_plays")
-    for k in ("smart_move", "dumb_move"):
+    for k in ("smart_move", "dumb_move", "bench_beat"):
         if s.get(k) and str(s[k].get("roster_id")) not in tids:
             errors.append(f"{k} roster_id not a team")
     fslugs = [x.get("slug", "") for x in s.get("features", [])]

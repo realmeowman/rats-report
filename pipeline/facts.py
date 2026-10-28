@@ -320,6 +320,19 @@ def week_facts(L, week):
             s["points_left_on_bench"] = r2(opt - s["points"])
             s["should_have_started"] = [{"name": r["name"], "pos": r["pos"], "pts": r["pts"]} for r in s["bench"] if r["id"] in opt_ids]
             s["should_have_sat"] = [{"name": r["name"], "pos": r["pos"], "pts": r["pts"]} for r in s["starters"] if r["id"] not in opt_ids]
+            # pair each bench player who belonged in the lineup with the starter he should have replaced
+            import itertools
+            ins_, outs_ = s["should_have_started"], s["should_have_sat"]
+            def fits(a_, b_):
+                return a_["pos"] == b_["pos"] or {a_["pos"], b_["pos"]} <= {"RB", "WR", "TE"}
+            best_pairs, best_key = [], None
+            for perm in itertools.permutations(outs_, len(ins_)) if len(outs_) >= len(ins_) else []:
+                if all(fits(a_, b_) for a_, b_ in zip(ins_, perm)):
+                    key = (sum(a_["pos"] == b_["pos"] for a_, b_ in zip(ins_, perm)), -max([abs(a_["pts"] - b_["pts"]) for a_, b_ in zip(ins_, perm)] or [0]))
+                    if best_key is None or key > best_key:
+                        best_key, best_pairs = key, list(zip(ins_, perm))
+            swaps = sorted([{"start": a_, "instead_of": b_, "gain": r2(a_["pts"] - b_["pts"])} for a_, b_ in best_pairs], key=lambda x: -x["gain"])
+            s["bench_swaps"] = swaps
             pb = pre_best[s["roster_id"]]
             s["max_lead_before_final_day"] = {"margin": pb[0], "time": fmt_time(pb[1]) if pb[1] is not None else None}
             stack = collections.defaultdict(lambda: {"players": [], "pts": 0.0})
@@ -561,6 +574,17 @@ def main():
         "unrostered_scorers": getattr(week_facts, "free_agents", []),
     }
     facts["decision_candidates"] = decisions(facts)
+    bench = []
+    for m in out_m:
+        for sd in m["sides"]:
+            opp = next(x for x in m["sides"] if x["roster_id"] != sd["roster_id"])["points"]
+            lost = sd["roster_id"] == m["loser"]
+            bench.append({"roster_id": sd["roster_id"], "points_left": sd["points_left_on_bench"],
+                          "optimal_points": sd["optimal_points"], "actual": sd["points"], "opponent": opp,
+                          "lost": lost, "cost_the_game": lost and sd["optimal_points"] > opp,
+                          "margin": r2(abs(sd["points"] - opp)), "swaps": sd["bench_swaps"]})
+    bench.sort(key=lambda x: (-x["cost_the_game"], -x["points_left"]))
+    facts["bench_report"] = bench
     out = os.path.join(ROOT, "content", f"{season}-w{week:02d}")
     os.makedirs(out, exist_ok=True)
     json.dump(facts, open(os.path.join(out, "facts.json"), "w"), indent=1, default=str)

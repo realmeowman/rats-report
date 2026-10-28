@@ -212,15 +212,15 @@
     ]
   },
   "dumb_move": {
-    "roster_id": 5,
-    "stat": "21.5",
-    "stat_label": "Points left on the bench in a 4.14-point loss",
-    "headline": "Cut Brissett, started Young, lost by 4.14",
-    "dek": "Bad things man bad things cut Jacoby Brissett for Bryce Young. Brissett then threw a touchdown to its own tight end. You can’t make this up, and we didn’t.",
+    "roster_id": 7,
+    "stat": "20.4",
+    "stat_label": "Kirk Cousins, the week he was cut",
+    "headline": "Cut Cousins mid-game, then watched him score 20.4",
+    "dek": "Santa Clara’s Finest released Kirk Cousins during Thursday’s game to make room for J.K. Dobbins. One of those two players had a good weekend.",
     "body": [
-      "At 12:11 a.m. Wednesday, Bad things man bad things claimed Bryce Young and released Jacoby Brissett. Young started at quarterback and scored 7.42. Brissett scored 16.48 from the free-agent pool, including a 7-yard touchdown pass at 3:18 p.m. to Trey McBride. McBride plays for Bad things man bad things. The team literally scored off the quarterback it cut.",
-      "The rest of the lineup didn’t help. Tyler Shough scored 14.82 on the bench. Ollie Gordon II scored 17.3 on the bench while Isaiah Likely scored 3.2 in the flex.",
-      "The best lineup this roster could have fielded scored 139.44. AB81 scored 122.08. Final: 122.08 to 117.94. That’s 21.5 points left on the bench in a game decided by 4.14, and a team name that keeps proving itself right."
+      "At 6:13 p.m. Thursday, with Week 7 already under way, Santa Clara’s Finest added J.K. Dobbins and dropped Kirk Cousins. In a two-quarterback league. Mid-game. Bold.",
+      "Dobbins started and scored 8.3. Cousins went to the free-agent pool and scored 20.4, including a 15-yard touchdown pass to Ashton Jeanty at 3:59 p.m. Sunday. Jeanty plays for Big Stric Energy, so the revenge tour even had a R.A.T.S. stop on it.",
+      "Santa Clara’s Finest started Aaron Rodgers at quarterback instead. He scored 13.08. The team lost by 63.44, fell to 1-6, and sits last in the league with 966.04 points. The front office that drafted two first-round quarterbacks has somehow ended up short on quarterbacks."
     ]
   },
   "swing_plays": [
@@ -265,22 +265,6 @@
       ]
     },
     {
-      "slug": "kirk-cousins-revenge",
-      "kicker": "Cut and Run",
-      "roster_ids": [
-        7
-      ],
-      "stat": "20.4",
-      "stat_label": "Kirk Cousins, the week he was dropped",
-      "headline": "Kirk Cousins, released Thursday, 20.4 on Sunday",
-      "dek": "Santa Clara’s Finest dropped Cousins mid-game Thursday. On Sunday he threw a touchdown to Big Stric Energy’s running back, just to rub it in.",
-      "body": [
-        "At 6:13 p.m. Thursday, with the game in Chicago under way, Santa Clara’s Finest added J.K. Dobbins and released Kirk Cousins.",
-        "Dobbins started and scored 8.3. Cousins scored 20.4 from the free-agent pool, including a 15-yard touchdown pass to Ashton Jeanty at 3:59 p.m. Jeanty plays for Big Stric Energy. The revenge tour has one stop so far, and it ran straight through a league rival’s lineup.",
-        "Santa Clara’s Finest started Aaron Rodgers at quarterback instead. He scored 13.08. The team is 1-6 and last in the league in points with 966.04."
-      ]
-    },
-    {
       "slug": "zero-trades",
       "kicker": "League Business",
       "stat": "0",
@@ -293,5 +277,17 @@
         "Six of the eight teams make the playoffs, so both 1-6 teams are technically alive. A trade would at least give them something to talk about besides the standings."
       ]
     }
-  ]
+  ],
+  "bench_beat": {
+    "roster_id": 5,
+    "stat": "21.5",
+    "stat_label": "Points on the bench in a 4.14-point loss",
+    "headline": "The bench would have won this one",
+    "dek": "Bad things man bad things lost to AB81 by 4.14. Its bench outscored that margin five times over.",
+    "body": [
+      "Bench Beat exists for weeks like this. Bad things man bad things lost 122.08 to 117.94, and the answer to how was sitting right there on the roster the whole time.",
+      "Exhibit A: Ollie Gordon II scored 17.3 on the bench while Isaiah Likely scored 3.2 in the flex. That one swap is worth 14.1 by itself, which would have flipped the matchup on its own. Exhibit B: Tyler Shough scored 14.82 on the bench while Bryce Young, Wednesday’s waiver claim, scored 7.42 at quarterback. Another 7.4 left lying around.",
+      "Add it up and the best lineup on this roster scored 139.44. AB81 scored 122.08. That isn’t a close loss. That’s a win that got benched. 21.5 points left on the pine, a 4.14-point loss, and the first close defeat this franchise has taken in two seasons."
+    ]
+  }
 }
