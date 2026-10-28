@@ -66,6 +66,19 @@ sports-radio columnist with a deadline and opinions.
 - `features`: 2-4 more top stories about the week beyond single games: the waiver wire
   (`unrostered_scorers`), a drop that came back to bite, league-wide trends, history. Each has
   `slug`, `kicker`, `headline`, `dek`, `body`, optional `stat`/`stat_label` and `roster_ids`.
+- `beats[].insight`: "The Insider’s read", 2-4 sentences of real fantasy advice for that team's
+  next week. Lead with the most actionable thing: an empty lineup slot or bye hole, a QB shortage
+  (two-QB league), a usage trend to act on, a waiver add, a start/sit call, a sell-high, a luck
+  regression. Use `analysis.teams[rid]` (playoff odds, all-play, luck, next-week projection,
+  bye players, empty slots, QBs available) and the usage lists.
+- `lookahead`: one `{headline, blurb}` per `analysis.next_week[].key`. Who's favored and why,
+  and what each team must fix. Alerts (empty slots, QB shortages) render automatically.
+- `waiver_targets`: 3-5 `{player_id, blurb}` from `analysis.waiver_targets`; say who needs him.
+- `usage_watch`: 4-6 `{player_id, blurb}` from `analysis.usage_rising`/`usage_falling`/
+  `td_dependent`; say what to do about it (start, bench, buy, sell).
+- `playoff_note`: one paragraph on the playoff race from `analysis.teams[].playoff_odds`.
+- Sprinkle the analysis into the stories too: all-play records, luck, playoff odds, usage. The
+  jokes land harder when the analysis is right.
 - `rankings`: every team, ordered, one-line blurb each.
 - `external_facts`: any outside fact you used, with source.
 
@@ -85,6 +98,8 @@ Slugs: lowercase-hyphenated, unique within the week.
 - `matchups[].sides[].optimal_points`, `points_left_on_bench`, `should_have_started`,
   `should_have_sat`, and `optimal_would_have_won` for the loser.
 - `decision_candidates` and `unrostered_scorers` for Smart Move / Dumb Move and the wire.
+- `analysis`: all-play records, luck, playoff odds (10,000 simulations), next week's projected
+  matchups, bye holes, QB availability, usage trends (opportunities and snap share), waiver targets.
 - `bench_report`: every team's points left on the bench, whether it cost the game, and the swaps.
 - `awards`: high score, low score, closest game, biggest blowout, best pickup.
 - `teams[]`: record, standing, points rank, streak.

@@ -25,6 +25,17 @@ def initials(name):
     return "".join(w[0] for w in name.split()[:2]).upper()
 
 
+def pct(x):
+    v = x * 100
+    if v >= 99.95:
+        return ">99.9%"
+    if v >= 99:
+        return f"{v:.1f}%"
+    if 0 < v < 1:
+        return "<1%"
+    return f"{v:.0f}%"
+
+
 def ordinal(n):
     return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
 
@@ -97,6 +108,28 @@ class Edition:
             sp["play"] = plays[sp["play_id"]]
         self.moves = [s[k] for k in ("smart_move", "dumb_move") if s.get(k)]
         self.bench = s.get("bench_beat")
+        A = f.get("analysis") or {}
+        self.A = A
+        allu = {x["player_id"]: x for x in A.get("usage_rising", []) + A.get("usage_falling", []) + A.get("td_dependent", [])}
+        wv = {x["player_id"]: x for x in A.get("waiver_targets", [])}
+        for x in s.get("usage_watch", []):
+            x["p"] = allu.get(x["player_id"])
+            x["dir"] = "up" if x["p"] and x["p"]["opps_change"] > 0 else "down"
+        for x in s.get("waiver_targets", []):
+            x["p"] = wv.get(x["player_id"])
+        nw = {m["key"]: m for m in A.get("next_week", [])}
+        self.lookahead = []
+        for k, m in nw.items():
+            w = (s.get("lookahead") or {}).get(k, {})
+            alerts = []
+            for rid in m["teams"]:
+                tp = A["teams"][str(rid)]["next_week"]
+                if tp["qbs_available"] < tp["qb_slots"]:
+                    alerts.append((rid, f"Only {tp['qbs_available']} healthy QB for {tp['qb_slots']} QB slots"))
+                for sl in tp["empty_slots"]:
+                    if sl != "QB":
+                        alerts.append((rid, f"No {sl} available"))
+            self.lookahead.append(dict(m, headline=w.get("headline"), blurb=w.get("blurb"), alerts=alerts))
         self.stories = [s["lead"]] + s["games"] + s["features"] + self.moves + ([self.bench] if self.bench else []) + s["beats"]
 
     def T(self, rid):
@@ -205,7 +238,7 @@ def main():
         except Exception:
             gl = g
         return dict(cfg=CFG, f=E.f, s=E.s, T=E.T, M=E.M, result=E.result, story_path=E.story_path,
-                    story_matchup=E.story_matchup, game_path=E.game_path, moves=E.moves, bench=E.bench, other=E.other, dash=dash, initials=initials,
+                    story_matchup=E.story_matchup, game_path=E.game_path, moves=E.moves, bench=E.bench, A=E.A, lookahead=E.lookahead, pct=pct, other=E.other, dash=dash, initials=initials,
                     ordinal=ordinal, race_json=E.race_json(), edition_path=E.base, site_url=site_url, path=path,
                     page_title=title, description=desc, og_image=og, og_title=og_title, og_type=og_type,
                     noindex=CFG.get("noindex", True), build_id=build_id, generated_label=gl, tzname="Pacific time"

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import av, byline, score_rows %}
+{% from "_macros.html" import av, byline, score_rows, chips %}
 {% block main %}
 {% set lead = s.lead %}{% set lm = M(lead.matchup_id) %}
 {% set persp = lead.persp_roster_id or lm.winner %}
@@ -145,7 +145,10 @@
     {% for b in s.beats %}{% set t = T(b.roster_id) %}{% set res = result(b.roster_id) %}
     <a class="beat" href="{{ story_path(b) }}">
       <div class="banner" style="--tc:{{ t.color }}">{{ av(t, 64, "ring") }}<div class="bt"><span class="pos num">{{ ordinal(t.standing) }} · {{ dash(t.record) }}</span><span class="tn">{{ t.name }}</span><span class="res num"><b class="{{ res.wl }}">{{ res.wl }}</b> {{ "%.2f"|format(res.pts) }}–{{ "%.2f"|format(res.opp_pts) }} vs {{ T(res.opp).name }}</span></div></div>
-      <div class="body"><h3>{{ b.headline }}</h3><div class="by">{{ t.reporter }}</div><p>{{ b.body[0] }}</p><span class="more">Read more →</span></div>
+      <div class="body"><h3>{{ b.headline }}</h3><div class="by">{{ t.reporter }}</div><p>{{ b.body[0] }}</p>
+        {% if b.insight %}<div class="read"><span>The Insider’s read</span>{{ b.insight }}</div>{% endif %}
+        {{ chips(b.roster_id, A, pct) }}
+        <span class="more">Read more →</span></div>
     </a>
     {% endfor %}
   </div>
@@ -155,10 +158,64 @@
   <div class="sh"><h2>Power <em>Rankings</em></h2><span class="tag">After Week {{ f.week }}</span></div>
   <ol class="ranks num">
     {% for r in s.rankings %}{% set t = T(r.roster_id) %}
-    <li><a class="rk" href="/teams/{{ t.slug }}/" style="--tc:{{ t.color }}"><span class="n">{{ loop.index }}</span>{{ av(t, 44) }}<div class="rb"><span class="nm">{{ t.name }}</span><span class="rec">{{ dash(t.record) }} · {{ "{:,.2f}".format(t.pf) }} pts</span><p>{{ r.blurb }}</p></div></a></li>
+    <li><a class="rk" href="/teams/{{ t.slug }}/" style="--tc:{{ t.color }}"><span class="n">{{ loop.index }}</span>{{ av(t, 44) }}<div class="rb"><span class="nm">{{ t.name }}</span><span class="rec">{{ dash(t.record) }} · {{ "{:,.2f}".format(t.pf) }} pts</span><p>{{ r.blurb }}</p>{{ chips(r.roster_id, A, pct) }}</div></a></li>
     {% endfor %}
   </ol>
 </div></section>
+
+{% if A and A.teams %}
+<section id="playoffs" class="sec"><div class="wrap">
+  <div class="sh"><h2>Playoff <em>Picture</em></h2><span class="tag">{{ f.league.playoff_teams }} of {{ f.league.num_teams }} make it · 10,000 simulated finishes</span></div>
+  {% if s.playoff_note %}<p class="lede">{{ s.playoff_note }}</p>{% endif %}
+  <div class="odds card num">
+    {% for pair in A.teams.items()|sort(attribute='1.playoff_odds', reverse=True) %}{% set rid = pair[0] %}{% set a = pair[1] %}{% set t = T(rid) %}
+    <div class="od">{{ av(t, 28) }}<span class="nm">{{ t.name }}</span><span class="rec">{{ dash(t.record) }} · proj {{ a.projected_final_wins }} W</span><span class="bar"><i style="width:{{ (a.playoff_odds*100)|round(1) }}%;background:{{ t.color }}"></i></span><b>{{ pct(a.playoff_odds) }}</b></div>
+    {% endfor %}
+    <p class="sub">Each remaining game is simulated from each team’s scoring this season and its Week {{ A.next_week_number }} projection. Ties broken by points scored.</p>
+  </div>
+</div></section>
+
+<section id="lookahead" class="sec"><div class="wrap">
+  <div class="sh"><h2>Week {{ A.next_week_number }} <em>Lookahead</em></h2><span class="tag">Projected from Sleeper projections · best available lineups</span></div>
+  <div class="ahead">
+    {% for m in lookahead %}
+    <div class="ah card">
+      {% if m.headline %}<h3>{{ m.headline }}</h3>{% endif %}
+      {% for i in [0, 1] %}{% set t = T(m.teams[i]) %}
+      <div class="ahr num {{ 'fav' if m.teams[i] == m.favorite }}">{{ av(t, 32) }}<span class="nm">{{ t.name }}</span><span class="pj">{{ "%.1f"|format(m.projected[i]) }}</span><span class="wp">{{ pct(m.win_prob[i]) }}</span></div>
+      {% endfor %}
+      <div class="wpbar"><i style="width:{{ (m.win_prob[0]*100)|round(1) }}%;background:{{ T(m.teams[0]).color }}"></i><i style="width:{{ (m.win_prob[1]*100)|round(1) }}%;background:{{ T(m.teams[1]).color }}"></i></div>
+      {% if m.blurb %}<p>{{ m.blurb }}</p>{% endif %}
+      {% for rid, msg in m.alerts %}<div class="alert">{{ av(T(rid), 20) }}<span><b>{{ T(rid).name }}:</b> {{ msg }}</span></div>{% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}
+
+{% if s.waiver_targets or s.usage_watch %}
+<section id="film" class="sec"><div class="wrap">
+  <div class="sh"><h2>The Film <em>Room</em></h2><span class="tag">Usage, opportunity and who to grab</span></div>
+  <div class="film">
+    {% if s.waiver_targets %}
+    <div class="fcol card">
+      <h3>Waiver Targets</h3>
+      {% for x in s.waiver_targets %}{% set p = x.p %}
+      <div class="fi"><div class="fh num"><span class="ppos">{{ p.pos }}</span><b>{{ p.name }}</b><span class="nt">{{ p.nfl_team }}</span><span class="pj">Wk {{ A.next_week_number }} proj {{ "%.1f"|format(p.proj_next) }}</span></div><p>{{ x.blurb }}</p></div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if s.usage_watch %}
+    <div class="fcol card">
+      <h3>Usage Watch</h3>
+      {% for x in s.usage_watch %}{% set p = x.p %}
+      <div class="fi"><div class="fh num"><span class="dir {{ x.dir }}">{{ '▲' if x.dir == 'up' else '▼' }}</span><b>{{ p.name }}</b>{% if p.roster_id %}{{ av(T(p.roster_id), 20) }}{% else %}<span class="nt">FA</span>{% endif %}<span class="pj">{{ p.opps_before }} → {{ p.opps_last2 }} opps/gm{% if p.snap_last2 is not none and p.snap_before is not none %} · snaps {{ (p.snap_before*100)|round|int }}% → {{ (p.snap_last2*100)|round|int }}%{% endif %}</span></div><p>{{ x.blurb }}</p></div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div></section>
+{% endif %}
 
 <section id="wire" class="sec"><div class="wrap">
   <div class="sh"><h2>Transaction <em>Wire</em></h2><span class="tag">Every Week {{ f.week }} move · {{ tzname }}</span></div>

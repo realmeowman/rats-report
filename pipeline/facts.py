@@ -574,6 +574,13 @@ def main():
         "unrostered_scorers": getattr(week_facts, "free_agents", []),
     }
     facts["decision_candidates"] = decisions(facts)
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import analytics
+    lgc = load(season, "league.json")
+    facts["analysis"] = analytics.analyze(
+        season, week, lgc["scoring_settings"], L.players, rosters, {r["roster_id"]: 1 for r in rosters},
+        lgc["roster_positions"], lgc["settings"].get("playoff_teams", 6), lgc["settings"].get("playoff_week_start", 15) - 1,
+        CFG["timezone"])
     bench = []
     for m in out_m:
         for sd in m["sides"]:

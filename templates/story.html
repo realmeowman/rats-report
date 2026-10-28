@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import av, byline, score_rows %}
+{% from "_macros.html" import av, byline, score_rows, chips %}
 {% block main %}
 {% set m = story_matchup(story) %}
 {% set by = T(story.by_roster_id or story.roster_id or (story.roster_ids or [f.standings[0]])[0]) %}
@@ -23,6 +23,10 @@
     <article class="prose">
       {{ byline(by, f) }}
       {% for p in story.body %}<p>{{ p }}</p>{% if loop.index == 2 and story.pull %}<blockquote class="pull">{{ story.pull }}</blockquote>{% endif %}{% endfor %}
+      {% if story.kind == 'beat' %}
+      {% if story.insight %}<div class="read big"><span>The Insider’s read</span>{{ story.insight }}</div>{% endif %}
+      {{ chips(story.roster_id, A, pct) }}
+      {% endif %}
     </article>
     {% if m %}{% set persp = story.persp_roster_id or story.roster_id or m.winner %}
     <aside class="card chart" aria-label="Lead tracker">

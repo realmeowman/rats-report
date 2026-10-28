@@ -14,7 +14,7 @@
       "Then Big Stric Energy went to work. Josh Jacobs, a waiver claim from 12:11 a.m. Wednesday, ran for 20.1. Jordan Love found Tucker Kraft for a 14-yard touchdown late in the first quarter, and at 1:52 p.m. this team led for the first time all week. By 4:02 p.m. the lead was 43.82 and every starter was done playing. So was the drama, I assumed. I assumed wrong.",
       "Here’s the problem with finishing early: the other guy doesn’t have to. Poochinski still had four starters for Monday night: Dak Prescott, CeeDee Lamb, Javonte Williams and Brandon Aubrey. Big Stric Energy took a 25.12-point lead into Monday with nobody left to play. Saquon Barkley did play Monday night. He scored 15.1. On the bench.",
       "The lead lasted 49 minutes past kickoff. At 6:04 p.m. Pacific, an 11-yard Javonte Williams run put Poochinski in front, and Poochinski never let go: Prescott 23.28, Lamb 24.4, Williams 21.5, Aubrey 14.0. That’s 83.18 points from a Monday-night stack Big Stric Energy could only watch. Final: 181.50 to 123.44.",
-      "Big Stric Energy is now 1-6, losers of six straight, and 1-4 in games decided by fewer than 10 points over two seasons. This one was decided by 58.06, which I suppose counts as progress."
+      "Big Stric Energy is now 1-6, losers of six straight, and 1-4 in games decided by fewer than 10 points over two seasons. The deeper numbers aren’t kinder. A 16-33 all-play record means this team would have lost to most of the league most weeks, and 10,000 simulations of the rest of the season give it a 17% chance at the playoffs. This one was decided by 58.06, which I suppose counts as progress."
     ]
   },
   "games": [
@@ -73,7 +73,8 @@
         "This front office has made four roster moves all season. Four. Some teams make four moves before their coffee gets cold. Poochinski drafted Jahmyr Gibbs first overall and CeeDee Lamb in the second round, then apparently lost the password, and the result is a league-best 1,198.44 points.",
         "Week 7 was the whole philosophy in one matchup. Down 50.32 on Sunday morning, up 58.06 by Monday night, and not a single transaction in between. Quinshon Judkins scored 23.4 on the bench. Nobody here noticed. Nobody here needed to.",
         "The standings describe the mood as first place."
-      ]
+      ],
+      "insight": "Only Chris Olave’s bye to patch. One thing to watch: Javonte Williams gets 41% of his fantasy points from touchdowns, the most touchdown-dependent producer on any R.A.T.S. roster. That kind of scoring tends to cool off. If this league ever trades, that’s the sell-high chip."
     },
     {
       "roster_id": 1,
@@ -82,7 +83,8 @@
         "Let’s be fair to this front office before we’re honest about it. The Wednesday waiver run landed Josh Jacobs, and Jacobs delivered 20.1. That’s a hit.",
         "Now the honest part. Jalen Coker came off the same waiver run and went straight into the starting lineup, where he scored 1.9. Braelon Allen watched from the bench and scored 19.4. Saquon Barkley played Monday night, the only player on the roster who did, and he did it from the bench too. Best possible lineup: 153.44. Actual: 123.44.",
         "I’d call it a one-week problem if I hadn’t covered last December. The first-round playoff loss to Poochinski was 139.78 to 124.58 with Trevor Lawrence scoring 44.3 on the bench. The 5th-place game a week later? Lawrence, bench, 31.16. Six straight losses now. The bench, at least, is undefeated."
-      ]
+      ],
+      "insight": "Week 8 needs a kicker and a defense: Eddy Pineiro, the Houston defense and Nico Collins are all on bye. And it’s time to trust the usage. Braelon Allen’s opportunities jumped from 13.6 to 21.5 a game over the last two weeks on an 83% snap share, while Saquon Barkley played 11% of snaps over that stretch. Start Allen. Playoff odds: 17%."
     },
     {
       "roster_id": 3,
@@ -91,7 +93,8 @@
         "Last season this franchise lived on the waiver wire: 46 moves and a title. This season: nine moves and a 2-5 record. The phone has gotten quiet, and the results have followed it.",
         "Week 7 felt like last year for one night. Drake Maye (28.44), Zay Flowers (27.7) and Amon-Ra St. Brown (24.2) did the work, Breece Hall started and contributed a zero, and the margin that saved the season was 0.86.",
         "The champ now holds the sixth and final playoff spot. Barely alive is still alive."
-      ]
+      ],
+      "insight": "Code red at quarterback. Brock Purdy is on bye and this roster has one healthy quarterback for two QB slots. Jacoby Brissett (projected 18.77) and Kirk Cousins (16.68) are both sitting on waivers. Woody Marks is on bye too, right after his opportunities climbed to 19.0 a game. Even with a fix, AB81 is the favorite: 36% to win."
     },
     {
       "roster_id": 6,
@@ -100,7 +103,8 @@
         "Set the alarm, win the waiver wire. At 6:35 a.m. Sunday this front office added Tony Pollard. At 6:39 a.m., T.J. Hockenson. Pollard scored 36.5, the best pickup in the league. Hockenson added 13.5. It was the only perfect lineup anyone set all week.",
         "And it lost. George Pickens needed 16.56 on Monday night and finished with 15.7. That’s two straight losses for the team ranked second in the league in points, which is the kind of sentence that makes people quit fantasy football.",
         "For the archive: this franchise has now added Marcus Mariota four separate times. At some point you just write him into the will."
-      ]
+      ],
+      "insight": "Malik Nabers is on bye; everything else is healthy. Tony Pollard is a real starter now, not a pickup: 24.0 opportunities a game over the last two weeks on a 75% snap share. The schedule says the losing streak should end: 54% to beat Cherry Blossom."
     },
     {
       "roster_id": 4,
@@ -109,7 +113,8 @@
         "The week’s top score came from Tee Higgins (26.8), Bo Nix (26.18) and Jameson Williams (26.1), and it still left points behind: Tre Tucker scored 21.3 on the bench, Michael Penix Jr. 20.42.",
         "This front office doesn’t chase. Four transactions all season. It also drafted like it was curating a Patriots exhibit: Rob Gronkowski in round 9, then Tom Brady, born 1977, in round 14.",
         "Three straight wins. 3-4. Start the right guys and this is the team nobody wants to see in December."
-      ]
+      ],
+      "insight": "Christian McCaffrey’s bye leaves an empty RB slot this roster can’t fill, so the waiver wire needs a running back by Sunday. The bigger worry: Puka Nacua’s opportunities fell from 16.0 to 9.5 a game over the last two weeks, and Tee Higgins went from 9.8 to 5.5. The good news is luck: a 24-25 all-play record says this team is better than 3-4."
     },
     {
       "roster_id": 7,
@@ -118,7 +123,8 @@
         "Last year this team went 10-4, took the top seed and played for the title. This year it is 1-6 with 966.04 points, the fewest in the league, and the slide has been steep enough to need a guardrail.",
         "Week 7 in one move: at 6:13 p.m. Thursday, mid-game, Kirk Cousins was dropped for J.K. Dobbins. Dobbins scored 8.3. Cousins scored 20.4 as a free agent. Meanwhile Cam Skattebo (19.1) and Emanuel Wilson (18.5) sat behind Juwan Johnson (1.7).",
         "Sixteen moves this season, two of them after 11 p.m. And for the record, the franchise run by PurdyAvg still does not roster Brock Purdy."
-      ]
+      ],
+      "insight": "Cam Skattebo’s snap share fell from 65% to 32% over the last two games, and he’s on bye in Week 8 along with Juwan Johnson. Colston Loveland is trending the other way, from 4.6 to 9.5 opportunities a game. Playoff odds are 10%, and Week 8 against Big Stric Energy is close to a coin flip: 47% to win."
     },
     {
       "roster_id": 5,
@@ -127,7 +133,8 @@
         "Twenty moves this season, most in the league. This front office streams defenses, streams kickers and, at 5:16 a.m. Wednesday, dropped Justin Herbert like a used coffee filter.",
         "All that activity, and the week came down to the moves it didn’t make. Ollie Gordon II scored 17.3 on the bench while Isaiah Likely scored 3.2 in the flex. Tyler Shough scored 14.82 on the bench while Bryce Young, Wednesday’s waiver prize, scored 7.42 at quarterback. The best lineup on this roster would have beaten AB81.",
         "Over two seasons this team had never lost a game decided by under 10 points. It’s 2-1 in those games now. Still 5-2. Still third. Still has to live with this one."
-      ]
+      ],
+      "insight": "Two fixes, both easy. Start Ollie Gordon II: his opportunities went from 8.5 to 23.0 a game and his snap share from 41% to 74% over the last two weeks. And find a quarterback, because C.J. Stroud and Tyler Shough are both on bye. The best one on waivers is Jacoby Brissett, projected for 18.77. Yes, that Jacoby Brissett."
     },
     {
       "roster_id": 8,
@@ -136,7 +143,8 @@
         "AB81 started Mike Evans (0), DeVonta Smith (0) and Cam Little, a Jacksonville kicker, during Jacksonville’s bye week. Three empty slots. The team won anyway, because Jaxon Smith-Njigba scored 31.3 and Bad things man bad things blinked.",
         "This front office has made zero roster moves in 2026. Not a waiver claim. Not a drop. Last season it made eight moves and went 3-11.",
         "I don’t know what to tell you. The evidence says don’t touch anything. The evidence is 6-1."
-      ]
+      ],
+      "insight": "The luckiest team in the league. A 27-22 all-play record says this roster should have about 3.9 wins, not six: luck is worth 2.1 wins so far. Mike Evans and George Kittle are both on bye in Week 8, which means this front office may finally have to make a move. Or not. It’s worked so far."
     }
   ],
   "rankings": [
@@ -289,5 +297,64 @@
       "Exhibit A: Ollie Gordon II scored 17.3 on the bench while Isaiah Likely scored 3.2 in the flex. That one swap is worth 14.1 by itself, which would have flipped the matchup on its own. Exhibit B: Tyler Shough scored 14.82 on the bench while Bryce Young, Wednesday’s waiver claim, scored 7.42 at quarterback. Another 7.4 left lying around.",
       "Add it up and the best lineup on this roster scored 139.44. AB81 scored 122.08. That isn’t a close loss. That’s a win that got benched. 21.5 points left on the pine, a 4.14-point loss, and the first close defeat this franchise has taken in two seasons."
     ]
-  }
+  },
+  "lookahead": {
+    "w8-m1": {
+      "headline": "The 1-6 Bowl",
+      "blurb": "Both teams are 1-6 and both are under 20% to make the playoffs. The projections can barely separate them, 141.88 to 138.92. The loser can start planning for next year."
+    },
+    "w8-m2": {
+      "headline": "First place meets a quarterback shortage",
+      "blurb": "Poochinski projects for 168.14, the most in the league. Bad things man bad things projects for 150.1 with only one healthy quarterback. A waiver add closes some of that gap. Starting Ollie Gordon II closes more."
+    },
+    "w8-m4": {
+      "headline": "The champ needs a quarterback by Sunday",
+      "blurb": "Maye I touch your TDs? has one healthy QB and an empty kicker slot. AB81 is the 64% favorite even without Mike Evans and George Kittle. For the last playoff spot, this is a big one."
+    },
+    "w8-m3": {
+      "headline": "Two teams better than their records",
+      "blurb": "deeboliciouskins ranks second in points and Cherry Blossom fourth. The projection says 148.74 to 144.8, and McCaffrey’s bye is most of the difference."
+    }
+  },
+  "playoff_note": "Seven weeks left, six playoff spots, and four teams are already close to locks: Poochinski (>99%), AB81 and Bad things man bad things (99.9% each) and deeboliciouskins (99.6%). Cherry Blossom is 3-4 but sits at 95.3% because it scores. The real race is for the last spot: Maye I touch your TDs? at 77.7%, Big Stric Energy at 17.3% and Santa Clara’s Finest at 10.2%.",
+  "waiver_targets": [
+    {
+      "player_id": "3257",
+      "blurb": "The top waiver QB for Week 8, projected 18.77, with 113.7 points on the season. Maye I touch your TDs? and Bad things man bad things both need a second quarterback. One of them cut him last week."
+    },
+    {
+      "player_id": "1166",
+      "blurb": "Projected 16.68 after scoring 20.4 in Week 7, the week he was dropped. In a 2-QB league he should not be a free agent."
+    },
+    {
+      "player_id": "8161",
+      "blurb": "Scored 26.02 last week, more than 13 of the 16 starting quarterbacks, and is projected for 13.95. A real bye-week answer."
+    },
+    {
+      "player_id": "12514",
+      "blurb": "The wide receiver to stash. His opportunities rose from 6.2 to 13.0 a game over his last two games on an 88% snap share. Projected 11.69."
+    }
+  ],
+  "usage_watch": [
+    {
+      "player_id": "12495",
+      "blurb": "The biggest usage jump in the league, and he’s on the Bad things man bad things bench. Start him."
+    },
+    {
+      "player_id": "5967",
+      "blurb": "Not a one-week pickup. The workload is real, and so is the 75% snap share."
+    },
+    {
+      "player_id": "11576",
+      "blurb": "Big Stric Energy’s best running back by usage right now. The 19.4 he scored on the bench in Week 7 was not a fluke."
+    },
+    {
+      "player_id": "4866",
+      "blurb": "Snap share down from 53% to 11% over the last two games. Big Stric Energy should not be counting on him."
+    },
+    {
+      "player_id": "12481",
+      "blurb": "Half the snaps he was getting before, and on bye in Week 8. Santa Clara’s Finest should look elsewhere."
+    }
+  ]
 }

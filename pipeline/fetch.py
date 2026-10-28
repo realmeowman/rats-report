@@ -85,6 +85,14 @@ def main():
     for w in range(1, week + 1):
         dump(get_json(f"{SLEEPER}/stats/nfl/regular/{current_season}/{w}"), current_season, f"stats_{w}.json")
     print("sleeper weekly stats", flush=True)
+    # the road ahead: next week's projections and the rest of the regular-season schedule
+    cur_lg = json.load(open(os.path.join(RAW, current_season, "league.json")))
+    last_reg = int(cur_lg["settings"].get("playoff_week_start", 15)) - 1
+    if week + 1 <= 18:
+        dump(get_json(f"{SLEEPER}/projections/nfl/regular/{current_season}/{week + 1}"), current_season, f"projections_{week + 1}.json")
+    for w in range(week + 1, last_reg + 1):
+        dump(get_json(f"{SLEEPER}/league/{cur_lg['league_id']}/matchups/{w}"), current_season, f"schedule_{w}.json")
+    print("sleeper projections and schedule", flush=True)
 
     dump(get_json(f"{SLEEPER}/players/nfl"), "players.json")
     print("sleeper players", flush=True)

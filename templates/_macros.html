@@ -13,3 +13,13 @@
   {% endfor %}
 </div>
 {%- endmacro %}
+
+{% macro chips(rid, A, pct) -%}
+{% set a = A.teams[rid|string] if A and A.teams else None %}
+{% if a %}<div class="chips num">
+  <span class="chip"><i>Playoff odds</i><b>{{ pct(a.playoff_odds) }}</b></span>
+  <span class="chip"><i>All-play</i><b>{{ a.all_play|replace('-', '–') }}</b></span>
+  <span class="chip {{ 'pos' if a.luck > 0.4 else 'neg' if a.luck < -0.4 else '' }}"><i>Luck</i><b>{{ '%+.1f'|format(a.luck) }} W</b></span>
+  <span class="chip"><i>Wk {{ A.next_week_number }} proj</i><b>{{ "%.1f"|format(a.next_week.projected) }}</b></span>
+</div>{% endif %}
+{%- endmacro %}

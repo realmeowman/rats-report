@@ -28,10 +28,10 @@ def walk(o):
 
 
 def numset(f):
-    nums, times, recs = set(), set(), set()
+    nums, times, recs, raw = set(), set(), set(), set()
     def addnum(x):
-        x = round(float(x), 2)
-        nums.add(x)
+        raw.add(round(float(x), 4))
+        nums.add(round(float(x), 2))
     for v in walk(f):
         if isinstance(v, bool):
             continue
@@ -56,11 +56,11 @@ def numset(f):
         for s in m["sides"]:
             for p in s["starters"] + s["bench"]:
                 nums.add(round(p["pts"], 2))
-        for k in ("wins", "losses"):
-            pass
     for v in walk_dicts(f):
         if "wins" in v and "losses" in v:
             recs.add(f"{v['wins']}-{v['losses']}")
+    # probabilities written as percentages ("78%", "17.3%")
+    nums |= {float(round(x * 100)) for x in raw if 0 < x <= 1} | {round(x * 100, 1) for x in raw if 0 < x <= 1}
     # whole-number roundings of any decimal ("up 43", "down 58") are fine
     nums |= {float(int(x)) for x in list(nums)} | {float(round(x)) for x in list(nums)}
     return nums, times, recs
@@ -97,6 +97,15 @@ def text_items(s):
         yield f"features[{i}].stat_label", x.get("stat_label", "")
     for i, x in enumerate(s.get("swing_plays", [])):
         yield from g(x, f"swing_plays[{i}]")
+    for x in s.get("beats", []):
+        if x.get("insight"):
+            yield f"beat[{x['roster_id']}].insight", x["insight"]
+    for k, x in (s.get("lookahead") or {}).items():
+        yield from g(x, f"lookahead[{k}]")
+    for i, x in enumerate(s.get("waiver_targets", []) + s.get("usage_watch", [])):
+        yield f"film[{i}]", x.get("blurb", "")
+    if s.get("playoff_note"):
+        yield "playoff_note", s["playoff_note"]
     for i, x in enumerate(s.get("games", [])):
         yield from g(x, f"games[{i}]")
     for x in s.get("beats", []):
@@ -143,6 +152,19 @@ def main():
     fslugs = [x.get("slug", "") for x in s.get("features", [])]
     if len(set(fslugs + slugs)) != len(fslugs + slugs) or any(not re.fullmatch(r"[a-z0-9-]+", x) for x in fslugs):
         errors.append("feature slugs must be unique, lowercase, letters/numbers/hyphens")
+    A = f.get("analysis") or {}
+    keys = {m["key"] for m in A.get("next_week", [])}
+    for k in (s.get("lookahead") or {}):
+        if k not in keys:
+            errors.append(f"lookahead key {k} not in analysis.next_week")
+    wids = {x["player_id"] for x in A.get("waiver_targets", [])}
+    uids = {x["player_id"] for x in A.get("usage_rising", []) + A.get("usage_falling", []) + A.get("td_dependent", [])}
+    for x in s.get("waiver_targets", []):
+        if x.get("player_id") not in wids:
+            errors.append(f"waiver target {x.get('player_id')} not in analysis.waiver_targets")
+    for x in s.get("usage_watch", []):
+        if x.get("player_id") not in uids:
+            errors.append(f"usage watch {x.get('player_id')} not in analysis usage lists")
     for where, txt in text_items(s):
         if not txt:
             continue
