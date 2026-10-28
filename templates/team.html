@@ -1,11 +1,12 @@
 {% extends "base.html" %}
+{% from "_macros.html" import av %}
 {% block main %}
 <div class="wrap">
   <div class="crumbs"><a href="/teams/">Teams</a> / {{ team.name }}</div>
-  <div class="teamhead" style="--tc:{{ team.color }}"><span class="meta num">{{ dash(team.record) }} · {{ "{:,.2f}".format(team.pf) }} points · {{ ordinal(team.standing) }} in the standings</span><h1>{{ team.name }}</h1><span class="meta">Covered by {{ team.reporter }}</span><span class="big num">{{ dash(team.record) }}</span></div>
+  <div class="teamhead" style="--tc:{{ team.color }}">{{ av(team, 96, "ring") }}<div><span class="meta num">{{ ordinal(team.standing) }} · {{ dash(team.record) }} · {{ "{:,.2f}".format(team.pf) }} points</span><h1>{{ team.name }}</h1><span class="meta">Covered by the {{ team.reporter }}</span></div></div>
 </div>
 <section class="sec" style="border-top:0"><div class="wrap">
-  <div class="sh"><h2>Beat <em>Coverage</em></h2><span class="tag">Every week, newest first</span></div>
+  <div class="sh"><h2>Insider <em>Coverage</em></h2><span class="tag">Every week, newest first</span></div>
   <div class="list">
     {% for e in entries %}
     <a class="row" href="{{ e.path }}"><span class="wk">WK {{ e.week }}</span><div><h3>{{ e.headline }}</h3><p>{{ e.excerpt }}</p></div></a>

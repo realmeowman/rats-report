@@ -1,13 +1,14 @@
 {% extends "base.html" %}
+{% from "_macros.html" import av %}
 {% block main %}
 <section class="sec" style="border-top:0"><div class="wrap">
   <div class="sh"><h2>{{ heading_html|safe }}</h2><span class="tag">{{ subheading }}</span></div>
   {% if team_cards %}
-  <div class="ranks num">
+  <ol class="ranks num">
     {% for t in team_cards %}
-    <a class="rk" href="/teams/{{ t.slug }}/" style="--tc:{{ t.color }}"><span class="n">{{ t.standing }}</span><span class="nm">{{ t.name }}</span><span class="rec">{{ dash(t.record) }} · {{ "{:,.2f}".format(t.pf) }}</span><p>Covered by {{ t.reporter }}</p></a>
+    <li><a class="rk" href="/teams/{{ t.slug }}/" style="--tc:{{ t.color }}"><span class="n">{{ t.standing }}</span>{{ av(t, 44) }}<div class="rb"><span class="nm">{{ t.name }}</span><span class="rec">{{ dash(t.record) }} · {{ "{:,.2f}".format(t.pf) }} pts</span><p>Covered by the {{ t.reporter }}</p></div></a></li>
     {% endfor %}
-  </div>
+  </ol>
   {% else %}
   <div class="list">
     {% for e in entries %}

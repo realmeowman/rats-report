@@ -1,0 +1,15 @@
+{% macro av(t, size=40, cls="") -%}
+<span class="avt {{ cls }}" style="--s:{{ size }}px;--tc:{{ t.color }}" aria-hidden="true"><span class="ini">{{ t.initials }}</span>{% if t.avatar %}<img src="{{ t.avatar }}" alt="" loading="lazy" decoding="async" onerror="this.remove()">{% endif %}</span>
+{%- endmacro %}
+
+{% macro byline(t, f, extra="") -%}
+<div class="byline">{{ av(t, 40) }}<span><b>{{ t.reporter }}</b><small>Week {{ f.week }}, {{ f.season }}{{ extra }}</small></span></div>
+{%- endmacro %}
+
+{% macro score_rows(m, T, big=False) -%}
+<div class="scorerows num {{ 'big' if big }}">
+  {% for side in m.sides %}{% set t = T(side.roster_id) %}
+  <div class="sr {{ 'win' if side.roster_id == m.winner else 'loss' }}">{{ av(t, 44 if big else 28) }}<span class="nm">{{ t.name }}</span><span class="rec">{{ t.record|replace('-', '–') }}</span><span class="pts">{{ "%.2f"|format(side.points) }}</span></div>
+  {% endfor %}
+</div>
+{%- endmacro %}

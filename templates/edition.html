@@ -1,69 +1,62 @@
 {% extends "base.html" %}
+{% from "_macros.html" import av, byline, score_rows %}
 {% block main %}
-{% set lead = s.lead %}
-{% set lm = M(lead.matchup_id) %}
+{% set lead = s.lead %}{% set lm = M(lead.matchup_id) %}
+{% set persp = lead.persp_roster_id or lm.winner %}
 <section class="wrap hero">
-  <a class="tile" href="{{ story_path(lead) }}">
-    <div class="art" aria-hidden="true"></div>
-    {% if lead.slam %}
-    <div class="slam num" aria-hidden="true">
-      {% for x in lead.slam %}<span class="{{ 'a' if x.tone == 'good' else 'b' }}">{{ x.value }}</span>{% endfor %}
-      {% if lead.slam_caption %}<span class="c">{{ lead.slam_caption }}</span>{% endif %}
-    </div>
-    {% else %}<div></div>{% endif %}
-    <div class="copy">
-      <span class="tag">{{ lead.kicker }}</span>
-      <h1>{{ lead.headline }}</h1>
-      <p>{{ lead.dek }}</p>
-    </div>
+  <a class="tile" href="{{ story_path(lead) }}" style="--ca:{{ T(lm.winner).color }};--cb:{{ T(lm.loser).color }}">
+    <span class="kick">{{ lead.kicker }}</span>
+    <h1>{{ lead.headline }}</h1>
+    <p class="dek">{{ lead.dek }}</p>
+    {{ score_rows(lm, T, True) }}
+    <span class="cta">Read the story</span>
   </a>
-  <div class="rail">
-    <h2>Top Stories</h2>
+  <aside class="rail" aria-label="Top stories">
+    <h2 class="railh">Top Stories</h2>
     {% for g in s.games %}{% set gm = M(g.matchup_id) %}
-    <a class="story-s" href="{{ story_path(g) }}">
+    <a class="rs" href="{{ story_path(g) }}">
       <div class="thumb" data-race="{{ g.matchup_id }}" data-persp="{{ gm.winner }}" data-mode="thumb" data-label="Lead tracker: {{ T(gm.winner).name }} vs {{ T(gm.loser).name }}"></div>
-      <div><span class="tag">{{ g.kicker }}</span><h3>{{ g.headline }}</h3>
-      <div class="s num">{{ T(gm.winner).name }} {{ "%.2f"|format(gm.sides[0].points) }} · {{ T(gm.loser).name }} {{ "%.2f"|format(gm.sides[1].points) }}</div></div>
+      <div class="rt"><span class="kick">{{ g.kicker }}</span><h3>{{ g.headline }}</h3>
+        <div class="faces">{{ av(T(gm.winner), 18) }}{{ av(T(gm.loser), 18) }}<span class="num">{{ "%.2f"|format(gm.sides[0].points) }}–{{ "%.2f"|format(gm.sides[1].points) }}</span></div></div>
     </a>
     {% endfor %}
     {% for x in s.features[:1] %}
-    <a class="story-s" href="{{ story_path(x) }}">
-      <div class="thumb statthumb" style="--tc:{{ T(x.roster_ids[0]).color if x.roster_ids else 'var(--brown)' }}"><span class="num">{{ x.stat or '' }}</span></div>
-      <div><span class="tag">{{ x.kicker }}</span><h3>{{ x.headline }}</h3>{% if x.stat_label %}<div class="s">{{ x.stat_label }}</div>{% endif %}</div>
+    <a class="rs" href="{{ story_path(x) }}">
+      <div class="thumb stat"><span class="num">{{ x.stat or '•' }}</span></div>
+      <div class="rt"><span class="kick">{{ x.kicker }}</span><h3>{{ x.headline }}</h3>{% if x.stat_label %}<div class="sl">{{ x.stat_label }}</div>{% endif %}</div>
     </a>
     {% endfor %}
-  </div>
+  </aside>
 </section>
 
 <section id="lead" class="sec"><div class="wrap">
-  <div class="sh"><h2>Game of the <em>Week</em></h2><span class="tag num">{{ T(lm.winner).name }} {{ "%.2f"|format(lm.sides[0].points) }} · {{ T(lm.loser).name }} {{ "%.2f"|format(lm.sides[1].points) }}</span></div>
+  <div class="sh"><h2>Game of the <em>Week</em></h2></div>
   <div class="article">
-    <article>
-      {% set rep = T(lead.by_roster_id) %}
-      <div class="byline"><span class="av" style="background:{{ rep.color }}">{{ initials(rep.reporter) }}</span><span><b>{{ rep.reporter }}</b> · {{ rep.name }} beat</span></div>
+    <article class="prose">
+      {{ byline(T(lead.by_roster_id), f) }}
       {% for p in lead.body[:2] %}<p>{{ p }}</p>{% endfor %}
-      <p><a class="beat-more" href="{{ story_path(lead) }}"><span class="more" style="font-family:var(--cond);font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--sand)">Read the full story →</span></a></p>
+      <a class="more" href="{{ story_path(lead) }}">Keep reading →</a>
     </article>
-    <aside class="chart" aria-label="Lead tracker">
+    <aside class="card chart" aria-label="Lead tracker">
       <h3>Lead Tracker</h3>
-      <p class="sub">Margin all weekend. Above the line, {{ T(lead.persp_roster_id or lm.winner).name }} leads.</p>
-      <div data-race="{{ lm.matchup_id }}" data-persp="{{ lead.persp_roster_id or lm.winner }}" data-mode="full" data-label="Lead tracker for {{ T(lm.winner).name }} versus {{ T(lm.loser).name }}"></div>
-      <div class="legend"><span><i class="sw" style="background:var(--sand)"></i>{{ T(lead.persp_roster_id or lm.winner).name }} ahead</span><span><i class="sw" style="background:var(--loss)"></i>{{ T(other(lm, lead.persp_roster_id or lm.winner)).name }} ahead</span></div>
+      <p class="sub">Every point, Thursday to Monday. Above the line, {{ T(persp).name }} leads.</p>
+      <div data-race="{{ lm.matchup_id }}" data-persp="{{ persp }}" data-mode="full" data-label="Lead tracker for {{ T(lm.winner).name }} versus {{ T(lm.loser).name }}"></div>
+      <div class="legend"><span><i class="sw" style="background:var(--sand)"></i>{{ T(persp).name }} ahead</span><span><i class="sw" style="background:var(--loss)"></i>{{ T(other(lm, persp)).name }} ahead</span></div>
     </aside>
   </div>
 </div></section>
 
-{% if s.smart_move or s.dumb_move %}
+{% if moves %}
 <section id="moves" class="sec"><div class="wrap">
   <div class="sh"><h2>Smart Move / <em>Dumb Move</em></h2><span class="tag">The best and worst decisions of Week {{ f.week }}</span></div>
   <div class="moves">
     {% for mv in moves %}{% set t = T(mv.roster_id) %}
     <a class="move {{ 'smart' if mv.kind == 'smart_move' else 'dumb' }}" href="{{ story_path(mv) }}">
-      <div class="mtop"><span class="mlabel">{{ 'Smart Move' if mv.kind == 'smart_move' else 'Dumb Move' }}</span><span class="mteam" style="--tc:{{ t.color }}">{{ t.name }}</span></div>
+      <div class="mtop"><span class="mlabel">{{ 'Smart Move' if mv.kind == 'smart_move' else 'Dumb Move' }}</span><span class="who">{{ av(t, 26) }}{{ t.name }}</span></div>
       <div class="mstat num">{{ mv.stat }}</div>{% if mv.stat_label %}<div class="mstatl">{{ mv.stat_label }}</div>{% endif %}
       <h3>{{ mv.headline }}</h3>
       <p>{{ mv.dek or mv.body[0] }}</p>
-      <span class="more">Read the breakdown →</span>
+      <span class="more">The full breakdown →</span>
     </a>
     {% endfor %}
   </div>
@@ -72,13 +65,13 @@
 
 {% if s.swing_plays %}
 <section id="plays" class="sec"><div class="wrap">
-  <div class="sh"><h2>Plays That <em>Swung It</em></h2><span class="tag">Single snaps that moved a matchup</span></div>
+  <div class="sh"><h2>Plays That <em>Swung It</em></h2><span class="tag">One snap. Whole matchup.</span></div>
   <div class="plays">
     {% for sp in s.swing_plays %}{% set p = sp.play %}{% set gm = M(p.matchup_id) %}
     {% set ben = gm.winner if p.net_for_winner >= 0 else gm.loser %}
     <a class="play" href="{{ game_path(gm) }}">
       <div class="pmeta"><span>{{ p.time }}</span><span>{{ p.game }}{% if p.quarter %} · Q{{ p.quarter }}{% endif %}</span></div>
-      <div class="pswing num" style="--tc:{{ T(ben).color }}"><b>+{{ "%.2f"|format(p.net_for_winner|abs) }}</b><span>{{ T(ben).name }}</span>{% if p.changed_lead %}<i>Lead change</i>{% endif %}</div>
+      <div class="pswing num">{{ av(T(ben), 34) }}<b>+{{ "%.2f"|format(p.net_for_winner|abs) }}</b><span>{{ T(ben).name }}</span>{% if p.changed_lead %}<i>Lead change</i>{% endif %}</div>
       <h3>{{ sp.headline }}</h3>
       <p class="pdesc">{{ p.desc }}</p>
       <p>{{ sp.blurb }}</p>
@@ -91,12 +84,13 @@
 
 {% if s.features %}
 <section id="more" class="sec"><div class="wrap">
-  <div class="sh"><h2>More Top <em>Stories</em></h2><span class="tag">What else happened in Week {{ f.week }}</span></div>
+  <div class="sh"><h2>More Top <em>Stories</em></h2></div>
   <div class="feats">
     {% for x in s.features %}
-    <a class="feat" href="{{ story_path(x) }}" style="--tc:{{ T(x.roster_ids[0]).color if x.roster_ids else 'var(--sand)' }}">
-      {% if x.stat %}<div class="fstat num">{{ x.stat }}</div>{% if x.stat_label %}<div class="mstatl">{{ x.stat_label }}</div>{% endif %}{% endif %}
-      <span class="tag">{{ x.kicker }}</span><h3>{{ x.headline }}</h3><p>{{ x.dek }}</p><span class="more">Read more →</span>
+    <a class="feat" href="{{ story_path(x) }}">
+      <div class="ftop">{% if x.stat %}<span class="fstat num">{{ x.stat }}</span>{% endif %}{% if x.roster_ids %}<span class="faces">{% for r in x.roster_ids %}{{ av(T(r), 30) }}{% endfor %}</span>{% endif %}</div>
+      {% if x.stat_label %}<div class="mstatl">{{ x.stat_label }}</div>{% endif %}
+      <span class="kick">{{ x.kicker }}</span><h3>{{ x.headline }}</h3><p>{{ x.dek }}</p><span class="more">Read more →</span>
     </a>
     {% endfor %}
   </div>
@@ -104,42 +98,48 @@
 {% endif %}
 
 <section id="games" class="sec"><div class="wrap">
-  <div class="sh"><h2>Around the <em>League</em></h2><span class="tag">Margins from first kickoff to the final whistle</span></div>
-  <div class="beats" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))">
+  <div class="sh"><h2>Around the <em>League</em></h2><span class="tag">Every matchup, first kickoff to final whistle</span></div>
+  <div class="games">
     {% for g in s.games %}{% set gm = M(g.matchup_id) %}
-    <a class="rk" href="{{ story_path(g) }}" style="--tc:{{ T(gm.winner).color }}"><span class="tag" style="color:var(--sand)">{{ g.kicker }}</span><div class="nm">{{ g.headline }}</div>
-      <div data-race="{{ g.matchup_id }}" data-persp="{{ gm.winner }}" data-mode="mini" data-label="Lead tracker: {{ T(gm.winner).name }} vs {{ T(gm.loser).name }}"></div><p>{{ g.dek }}</p></a>
+    <a class="game card" href="{{ story_path(g) }}">
+      <span class="kick">{{ g.kicker }}</span><h3>{{ g.headline }}</h3>
+      {{ score_rows(gm, T) }}
+      <div data-race="{{ g.matchup_id }}" data-persp="{{ gm.winner }}" data-mode="mini" data-label="Lead tracker: {{ T(gm.winner).name }} vs {{ T(gm.loser).name }}"></div>
+      <p>{{ g.dek }}</p>
+    </a>
     {% endfor %}
   </div>
 </div></section>
 
 <section id="beats" class="sec"><div class="wrap">
-  <div class="sh"><h2>Team <em>Beats</em></h2><span class="tag">One reporter per team. They report what they see.</span></div>
+  <div class="sh"><h2>The <em>Insiders</em></h2><span class="tag">One Insider per team, in standings order</span></div>
   <div class="beats">
     {% for b in s.beats %}{% set t = T(b.roster_id) %}{% set res = result(b.roster_id) %}
-    <a class="beat" href="{{ story_path(b) }}"><div class="banner" style="--tc:{{ t.color }}"><span class="res num"><span class="{{ res.wl }}">{{ res.wl }}</span> {{ "%.2f"|format(res.pts) }} · {{ dash(t.record) }}</span><span class="tn">{{ t.name }}</span><span class="big num">{{ dash(t.record) }}</span></div>
-      <div class="body"><h3>{{ b.headline }}</h3><div class="by">{{ t.reporter }} · {{ t.name }} beat</div><p>{{ b.body[0] }}</p><span class="more">Read more →</span></div></a>
+    <a class="beat" href="{{ story_path(b) }}">
+      <div class="banner" style="--tc:{{ t.color }}">{{ av(t, 64, "ring") }}<div class="bt"><span class="pos num">{{ ordinal(t.standing) }} · {{ dash(t.record) }}</span><span class="tn">{{ t.name }}</span><span class="res num"><b class="{{ res.wl }}">{{ res.wl }}</b> {{ "%.2f"|format(res.pts) }}–{{ "%.2f"|format(res.opp_pts) }} vs {{ T(res.opp).name }}</span></div></div>
+      <div class="body"><h3>{{ b.headline }}</h3><div class="by">{{ t.reporter }}</div><p>{{ b.body[0] }}</p><span class="more">Read more →</span></div>
+    </a>
     {% endfor %}
   </div>
 </div></section>
 
 <section id="rankings" class="sec"><div class="wrap">
-  <div class="sh"><h2>Power <em>Rankings</em></h2><span class="tag">After Week {{ f.week }} · record · points for</span></div>
-  <div class="ranks num">
+  <div class="sh"><h2>Power <em>Rankings</em></h2><span class="tag">After Week {{ f.week }}</span></div>
+  <ol class="ranks num">
     {% for r in s.rankings %}{% set t = T(r.roster_id) %}
-    <a class="rk" href="/teams/{{ t.slug }}/" style="--tc:{{ t.color }}"><span class="n">{{ loop.index }}</span><span class="nm">{{ t.name }}</span><span class="rec">{{ dash(t.record) }} · {{ "{:,.2f}".format(t.pf) }}</span><p>{{ r.blurb }}</p></a>
+    <li><a class="rk" href="/teams/{{ t.slug }}/" style="--tc:{{ t.color }}"><span class="n">{{ loop.index }}</span>{{ av(t, 44) }}<div class="rb"><span class="nm">{{ t.name }}</span><span class="rec">{{ dash(t.record) }} · {{ "{:,.2f}".format(t.pf) }} pts</span><p>{{ r.blurb }}</p></div></a></li>
     {% endfor %}
-  </div>
+  </ol>
 </div></section>
 
 <section id="wire" class="sec"><div class="wrap">
   <div class="sh"><h2>Transaction <em>Wire</em></h2><span class="tag">Every Week {{ f.week }} move · {{ tzname }}</span></div>
   <div class="wire">
-    {% for x in f.transactions %}
-    <div class="wi"><span class="k {{ '' if x.type == 'waiver' else 'fa' }}">{{ {'waiver':'Waivers','free_agent':'Free agent','trade':'Trade','commissioner':'Commish'}.get(x.type, x.type) }}</span><time>{{ x.time }}</time>
-      <div class="txt"><b>{{ T(x.rosters[0]).name }}</b>{% if x.adds %} adds {% for a in x.adds %}<span class="add">{{ a.name }}</span>{% if a.started or a.pts %} <span class="note">({{ a.pts }}{{ ', started' if a.started else ', bench' }})</span>{% endif %}{{ ", " if not loop.last }}{% endfor %}{% endif %}{% if x.drops %}{{ "," if x.adds }} drops {% for d in x.drops %}<span class="drop">{{ d.name }}</span>{{ ", " if not loop.last }}{% endfor %}{% endif %}.</div></div>
+    {% for x in f.transactions %}{% set t = T(x.rosters[0]) %}
+    <div class="wi">{{ av(t, 32) }}<div class="wt"><div class="wm"><span class="k {{ '' if x.type == 'waiver' else 'fa' }}">{{ {'waiver':'Waivers','free_agent':'Free agent','trade':'Trade','commissioner':'Commish'}.get(x.type, x.type) }}</span><time>{{ x.time }}</time></div>
+      <div class="txt"><b>{{ t.name }}</b>{% if x.adds %} adds {% for a in x.adds %}<span class="add">{{ a.name }}</span>{% if a.started or a.pts %} <span class="note">({{ a.pts }}{{ ', started' if a.started else ', bench' }})</span>{% endif %}{{ ", " if not loop.last }}{% endfor %}{% endif %}{% if x.drops %}{{ "," if x.adds }} drops {% for d in x.drops %}<span class="drop">{{ d.name }}</span>{% if d.pts_this_week %} <span class="note">({{ d.pts_this_week }} elsewhere)</span>{% endif %}{{ ", " if not loop.last }}{% endfor %}{% endif %}.</div></div></div>
     {% endfor %}
-    <div class="wi"><span class="k">Trades</span><time>All-time</time><div class="txt"><b>Trades in league history: {{ f.history.trades_all_time }}.</b>{% if f.league.trade_deadline_week %} <span class="note">The deadline is Week {{ f.league.trade_deadline_week }}.</span>{% endif %}</div></div>
+    <div class="wi"><span class="avt" style="--s:32px;--tc:var(--panel2)"><span class="ini">0</span></span><div class="wt"><div class="wm"><span class="k">Trades</span><time>All-time</time></div><div class="txt"><b>Trades in league history: {{ f.history.trades_all_time }}.</b>{% if f.league.trade_deadline_week %} <span class="note">The deadline is Week {{ f.league.trade_deadline_week }}.</span>{% endif %}</div></div></div>
   </div>
 </div></section>
 {% endblock %}

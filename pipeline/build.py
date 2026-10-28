@@ -29,6 +29,35 @@ def ordinal(n):
     return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
 
 
+def team_initials(name):
+    words = re.findall(r"[A-Za-z0-9]+", name)
+    if len(words) == 1:
+        return words[0][:3].upper()
+    return "".join(w[0] for w in words[:2]).upper()
+
+
+AVATARS = {}
+
+
+def fetch_avatars(latest_facts):
+    """Self-host team avatars when Sleeper's image CDN is reachable; otherwise pages load them from Sleeper."""
+    import urllib.request
+    out = os.path.join(ROOT, "static", "teams")
+    os.makedirs(out, exist_ok=True)
+    for rid, t in latest_facts["teams"].items():
+        url = t.get("avatar_url")
+        if not url:
+            continue
+        dest = os.path.join(out, f"{t['slug']}.jpg")
+        try:
+            if not os.path.exists(dest):
+                with urllib.request.urlopen(url, timeout=20) as r, open(dest, "wb") as fh:
+                    fh.write(r.read())
+            AVATARS[rid] = f"/static/teams/{t['slug']}.jpg"
+        except Exception:
+            pass
+
+
 def editions():
     out = []
     for d in sorted(glob.glob(os.path.join(ROOT, "content", "*-w*"))):
@@ -43,6 +72,10 @@ class Edition:
     def __init__(self, f, s):
         self.f, self.s = f, s
         self.base = f"/{f['season']}/week-{f['week']}/"
+        for rid, t in f["teams"].items():
+            t["initials"] = team_initials(t["name"])
+            t["avatar"] = AVATARS.get(rid) or t.get("avatar_url")
+            t["reporter"] = f"{t['name']} Insider"
         for st in [s["lead"]] + s["games"]:
             st["kind"] = "game"
         for b in s["beats"]:
@@ -146,7 +179,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-og", action="store_true")
     args = ap.parse_args()
-    eds = [Edition(f, s) for f, s in editions()]
+    raw = editions()
+    if raw:
+        fetch_avatars(raw[-1][0])
+    eds = [Edition(f, s) for f, s in raw]
     if not eds:
         print("no editions with stories.json yet")
         return 1
@@ -188,7 +224,7 @@ def main():
             og = f"/og/{f['season']}-w{f['week']:02d}-{st['slug']}.jpg"
             if st["kind"] == "beat":
                 t = E.T(st["roster_id"])
-                kicker, color = f"{t['name']} beat · Week {f['week']}", t["color"]
+                kicker, color = f"{t['name']} Insider · Week {f['week']}", t["color"]
             elif st["kind"] in ("smart_move", "dumb_move", "feature"):
                 rid = st.get("roster_id") or (st.get("roster_ids") or [None])[0]
                 kicker = f"Week {f['week']} · {st['kicker']}"
@@ -217,8 +253,8 @@ def main():
     write("/teams/", env.get_template("index_list.html").render(heading_html="The <em>Teams</em>", subheading=f"Standings after Week {Lc.f['week']}", team_cards=team_cards, entries=[], **ctx))
     for rid, t in Lc.f["teams"].items():
         og = f"/og/team-{t['slug']}.jpg"
-        og_jobs.append((og, f"{t['record'].replace('-', '–')} · Covered by {t['reporter']}", t["name"], t["color"]))
-        ctx = common(Lc, f"/teams/{t['slug']}/", f"{t['name']} · {CFG['short_name']}", f"{t['name']}: {dash(t['record'])}, beat coverage by {t['reporter']}.", og, og_title=t["name"])
+        og_jobs.append((og, f"{t['record'].replace('-', '–')} · {t['reporter']}", t["name"], t["color"]))
+        ctx = common(Lc, f"/teams/{t['slug']}/", f"{t['name']} · {CFG['short_name']}", f"{t['name']}: {dash(t['record'])}. Coverage from the {t['reporter']}.", og, og_title=t["name"])
         write(f"/teams/{t['slug']}/", env.get_template("team.html").render(team=t, entries=entries_by_team.get(rid, []), **ctx))
     # archive
     arch = [{"week": E.f["week"], "path": E.base, "headline": E.s["lead"]["headline"], "excerpt": f"{E.f['season']} season · {E.s['lead']['dek']}"} for E in reversed(eds)]

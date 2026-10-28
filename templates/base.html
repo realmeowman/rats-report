@@ -1,4 +1,4 @@
-<!doctype html>
+{% from "_macros.html" import av %}<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -27,13 +27,13 @@
 </head>
 <body>
 <header class="top">
-  <div class="wrap">
+  <div class="wrap topin">
     <a class="brand" href="/" aria-label="{{ cfg.publication }} home"><span class="crest" role="img" aria-label="League crest"></span><span class="wordmark">{{ cfg.short_name }}<small>Week {{ f.week }} · {{ f.season }}</small></span></a>
     <nav class="menu" aria-label="Sections">
       <a href="{{ edition_path }}">This Week</a>
-      <a href="{{ edition_path }}#moves">Smart/Dumb</a>
+      <a href="{{ edition_path }}#moves">Smart / Dumb</a>
       <a href="{{ edition_path }}#plays">Swing Plays</a>
-      <a href="{{ edition_path }}#beats">Team Beats</a>
+      <a href="{{ edition_path }}#beats">Insiders</a>
       <a href="{{ edition_path }}#rankings">Rankings</a>
       <a href="{{ edition_path }}#wire">Wire</a>
       <a href="/teams/">Teams</a>
@@ -42,11 +42,12 @@
   </div>
 </header>
 
-<div class="ticker"><div class="wrap num">
+<div class="ticker" aria-label="Week {{ f.week }} final scores"><div class="wrap tkrow num">
 {% for m in f.matchups %}
-  <a class="tk" href="{{ game_path(m) }}"><span class="tag st">Final · Week {{ f.week }}</span>
-    <div class="r"><span>{{ T(m.winner).name }}</span><span>{{ "%.2f"|format(m.sides[0].points) }}</span></div>
-    <div class="r l"><span>{{ T(m.loser).name }}</span><span>{{ "%.2f"|format(m.sides[1].points) }}</span></div></a>
+  <a class="tk" href="{{ game_path(m) }}"><span class="st">Final</span>
+    {% for side in m.sides %}{% set t = T(side.roster_id) %}
+    <span class="r {{ 'w' if side.roster_id == m.winner else 'l' }}">{{ av(t, 20) }}<span class="n">{{ t.name }}</span><b>{{ "%.2f"|format(side.points) }}</b></span>
+    {% endfor %}</a>
 {% endfor %}
 </div></div>
 
@@ -54,11 +55,11 @@
 {% block main %}{% endblock %}
 </main>
 
-<footer><div class="wrap">
+<footer><div class="wrap footin">
   <span class="crest" aria-hidden="true"></span>
   <div>
-    <p>{{ cfg.publication }} covers the {{ f.league.num_teams }}-team league on Sleeper. Every number comes from the league’s Sleeper data and NFL play-by-play.</p>
-    <p>Reporters and bylines are fictional. The Report does not read the league’s group chat. Edition generated {{ generated_label }}.</p>
+    <p>{{ cfg.publication }} covers the {{ f.league.num_teams }}-team R.A.T.S. league on Sleeper. Every number comes from the league’s Sleeper data and NFL play-by-play.</p>
+    <p>The Insiders are AI reporters. They don’t read the group chat, and they don’t take sides. Edition generated {{ generated_label }}.</p>
   </div>
 </div></footer>
 <script type="application/json" id="race-data">{{ race_json|safe }}</script>

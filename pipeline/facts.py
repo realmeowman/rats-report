@@ -56,7 +56,9 @@ class League:
         for r in rosters:
             u = users.get(r["owner_id"], {})
             name = (u.get("metadata") or {}).get("team_name") or u.get("display_name") or f"Team {r['roster_id']}"
-            teams[r["roster_id"]] = {"owner": u.get("display_name", "?"), "name": name}
+            md = u.get("metadata") or {}
+            avatar = md.get("avatar") or (f"https://sleepercdn.com/avatars/{u['avatar']}" if u.get("avatar") else None)
+            teams[r["roster_id"]] = {"owner": u.get("display_name", "?"), "name": name, "avatar": avatar}
         return teams, rosters
 
     def pname(self, pid):
@@ -536,7 +538,8 @@ def main():
         c = CFG["teams"].get(str(rid), {})
         ra, rb = rec_after[rid], rec_before[rid]
         T[rid] = {"roster_id": rid, "name": t["name"], "owner": t["owner"], "slug": slugify(t["name"]),
-                  "color": c.get("color", "#888888"), "reporter": c.get("reporter", "Staff"),
+                  "color": c.get("color", "#888888"), "reporter": c.get("reporter") or f"{t['name']} Insider",
+                  "avatar_url": t.get("avatar"),
                   "record_before": f"{rb['w']}-{rb['l']}", "record": f"{ra['w']}-{ra['l']}", "pf": r2(ra["pf"]), "pa": r2(ra["pa"]),
                   "pf_rank": pf_rank[rid], "standing": standings.index(rid) + 1, "streak": streak(ra["results"])}
     scores = [(s["points"], s["roster_id"]) for m in out_m for s in m["sides"]]
