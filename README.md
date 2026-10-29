@@ -9,7 +9,8 @@ newsroom of fictional beat reporters. One reporter covers each team.
 - `content/<season>-w<NN>/stories.json`: the week's writing (see `newsroom/STYLE.md`)
 - `pipeline/validate.py`: fact-checks every number and time in the stories against the facts
 - `pipeline/build.py`: renders the static site into `site/`, including link-preview images
-- `newsroom/WEEKLY_RUN.md`: the Tuesday routine
+- `pipeline/daily.py`: the daily desk (new moves, trending players, lineups set right now, alerts)
+- `newsroom/DAILY_RUN.md`: the morning routine (daily brief every day, weekly edition on Tuesdays)
 
 The site is hosted from `site/` (Netlify or Vercel; config for both is included). It is
 unlisted: pages carry `noindex` and `robots.txt` blocks crawlers. Change `site_url` in

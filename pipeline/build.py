@@ -69,6 +69,15 @@ def fetch_avatars(latest_facts):
             pass
 
 
+def dailies():
+    out = []
+    for d in sorted(glob.glob(os.path.join(ROOT, "content", "daily", "20*"))):
+        fp, sp = os.path.join(d, "facts.json"), os.path.join(d, "stories.json")
+        if os.path.exists(fp) and os.path.exists(sp):
+            out.append((json.load(open(fp)), json.load(open(sp))))
+    return out
+
+
 def editions():
     out = []
     for d in sorted(glob.glob(os.path.join(ROOT, "content", "*-w*"))):
@@ -239,7 +248,7 @@ def main():
             gl = g
         return dict(cfg=CFG, f=E.f, s=E.s, T=E.T, M=E.M, result=E.result, story_path=E.story_path,
                     story_matchup=E.story_matchup, game_path=E.game_path, moves=E.moves, bench=E.bench, A=E.A, lookahead=E.lookahead, pct=pct, other=E.other, dash=dash, initials=initials,
-                    ordinal=ordinal, race_json=E.race_json(), edition_path=E.base, site_url=site_url, path=path,
+                    ordinal=ordinal, masthead_line=None, race_json=E.race_json(), edition_path=E.base, site_url=site_url, path=path,
                     page_title=title, description=desc, og_image=og, og_title=og_title, og_type=og_type,
                     noindex=CFG.get("noindex", True), build_id=build_id, generated_label=gl, tzname="Pacific time"
                     if CFG["timezone"] == "America/Los_Angeles" else CFG["timezone"])
@@ -252,7 +261,7 @@ def main():
         ctx = common(E, E.base, f"{CFG['publication']} · Week {f['week']}", lead["dek"], ed_og, og_title=lead["headline"])
         html = env.get_template("edition.html").render(**ctx)
         write(E.base, html)
-        if E is latest:
+        if E is latest and not dailies():
             write("/", env.get_template("edition.html").render(**dict(ctx, path="/")))
         for st in E.stories:
             og = f"/og/{f['season']}-w{f['week']:02d}-{st['slug']}.jpg"
@@ -294,6 +303,65 @@ def main():
     arch = [{"week": E.f["week"], "path": E.base, "headline": E.s["lead"]["headline"], "excerpt": f"{E.f['season']} season · {E.s['lead']['dek']}"} for E in reversed(eds)]
     ctx = common(Lc, "/archive/", f"Archive · {CFG['short_name']}", "Every edition of the Report.", f"/og/{Lc.f['season']}-w{Lc.f['week']:02d}-edition.jpg")
     write("/archive/", env.get_template("index_list.html").render(heading_html="The <em>Archive</em>", subheading="Every edition", team_cards=None, entries=arch, **ctx))
+    # daily briefs: each gets /daily/<date>/, the newest is the front page
+    ds_all = dailies()
+    E = latest
+    def DT(rid, d):
+        t = dict(E.T(rid))
+        dt_ = d["teams"].get(str(rid))
+        if dt_:
+            t["record"] = dt_["record"]
+        return t
+    def alert_text(a):
+        k = a["kind"]
+        if k == "empty_slot":
+            return f"Empty {a['slot']} slot in the starting lineup"
+        if k == "starter_on_bye":
+            return f"{a['player']} is starting at {a['slot']} during his bye"
+        if k == "starter_out":
+            return f"{a['player']} is starting at {a['slot']} and is listed {a['status']}"
+        if k in ("starter_doubtful", "starter_questionable"):
+            return f"{a['player']} ({a['status']}) is starting at {a['slot']}"
+        if k == "better_on_bench":
+            return f"{a['bench']} (proj {a['bench_proj']:.1f}) is on the bench behind {a['starter']} (proj {a['starter_proj']:.1f})"
+        return k
+    import datetime as _dt
+    for i, (d, dst) in enumerate(ds_all):
+        is_latest = i == len(ds_all) - 1
+        day_path = f"/daily/{d['date']}/"
+        lead_m = next((m for m in d["matchups"] if m["key"] == dst["lead"].get("matchup_key")), None)
+        groups = {}
+        for a_ in d["lineup_alerts"]:
+            groups.setdefault(a_["roster_id"], []).append(a_)
+        alerts_by_team = sorted(groups.items(), key=lambda kv: -len(kv[1]))
+        weekly_teasers = []
+        if E.s:
+            weekly_teasers.append({"path": E.story_path(E.s["lead"]), "kicker": E.s["lead"]["kicker"], "headline": E.s["lead"]["headline"], "dek": E.s["lead"]["dek"]})
+            for k in ("smart_move", "dumb_move", "bench_beat"):
+                if E.s.get(k):
+                    x = E.s[k]
+                    weekly_teasers.append({"path": E.story_path(x), "kicker": x["kicker"], "headline": x["headline"], "dek": x.get("dek", "")})
+        earlier = [{"path": f"/daily/{x['date']}/", "day": _dt.date.fromisoformat(x["date"]).strftime("%a"),
+                    "headline": y["lead"]["headline"], "kicker": f"{x['weekday']} · {y['lead']['kicker']}"}
+                   for x, y in reversed(ds_all[:i])][:10]
+        date_label = _dt.date.fromisoformat(d["date"]).strftime("%B %-d")
+        og = f"/og/daily-{d['date']}.jpg"
+        col = DT(lead_m["teams"][0], d)["color"] if lead_m else "#D8BB88"
+        og_jobs.append((og, f"{d['weekday']} · {dst['lead']['kicker']}", dst["lead"]["headline"], col))
+        base_ctx = dict(d=d, ds=dst, DT=lambda r, d=d: DT(r, d), lead_m=lead_m, alerts_by_team=alerts_by_team, alert_text=alert_text,
+                        any_live=any(m["games_started"] for m in d["matchups"]), weekly=weekly_teasers, earlier=earlier,
+                        date_label=date_label, day_path=day_path, masthead_line=f"{d['weekday']} · Week {d['week']}")
+        ctx = common(E, day_path, f"{dst['lead']['headline']} · {CFG['short_name']}", dst["lead"]["dek"], og, og_title=dst["lead"]["headline"], og_type="article")
+        write(day_path, env.get_template("daily.html").render(**{**ctx, **base_ctx, "is_page": True}))
+        if is_latest:
+            ctx = common(E, "/", f"{CFG['publication']} · {d['weekday']}", dst["lead"]["dek"], og, og_title=dst["lead"]["headline"])
+            write("/", env.get_template("daily.html").render(**{**ctx, **base_ctx, "is_page": False}))
+    if ds_all:
+        arch_d = [{"week": _dt.date.fromisoformat(x["date"]).strftime("%-m/%-d"), "path": f"/daily/{x['date']}/", "headline": y["lead"]["headline"],
+                   "excerpt": f"{x['weekday']} · {y['lead']['kicker']}"} for x, y in reversed(ds_all)]
+        ctx = common(E, "/daily/", f"Daily briefs · {CFG['short_name']}", "Every daily brief.", f"/og/{E.f['season']}-w{E.f['week']:02d}-edition.jpg")
+        write("/daily/", env.get_template("index_list.html").render(heading_html="Daily <em>Briefs</em>", subheading="Newest first", team_cards=None, entries=arch_d, **ctx))
+
     # misc
     open(os.path.join(SITE, "robots.txt"), "w").write("User-agent: *\nDisallow: /\n" if CFG.get("noindex", True) else "User-agent: *\nAllow: /\n")
     shutil.copy(os.path.join(SITE, "index.html"), os.path.join(SITE, "404.html"))

@@ -1,0 +1,50 @@
+{
+  "lead": {
+    "kicker": "Week 8 Preview",
+    "headline": "AB81 is starting three players who won’t play",
+    "dek": "Zero moves in 2026 finally has a price. The lineup AB81 has set for Week 8 includes two players on bye and one listed Out, against a defending champ that just went and got a quarterback.",
+    "matchup_key": "w8-m4",
+    "by_roster_id": 8,
+    "pull": "Projected 128.35. Win probability 22%. Roster moves this season: zero.",
+    "body": [
+      "I’ve spent seven weeks defending this front office’s refusal to touch anything. The evidence was 6-1. This week the evidence changed.",
+      "Here is the lineup AB81 has set right now. George Kittle at tight end, on bye. Mike Evans at flex, on bye. DeVonta Smith at receiver, listed Out. Three starting spots that will score nothing unless somebody opens the app. The bench has answers: Carnell Tate is projected for 13.72, Dallas Goedert for 10.17, Mark Andrews for 9.05. They are all sitting there, waiting.",
+      "The opponent did the opposite. At 12:10 a.m. Wednesday, Maye I touch your TDs? claimed Jacoby Brissett, the quarterback Bad things man bad things cut a week earlier, to cover Brock Purdy’s bye. At 7:24 a.m. it added Matt Gay to fill the kicker hole. The champ is now projected for 160.89, the highest set lineup in the league this week.",
+      "AB81 as it stands: 128.35 projected, 22% to win. The champ still has its own headaches, with Breece Hall starting while listed Out and Amon-Ra St. Brown and Drake London both Questionable. But one of these teams has already done its homework.",
+      "This franchise is 6-1 and almost certainly headed to the playoffs, so nobody here is panicking. A 2.1-win luck cushion buys a lot of patience. It does not, however, play tight end."
+    ]
+  },
+  "quick_hits": [
+    {"kicker": "Lineup alert", "roster_ids": [5], "headline": "Lob City is starting a quarterback on bye", "body": "C.J. Stroud is in the QB slot and Houston is off this week. Bad things man bad things claimed the Cincinnati defense and Evan McPherson at 12:10 a.m. Wednesday, then left the K and DEF slots empty. Set lineup projects for 135.3."},
+    {"kicker": "Homework done", "roster_ids": [1], "headline": "Big Stric Energy patched every bye hole", "body": "Chase McLaughlin on waivers Wednesday at 12:10 a.m., the Jacksonville defense at 6:23 p.m. Wednesday. Projected 155.65 to 122.72 over Santa Clara’s Finest, a 78% favorite. Six-game losing streaks have to end somewhere."},
+    {"kicker": "Bench better than starters", "roster_ids": [4], "headline": "Cherry Blossom has its best players on the bench", "body": "Trevor Lawrence (proj 21.39) is sitting behind Bo Nix (13.99). Parker Washington (16.14) is behind Jameson Williams (10.09). Christian McCaffrey is starting during his bye. Fix all three and the 48% underdog becomes a favorite."},
+    {"kicker": "Most added", "roster_ids": [1], "headline": "The add of the day is Saquon Barkley’s backup", "body": "Elijah Mitchell is the most-added player in Sleeper over the last 24 hours, with 787,554 adds, and he’s available in R.A.T.S. Saquon Barkley is Questionable and starting for Big Stric Energy."},
+    {"kicker": "Most dropped", "roster_ids": [2], "headline": "Everyone is dropping Dameon Pierce. Poochinski isn’t.", "body": "Pierce is the most-dropped player on Sleeper, cut 861,064 times in 24 hours, and he’s Questionable. He’s still on the Poochinski roster. For a team that has made four moves all season, that’s on brand."}
+  ],
+  "previews": {
+    "w8-m1": {"headline": "The 1-6 Bowl, and one team showed up prepared", "blurb": "Big Stric Energy fixed its kicker and defense. Santa Clara’s Finest is starting Juwan Johnson during his bye and has Bhayshul Tuten (proj 14.32) on the bench behind J.K. Dobbins (5.6). Lamar Jackson is Out.", "pick": 1},
+    "w8-m2": {"headline": "First place vs. two empty slots and a bye", "blurb": "Poochinski has its own hole, with Chris Olave starting on bye, but Bad things man bad things has three: a bye-week quarterback and no kicker or defense in the lineup. Projection: 159.07 to 135.3.", "pick": 2},
+    "w8-m3": {"headline": "A coin flip that one team can fix", "blurb": "deeboliciouskins is a 52% favorite at 134.92 to 132.79. Cherry Blossom has 6-plus-point upgrades sitting on its own bench and McCaffrey starting on bye. This one gets decided by who opens the app.", "pick": 6},
+    "w8-m4": {"headline": "The champ came to play. AB81 hasn’t checked in.", "blurb": "Maye I touch your TDs? added Brissett and Matt Gay and projects for 160.89. AB81 projects for 128.35 with Kittle and Evans on bye and DeVonta Smith Out, all in the starting lineup.", "pick": 3}
+  },
+  "alert_notes": {
+    "8": "Three dead spots in the lineup and the fixes are already on the roster. Carnell Tate, Dallas Goedert and Mark Andrews would get this team back into the game.",
+    "5": "Quarterback, kicker and defense all need attention before Sunday. Two of the fixes were claimed Wednesday and are sitting on the bench.",
+    "4": "Swap in Trevor Lawrence and Parker Washington, and find a running back for McCaffrey’s spot.",
+    "3": "Breece Hall is listed Out and still starting. Two receivers are Questionable. A.J. Brown (proj 14.83) is on the bench."
+  },
+  "trending_notes": {
+    "7561": "Available in R.A.T.S. Big Stric Energy starts Saquon Barkley, who is Questionable.",
+    "JAX": "Big Stric Energy got there first, at 6:23 p.m. Wednesday.",
+    "8129": "Owned by Poochinski, who has not made a move about it."
+  },
+  "move_grades": {
+    "2026-10-29-m3": {"grade": "A", "blurb": "The best quarterback on waivers, to cover a bye, in a two-QB league. And it came from a rival’s trash."},
+    "2026-10-29-m5": {"grade": "B", "blurb": "Fills the kicker spot Brissett’s claim opened up. Woody Marks was on bye anyway."},
+    "2026-10-29-m4": {"grade": "B", "blurb": "Pineiro’s bye needed covering. McLaughlin projects for 6.77."},
+    "2026-10-29-m6": {"grade": "B+", "blurb": "One of the most-added defenses on Sleeper this week, picked up before the crowd got there."},
+    "2026-10-29-m1": {"grade": "C", "blurb": "Good pickup. It isn’t in the starting lineup, which makes it a theoretical pickup."},
+    "2026-10-29-m2": {"grade": "C", "blurb": "Same story. The kicker slot is still empty."}
+  },
+  "external_facts": []
+}

@@ -114,10 +114,91 @@ def text_items(s):
         yield from g(x, f"ranking[{x['roster_id']}]")
 
 
+def check_text(items, nums, times, recs, ext, ext_nums, errors, warns):
+    for where, txt in items:
+        if not txt:
+            continue
+        t = txt.replace("–", "-").replace("−", "-").replace(",", "")
+        for m in re.finditer(r"\b(\d{1,2}):(\d{2})\s*([ap])\.?m\.?", t, re.I):
+            key = f"{int(m.group(1))}:{m.group(2)} {m.group(3).upper()}M"
+            if key not in times and key.replace(" ", "") not in ext.replace(" ", "").upper():
+                errors.append(f"{where}: time '{m.group()}' not in facts")
+        t2 = re.sub(r"\b\d{1,2}:\d{2}\s*[ap]\.?m\.?", " ", t, flags=re.I)
+        for m in re.finditer(r"\b(\d{1,2})-(\d{1,2})\b", t2):
+            if m.group() not in recs and not (int(m.group(1)) in ext_nums and int(m.group(2)) in ext_nums):
+                errors.append(f"{where}: record/score '{m.group()}' not in facts")
+        t3 = re.sub(r"\b\d{1,2}-\d{1,2}\b", " ", t2)
+        for m in re.finditer(r"(?<![\w.])[-+]?\d+(?:\.\d+)?", t3):
+            v = round(abs(float(m.group())), 2)
+            if v in nums or v in ext_nums:
+                continue
+            if "." in m.group():
+                errors.append(f"{where}: number {m.group()} not in facts")
+            elif v > 12 and not (1990 <= v <= 2035):
+                warns.append(f"{where}: whole number {m.group()} not in facts (justify or remove)")
+
+
+def validate_daily(date):
+    d = json.load(open(os.path.join(ROOT, "content", "daily", date, "facts.json")))
+    s = json.load(open(os.path.join(ROOT, "content", "daily", date, "stories.json")))
+    wk = sorted(x for x in os.listdir(os.path.join(ROOT, "content")) if x[:4].isdigit())
+    w = json.load(open(os.path.join(ROOT, "content", wk[-1], "facts.json"))) if wk else {}
+    nums, times, recs = numset({"daily": d, "weekly": w, "matchups": w.get("matchups", [])})
+    for m in d["matchups"]:
+        nums.add(round(abs(m["projected"][0] - m["projected"][1]), 2))
+        for x in m["projected"] + m["live"]:
+            nums.add(round(x, 1)); nums.add(float(round(x)))
+    ext = " ".join(x.get("claim", "") for x in s.get("external_facts", []))
+    ext_nums = {round(float(x), 2) for x in re.findall(r"\d+(?:\.\d+)?", ext)}
+    errors, warns = [], []
+    if not s.get("lead", {}).get("headline"):
+        errors.append("daily needs a lead with a headline")
+    keys = {m["key"] for m in d["matchups"]}
+    if s["lead"].get("matchup_key") and s["lead"]["matchup_key"] not in keys:
+        errors.append("lead.matchup_key not a current matchup")
+    for k, pv in (s.get("previews") or {}).items():
+        if k not in keys:
+            errors.append(f"preview key {k} not a current matchup")
+        if pv.get("pick") is not None and str(pv["pick"]) not in d["teams"]:
+            errors.append(f"preview {k} pick is not a team")
+    pids = {x["id"] for x in d["trending_adds"] + d["trending_drops"]}
+    for k in (s.get("trending_notes") or {}):
+        if k not in pids:
+            errors.append(f"trending note for {k}, who is not in the trending lists")
+    tss = {t["id"] for t in d["new_moves"]}
+    for k, g in (s.get("move_grades") or {}).items():
+        if k not in tss:
+            errors.append(f"move grade for {k}, which is not a new move")
+        if not re.fullmatch(r"[A-DF][+-]?", g.get("grade", "")):
+            errors.append(f"move grade {g.get('grade')} must be A-F")
+    items = []
+    L = s["lead"]
+    for k in ("kicker", "headline", "dek", "pull"):
+        items.append(("lead." + k, L.get(k)))
+    items += [(f"lead.body[{i}]", p) for i, p in enumerate(L.get("body", []))]
+    for i, q in enumerate(s.get("quick_hits", [])):
+        items += [(f"quick_hits[{i}].headline", q.get("headline")), (f"quick_hits[{i}].body", q.get("body"))]
+    for k, pv in (s.get("previews") or {}).items():
+        items += [(f"previews[{k}].headline", pv.get("headline")), (f"previews[{k}].blurb", pv.get("blurb"))]
+    for grp in ("alert_notes", "trending_notes"):
+        items += [(f"{grp}[{k}]", v) for k, v in (s.get(grp) or {}).items()]
+    items += [(f"move_grades[{k}]", g.get("blurb")) for k, g in (s.get("move_grades") or {}).items()]
+    check_text(items, nums, times, recs, ext, ext_nums, errors, warns)
+    for x in warns:
+        print("WARN ", x)
+    for x in errors:
+        print("ERROR", x)
+    print(f"daily {date}: {len(errors)} errors, {len(warns)} warnings")
+    return 1 if errors else 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--week", type=int)
+    ap.add_argument("--daily")
     a = ap.parse_args()
+    if a.daily:
+        return validate_daily(a.daily)
     dirs = sorted(glob.glob(os.path.join(ROOT, "content", "*-w*")))
     d = next((x for x in dirs if x.endswith(f"-w{a.week:02d}")), None) if a.week else dirs[-1]
     f = json.load(open(os.path.join(d, "facts.json")))

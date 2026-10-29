@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% from "_macros.html" import av %}
+{% block ticker %}
+<div class="ticker" aria-label="Week {{ d.week }} matchups"><div class="wrap tkrow num">
+{% for m in d.matchups %}
+  <a class="tk" href="#matchups"><span class="st">{{ 'Live' if m.games_started else 'Wk ' ~ d.week ~ ' · Proj' }}</span>
+    {% for i in [0, 1] %}{% set t = DT(m.teams[i]) %}
+    <span class="r {{ 'w' if (m.live[i] if m.games_started else m.projected[i]) >= (m.live[1-i] if m.games_started else m.projected[1-i]) else 'l' }}">{{ av(t, 20) }}<span class="n">{{ t.name }}</span><b>{{ "%.2f"|format(m.live[i]) if m.games_started else "%.1f"|format(m.projected[i]) }}</b></span>
+    {% endfor %}</a>
+{% endfor %}
+</div></div>
+{% endblock %}
+{% block main %}
+{% set L = ds.lead %}
+<section class="wrap hero">
+  <div class="tile daytile" {% if lead_m %}style="--ca:{{ DT(lead_m.teams[0]).color }};--cb:{{ DT(lead_m.teams[1]).color }}"{% else %}style="--ca:#5A3614;--cb:#1D1D1F"{% endif %}>
+    <span class="kick">{{ d.weekday }} · {{ L.kicker }}</span>
+    <h1>{{ L.headline }}</h1>
+    <p class="dek">{{ L.dek }}</p>
+    {% if lead_m %}
+    <div class="scorerows big num">
+      {% for i in [0, 1] %}{% set t = DT(lead_m.teams[i]) %}
+      <div class="sr {{ 'win' if lead_m.win_prob[i] >= 0.5 else 'loss' }}">{{ av(t, 44) }}<span class="nm">{{ t.name }}</span><span class="rec">{{ pct(lead_m.win_prob[i]) }}</span><span class="pts">{{ "%.1f"|format(lead_m.projected[i]) }}</span></div>
+      {% endfor %}
+    </div>
+    {% elif L.roster_ids %}<div class="faces big">{% for r in L.roster_ids %}{{ av(DT(r), 48) }}{% endfor %}</div>{% endif %}
+    {% if not is_page %}<a class="cta" href="{{ day_path }}#story">Read the story</a>{% endif %}
+  </div>
+  <aside class="rail" aria-label="Quick hits">
+    <h2 class="railh">Quick Hits</h2>
+    {% for q in ds.quick_hits %}
+    <div class="qh card">{% if q.roster_ids %}<div class="faces">{% for r in q.roster_ids %}{{ av(DT(r), 22) }}{% endfor %}</div>{% endif %}
+      <span class="kick">{{ q.kicker }}</span><h3>{{ q.headline }}</h3><p>{{ q.body }}</p></div>
+    {% endfor %}
+  </aside>
+</section>
+
+{% if is_page %}
+<section id="story" class="sec"><div class="wrap">
+  <div class="article">
+    <article class="prose">
+      {% set by = DT(L.by_roster_id) if L.by_roster_id else None %}
+      <div class="byline">{% if by %}{{ av(by, 40) }}<span><b>{{ by.name }} Insider</b><small>{{ d.weekday }}, {{ date_label }}</small></span>{% else %}<span class="crest" style="width:40px;height:37px"></span><span><b>The R.A.T.S. Desk</b><small>{{ d.weekday }}, {{ date_label }}</small></span>{% endif %}</div>
+      {% for p in L.body %}<p>{{ p }}</p>{% if loop.index == 2 and L.pull %}<blockquote class="pull">{{ L.pull }}</blockquote>{% endif %}{% endfor %}
+    </article>
+  </div>
+</div></section>
+{% else %}
+<section id="story" class="sec"><div class="wrap">
+  <div class="sh"><h2>Today’s <em>Story</em></h2><span class="tag">{{ d.weekday }}, {{ date_label }}</span></div>
+  <div class="prose">{% for p in L.body[:2] %}<p>{{ p }}</p>{% endfor %}<a class="more" href="{{ day_path }}#story">Keep reading →</a></div>
+</div></section>
+{% endif %}
+
+{% if alerts_by_team %}
+<section id="alerts" class="sec"><div class="wrap">
+  <div class="sh"><h2>Lineup <em>Alerts</em></h2><span class="tag">From the lineups set right now · fix these before kickoff</span></div>
+  <div class="alerts">
+    {% for rid, items in alerts_by_team %}{% set t = DT(rid) %}
+    <div class="al card" style="--tc:{{ t.color }}">
+      <div class="alh">{{ av(t, 34) }}<b>{{ t.name }}</b><span class="cnt num">{{ items|length }}</span></div>
+      {% if (ds.alert_notes or {}).get(rid|string) %}<p class="aln">{{ ds.alert_notes[rid|string] }}</p>{% endif %}
+      <ul>{% for a in items %}<li class="k-{{ a.kind }}">{{ alert_text(a) }}</li>{% endfor %}</ul>
+    </div>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}
+
+<section id="matchups" class="sec"><div class="wrap">
+  <div class="sh"><h2>Week {{ d.week }} <em>Matchups</em></h2><span class="tag">{{ 'Live scores' if any_live else 'Projected from the lineups set right now' }}</span></div>
+  <div class="ahead">
+    {% for m in d.matchups %}{% set pv = (ds.previews or {}).get(m.key, {}) %}
+    <div class="ah card">
+      {% if pv.headline %}<h3>{{ pv.headline }}</h3>{% endif %}
+      {% for i in [0, 1] %}{% set t = DT(m.teams[i]) %}
+      <div class="ahr num {{ 'fav' if m.win_prob[i] >= 0.5 }}">{{ av(t, 32) }}<span class="nm">{{ t.name }}</span><span class="pj">{% if m.games_started %}{{ "%.2f"|format(m.live[i]) }}{% else %}{{ "%.1f"|format(m.projected[i]) }}{% endif %}</span><span class="wp">{{ pct(m.win_prob[i]) }}</span></div>
+      {% endfor %}
+      <div class="wpbar"><i style="width:{{ (m.win_prob[0]*100)|round(1) }}%;background:{{ DT(m.teams[0]).color }}"></i><i style="width:{{ (m.win_prob[1]*100)|round(1) }}%;background:{{ DT(m.teams[1]).color }}"></i></div>
+      {% if pv.blurb %}<p>{{ pv.blurb }}</p>{% endif %}
+      {% if pv.pick %}<div class="pick">{{ av(DT(pv.pick), 22) }}<span>The Desk’s pick: <b>{{ DT(pv.pick).name }}</b></span></div>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div></section>
+
+{% if d.new_moves %}
+<section id="moves" class="sec"><div class="wrap">
+  <div class="sh"><h2>The <em>Wire</em></h2><span class="tag">Every move since the last brief</span></div>
+  <div class="wire">
+    {% for x in d.new_moves %}{% set t = DT(x.rosters[0]) %}{% set g = (ds.move_grades or {}).get(x.id) %}
+    <div class="wi">{{ av(t, 32) }}<div class="wt"><div class="wm"><span class="k {{ '' if x.type == 'waiver' else 'fa' }}">{{ {'waiver':'Waivers','free_agent':'Free agent','trade':'Trade'}.get(x.type, x.type) }}</span><time>{{ x.time }}</time>{% if g %}<span class="grade g{{ g.grade[0] }}">{{ g.grade }}</span>{% endif %}</div>
+      <div class="txt"><b>{{ t.name }}</b>{% if x.adds %} adds {% for a in x.adds %}<span class="add">{{ a.name }}</span> <span class="note">(proj {{ "%.1f"|format(a.proj_this_week) }})</span>{{ ", " if not loop.last }}{% endfor %}{% endif %}{% if x.drops %}{{ "," if x.adds }} drops {% for dr in x.drops %}<span class="drop">{{ dr.name }}</span>{{ ", " if not loop.last }}{% endfor %}{% endif %}.</div>
+      {% if g and g.blurb %}<p class="gb">{{ g.blurb }}</p>{% endif %}</div></div>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}
+
+<section id="trending" class="sec"><div class="wrap">
+  <div class="sh"><h2>Trending on <em>Sleeper</em></h2><span class="tag">The last 24 hours across every Sleeper league</span></div>
+  <div class="film">
+    <div class="fcol card"><h3>Most added</h3>
+      {% for x in d.trending_adds[:8] %}{% set note = (ds.trending_notes or {}).get(x.id) %}
+      <div class="fi"><div class="fh num"><span class="ppos">{{ x.pos }}</span><b>{{ x.name }}</b><span class="nt">{{ x.nfl_team }}</span>
+        {% if x.rats_owner %}<span class="own">{{ av(DT(x.rats_owner), 18) }}{{ DT(x.rats_owner).name }}</span>{% else %}<span class="avail">Available</span>{% endif %}
+        <span class="pj">+{{ "{:,}".format(x.count) }} adds</span></div>{% if note %}<p>{{ note }}</p>{% endif %}</div>
+      {% endfor %}
+    </div>
+    <div class="fcol card"><h3>Most dropped</h3>
+      {% for x in d.trending_drops[:8] %}{% set note = (ds.trending_notes or {}).get(x.id) %}
+      <div class="fi"><div class="fh num"><span class="ppos">{{ x.pos }}</span><b>{{ x.name }}</b><span class="nt">{{ x.nfl_team }}</span>
+        {% if x.rats_owner %}<span class="own">{{ av(DT(x.rats_owner), 18) }}{{ DT(x.rats_owner).name }}</span>{% endif %}
+        <span class="pj">−{{ "{:,}".format(x.count) }} drops</span></div>{% if note %}<p>{{ note }}</p>{% endif %}</div>
+      {% endfor %}
+    </div>
+  </div>
+</div></section>
+
+{% if d.injuries %}
+<section id="injuries" class="sec"><div class="wrap">
+  <div class="sh"><h2>Injury <em>Report</em></h2><span class="tag">R.A.T.S. players with an injury designation</span></div>
+  <div class="inj card">
+    {% for x in d.injuries[:14] %}{% set t = DT(x.roster_id) %}
+    <div class="ij num">{{ av(t, 24) }}<span class="ppos">{{ x.pos }}</span><b>{{ x.name }}</b><span class="st st-{{ x.injury|lower }}">{{ x.injury }}</span><span class="nt">{{ t.name }}</span></div>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}
+
+{% if weekly %}
+<section id="edition" class="sec"><div class="wrap">
+  <div class="sh"><h2>Week {{ f.week }} <em>Edition</em></h2><a class="tag" href="{{ edition_path }}">The full weekly edition →</a></div>
+  <div class="feats">
+    {% for x in weekly %}
+    <a class="feat" href="{{ x.path }}"><span class="kick">{{ x.kicker }}</span><h3>{{ x.headline }}</h3><p>{{ x.dek }}</p><span class="more">Read →</span></a>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}
+
+{% if earlier %}
+<section class="sec"><div class="wrap">
+  <div class="sh"><h2>Earlier <em>Briefs</em></h2></div>
+  <div class="list">
+    {% for e in earlier %}<a class="row" href="{{ e.path }}"><span class="wk">{{ e.day }}</span><div><h3>{{ e.headline }}</h3><p>{{ e.kicker }}</p></div></a>{% endfor %}
+  </div>
+</div></section>
+{% endif %}
+{% endblock %}

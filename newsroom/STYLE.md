@@ -105,3 +105,36 @@ Slugs: lowercase-hyphenated, unique within the week.
 - `teams[]`: record, standing, points rank, streak.
 - `history`: past seasons' records, moves, bench habits, playoffs, notable draft picks,
   repeat adds, close-game records, late-night moves, all-time trades.
+
+
+## The daily brief
+
+The site publishes every morning. The front page is the day's brief; the weekly edition (Tuesday)
+stays one click away. Think like the editor of a major sports site: give people a reason to open
+the link every day, lead with whatever an owner most needs to know right now, and name names.
+
+The day sets the angle (`facts.edition_type`):
+- **monday**: Sunday's damage and Monday night math. Who leads, who needs what from MNF players.
+- **tuesday**: the weekly edition is the big story; the brief tees up waivers (who should claim whom).
+- **waivers** (Wed): grade every waiver claim that just processed; who won the wire, who whiffed.
+- **preview** (Thu): the week's matchups from the lineups set right now, picks, Thursday-night exposure.
+- **lineup_watch** (Fri): injuries and lineup alerts; start/sit calls for every team.
+- **weekend** (Sat): last call on lineups; upset alert; the matchup of the week.
+- **gameday** (Sun): lineup alerts before kickoff, Thursday night results if any, what to watch.
+
+Write `content/daily/<date>/stories.json`:
+- `lead`: `{kicker, headline, dek, body (4-6 paragraphs), pull?, by_roster_id?, matchup_key?, roster_ids?}`.
+  `matchup_key` (from `facts.matchups[].key`) shows that matchup in the hero; `by_roster_id`
+  bylines the story to that team's Insider, otherwise "The R.A.T.S. Desk".
+- `quick_hits`: 4-6 `{kicker, headline, body, roster_ids?}` short takes (2-3 sentences each).
+- `previews`: `{matchup_key: {headline, blurb, pick}}` for every current matchup on preview,
+  weekend and gameday days (optional other days). `pick` is a roster_id.
+- `alert_notes`: `{roster_id: note}` one line of advice for teams with lineup alerts.
+- `trending_notes`: `{player_id: note}` for trending players that matter to R.A.T.S. (available
+  and useful, or owned by a team).
+- `move_grades`: `{move id: {grade A-F (+/-), blurb}}` for `facts.new_moves[].id`. Grade every move
+  on waivers day; grade notable ones on other days.
+- `external_facts`: as in the weekly edition.
+
+Facts change by the minute (projections, trending counts), so write numbers from this facts file
+and nowhere else. `python3 pipeline/validate.py --daily <date>` must pass with 0 errors.
