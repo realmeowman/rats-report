@@ -10,6 +10,20 @@
 {% endfor %}
 </div></div>
 {% endblock %}
+{% macro alerts_section(urgent) %}{% if alerts_by_team %}
+<section id="alerts" class="sec {{ '' if urgent else 'quiet' }}"><div class="wrap">
+  {% if urgent %}<div class="sh"><h2>Lineup <em>Alerts</em></h2><span class="tag">Still unfixed in the lineups set right now</span></div>{% else %}<div class="sh"><h2>Lineup <em>Reminders</em></h2><span class="tag">Byes and injuries to sort out before Sunday</span></div><p class="lede small">Most teams set lineups late in the week, so these are reminders, not news. Anything still unfixed on Sunday morning becomes an alert.</p>{% endif %}
+  <div class="alerts">
+    {% for rid, items in alerts_by_team %}{% set t = DT(rid) %}
+    <div class="al card" style="--tc:{{ t.color }}">
+      <div class="alh">{{ av(t, 34) }}<b>{{ t.name }}</b><span class="cnt num">{{ items|length }}</span></div>
+      {% if (ds.alert_notes or {}).get(rid|string) %}<p class="aln">{{ ds.alert_notes[rid|string] }}</p>{% endif %}
+      <ul>{% for a in items %}<li class="k-{{ a.kind }}">{{ alert_text(a) }}</li>{% endfor %}</ul>
+    </div>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}{% endmacro %}
 {% block main %}
 {% set L = ds.lead %}
 <section class="wrap hero">
@@ -52,23 +66,10 @@
 </div></section>
 {% endif %}
 
-{% if alerts_by_team %}
-<section id="alerts" class="sec"><div class="wrap">
-  <div class="sh"><h2>Lineup <em>Alerts</em></h2><span class="tag">From the lineups set right now · fix these before kickoff</span></div>
-  <div class="alerts">
-    {% for rid, items in alerts_by_team %}{% set t = DT(rid) %}
-    <div class="al card" style="--tc:{{ t.color }}">
-      <div class="alh">{{ av(t, 34) }}<b>{{ t.name }}</b><span class="cnt num">{{ items|length }}</span></div>
-      {% if (ds.alert_notes or {}).get(rid|string) %}<p class="aln">{{ ds.alert_notes[rid|string] }}</p>{% endif %}
-      <ul>{% for a in items %}<li class="k-{{ a.kind }}">{{ alert_text(a) }}</li>{% endfor %}</ul>
-    </div>
-    {% endfor %}
-  </div>
-</div></section>
-{% endif %}
+{% if d.lineups_matter %}{{ alerts_section(True) }}{% endif %}
 
 <section id="matchups" class="sec"><div class="wrap">
-  <div class="sh"><h2>Week {{ d.week }} <em>Matchups</em></h2><span class="tag">{{ 'Live scores' if any_live else 'Projected from the lineups set right now' }}</span></div>
+  <div class="sh"><h2>Week {{ d.week }} <em>Matchups</em></h2><span class="tag">{{ 'Live scores' if any_live else ('Projected from ' ~ (d.matchups[0].projection_basis if d.matchups else 'lineups')) }}</span></div>
   <div class="ahead">
     {% for m in d.matchups %}{% set pv = (ds.previews or {}).get(m.key, {}) %}
     <div class="ah card">
@@ -127,6 +128,8 @@
   </div>
 </div></section>
 {% endif %}
+
+{% if not d.lineups_matter %}{{ alerts_section(False) }}{% endif %}
 
 {% if weekly %}
 <section id="edition" class="sec"><div class="wrap">

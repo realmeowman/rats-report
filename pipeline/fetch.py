@@ -100,6 +100,7 @@ def main():
     s = current_season
     download(f"{NFLVERSE}/pbp/play_by_play_{s}.csv.gz", os.path.join(RAW, f"pbp_{s}.csv.gz"))
     download(f"{NFLVERSE}/rosters/roster_{s}.csv", os.path.join(RAW, f"roster_{s}.csv"))
+    download(f"{NFLVERSE}/schedules/games.csv", os.path.join(RAW, "games.csv"))
     print("nflverse", s, flush=True)
 
 

@@ -364,3 +364,8 @@ footer p{margin:0 0 6px;max-width:80ch}
 
 .wordmark{white-space:nowrap}
 @media (min-width:980px){.menu a{padding:8px 9px;font-size:14.5px}}
+
+.sec.quiet .al{border-left-color:var(--line)}
+.sec.quiet .alh .cnt{background:var(--panel2);color:var(--mute)}
+.sec.quiet .al li{border-left-color:var(--line)!important;color:var(--mute)}
+.lede.small{font-size:14.5px;color:var(--mute);margin-top:-6px}

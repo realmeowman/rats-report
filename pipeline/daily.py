@@ -35,6 +35,20 @@ def pts(statline, sc):
     return sum((statline.get(k) or 0) * v for k, v in sc.items()) if statline else 0.0
 
 
+def best_lineup(pool, slots):
+    flex_ok = {"FLEX": {"RB", "WR", "TE"}, "WRRB_FLEX": {"RB", "WR"}, "REC_FLEX": {"WR", "TE"}, "SUPER_FLEX": set(SKILL)}
+    healthy = sorted([r for r in pool if not r.get("on_bye") and r.get("injury") not in BAD_STATUS and r.get("proj", 0) > 0],
+                     key=lambda r: -r["proj"])
+    used, out = set(), []
+    for slot in sorted(slots, key=lambda x: x in flex_ok):
+        ok = flex_ok.get(slot, {slot})
+        pick = next((r for r in healthy if r["id"] not in used and r["pos"] in ok), None)
+        if pick:
+            used.add(pick["id"])
+            out.append(pick)
+    return out
+
+
 def fmt(ms):
     return dt.datetime.fromtimestamp(ms / 1000, TZ).strftime("%a %-I:%M %p")
 
@@ -78,6 +92,12 @@ def main():
     live = get(f"/stats/nfl/regular/{season}/{week}")
     playing = {pinfo(pid)["nfl_team"] for pid, s in proj.items() if pts(s, sc) > 0.5}
     projp = lambda pid: r2(pts(proj.get(str(pid)) or {}, sc))
+
+    # Lineups are routinely set late in the week. Before Sunday, an unset bye or injury is a
+    # reminder, not news; on Sunday morning (and after kickoff) it becomes a real alert.
+    edition_type = EDITION_BY_DAY[day.weekday()]
+    any_points = any((m.get("points") or 0) > 0 for m in get(f"/league/{lid}/matchups/{week}"))
+    lineups_matter = edition_type in ("gameday", "monday") or (any_points and edition_type != "preview")
 
     # ----- this week's matchups with the lineups owners have set -----
     ms = get(f"/league/{lid}/matchups/{week}")
@@ -132,20 +152,30 @@ def main():
                     alerts.append({"roster_id": rid, "kind": "better_on_bench", "bench": b["name"], "bench_proj": b["proj"],
                                    "starter": w_["name"], "starter_proj": w_["proj"]})
             proj_total = r2(sum(r.get("proj", 0) for r in rows if not r.get("empty")))
+            pool = [r for r in rows if not r.get("empty")] + bench_rows
+            best_total = r2(sum(x["proj"] for x in best_lineup(pool, slots)))
             sides.append({"roster_id": rid, "live_points": r2(m.get("points")), "projected_set_lineup": proj_total,
+                          "projected_best_lineup": best_total,
                           "starters": rows, "bench": bench_rows[:6]})
         A, B = sides
-        z = (A["projected_set_lineup"] - B["projected_set_lineup"]) / (math.sqrt(2) * sd) if sd else 0
+        basis = "projected_set_lineup" if lineups_matter else "projected_best_lineup"
+        z = (A[basis] - B[basis]) / (math.sqrt(2) * sd) if sd else 0
         wp = 0.5 * (1 + math.erf(z / math.sqrt(2)))
         matchups.append({"key": f"w{week}-m{mid}", "matchup_id": mid, "teams": [A["roster_id"], B["roster_id"]],
-                         "projected": [A["projected_set_lineup"], B["projected_set_lineup"]],
+                         "projected": [A[basis], B[basis]], "projection_basis": "lineups as set" if lineups_matter else "best available lineups",
+                         "projected_as_set": [A["projected_set_lineup"], B["projected_set_lineup"]],
+                         "projected_best": [A["projected_best_lineup"], B["projected_best_lineup"]],
                          "live": [A["live_points"], B["live_points"]], "win_prob": [round(wp, 3), round(1 - wp, 3)],
                          "sides": sides, "games_started": any(s["live_points"] for s in sides)})
 
     # ----- moves since the last brief -----
     state_p = os.path.join(ROOT, "content", "daily", "state.json")
     last = json.load(open(state_p)) if os.path.exists(state_p) else {}
-    since_ms = last.get("last_tx_ms") or int((now - dt.timedelta(hours=36)).timestamp() * 1000)
+    if last.get("date") == day.isoformat() and last.get("since_ms"):
+        since_ms = last["since_ms"]  # re-running today's brief: same window as the first run
+    else:
+        since_ms = last.get("last_tx_ms") or int((now - dt.timedelta(hours=36)).timestamp() * 1000)
+    last["date"], last["since_ms"] = day.isoformat(), since_ms
     tx = []
     for w in (week - 1, week):
         for t in get(f"/league/{lid}/transactions/{w}"):
@@ -186,7 +216,10 @@ def main():
         for rid, t in (wf.get("analysis") or {}).get("teams", {}).items():
             ctx[rid] = {k: t[k] for k in ("playoff_odds", "all_play", "luck", "projected_final_wins")}
 
-    facts = {"date": day.isoformat(), "weekday": day.strftime("%A"), "edition_type": EDITION_BY_DAY[day.weekday()],
+    for a_ in alerts:
+        a_["severity"] = "alert" if lineups_matter else "reminder"
+    facts = {"date": day.isoformat(), "weekday": day.strftime("%A"), "edition_type": edition_type,
+             "lineups_matter": lineups_matter,
              "generated_at": now.isoformat(timespec="minutes"), "season": season, "week": week,
              "teams": teams, "standings_context": ctx, "matchups": matchups, "lineup_alerts": alerts,
              "new_moves": tx, "trending_adds": trending("add"), "trending_drops": trending("drop"),

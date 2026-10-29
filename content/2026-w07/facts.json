@@ -2,7 +2,7 @@
  "publication": "The R.A.T.S. Report",
  "season": "2026",
  "week": 7,
- "generated_at": "2026-10-27T19:20-07:00",
+ "generated_at": "2026-10-29T09:09-07:00",
  "league": {
   "num_teams": 8,
   "format": "2-QB PPR",
@@ -651,7 +651,8 @@
       68.76
      ],
      "player": "Tucker Kraft",
-     "play": "(1:04) (Shotgun) 10-J.Love pass short right to 85-T.Kraft for 14 yards, TOUCHDOWN."
+     "play": "(1:04) (Shotgun) 10-J.Love pass short right to 85-T.Kraft for 14 yards, TOUCHDOWN.",
+     "time_estimated": false
     },
     {
      "time": "Mon 6:04 PM",
@@ -661,7 +662,8 @@
       123.44
      ],
      "player": "Javonte Williams",
-     "play": "(11:15) 33-J.Williams right guard to DAL 47 for 11 yards (54-J.Trotter)."
+     "play": "(11:15) 33-J.Williams right guard to DAL 47 for 11 yards (54-J.Trotter).",
+     "time_estimated": false
     }
    ],
    "big_plays": [
@@ -2358,7 +2360,8 @@
       1.6
      ],
      "player": "D'Andre Swift",
-     "play": "(6:28) (Shotgun) 18-C.Williams pass short left to 4-D.Swift to CHI 24 for no gain (53-C.Elliss; 22-C.Woods)."
+     "play": "(6:28) (Shotgun) 18-C.Williams pass short left to 4-D.Swift to CHI 24 for no gain (53-C.Elliss; 22-C.Woods).",
+     "time_estimated": false
     },
     {
      "time": "Thu 6:01 PM",
@@ -2368,7 +2371,8 @@
       8.1
      ],
      "player": "Drake Maye",
-     "play": "(11:37) (Shotgun) 10-D.Maye scrambles right guard to CHI 1 for 6 yards (20-C.Phillips). New England challenged the short of the goal line ruling, and the play w"
+     "play": "(11:37) (Shotgun) 10-D.Maye scrambles right guard to CHI 1 for 6 yards (20-C.Phillips). New England challenged the short of the goal line ruling, and the play w",
+     "time_estimated": false
     },
     {
      "time": "Sun 12:46 PM",
@@ -2378,7 +2382,8 @@
       126.4
      ],
      "player": "Minnesota Vikings D/ST",
-     "play": "end-of-game scoring (defense, kicker or other)"
+     "play": "end-of-game scoring (defense, kicker or other)",
+     "time_estimated": false
     },
     {
      "time": "Sun 1:39 PM",
@@ -2388,7 +2393,8 @@
       147.2
      ],
      "player": "Amon-Ra St. Brown",
-     "play": "(8:31) (Shotgun) 16-J.Goff pass deep right to 14-A.St. Brown to GB 40 for 28 yards (25-K.Nixon)."
+     "play": "(8:31) (Shotgun) 16-J.Goff pass deep right to 14-A.St. Brown to GB 40 for 28 yards (25-K.Nixon).",
+     "time_estimated": false
     }
    ],
    "big_plays": [
@@ -4344,7 +4350,8 @@
       93.06
      ],
      "player": "Jared Goff",
-     "play": "(14:03) (Shotgun) 16-J.Goff pass short middle to 0-J.Gibbs to GB 20 for 15 yards (59-T.Hopper)."
+     "play": "(14:03) (Shotgun) 16-J.Goff pass short middle to 0-J.Gibbs to GB 20 for 15 yards (59-T.Hopper).",
+     "time_estimated": false
     }
    ],
    "big_plays": [
@@ -6023,7 +6030,8 @@
       35.0
      ],
      "player": "Tetairoa McMillan",
-     "play": "(14:54) (Shotgun) 9-B.Young pass short right to 4-T.McMillan to CAR 38 for 12 yards (23-T.Smith; 5-I.Melifonwu)."
+     "play": "(14:54) (Shotgun) 9-B.Young pass short right to 4-T.McMillan to CAR 38 for 12 yards (23-T.Smith; 5-I.Melifonwu).",
+     "time_estimated": false
     },
     {
      "time": "Sun 11:46 AM",
@@ -6033,7 +6041,8 @@
       35.0
      ],
      "player": "George Kittle",
-     "play": "(7:34) (Shotgun) 13-B.Purdy pass short middle to 85-G.Kittle to ATL 35 for 20 yards (3-J.Bates; 31-X.Watts)."
+     "play": "(7:34) (Shotgun) 13-B.Purdy pass short middle to 85-G.Kittle to ATL 35 for 20 yards (3-J.Bates; 31-X.Watts).",
+     "time_estimated": false
     },
     {
      "time": "Sun 11:51 AM",
@@ -6043,7 +6052,8 @@
       36.8
      ],
      "player": "Isaiah Likely",
-     "play": "(14:16) (Shotgun) 18-J.McCarthy pass short middle to 9-I.Likely to NYG 40 for 8 yards (0-A.Al-Shaair; 29-M.Stewart)."
+     "play": "(14:16) (Shotgun) 18-J.McCarthy pass short middle to 9-I.Likely to NYG 40 for 8 yards (0-A.Al-Shaair; 29-M.Stewart).",
+     "time_estimated": false
     },
     {
      "time": "Sun 7:00 PM",
@@ -6053,7 +6063,8 @@
       117.94
      ],
      "player": "Sam Darnold",
-     "play": "(12:55) (Shotgun) 14-S.Darnold scrambles right end to KC 46 for 10 yards (32-N.Bolton)."
+     "play": "(12:55) (Shotgun) 14-S.Darnold scrambles right end to KC 46 for 10 yards (32-N.Bolton).",
+     "time_estimated": false
     }
    ],
    "big_plays": [
@@ -7692,6 +7703,7 @@
  ],
  "first_kick_utc": "2026-10-23T00:15:46.593000+00:00",
  "pbp_complete": true,
+ "pbp_missing_games": [],
  "awards": {
   "high_score": [
    186.3,

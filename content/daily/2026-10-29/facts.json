@@ -2,7 +2,8 @@
  "date": "2026-10-29",
  "weekday": "Thursday",
  "edition_type": "preview",
- "generated_at": "2026-10-29T08:56-07:00",
+ "lineups_matter": false,
+ "generated_at": "2026-10-29T09:09-07:00",
  "season": "2026",
  "week": 8,
  "teams": {
@@ -106,22 +107,32 @@
     7
    ],
    "projected": [
+    157.42,
+    139.46
+   ],
+   "projection_basis": "best available lineups",
+   "projected_as_set": [
     155.65,
     122.72
+   ],
+   "projected_best": [
+    157.42,
+    139.46
    ],
    "live": [
     0.0,
     0.0
    ],
    "win_prob": [
-    0.783,
-    0.217
+    0.665,
+    0.335
    ],
    "sides": [
     {
      "roster_id": 1,
      "live_points": 0.0,
      "projected_set_lineup": 155.65,
+     "projected_best_lineup": 157.42,
      "starters": [
       {
        "id": "4984",
@@ -346,6 +357,7 @@
      "roster_id": 7,
      "live_points": 0.0,
      "projected_set_lineup": 122.72,
+     "projected_best_lineup": 139.46,
      "starters": [
       {
        "id": "96",
@@ -565,22 +577,32 @@
     5
    ],
    "projected": [
+    169.23,
+    152.9
+   ],
+   "projection_basis": "best available lineups",
+   "projected_as_set": [
     159.07,
     135.3
+   ],
+   "projected_best": [
+    169.23,
+    152.9
    ],
    "live": [
     0.0,
     0.0
    ],
    "win_prob": [
-    0.714,
-    0.286
+    0.651,
+    0.349
    ],
    "sides": [
     {
      "roster_id": 2,
      "live_points": 0.0,
      "projected_set_lineup": 159.07,
+     "projected_best_lineup": 169.23,
      "starters": [
       {
        "id": "11560",
@@ -793,6 +815,7 @@
      "roster_id": 5,
      "live_points": 0.0,
      "projected_set_lineup": 135.3,
+     "projected_best_lineup": 152.9,
      "starters": [
       {
        "id": "9758",
@@ -1006,22 +1029,32 @@
     6
    ],
    "projected": [
+    146.24,
+    148.65
+   ],
+   "projection_basis": "best available lineups",
+   "projected_as_set": [
     132.79,
     134.92
+   ],
+   "projected_best": [
+    146.24,
+    148.65
    ],
    "live": [
     0.0,
     0.0
    ],
    "win_prob": [
-    0.48,
-    0.52
+    0.477,
+    0.523
    ],
    "sides": [
     {
      "roster_id": 4,
      "live_points": 0.0,
      "projected_set_lineup": 132.79,
+     "projected_best_lineup": 146.24,
      "starters": [
       {
        "id": "3163",
@@ -1234,6 +1267,7 @@
      "roster_id": 6,
      "live_points": 0.0,
      "projected_set_lineup": 134.92,
+     "projected_best_lineup": 148.65,
      "starters": [
       {
        "id": "5849",
@@ -1453,22 +1487,32 @@
     8
    ],
    "projected": [
+    159.81,
+    149.28
+   ],
+   "projection_basis": "best available lineups",
+   "projected_as_set": [
     160.89,
     128.35
+   ],
+   "projected_best": [
+    159.81,
+    149.28
    ],
    "live": [
     0.0,
     0.0
    ],
    "win_prob": [
-    0.78,
-    0.22
+    0.599,
+    0.401
    ],
    "sides": [
     {
      "roster_id": 3,
      "live_points": 0.0,
      "projected_set_lineup": 160.89,
+     "projected_best_lineup": 159.81,
      "starters": [
       {
        "id": "3257",
@@ -1681,6 +1725,7 @@
      "roster_id": 8,
      "live_points": 0.0,
      "projected_set_lineup": 128.35,
+     "projected_best_lineup": 149.28,
      "starters": [
       {
        "id": "4943",
@@ -1899,20 +1944,23 @@
    "kind": "starter_questionable",
    "player": "Jalen Coker",
    "status": "Questionable",
-   "slot": "WR"
+   "slot": "WR",
+   "severity": "reminder"
   },
   {
    "roster_id": 1,
    "kind": "starter_questionable",
    "player": "Saquon Barkley",
    "status": "Questionable",
-   "slot": "FLEX"
+   "slot": "FLEX",
+   "severity": "reminder"
   },
   {
    "roster_id": 7,
    "kind": "starter_on_bye",
    "player": "Juwan Johnson",
-   "slot": "FLEX"
+   "slot": "FLEX",
+   "severity": "reminder"
   },
   {
    "roster_id": 7,
@@ -1920,42 +1968,49 @@
    "bench": "Bhayshul Tuten",
    "bench_proj": 14.32,
    "starter": "J.K. Dobbins",
-   "starter_proj": 5.6
+   "starter_proj": 5.6,
+   "severity": "reminder"
   },
   {
    "roster_id": 2,
    "kind": "starter_on_bye",
    "player": "Chris Olave",
-   "slot": "WR"
+   "slot": "WR",
+   "severity": "reminder"
   },
   {
    "roster_id": 5,
    "kind": "starter_on_bye",
    "player": "C.J. Stroud",
-   "slot": "QB"
+   "slot": "QB",
+   "severity": "reminder"
   },
   {
    "roster_id": 5,
    "kind": "starter_questionable",
    "player": "Matthew Golden",
    "status": "Questionable",
-   "slot": "WR"
+   "slot": "WR",
+   "severity": "reminder"
   },
   {
    "roster_id": 5,
    "kind": "empty_slot",
-   "slot": "K"
+   "slot": "K",
+   "severity": "reminder"
   },
   {
    "roster_id": 5,
    "kind": "empty_slot",
-   "slot": "DEF"
+   "slot": "DEF",
+   "severity": "reminder"
   },
   {
    "roster_id": 4,
    "kind": "starter_on_bye",
    "player": "Christian McCaffrey",
-   "slot": "RB"
+   "slot": "RB",
+   "severity": "reminder"
   },
   {
    "roster_id": 4,
@@ -1963,7 +2018,8 @@
    "bench": "Trevor Lawrence",
    "bench_proj": 21.39,
    "starter": "Bo Nix",
-   "starter_proj": 13.99
+   "starter_proj": 13.99,
+   "severity": "reminder"
   },
   {
    "roster_id": 4,
@@ -1971,53 +2027,61 @@
    "bench": "Parker Washington",
    "bench_proj": 16.14,
    "starter": "Jameson Williams",
-   "starter_proj": 10.09
+   "starter_proj": 10.09,
+   "severity": "reminder"
   },
   {
    "roster_id": 6,
    "kind": "starter_on_bye",
    "player": "Malik Nabers",
-   "slot": "FLEX"
+   "slot": "FLEX",
+   "severity": "reminder"
   },
   {
    "roster_id": 3,
    "kind": "starter_out",
    "player": "Breece Hall",
    "status": "Out",
-   "slot": "RB"
+   "slot": "RB",
+   "severity": "reminder"
   },
   {
    "roster_id": 3,
    "kind": "starter_questionable",
    "player": "Amon-Ra St. Brown",
    "status": "Questionable",
-   "slot": "WR"
+   "slot": "WR",
+   "severity": "reminder"
   },
   {
    "roster_id": 3,
    "kind": "starter_questionable",
    "player": "Drake London",
    "status": "Questionable",
-   "slot": "FLEX"
+   "slot": "FLEX",
+   "severity": "reminder"
   },
   {
    "roster_id": 8,
    "kind": "starter_out",
    "player": "DeVonta Smith",
    "status": "Out",
-   "slot": "WR"
+   "slot": "WR",
+   "severity": "reminder"
   },
   {
    "roster_id": 8,
    "kind": "starter_on_bye",
    "player": "George Kittle",
-   "slot": "TE"
+   "slot": "TE",
+   "severity": "reminder"
   },
   {
    "roster_id": 8,
    "kind": "starter_on_bye",
    "player": "Mike Evans",
-   "slot": "FLEX"
+   "slot": "FLEX",
+   "severity": "reminder"
   },
   {
    "roster_id": 8,
@@ -2025,7 +2089,8 @@
    "bench": "Carnell Tate",
    "bench_proj": 13.72,
    "starter": "Mike Evans",
-   "starter_proj": 0.0
+   "starter_proj": 0.0,
+   "severity": "reminder"
   },
   {
    "roster_id": 8,
@@ -2033,7 +2098,8 @@
    "bench": "Dallas Goedert",
    "bench_proj": 10.17,
    "starter": "George Kittle",
-   "starter_proj": 0.0
+   "starter_proj": 0.0,
+   "severity": "reminder"
   },
   {
    "roster_id": 8,
@@ -2041,7 +2107,8 @@
    "bench": "Mark Andrews",
    "bench_proj": 9.05,
    "starter": "George Kittle",
-   "starter_proj": 0.0
+   "starter_proj": 0.0,
+   "severity": "reminder"
   }
  ],
  "new_moves": [
@@ -2271,7 +2338,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793049611074,
-   "count": 787554,
+   "count": 794097,
    "rats_owner": null,
    "proj_this_week": 2.06,
    "on_bye": false
@@ -2284,7 +2351,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 603099,
+   "count": 607999,
    "rats_owner": null,
    "proj_this_week": 8.43,
    "on_bye": false
@@ -2297,7 +2364,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1792711816601,
-   "count": 360312,
+   "count": 365096,
    "rats_owner": null,
    "proj_this_week": 2.54,
    "on_bye": false
@@ -2310,7 +2377,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793037917578,
-   "count": 356094,
+   "count": 358515,
    "rats_owner": null,
    "proj_this_week": 0.0,
    "on_bye": true
@@ -2323,7 +2390,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 343548,
+   "count": 344976,
    "rats_owner": 1,
    "proj_this_week": 8.99,
    "on_bye": false
@@ -2336,7 +2403,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793047210362,
-   "count": 297040,
+   "count": 298320,
    "rats_owner": null,
    "proj_this_week": 6.75,
    "on_bye": false
@@ -2349,7 +2416,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 240560,
+   "count": 242280,
    "rats_owner": null,
    "proj_this_week": 6.69,
    "on_bye": false
@@ -2362,7 +2429,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793063727037,
-   "count": 224136,
+   "count": 224976,
    "rats_owner": null,
    "proj_this_week": 4.34,
    "on_bye": false
@@ -2375,7 +2442,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793074827950,
-   "count": 218440,
+   "count": 219776,
    "rats_owner": null,
    "proj_this_week": 8.52,
    "on_bye": false
@@ -2388,7 +2455,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1792377602362,
-   "count": 197766,
+   "count": 199215,
    "rats_owner": null,
    "proj_this_week": 10.86,
    "on_bye": false
@@ -2401,7 +2468,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 190029,
+   "count": 191086,
    "rats_owner": null,
    "proj_this_week": 9.17,
    "on_bye": false
@@ -2414,7 +2481,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793034318600,
-   "count": 169328,
+   "count": 170448,
    "rats_owner": 1,
    "proj_this_week": 6.77,
    "on_bye": false
@@ -2427,7 +2494,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1792462233997,
-   "count": 152540,
+   "count": 153690,
    "rats_owner": null,
    "proj_this_week": 6.46,
    "on_bye": false
@@ -2440,7 +2507,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1792985713825,
-   "count": 151686,
+   "count": 152577,
    "rats_owner": null,
    "proj_this_week": 10.18,
    "on_bye": false
@@ -2453,7 +2520,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793057412156,
-   "count": 137648,
+   "count": 138460,
    "rats_owner": null,
    "proj_this_week": 5.58,
    "on_bye": false
@@ -2468,7 +2535,7 @@
    "injury": "Questionable",
    "injury_body": "Undisclosed",
    "news_updated": 1793111404154,
-   "count": 861064,
+   "count": 865840,
    "rats_owner": 2,
    "proj_this_week": 0.0,
    "on_bye": false
@@ -2481,7 +2548,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793122804513,
-   "count": 316608,
+   "count": 318720,
    "rats_owner": 2,
    "proj_this_week": 1.08,
    "on_bye": false
@@ -2494,7 +2561,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793112903366,
-   "count": 258678,
+   "count": 260496,
    "rats_owner": 2,
    "proj_this_week": 8.44,
    "on_bye": false
@@ -2507,7 +2574,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 252021,
+   "count": 253561,
    "rats_owner": 3,
    "proj_this_week": 6.12,
    "on_bye": false
@@ -2520,7 +2587,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 211930,
+   "count": 213375,
    "rats_owner": null,
    "proj_this_week": 0.0,
    "on_bye": true
@@ -2533,7 +2600,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793109903140,
-   "count": 205776,
+   "count": 206964,
    "rats_owner": null,
    "proj_this_week": 4.48,
    "on_bye": false
@@ -2546,7 +2613,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793150415909,
-   "count": 174818,
+   "count": 176204,
    "rats_owner": null,
    "proj_this_week": 2.68,
    "on_bye": false
@@ -2559,7 +2626,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793017216934,
-   "count": 147537,
+   "count": 148536,
    "rats_owner": null,
    "proj_this_week": 6.61,
    "on_bye": false
@@ -2572,7 +2639,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 120045,
+   "count": 120885,
    "rats_owner": null,
    "proj_this_week": 0.0,
    "on_bye": true
@@ -2585,7 +2652,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793029816700,
-   "count": 116781,
+   "count": 117551,
    "rats_owner": 5,
    "proj_this_week": 0.0,
    "on_bye": true
@@ -2598,7 +2665,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1792980311451,
-   "count": 115215,
+   "count": 115955,
    "rats_owner": null,
    "proj_this_week": 7.64,
    "on_bye": false
@@ -2611,7 +2678,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793111703362,
-   "count": 108180,
+   "count": 108909,
    "rats_owner": null,
    "proj_this_week": 7.58,
    "on_bye": false
@@ -2624,7 +2691,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793118304896,
-   "count": 104568,
+   "count": 105320,
    "rats_owner": 6,
    "proj_this_week": 17.38,
    "on_bye": false
@@ -2637,7 +2704,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 100008,
+   "count": 100682,
    "rats_owner": null,
    "proj_this_week": 6.34,
    "on_bye": false
@@ -2650,7 +2717,7 @@
    "injury": "Out",
    "injury_body": "Knee",
    "news_updated": 1792524638049,
-   "count": 92208,
+   "count": 92784,
    "rats_owner": null,
    "proj_this_week": 0.0,
    "on_bye": false

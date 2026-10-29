@@ -138,3 +138,16 @@ Write `content/daily/<date>/stories.json`:
 
 Facts change by the minute (projections, trending counts), so write numbers from this facts file
 and nowhere else. `python3 pipeline/validate.py --daily <date>` must pass with 0 errors.
+
+## Monday-night editions
+
+The weekly edition publishes Monday night, as soon as the last Monday game is final. NFL
+play-by-play for Monday's games usually isn't published until overnight, so in that run
+(`pbp_complete` false, `pbp_missing_games` lists them) Monday's points land in the timeline at the
+estimated final whistle. Write Monday night from the totals: who entered Monday ahead
+(`entering_final_day`), who had players left, what they scored, the final. Don't cite a time for
+any lead change marked `time_estimated`, and don't pick Monday swing plays (there are none yet).
+
+Tuesday morning's run refreshes the edition with the full play-by-play and any stat corrections:
+rebuild the facts, re-run the fact-check, fix anything that changed, and add Monday's swing plays
+and lead-change times if they improve the story. Don't rewrite what's already right.

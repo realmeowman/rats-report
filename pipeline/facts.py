@@ -153,13 +153,37 @@ def week_facts(L, week):
     ms = matchups(season, week)
     df, g2s = build_pbp(season, week)
     pbp_teams = set(df.posteam.dropna()) | set(df.defteam.dropna())
-    pbp_complete = len(pbp_teams) >= 26
-    game_start = df.groupby("game_id").t.min()
+    game_start = df.groupby("game_id").t.min().to_dict()
     team_game = {}
     for gid, grp in df.groupby("game_id"):
         for tm in set(grp.posteam.dropna()) | set(grp.defteam.dropna()):
             team_game[tm] = gid
-    game_end = df.groupby("game_id").t.max()
+    game_end = df.groupby("game_id").t.max().to_dict()
+    # The NFL schedule fills in games whose play-by-play isn't published yet (a Monday-night
+    # edition runs before nflverse posts Monday's plays). Those players' points land at the
+    # estimated final whistle instead of play by play; the Tuesday refresh replaces them.
+    pbp_missing = []
+    sched_path = os.path.join(RAW, "games.csv")
+    if os.path.exists(sched_path):
+        g = pd.read_csv(sched_path, low_memory=False)
+        g = g[(g.season == int(season)) & (g.week == week) & (g.game_type == "REG")]
+        now_utc = pd.Timestamp.now(tz="UTC")
+        for r in g.itertuples(index=False):
+            kick = pd.Timestamp(f"{r.gameday} {r.gametime}", tz="America/New_York").tz_convert("UTC")
+            for tm in (r.away_team, r.home_team):
+                team_game.setdefault(tm, r.game_id)
+            if r.game_id not in game_start:
+                if kick > now_utc:
+                    pbp_missing.append({"game_id": r.game_id, "status": "not started"})
+                    continue
+                game_start[r.game_id] = kick
+                game_end[r.game_id] = min(kick + pd.Timedelta(minutes=195), now_utc)
+                pbp_missing.append({"game_id": r.game_id, "status": "no play-by-play yet",
+                                    "kickoff_utc": kick.isoformat()})
+        pbp_complete = not pbp_missing
+    else:
+        pbp_complete = len(pbp_teams) >= 26
+    week_facts.pbp_missing = pbp_missing
     ev = score_events(df, g2s, sc)
     playmeta = {}
     for r in df.itertuples(index=False):
@@ -186,13 +210,14 @@ def week_facts(L, week):
                 used.add(pick["id"]); total += pick["pts"]; lineup.append(pick)
         return r2(total), used
 
-    days = sorted({local(t).date() for t in game_start})
-    first_kick = df.t.min()
+    days = sorted({local(t).date() for t in game_start.values()})
+    first_kick = min(game_start.values())
     hours = lambda t: round((t - first_kick).total_seconds() / 3600, 3)
     segments = []
     for d in days:
-        ts = df[[local(t).date() == d for t in df.t]].t
-        segments.append({"label": local(ts.min()).strftime("%a").upper(), "start_h": hours(ts.min()), "end_h": hours(ts.max())})
+        gids = [gid for gid, t in game_start.items() if local(t).date() == d]
+        st_, en_ = min(game_start[x] for x in gids), max(game_end[x] for x in gids)
+        segments.append({"label": local(st_).strftime("%a").upper(), "start_h": hours(st_), "end_h": hours(en_)})
 
     def nfl_code(pid):
         info = L.pinfo(pid)
@@ -205,7 +230,7 @@ def week_facts(L, week):
         row = dict(info, pts=r2(pts))
         if gid:
             row["game_day"] = local(game_start[gid]).strftime("%a")
-        elif pbp_complete and code:
+        elif code and code not in team_game:
             row["on_bye"] = True
         return row
 
@@ -229,7 +254,10 @@ def week_facts(L, week):
                 if abs(resid) > 0.01:
                     gid = team_game.get(nfl_code(pid))
                     end = game_end[gid] if gid else df.t.max()
-                    tl.append((end, resid, pid, "end-of-game scoring (defense, kicker or other)"))
+                    missing_ids = {x["game_id"] for x in pbp_missing}
+                    label = ("end-of-game scoring (no play-by-play yet; time estimated)" if gid in missing_ids
+                             else "end-of-game scoring (defense, kicker or other)")
+                    tl.append((end, resid, pid, label))
             sides.append({"roster_id": m["roster_id"], "points": r2(m["points"]), "starters": srows, "bench": brows, "tl": tl})
         A, B = sides
         merged = sorted([(t, 0, v, pid, d) for t, v, pid, d in A["tl"]] + [(t, 1, v, pid, d) for t, v, pid, d in B["tl"]], key=lambda x: x[0])
@@ -249,7 +277,7 @@ def week_facts(L, week):
             nl = A["roster_id"] if sa > sb else B["roster_id"] if sb > sa else lead
             if lead is not None and nl != lead:
                 changes.append({"time": fmt_time(t), "new_leader": nl, "score": [r2(sa), r2(sb)],
-                                "player": L.pname(pid), "play": d})
+                                "player": L.pname(pid), "play": d, "time_estimated": "time estimated" in d})
             lead = nl
             h = hours(t)
             if race and race[-1][0] == h:
@@ -260,7 +288,7 @@ def week_facts(L, week):
         last_day = days[-1] if days else None
         final_day = None
         if last_day:
-            cutoff = min(t for t in game_start if local(t).date() == last_day)
+            cutoff = min(t for t in game_start.values() if local(t).date() == last_day)
             ea = sum(v for t, v, _, _ in A["tl"] if t < cutoff)
             eb = sum(v for t, v, _, _ in B["tl"] if t < cutoff)
             day = local(cutoff).strftime("%A")
@@ -566,6 +594,7 @@ def main():
                    "trade_deadline_week": load(season, "league.json")["settings"].get("trade_deadline")},
         "teams": T, "standings": standings, "matchups": out_m, "transactions": tx,
         "timeline_segments": segments, "first_kick_utc": first_kick, "pbp_complete": pbp_complete,
+        "pbp_missing_games": getattr(week_facts, "pbp_missing", []),
         "awards": {"high_score": max(scores) if scores else None, "low_score": min(scores) if scores else None,
                    "closest": min(out_m, key=lambda m: m["margin"])["matchup_id"] if out_m else None,
                    "biggest_blowout": max(out_m, key=lambda m: m["margin"])["matchup_id"] if out_m else None,
