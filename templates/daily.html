@@ -68,6 +68,32 @@
 
 {{ alerts_section(True) }}
 
+{% if d.open_decisions or d.resolved_decisions %}
+<section id="developing" class="sec"><div class="wrap">
+  <div class="sh"><h2>Developing <em>Stories</em></h2><span class="tag">Lineup calls still to be made · we’ll update as they’re settled</span></div>
+  <div class="devs">
+    {% for x in d.resolved_decisions %}{% set t = DT(x.roster_id) %}{% set n = (ds.decision_notes or {}).get(x.id, {}) %}
+    <div class="dev card resolved" style="--tc:{{ t.color }}">
+      <div class="dvh">{{ av(t, 30) }}<span class="pill done">Settled</span></div>
+      <h3>{{ n.headline or (t.name ~ ' made its call at ' ~ x.slot) }}</h3>
+      <div class="dvrow num"><span class="out">{{ x.was.name if x.was else 'Empty' }}</span><span class="arr">→</span><span class="in">{{ x.now.name if x.now else 'Empty' }}{% if x.now and x.now.proj %} <b>{{ "%.1f"|format(x.now.proj) }}</b>{% endif %}</span></div>
+      {% if n.blurb %}<p>{{ n.blurb }}</p>{% endif %}
+    </div>
+    {% endfor %}
+    {% set notes = ds.decision_notes or {} %}{% for x in (d.open_decisions|selectattr('id','in',notes)|list) + (d.open_decisions|rejectattr('id','in',notes)|list) %}{% set t = DT(x.roster_id) %}{% set n = (ds.decision_notes or {}).get(x.id, {}) %}
+    <div class="dev card" style="--tc:{{ t.color }}">
+      <div class="dvh">{{ av(t, 30) }}<span class="pill">Developing</span>{% if x.deadline %}<span class="dl">Decide by {{ x.deadline }}</span>{% endif %}</div>
+      <h3>{{ n.headline or ('What will ' ~ t.name ~ ' do at ' ~ x.slot ~ '?') }}</h3>
+      <div class="cur">{% if x.current %}Starting now: <b>{{ x.current.name }}</b> <span class="why why-{{ x.reason }}">{{ {'bye':'on bye','injury':x.current.injury or 'injury','upgrade':'proj ' ~ ('%.1f'|format(x.current.proj)),'empty':''}[x.reason] }}</span>{% else %}Slot is empty{% endif %}</div>
+      {% if x.options %}<div class="opts">{% for o in x.options %}<span class="opt num">{{ o.name }} <i>{{ o.pos }}</i> <b>{{ "%.1f"|format(o.proj) }}</b></span>{% endfor %}</div>{% if x.via_flex_shuffle %}<div class="note">Would take a flex shuffle</div>{% endif %}
+      {% elif x.needs_waiver_add %}<div class="opts"><span class="opt wire">Nobody on the bench. This one goes to the wire.</span></div>{% endif %}
+      {% if n.blurb %}<p>{{ n.blurb }}</p>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div></section>
+{% endif %}
+
 <section id="matchups" class="sec"><div class="wrap">
   <div class="sh"><h2>Week {{ d.week }} <em>Matchups</em></h2><span class="tag">{{ 'Live scores' if any_live else ('Projected from ' ~ (d.matchups[0].projection_basis if d.matchups else 'lineups')) }}</span></div>
   <div class="ahead">

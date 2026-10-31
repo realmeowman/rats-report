@@ -374,3 +374,27 @@ footer p{margin:0 0 6px;max-width:80ch}
 .bustlead h3{font-family:var(--cond);font-weight:900;font-style:italic;text-transform:uppercase;font-size:clamp(26px,5vw,36px);line-height:1;margin:0 0 6px}
 .bustlead p{margin:0;color:var(--body);font-size:16px;max-width:70ch}
 .al .costtag,.al .tag{justify-self:start}
+
+/* developing stories */
+.devs{display:grid;gap:12px}
+.dev{padding:14px 16px;display:grid;gap:8px;align-content:start;border-top:4px solid var(--tc)}
+.dvh{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.pill{font-family:var(--cond);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:999px;background:var(--heat);color:#0A0A0B;animation:pulse 2.2s ease-in-out infinite}
+.pill.done{background:var(--win);animation:none}
+@keyframes pulse{50%{opacity:.55}}
+@media (prefers-reduced-motion:reduce){.pill{animation:none}}
+.dl{font-family:var(--cond);font-weight:700;font-size:13px;color:var(--mute);margin-left:auto}
+.dev h3{font-family:var(--cond);font-weight:800;font-size:21px;line-height:1.03;text-transform:uppercase;margin:0;text-wrap:balance}
+.cur{font-size:14.5px;color:var(--body)}
+.why{font-family:var(--cond);font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:4px;background:var(--panel2);color:var(--heat)}
+.opts{display:flex;flex-wrap:wrap;gap:6px}
+.opt{font-family:var(--cond);font-weight:700;font-size:15px;background:var(--panel2);border-radius:6px;padding:4px 9px}
+.opt i{font-style:normal;color:var(--mute);font-size:12px}
+.opt b{color:var(--sand)}
+.opt.wire{color:var(--heat)}
+.dev .note{font-size:12.5px;color:var(--mute)}
+.dev p{margin:0;font-size:15px;color:var(--body)}
+.dvrow{display:flex;align-items:center;gap:8px;font-family:var(--cond);font-weight:700;font-size:17px}
+.dvrow .out{color:var(--mute);text-decoration:line-through}.dvrow .in{color:var(--win)}.dvrow .in b{color:var(--ink)}
+@media (min-width:640px){.devs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:980px){.devs{grid-template-columns:repeat(3,minmax(0,1fr))}}

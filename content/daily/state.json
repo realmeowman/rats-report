@@ -2,5 +2,130 @@
  "date": "2026-10-31",
  "since_ms": 1793323549311,
  "last_tx_ms": 1793323549311,
- "last_run": "2026-10-31T08:52-07:00"
+ "last_run": "2026-10-31T11:05-07:00",
+ "decisions_by_date": {
+  "2026-10-31": {
+   "w8-r7-s0": {
+    "roster_id": 7,
+    "slot": "QB",
+    "reason": "injury",
+    "current": {
+     "name": "Lamar Jackson",
+     "pos": "QB",
+     "proj": 20.49,
+     "injury": "Out"
+    }
+   },
+   "w8-r2-s5": {
+    "roster_id": 2,
+    "slot": "WR",
+    "reason": "bye",
+    "current": {
+     "name": "Chris Olave",
+     "pos": "WR",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w8-r4-s1": {
+    "roster_id": 4,
+    "slot": "QB",
+    "reason": "upgrade",
+    "current": {
+     "name": "Bo Nix",
+     "pos": "QB",
+     "proj": 14.05,
+     "injury": null
+    }
+   },
+   "w8-r4-s2": {
+    "roster_id": 4,
+    "slot": "RB",
+    "reason": "bye",
+    "current": {
+     "name": "Christian McCaffrey",
+     "pos": "RB",
+     "proj": 0.0,
+     "injury": "Questionable"
+    }
+   },
+   "w8-r4-s8": {
+    "roster_id": 4,
+    "slot": "FLEX",
+    "reason": "upgrade",
+    "current": {
+     "name": "Jameson Williams",
+     "pos": "WR",
+     "proj": 9.75,
+     "injury": null
+    }
+   },
+   "w8-r6-s7": {
+    "roster_id": 6,
+    "slot": "FLEX",
+    "reason": "bye",
+    "current": {
+     "name": "Malik Nabers",
+     "pos": "WR",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w8-r3-s2": {
+    "roster_id": 3,
+    "slot": "RB",
+    "reason": "injury",
+    "current": {
+     "name": "Breece Hall",
+     "pos": "RB",
+     "proj": 11.39,
+     "injury": "Out"
+    }
+   },
+   "w8-r3-s4": {
+    "roster_id": 3,
+    "slot": "WR",
+    "reason": "injury",
+    "current": {
+     "name": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "proj": 16.62,
+     "injury": "Questionable"
+    }
+   },
+   "w8-r3-s8": {
+    "roster_id": 3,
+    "slot": "FLEX",
+    "reason": "injury",
+    "current": {
+     "name": "Drake London",
+     "pos": "WR",
+     "proj": 17.01,
+     "injury": "Questionable"
+    }
+   },
+   "w8-r8-s5": {
+    "roster_id": 8,
+    "slot": "WR",
+    "reason": "injury",
+    "current": {
+     "name": "DeVonta Smith",
+     "pos": "WR",
+     "proj": 0.0,
+     "injury": "Out"
+    }
+   },
+   "w8-r8-s8": {
+    "roster_id": 8,
+    "slot": "FLEX",
+    "reason": "bye",
+    "current": {
+     "name": "Mike Evans",
+     "pos": "WR",
+     "proj": 0.0,
+     "injury": "Out"
+    }
+   }
+  }
+ }
 }

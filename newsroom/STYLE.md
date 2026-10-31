@@ -138,18 +138,25 @@ Write `content/daily/<date>/stories.json`:
 - `external_facts`: as in the weekly edition.
 
 
-### Lineups before kickoff: assume they'll be set
+### Unsettled lineups are developing stories
 
-Owners set lineups late. Until a player's chance to play is gone, assume every front office will
-make the obvious moves: previews and win probabilities use each team's best available lineup, and
-an unset bye, an injured starter or a better player on the bench is never a headline, a quick hit
-or a pick rationale. Don't write "still starting X on bye" before the games.
+Owners set lineups late, so assume every front office will make its call before kickoff. But an
+open call is drama, and drama brings people back. `open_decisions` lists every lineup spot a team
+still has to settle (a starter on bye, an injured starter, an empty slot, or a clearly better
+option on the bench) with the realistic options, whether it takes a flex shuffle, whether the
+bench has no answer at all (`needs_waiver_add`), and when the call has to be made (`deadline`).
 
-It becomes a story only after the fact, and then it's a big one: a starter whose NFL team played
-without him, a starter on bye or an empty slot once the weekend's games are done. The daily facts
-list these in `busted_lineups` (kinds `started_did_not_play`, `started_on_bye`, `empty_slot`); the
-weekly facts have `busted_lineups` with the points the best bench replacement would have added and
-whether it cost the game. When it happens, lead with it or give it a headline. A busted lineup that
+Cover these like a beat reporter covers a game-time decision: "What will Poochinski do at WR?"
+Weigh the options, handicap them, say what you'd do, and note the clock. Don't scold, don't call it
+a mistake, don't imply they forgot. Use `decision_notes` (`{decision id: {headline, blurb}}`) for
+the most interesting ones; a big one can be a quick hit or part of the lead.
+
+`resolved_decisions` lists calls made since the last brief (who went in, who came out). Report
+them as the story's resolution ("Poochinski made its call at WR: Judkins in").
+
+A call only becomes a mistake after the fact: `busted_lineups` (a starter whose team played
+without him, or a bye or empty slot once the weekend's games are done). Then it's a big deal: a
+headline, the lead, or the weekly edition's Busted Lineups and Dumb Move. A busted lineup that
 cost a game is a lead story.
 
 Facts change by the minute (projections, trending counts), so write numbers from this facts file

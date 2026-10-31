@@ -174,7 +174,13 @@ def validate_daily(date):
             errors.append(f"move grade for {k}, which is not a new move")
         if not re.fullmatch(r"[A-DF][+-]?", g.get("grade", "")):
             errors.append(f"move grade {g.get('grade')} must be A-F")
+    dids = {x["id"] for x in d.get("open_decisions", []) + d.get("resolved_decisions", [])}
+    for k in (s.get("decision_notes") or {}):
+        if k not in dids:
+            errors.append(f"decision note for {k}, which is not an open or resolved decision")
     items = []
+    for k, n in (s.get("decision_notes") or {}).items():
+        items += [(f"decision_notes[{k}].headline", n.get("headline")), (f"decision_notes[{k}].blurb", n.get("blurb"))]
     L = s["lead"]
     for k in ("kicker", "headline", "dek", "pull"):
         items.append(("lead." + k, L.get(k)))

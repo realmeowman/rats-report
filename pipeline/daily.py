@@ -105,6 +105,22 @@ def main():
     lineups_matter = any_points
     bye_final = edition_type == "monday"
 
+    # kickoff time per NFL team this week (for knowing which lineup decisions are still open)
+    kickoff = {}
+    gp_ = os.path.join(RAW, "games.csv")
+    if os.path.exists(gp_):
+        import csv
+        for g in csv.DictReader(open(gp_)):
+            if g["season"] == str(season) and g["week"] == str(week) and g["game_type"] == "REG":
+                k = dt.datetime.fromisoformat(f"{g['gameday']}T{g['gametime']}").replace(tzinfo=ZoneInfo("America/New_York"))
+                for tm in (g["away_team"], g["home_team"]):
+                    kickoff[{"LA": "LAR"}.get(tm, tm)] = k
+    def locked(info):
+        k = kickoff.get(info.get("nfl_team"))
+        return bool(k and k <= now)
+    FLEX = {"FLEX": {"RB", "WR", "TE"}, "WRRB_FLEX": {"RB", "WR"}, "REC_FLEX": {"WR", "TE"}, "SUPER_FLEX": set(SKILL)}
+    decisions = []
+
     # ----- this week's matchups with the lineups owners have set -----
     ms = get(f"/league/{lid}/matchups/{week}")
     by = {}
@@ -149,6 +165,46 @@ def main():
                 bench_rows.append(dict(info, proj=projp(pid), live=r2((m.get("players_points") or {}).get(pid, 0)),
                                        on_bye=info["nfl_team"] not in playing))
             bench_rows.sort(key=lambda r: -r["proj"])
+            # Developing stories: lineup spots this front office still has to settle. Not news
+            # (we assume it gets settled), but drama while it's open.
+            used_opts = set()
+            for i, r in enumerate(rows):
+                slot = r["slot"]
+                if not r.get("empty") and locked(r):
+                    continue
+                ok = FLEX.get(slot, {slot})
+                opts = [b for b in bench_rows if b["pos"] in ok and not b["on_bye"] and b["injury"] not in BAD_STATUS
+                        and not locked(b) and b["proj"] > 0]
+                via_flex = False
+                if not opts and slot not in FLEX:
+                    # no direct backup: a flex starter could slide over and a bench player fill the flex
+                    flex_rows = [x for x in rows if x["slot"] in FLEX and not x.get("empty") and x["pos"] in ok and not locked(x)]
+                    if flex_rows:
+                        fok = FLEX[flex_rows[0]["slot"]]
+                        opts = [b for b in bench_rows if b["pos"] in fok and not b["on_bye"] and b["injury"] not in BAD_STATUS
+                                and not locked(b) and b["proj"] > 0]
+                        via_flex = bool(opts)
+                if r.get("empty"):
+                    why = "empty"
+                elif r["on_bye"]:
+                    why = "bye"
+                elif r["injury"] in BAD_STATUS + ("Doubtful", "Questionable"):
+                    why = "injury"
+                elif opts and opts[0]["proj"] - r["proj"] >= 5:
+                    why = "upgrade"
+                else:
+                    continue
+                choices = [o for o in opts if o["id"] not in used_opts][:3]
+                if why == "upgrade":
+                    choices = [o for o in choices if o["proj"] > r["proj"]]
+                for o in choices[:1]:
+                    used_opts.add(o["id"])
+                decisions.append({"id": f"w{week}-r{rid}-s{i}", "roster_id": rid, "slot": slot, "reason": why,
+                                  "current": None if r.get("empty") else {k: r[k] for k in ("name", "pos", "proj", "injury")},
+                                  "options": [{k: o[k] for k in ("name", "pos", "proj", "injury")} for o in choices], "via_flex_shuffle": via_flex,
+                                  "needs_waiver_add": not choices and why != "upgrade",
+                                  "deadline": min([kickoff[o["nfl_team"]] for o in choices if o["nfl_team"] in kickoff] or [None]) and
+                                              fmt(int(min(kickoff[o["nfl_team"]] for o in choices if o["nfl_team"] in kickoff).timestamp() * 1000))})
             proj_total = r2(sum(r.get("proj", 0) for r in rows if not r.get("empty")))
             pool = [r for r in rows if not r.get("empty")] + bench_rows
             best_total = r2(sum(x["proj"] for x in best_lineup(pool, slots)))
@@ -227,9 +283,31 @@ def main():
     json.dump(facts, open(os.path.join(out, "facts.json"), "w"), indent=1, default=str)
     if tx:
         last["last_tx_ms"] = tx[-1]["ts"]
+    hist = last.setdefault("decisions_by_date", {})
+    prev_dates = sorted(d for d in hist if d < day.isoformat())
+    prev = hist[prev_dates[-1]] if prev_dates else {}
+    now_ids = {d_["id"] for d_ in decisions}
+    starters_now = {}
+    for m_ in matchups:
+        for sd_ in m_["sides"]:
+            for i_, r_ in enumerate(sd_["starters"]):
+                starters_now[f"w{week}-r{sd_['roster_id']}-s{i_}"] = r_
+    resolved = []
+    for did, old in prev.items():
+        if did in now_ids or not did.startswith(f"w{week}-"):
+            continue
+        cur = starters_now.get(did) or {}
+        resolved.append({"id": did, "roster_id": old["roster_id"], "slot": old["slot"], "reason": old["reason"],
+                         "was": old.get("current"), "now": None if cur.get("empty") else {k: cur.get(k) for k in ("name", "pos", "proj")}})
+    hist[day.isoformat()] = {d_["id"]: {k: d_[k] for k in ("roster_id", "slot", "reason", "current")} for d_ in decisions}
+    for k_ in sorted(hist)[:-10]:
+        hist.pop(k_)
+    facts["open_decisions"] = decisions
+    facts["resolved_decisions"] = resolved
+    json.dump(facts, open(os.path.join(out, "facts.json"), "w"), indent=1, default=str)
     last["last_run"] = now.isoformat(timespec="minutes")
     json.dump(last, open(state_p, "w"), indent=1)
-    print(f"wrote content/daily/{day}/facts.json | {facts['edition_type']} | week {week} | moves {len(tx)} | busted {len(alerts)} | games started {any(m['games_started'] for m in matchups)}")
+    print(f"wrote content/daily/{day}/facts.json | {facts['edition_type']} | week {week} | moves {len(tx)} | busted {len(alerts)} | open decisions {len(decisions)} | resolved {len(resolved)} | games started {any(m['games_started'] for m in matchups)}")
 
 
 if __name__ == "__main__":

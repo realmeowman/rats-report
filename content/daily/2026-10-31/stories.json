@@ -2,35 +2,107 @@
   "lead": {
     "kicker": "Matchup of the Week",
     "headline": "First place is a coin flip, and Lob City already has 68.96",
-    "dek": "Poochinski vs. Bad things man bad things: 169.56 to 170.22 at full strength, 49.4% to 50.6%. One team banked its points Thursday. The other is waiting on a Sunday-night stack.",
+    "dek": "Poochinski vs. Bad things man bad things: 170.38 to 170.22 at full strength, 50.2% to 49.8%. One team banked its points Thursday. The other is waiting on a Sunday-night stack.",
     "matchup_key": "w8-m2",
     "by_roster_id": 5,
-    "pull": "Six-tenths of a point. That’s the projected gap for first place.",
+    "pull": "0.16 points. That’s the projected gap for first place.",
     "body": [
       "This is the game of the week, and it isn’t close to close. Poochinski is 6-1 with the most points in the league, 1,198.44. Bad things man bad things is 5-2 with the best all-play record in R.A.T.S., 32-17, one game better than Poochinski’s 31-18. One of these teams has the record. The other has been quietly arguing it deserves it.",
       "Thursday night was a statement. Chuba Hubbard went for 24.9, Matthew Golden for 20.9, Tetairoa McMillan for 11.8 and Bryce Young for 11.36. That’s 68.96 in the bank before Poochinski has played a snap.",
-      "Poochinski doesn’t panic and doesn’t need to. Its answer is Jahmyr Gibbs and the Dak Prescott–CeeDee Lamb stack, the same stack that turned a 43-point deficit into a 58-point win last week. Put both rosters at full strength and the projection is 169.56 to 170.22. Six-tenths of a point for first place.",
-      "My pick is the team I cover, and I’m not apologizing for it. Bad things man bad things has the points banked and the deeper all-play résumé. But this is a 50.6% call, and last Monday proved that nobody in this league should trust a Thursday lead."
+      "Poochinski doesn’t panic and doesn’t need to. Its answer is Jahmyr Gibbs and the Dak Prescott–CeeDee Lamb stack, the same stack that turned a 43-point deficit into a 58-point win last week. Put both rosters at full strength and the projection is 170.38 to 170.22. Less than a fifth of a point for first place.",
+      "My pick is the team I cover anyway, and I’m not apologizing for it. Bad things man bad things has the points banked and the deeper all-play résumé. But the projections lean the other way, 50.2% to 49.8%, and last Monday proved that nobody in this league should trust a Thursday lead."
     ]
   },
   "quick_hits": [
-    {"kicker": "Thursday lead", "roster_ids": [1], "headline": "Big Stric Energy is up 72.62 to nothing", "body": "Josh Jacobs (23.2), Jordan Love (22.52) and Tucker Kraft (17.3) did it again on Thursday night. Big Stric Energy is a 78.6% favorite to end the losing streak. It has also blown a 43.82-point lead in the last two weeks, so nobody is celebrating yet."},
-    {"kicker": "Bad timing", "roster_ids": [7], "headline": "Santa Clara’s Finest loses Lamar Jackson", "body": "Jackson is listed Out, and Santa Clara’s Finest starts two quarterbacks. Already down 72.62 to nothing, it’s a 21.4% shot to avoid a seventh loss."},
-    {"kicker": "Underdog", "roster_ids": [8, 3], "headline": "AB81 is a rare underdog", "body": "The champ leads 17.3 to nothing on Christian Watson’s Thursday night and projects for 159.43 to 138.1. AB81, 6-1 and luckier than anyone (+2.1 wins), is 30.6% to win."},
-    {"kicker": "Coin flip-ish", "roster_ids": [6, 4], "headline": "deeboliciouskins is the favorite in a race of two bye weeks", "body": "At full strength deeboliciouskins projects for 152.05 to Cherry Blossom’s 142.56, a 58.9% favorite. McCaffrey and Nabers are both off this week, so the depth charts decide it."},
-    {"kicker": "Most added", "roster_ids": [], "headline": "Makai Lemon is the wire’s best receiver", "body": "Added 118,324 times on Sleeper in a day and projected for 9.6. Still available in R.A.T.S."}
+    {
+      "kicker": "Thursday lead",
+      "roster_ids": [
+        1
+      ],
+      "headline": "Big Stric Energy is up 72.62 to nothing",
+      "body": "Josh Jacobs (23.2), Jordan Love (22.52) and Tucker Kraft (17.3) did it again on Thursday night. Big Stric Energy is a 78.4% favorite to end the losing streak. It has also blown a 43.82-point lead in the last two weeks, so nobody is celebrating yet."
+    },
+    {
+      "kicker": "Bad timing",
+      "roster_ids": [
+        7
+      ],
+      "headline": "Santa Clara’s Finest loses Lamar Jackson",
+      "body": "Jackson is listed Out, and Santa Clara’s Finest starts two quarterbacks. Already down 72.62 to nothing, it’s a 21.6% shot to avoid a seventh loss."
+    },
+    {
+      "kicker": "Developing",
+      "roster_ids": [
+        8
+      ],
+      "headline": "Will AB81 finally make a move?",
+      "body": "Zero roster moves all season, and now two lineup holes with one bench answer. Mark Andrews covers one. The other needs the waiver wire. The 6-1 team that never touches anything may have to touch something."
+    },
+    {
+      "kicker": "Coin flip-ish",
+      "roster_ids": [
+        6,
+        4
+      ],
+      "headline": "deeboliciouskins is the favorite in a race of two bye weeks",
+      "body": "At full strength deeboliciouskins projects for 152.69 to Cherry Blossom’s 142.58, a 59.5% favorite. McCaffrey and Nabers are both off this week, so the depth charts decide it."
+    },
+    {
+      "kicker": "Most added",
+      "roster_ids": [],
+      "headline": "Makai Lemon is the wire’s best receiver",
+      "body": "Added 139,556 times on Sleeper in a day and projected for 9.5. Still available in R.A.T.S."
+    }
   ],
   "previews": {
-    "w8-m1": {"headline": "Big lead, big history of blowing big leads", "blurb": "Big Stric Energy leads 72.62 to nothing and projects for 158.15 to 124.77. Santa Clara’s Finest needs a miracle without Lamar Jackson.", "pick": 1},
-    "w8-m2": {"headline": "First place, six-tenths of a point", "blurb": "Bad things man bad things has 68.96 banked. Poochinski has Gibbs and the Dallas stack still to come. 50.6% to 49.4%.", "pick": 5},
-    "w8-m3": {"headline": "Two teams better than their records", "blurb": "deeboliciouskins projects for 152.05, Cherry Blossom for 142.56. The second- and fourth-highest scoring teams in the league, with a playoff seed at stake.", "pick": 6},
-    "w8-m4": {"headline": "The champ is the favorite again", "blurb": "Maye I touch your TDs? leads 17.3 to nothing and projects for 159.43. AB81 projects for 138.1 and needs something its luck hasn’t provided yet: points.", "pick": 3}
+    "w8-m1": {
+      "headline": "Big lead, big history of blowing big leads",
+      "blurb": "Big Stric Energy leads 72.62 to nothing and projects for 158.08 to 125.06. Santa Clara’s Finest needs a miracle without Lamar Jackson.",
+      "pick": 1
+    },
+    "w8-m2": {
+      "headline": "First place, six-tenths of a point",
+      "blurb": "Bad things man bad things has 68.96 banked. Poochinski has Gibbs and the Dallas stack still to come. 50.2% Poochinski.",
+      "pick": 5
+    },
+    "w8-m3": {
+      "headline": "Two teams better than their records",
+      "blurb": "deeboliciouskins projects for 152.69, Cherry Blossom for 142.58. The second- and fourth-highest scoring teams in the league, with a playoff seed at stake.",
+      "pick": 6
+    },
+    "w8-m4": {
+      "headline": "The champ is the favorite again",
+      "blurb": "Maye I touch your TDs? leads 17.3 to nothing and projects for 160.97. AB81 projects for 138.62 and needs something its luck hasn’t provided yet: points.",
+      "pick": 3
+    }
   },
   "trending_notes": {
-    "13294": "Available in R.A.T.S. and projected for 9.6.",
-    "7561": "Still available, but projected for 3.31 this week. A handcuff, not a starter.",
-    "WAS": "Still available, projected for 8.39."
+    "13294": "Available in R.A.T.S. and projected for 9.5.",
+    "7561": "Still available, but projected for 3.23 this week. A handcuff, not a starter.",
+    "WAS": "Still available, projected for 8.43."
   },
   "move_grades": {},
-  "external_facts": []
+  "external_facts": [],
+  "decision_notes": {
+    "w8-r2-s5": {
+      "headline": "What will Poochinski do at WR with first place on the line?",
+      "blurb": "Chris Olave is off this week, and the bench has no receiver. The likely play is sliding a flex receiver over and dropping Quinshon Judkins (10.72) into the flex. In a game projected at 170.38 to 170.22, this one call is the margin."
+    },
+    "w8-r4-s1": {
+      "headline": "Nix or Lawrence? Cherry Blossom’s quarterback question",
+      "blurb": "Bo Nix (14.05) is in. Trevor Lawrence (20.02) is on the bench. That’s a real gap in a matchup Cherry Blossom is projected to lose. The clock runs out at 10:00 a.m. Sunday."
+    },
+    "w8-r3-s4": {
+      "headline": "Will Amon-Ra play? The champ waits on its WR1",
+      "blurb": "Amon-Ra St. Brown (16.62) is Questionable and starting. Jaylen Waddle (11.26) is the backup plan. Drake London is Questionable too. The champ has two game-time decisions in a game it’s favored to win."
+    },
+    "w8-r8-s8": {
+      "headline": "AB81 has two holes and one bench answer",
+      "blurb": "Mike Evans is off this week and DeVonta Smith is Out. Mark Andrews (8.78) can fill one spot. The other goes to the waiver wire, where Makai Lemon (9.5) is waiting. For a front office with zero moves this season, this is the week."
+    },
+    "w8-r7-s0": {
+      "headline": "Santa Clara’s Finest needs a quarterback from somewhere",
+      "blurb": "Lamar Jackson is Out and the bench has no healthy quarterback. In a two-QB league, the waiver wire is the only door left open."
+    }
+  }
 }
