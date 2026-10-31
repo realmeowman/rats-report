@@ -1,0 +1,48 @@
+{
+  "lead": {
+    "kicker": "Matchup of the Week",
+    "headline": "Poochinski has one move left before a first-place fight",
+    "dek": "The 6-1 leader still has Chris Olave in its lineup on bye. As set, Poochinski projects for 158.79 against Bad things man bad things at 170.4. Fixed, it’s 169.51. Less than a point. That’s the whole weekend.",
+    "matchup_key": "w8-m2",
+    "by_roster_id": 2,
+    "pull": "A bye week in your lineup on Saturday is a typo. On Sunday it’s a forfeit.",
+    "body": [
+      "This is the game. Poochinski, 6-1 with the most points in the league at 1198.44, against Bad things man bad things, 5-2 and the best all-play record in R.A.T.S. at 32-17. Poochinski’s is 31-18. One of these teams has the record. The other has been quietly arguing it deserves it.",
+      "And as of Saturday morning, Poochinski is still starting Chris Olave at receiver during his bye week. Same as Friday. As set, that lineup projects for 158.79 and is a 39.1% underdog. Put Quinshon Judkins (10.72) in the empty spot and it projects for 169.51. Bad things man bad things projects for 170.4. That turns a double-digit hole into a game decided by less than a point.",
+      "Bad things man bad things has no fix to make, because there’s nothing to fix. Its best lineup and its actual lineup are the same lineup: 170.4 either way, with 68.96 already banked from Thursday night. Chuba Hubbard put up 24.9, Matthew Golden 20.9. Still to come: Bijan Robinson (21.91), Trey McBride (18.61), James Cook III (17.32) and the Kirk Cousins pickup at 16.71. Michael Wilson’s ribs no longer show up on the injury report. This front office does homework.",
+      "Poochinski’s answer is Dallas. Dak Prescott (22.48), CeeDee Lamb (21.95), Javonte Williams (19.55) and Brandon Aubrey (7.69) all in one lineup, plus Jahmyr Gibbs at 23.29. When that stack hits, it erases 68.96 in a quarter. When it doesn’t, Poochinski is spotting the busiest front office in the league a full receiver slot.",
+      "My pick is Bad things man bad things, and I don’t love saying it about the team I cover. This is a 60.9% call as set and a coin flip at best. One click on Judkins makes it a fair fight for first place. Not making it would be the dumbest loss of the season, and Sunday morning is a terrible time to remember."
+    ]
+  },
+  "quick_hits": [
+    {"kicker": "Upset alert", "roster_ids": [8, 3], "headline": "AB81 fixed one hole and two more opened", "body": "George Kittle is out of the lineup and Dallas Goedert (10.19) is in. Progress. But Mike Evans is still at flex on bye, and DeVonta Smith went from Questionable to Out. Carnell Tate, Friday’s backup plan, is Out too. AB81 projects for 129.34 against the champ’s 160.31, a 23.1% shot, and the only healthy bench answer is Mark Andrews at 8.78."},
+    {"kicker": "Shop or drop", "roster_ids": [8], "headline": "The league’s quietest front office needs the wire", "body": "AB81 has won six games without making a move. It needs two now. Chris Godwin Jr. (11.54), KC Concepcion Jr. (10.33) and Makai Lemon (9.62) are all available in R.A.T.S. Any of them beats two zeros."},
+    {"kicker": "Exhale", "roster_ids": [7, 1], "headline": "Santa Clara’s Finest got its quarterback back", "body": "Lamar Jackson’s ankle is off the injury report. That matters for a team with no backup QB on the roster. It’s now 41% to win, down 72.62 to nothing to Big Stric Energy, which still has Josh Allen (24.48) and Justin Jefferson (17.63) to play. Colston Loveland is Questionable with a neck, and there’s no healthy tight end behind him."},
+    {"kicker": "Still unfixed", "roster_ids": [4, 6], "headline": "Cherry Blossom and deeboliciouskins are both still on bye", "body": "Cherry Blossom is starting Christian McCaffrey on bye and Bo Nix (14.05) over Trevor Lawrence (20.02): 131.34 as set, 142.64 at best. deeboliciouskins has Malik Nabers on bye at flex: 138.17 as set, 155.6 at best. Neither front office touched it Friday. The first one to look wins."},
+    {"kicker": "Bench QB", "roster_ids": [6], "headline": "deeboliciouskins is benching its best quarterback", "body": "Jayden Daniels projects for 18.51 and is on the bench. The starters are Kyler Murray (17.04) and Patrick Mahomes (16.79). Small gap, free points, same click as the Nabers fix."},
+    {"kicker": "Stream it", "roster_ids": [4], "headline": "Washington’s defense is still on the wire", "body": "Projected 8.45, available, and added 109,046 times on Sleeper. Cherry Blossom is still starting the Baltimore defense at 4.23."}
+  ],
+  "previews": {
+    "w8-m1": {"headline": "Big lead, real quarterback", "blurb": "Big Stric Energy leads 72.62 to nothing and projects for 154.96. Santa Clara’s Finest has Lamar Jackson back and projects for 145.44. Big Stric Energy has blown big leads before. 59% Big Stric Energy.", "pick": 1},
+    "w8-m2": {"headline": "First place comes down to one click", "blurb": "Bad things man bad things: 170.4, perfect lineup, 68.96 banked. Poochinski: 158.79 with Chris Olave on bye, 169.51 without. 60.9% Bad things.", "pick": 5},
+    "w8-m3": {"headline": "Two teams, two bye weeks", "blurb": "131.34 to 138.17 as set. 142.64 to 155.6 at best. deeboliciouskins has the bigger ceiling and the bigger mess. 56.5% deeboliciouskins.", "pick": 6},
+    "w8-m4": {"headline": "The 2-5 champ is the favorite", "blurb": "Maye I touch your TDs? leads 17.3 to nothing and projects for 160.31 with its best lineup set. AB81 is at 129.34 with two dead slots. 76.9% the champ.", "pick": 3}
+  },
+  "alert_notes": {
+    "2": "Chris Olave is on bye. Start Quinshon Judkins (10.72). This is a first-place game.",
+    "8": "Mike Evans is on bye and DeVonta Smith is Out. Start Mark Andrews (8.78) at flex and add a receiver: Chris Godwin Jr. (11.54) is available.",
+    "4": "Sit Christian McCaffrey (bye). Start Trevor Lawrence (20.02) over Bo Nix and Parker Washington (15.08) over Jameson Williams.",
+    "6": "Malik Nabers is on bye. DJ Moore (14.0) is the swap if his shoulder clears; George Pickens is Questionable too. Start Jayden Daniels (18.51).",
+    "7": "Colston Loveland is Questionable with a neck and there’s no healthy tight end on the bench. Brenton Strange (10.12) is available.",
+    "3": "Breece Hall is Questionable. Omarion Hampton (10.16) is the healthy fallback."
+  },
+  "trending_notes": {
+    "4037": "Available in R.A.T.S., projected 11.54. AB81 has two empty receiver spots.",
+    "13298": "Available, projected 10.33. Another answer for AB81.",
+    "9480": "Still available, projected 10.12. Santa Clara’s Finest’s insurance if Colston Loveland sits.",
+    "WAS": "Available, projected 8.45. Cherry Blossom’s defense projects for 4.23.",
+    "8129": "On IR, on the Poochinski bench, and the most-dropped player on Sleeper again."
+  },
+  "move_grades": {},
+  "external_facts": []
+}
