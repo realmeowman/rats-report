@@ -72,13 +72,14 @@ sports-radio columnist with a deadline and opinions.
   regression. Use `analysis.teams[rid]` (playoff odds, all-play, luck, next-week projection,
   bye players, empty slots, QBs available) and the usage lists.
 - `lookahead`: one `{headline, blurb}` per `analysis.next_week[].key`. Who's favored and why,
-  and what each team must fix. Alerts (empty slots, QB shortages) render automatically.
+  and which roster holes (byes, a missing second QB) the waiver wire will have to fill.
 - `waiver_targets`: 3-5 `{player_id, blurb}` from `analysis.waiver_targets`; say who needs him.
 - `usage_watch`: 4-6 `{player_id, blurb}` from `analysis.usage_rising`/`usage_falling`/
   `td_dependent`; say what to do about it (start, bench, buy, sell).
 - `playoff_note`: one paragraph on the playoff race from `analysis.teams[].playoff_odds`.
 - Sprinkle the analysis into the stories too: all-play records, luck, playoff odds, usage. The
   jokes land harder when the analysis is right.
+- `busted`: `{headline, blurb}` for the Busted Lineups section when `busted_lineups` isn't empty.
 - `rankings`: every team, ordered, one-line blurb each.
 - `external_facts`: any outside fact you used, with source.
 
@@ -117,10 +118,10 @@ The day sets the angle (`facts.edition_type`):
 - **monday**: Sunday's damage and Monday night math. Who leads, who needs what from MNF players.
 - **tuesday**: the weekly edition is the big story; the brief tees up waivers (who should claim whom).
 - **waivers** (Wed): grade every waiver claim that just processed; who won the wire, who whiffed.
-- **preview** (Thu): the week's matchups from the lineups set right now, picks, Thursday-night exposure.
-- **lineup_watch** (Fri): injuries and lineup alerts; start/sit calls for every team.
-- **weekend** (Sat): last call on lineups; upset alert; the matchup of the week.
-- **gameday** (Sun): lineup alerts before kickoff, Thursday night results if any, what to watch.
+- **preview** (Thu): the week's matchups at full strength, picks, Thursday-night exposure.
+- **lineup_watch** (Fri): the injury report and real start/sit calls (close decisions, not byes).
+- **weekend** (Sat): Thursday-night damage, upset alert, the matchup of the week.
+- **gameday** (Sun): what to watch, Thursday night results, any busted lineups from Thursday.
 
 Write `content/daily/<date>/stories.json`:
 - `lead`: `{kicker, headline, dek, body (4-6 paragraphs), pull?, by_roster_id?, matchup_key?, roster_ids?}`.
@@ -129,12 +130,27 @@ Write `content/daily/<date>/stories.json`:
 - `quick_hits`: 4-6 `{kicker, headline, body, roster_ids?}` short takes (2-3 sentences each).
 - `previews`: `{matchup_key: {headline, blurb, pick}}` for every current matchup on preview,
   weekend and gameday days (optional other days). `pick` is a roster_id.
-- `alert_notes`: `{roster_id: note}` one line of advice for teams with lineup alerts.
+- `alert_notes`: `{roster_id: note}` one line on each team in `busted_lineups` (empty before games).
 - `trending_notes`: `{player_id: note}` for trending players that matter to R.A.T.S. (available
   and useful, or owned by a team).
 - `move_grades`: `{move id: {grade A-F (+/-), blurb}}` for `facts.new_moves[].id`. Grade every move
   on waivers day; grade notable ones on other days.
 - `external_facts`: as in the weekly edition.
+
+
+### Lineups before kickoff: assume they'll be set
+
+Owners set lineups late. Until a player's chance to play is gone, assume every front office will
+make the obvious moves: previews and win probabilities use each team's best available lineup, and
+an unset bye, an injured starter or a better player on the bench is never a headline, a quick hit
+or a pick rationale. Don't write "still starting X on bye" before the games.
+
+It becomes a story only after the fact, and then it's a big one: a starter whose NFL team played
+without him, a starter on bye or an empty slot once the weekend's games are done. The daily facts
+list these in `busted_lineups` (kinds `started_did_not_play`, `started_on_bye`, `empty_slot`); the
+weekly facts have `busted_lineups` with the points the best bench replacement would have added and
+whether it cost the game. When it happens, lead with it or give it a headline. A busted lineup that
+cost a game is a lead story.
 
 Facts change by the minute (projections, trending counts), so write numbers from this facts file
 and nowhere else. `python3 pipeline/validate.py --daily <date>` must pass with 0 errors.

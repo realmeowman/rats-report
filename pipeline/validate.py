@@ -106,6 +106,9 @@ def text_items(s):
         yield f"film[{i}]", x.get("blurb", "")
     if s.get("playoff_note"):
         yield "playoff_note", s["playoff_note"]
+    for k in ("headline", "blurb"):
+        if (s.get("busted") or {}).get(k):
+            yield "busted." + k, s["busted"][k]
     for i, x in enumerate(s.get("games", [])):
         yield from g(x, f"games[{i}]")
     for x in s.get("beats", []):

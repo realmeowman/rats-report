@@ -3,8 +3,8 @@ and write content/daily/<date>/facts.json for the day's writer.
 
 Covers: new roster moves (with timestamps), Sleeper-wide trending adds and drops and who in
 R.A.T.S. owns them, this week's matchups with the lineups owners have actually set (projections,
-win probability, live points once games start), lineup alerts (starters on bye, out, doubtful,
-empty slots, better options on the bench), injuries on rosters, and the latest playoff odds.
+win probability, live points once games start), busted lineups (starters
+who never played: their team played without them, or a bye once the weekend is over), injuries on rosters, and the latest playoff odds.
 
 Usage: python3 pipeline/daily.py [--date YYYY-MM-DD]
 Run pipeline/fetch.py first (it refreshes the completed weeks and player database).
@@ -97,7 +97,13 @@ def main():
     # reminder, not news; on Sunday morning (and after kickoff) it becomes a real alert.
     edition_type = EDITION_BY_DAY[day.weekday()]
     any_points = any((m.get("points") or 0) > 0 for m in get(f"/league/{lid}/matchups/{week}"))
-    lineups_matter = edition_type in ("gameday", "monday") or (any_points and edition_type != "preview")
+    # Before games start we assume every owner will set a sensible lineup: previews use each team's
+    # best available lineup and nothing about unset lineups is reported. Only after a starter's
+    # chance to play is gone (his NFL team has played without him, or he's on bye once the
+    # weekend's games are done) does it become a story: a busted lineup.
+    played_teams = {pinfo(pid)["nfl_team"] for pid, s_ in live.items() if s_.get("gp")}
+    lineups_matter = any_points
+    bye_final = edition_type == "monday"
 
     # ----- this week's matchups with the lineups owners have set -----
     ms = get(f"/league/{lid}/matchups/{week}")
@@ -123,18 +129,19 @@ def main():
                 slot = slots[i] if i < len(slots) else "?"
                 if not pid or pid == "0":
                     rows.append({"slot": slot, "empty": True})
-                    alerts.append({"roster_id": rid, "kind": "empty_slot", "slot": slot})
+                    if bye_final:
+                        alerts.append({"roster_id": rid, "kind": "empty_slot", "slot": slot})
                     continue
                 info = pinfo(pid)
                 row = dict(info, slot=slot, proj=projp(pid), live=r2((m.get("players_points") or {}).get(pid, 0)),
                            on_bye=info["nfl_team"] not in playing)
                 rows.append(row)
-                if row["on_bye"]:
-                    alerts.append({"roster_id": rid, "kind": "starter_on_bye", "player": info["name"], "slot": slot})
-                elif info["injury"] in BAD_STATUS:
-                    alerts.append({"roster_id": rid, "kind": "starter_out", "player": info["name"], "status": info["injury"], "slot": slot})
-                elif info["injury"] in ("Doubtful", "Questionable"):
-                    alerts.append({"roster_id": rid, "kind": "starter_" + info["injury"].lower(), "player": info["name"], "status": info["injury"], "slot": slot})
+                played = bool((live.get(str(pid)) or {}).get("gp"))
+                if row["on_bye"] and bye_final:
+                    alerts.append({"roster_id": rid, "kind": "started_on_bye", "player": info["name"], "slot": slot})
+                elif not played and info["pos"] != "DEF" and info["nfl_team"] in played_teams:
+                    alerts.append({"roster_id": rid, "kind": "started_did_not_play", "player": info["name"], "slot": slot,
+                                   "status_now": info["injury"]})
             for pid in m.get("players") or []:
                 if pid in starters:
                     continue
@@ -142,15 +149,6 @@ def main():
                 bench_rows.append(dict(info, proj=projp(pid), live=r2((m.get("players_points") or {}).get(pid, 0)),
                                        on_bye=info["nfl_team"] not in playing))
             bench_rows.sort(key=lambda r: -r["proj"])
-            # better option on the bench: same position, healthy, projected 5+ more than a starter
-            for b in bench_rows:
-                if b["on_bye"] or b["injury"] in BAD_STATUS:
-                    continue
-                worse = [r for r in rows if not r.get("empty") and r["pos"] == b["pos"] and b["proj"] - r["proj"] >= 5]
-                if worse:
-                    w_ = min(worse, key=lambda r: r["proj"])
-                    alerts.append({"roster_id": rid, "kind": "better_on_bench", "bench": b["name"], "bench_proj": b["proj"],
-                                   "starter": w_["name"], "starter_proj": w_["proj"]})
             proj_total = r2(sum(r.get("proj", 0) for r in rows if not r.get("empty")))
             pool = [r for r in rows if not r.get("empty")] + bench_rows
             best_total = r2(sum(x["proj"] for x in best_lineup(pool, slots)))
@@ -158,11 +156,11 @@ def main():
                           "projected_best_lineup": best_total,
                           "starters": rows, "bench": bench_rows[:6]})
         A, B = sides
-        basis = "projected_set_lineup" if lineups_matter else "projected_best_lineup"
+        basis = "projected_best_lineup"
         z = (A[basis] - B[basis]) / (math.sqrt(2) * sd) if sd else 0
         wp = 0.5 * (1 + math.erf(z / math.sqrt(2)))
         matchups.append({"key": f"w{week}-m{mid}", "matchup_id": mid, "teams": [A["roster_id"], B["roster_id"]],
-                         "projected": [A[basis], B[basis]], "projection_basis": "lineups as set" if lineups_matter else "best available lineups",
+                         "projected": [A[basis], B[basis]], "projection_basis": "best available lineups",
                          "projected_as_set": [A["projected_set_lineup"], B["projected_set_lineup"]],
                          "projected_best": [A["projected_best_lineup"], B["projected_best_lineup"]],
                          "live": [A["live_points"], B["live_points"]], "win_prob": [round(wp, 3), round(1 - wp, 3)],
@@ -216,12 +214,10 @@ def main():
         for rid, t in (wf.get("analysis") or {}).get("teams", {}).items():
             ctx[rid] = {k: t[k] for k in ("playoff_odds", "all_play", "luck", "projected_final_wins")}
 
-    for a_ in alerts:
-        a_["severity"] = "alert" if lineups_matter else "reminder"
     facts = {"date": day.isoformat(), "weekday": day.strftime("%A"), "edition_type": edition_type,
              "lineups_matter": lineups_matter,
              "generated_at": now.isoformat(timespec="minutes"), "season": season, "week": week,
-             "teams": teams, "standings_context": ctx, "matchups": matchups, "lineup_alerts": alerts,
+             "teams": teams, "standings_context": ctx, "matchups": matchups, "busted_lineups": alerts,
              "new_moves": tx, "trending_adds": trending("add"), "trending_drops": trending("drop"),
              "injuries": inj[:20], "nfl_teams_on_bye": sorted({p["team"] for p in players.values()
                                                               if p.get("team") and p.get("position") in SKILL} - playing),
@@ -233,7 +229,7 @@ def main():
         last["last_tx_ms"] = tx[-1]["ts"]
     last["last_run"] = now.isoformat(timespec="minutes")
     json.dump(last, open(state_p, "w"), indent=1)
-    print(f"wrote content/daily/{day}/facts.json | {facts['edition_type']} | week {week} | moves {len(tx)} | alerts {len(alerts)} | games started {any(m['games_started'] for m in matchups)}")
+    print(f"wrote content/daily/{day}/facts.json | {facts['edition_type']} | week {week} | moves {len(tx)} | busted {len(alerts)} | games started {any(m['games_started'] for m in matchups)}")
 
 
 if __name__ == "__main__":

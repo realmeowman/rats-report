@@ -12,7 +12,7 @@
 {% endblock %}
 {% macro alerts_section(urgent) %}{% if alerts_by_team %}
 <section id="alerts" class="sec {{ '' if urgent else 'quiet' }}"><div class="wrap">
-  {% if urgent %}<div class="sh"><h2>Lineup <em>Alerts</em></h2><span class="tag">Still unfixed in the lineups set right now</span></div>{% else %}<div class="sh"><h2>Lineup <em>Reminders</em></h2><span class="tag">Byes and injuries to sort out before Sunday</span></div><p class="lede small">Most teams set lineups late in the week, so these are reminders, not news. Anything still unfixed on Sunday morning becomes an alert.</p>{% endif %}
+  {% if urgent %}<div class="sh"><h2>Busted <em>Lineups</em></h2><span class="tag">Started a player who never took the field</span></div>{% else %}<div class="sh"><h2>Lineup <em>Reminders</em></h2><span class="tag">Byes and injuries to sort out before Sunday</span></div><p class="lede small">Most teams set lineups late in the week, so these are reminders, not news. Anything still unfixed on Sunday morning becomes an alert.</p>{% endif %}
   <div class="alerts">
     {% for rid, items in alerts_by_team %}{% set t = DT(rid) %}
     <div class="al card" style="--tc:{{ t.color }}">
@@ -66,7 +66,7 @@
 </div></section>
 {% endif %}
 
-{% if d.lineups_matter %}{{ alerts_section(True) }}{% endif %}
+{{ alerts_section(True) }}
 
 <section id="matchups" class="sec"><div class="wrap">
   <div class="sh"><h2>Week {{ d.week }} <em>Matchups</em></h2><span class="tag">{{ 'Live scores' if any_live else ('Projected from ' ~ (d.matchups[0].projection_basis if d.matchups else 'lineups')) }}</span></div>
@@ -128,8 +128,6 @@
   </div>
 </div></section>
 {% endif %}
-
-{% if not d.lineups_matter %}{{ alerts_section(False) }}{% endif %}
 
 {% if weekly %}
 <section id="edition" class="sec"><div class="wrap">

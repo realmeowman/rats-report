@@ -369,6 +369,19 @@ def week_facts(L, week):
                     stack[r["nfl_team"]]["players"].append(r["name"]); stack[r["nfl_team"]]["pts"] += r["pts"]
             s["starter_stacks"] = {k: {"players": v["players"], "pts": r2(v["pts"])} for k, v in stack.items() if len(v["players"]) >= 2}
             s["zero_starters"] = [r["name"] for r in s["starters"] if r["pts"] == 0]
+            # busted lineup: a starter who never took the field (bye, inactive, out) or an empty slot
+            played_teams = {(L.players.get(str(p_)) or {}).get("team") for p_, st_ in wstats.items() if st_.get("gp")}
+            busted = []
+            for r in s["starters"]:
+                if (wstats.get(r["id"]) or {}).get("gp") or r.get("pos") == "DEF":
+                    continue
+                reason = "bye week" if r.get("on_bye") or (r.get("nfl_team") and r["nfl_team"] not in played_teams) else "did not play"
+                inj = (L.players.get(r["id"]) or {}).get("injury_status")
+                swap = next((x for x in s.get("bench_swaps", []) if x["instead_of"]["name"] == r["name"]), None)
+                busted.append({"name": r["name"], "pos": r.get("pos"), "reason": reason, "injury_status_now": inj,
+                               "best_replacement": swap["start"] if swap else None, "points_lost": swap["gain"] if swap else 0})
+            empty = sum(1 for r in s["starters"] if r.get("empty"))
+            s["busted_starters"] = busted
             s["bye_starters"] = [r["name"] for r in s["starters"] if r.get("on_bye")]
             s["best_bench"] = s["bench"][0] if s["bench"] else None
             s["max_lead"] = {"margin": best[s["roster_id"]][0], "time": fmt_time(best[s["roster_id"]][1]) if best[s["roster_id"]][1] is not None else None}
@@ -621,6 +634,17 @@ def main():
                           "margin": r2(abs(sd["points"] - opp)), "swaps": sd["bench_swaps"]})
     bench.sort(key=lambda x: (-x["cost_the_game"], -x["points_left"]))
     facts["bench_report"] = bench
+    bl = []
+    for m in out_m:
+        for sd in m["sides"]:
+            if sd.get("busted_starters"):
+                opp = next(x for x in m["sides"] if x["roster_id"] != sd["roster_id"])["points"]
+                lost_pts = r2(sum(x["points_lost"] for x in sd["busted_starters"]))
+                bl.append({"roster_id": sd["roster_id"], "starters": sd["busted_starters"], "points_lost": lost_pts,
+                           "won_anyway": sd["roster_id"] == m["winner"],
+                           "cost_the_game": sd["roster_id"] == m["loser"] and sd["points"] + lost_pts > opp})
+    bl.sort(key=lambda x: (-x["cost_the_game"], -len(x["starters"]), -x["points_lost"]))
+    facts["busted_lineups"] = bl
     out = os.path.join(ROOT, "content", f"{season}-w{week:02d}")
     os.makedirs(out, exist_ok=True)
     json.dump(facts, open(os.path.join(out, "facts.json"), "w"), indent=1, default=str)

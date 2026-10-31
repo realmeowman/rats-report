@@ -2,7 +2,7 @@
  "publication": "The R.A.T.S. Report",
  "season": "2026",
  "week": 7,
- "generated_at": "2026-10-29T09:09-07:00",
+ "generated_at": "2026-10-31T08:52-07:00",
  "league": {
   "num_teams": 8,
   "format": "2-QB PPR",
@@ -399,6 +399,7 @@
       }
      },
      "zero_starters": [],
+     "busted_starters": [],
      "bye_starters": [],
      "best_bench": {
       "id": "12512",
@@ -626,6 +627,7 @@
       }
      },
      "zero_starters": [],
+     "busted_starters": [],
      "bye_starters": [],
      "best_bench": {
       "id": "11576",
@@ -2166,6 +2168,20 @@
      "zero_starters": [
       "Breece Hall"
      ],
+     "busted_starters": [
+      {
+       "name": "Breece Hall",
+       "pos": "RB",
+       "reason": "did not play",
+       "injury_status_now": "Out",
+       "best_replacement": {
+        "name": "Woody Marks",
+        "pos": "RB",
+        "pts": 9.1
+       },
+       "points_lost": 9.1
+      }
+     ],
      "bye_starters": [],
      "best_bench": {
       "id": "12474",
@@ -2335,6 +2351,7 @@
       }
      },
      "zero_starters": [],
+     "busted_starters": [],
      "bye_starters": [],
      "best_bench": {
       "id": "KC",
@@ -4107,6 +4124,7 @@
       }
      },
      "zero_starters": [],
+     "busted_starters": [],
      "bye_starters": [],
      "best_bench": {
       "id": "10213",
@@ -4325,6 +4343,7 @@
       }
      },
      "zero_starters": [],
+     "busted_starters": [],
      "bye_starters": [],
      "best_bench": {
       "id": "12481",
@@ -5770,6 +5789,40 @@
       "Mike Evans",
       "Cam Little"
      ],
+     "busted_starters": [
+      {
+       "name": "DeVonta Smith",
+       "pos": "WR",
+       "reason": "did not play",
+       "injury_status_now": "Out",
+       "best_replacement": {
+        "name": "Carnell Tate",
+        "pos": "WR",
+        "pts": 9.9
+       },
+       "points_lost": 9.9
+      },
+      {
+       "name": "Mike Evans",
+       "pos": "WR",
+       "reason": "did not play",
+       "injury_status_now": "Out",
+       "best_replacement": {
+        "name": "Dallas Goedert",
+        "pos": "TE",
+        "pts": 9.8
+       },
+       "points_lost": 9.8
+      },
+      {
+       "name": "Cam Little",
+       "pos": "K",
+       "reason": "bye week",
+       "injury_status_now": null,
+       "best_replacement": null,
+       "points_lost": 0
+      }
+     ],
      "bye_starters": [
       "Cam Little"
      ],
@@ -6005,6 +6058,7 @@
       }
      },
      "zero_starters": [],
+     "busted_starters": [],
      "bye_starters": [],
      "best_bench": {
       "id": "12495",
@@ -9914,23 +9968,23 @@
     "proj_next": 15.97
    },
    {
-    "player_id": "9224",
-    "name": "Chase Brown",
-    "pos": "RB",
-    "nfl_team": "CIN",
-    "roster_id": 2,
+    "player_id": "2133",
+    "name": "Davante Adams",
+    "pos": "WR",
+    "nfl_team": "LAR",
+    "roster_id": 1,
     "games": 6,
-    "opps_last2": 16.5,
-    "opps_before": 20.5,
+    "opps_last2": 5.5,
+    "opps_before": 9.5,
     "opps_change": -4.0,
-    "snap_last2": 0.68,
-    "snap_before": 0.73,
-    "target_share_last2": 0.15,
-    "rz_opps_season": 14.0,
-    "ppg": 12.47,
-    "ppg_last2": 8.4,
-    "td_share_of_points": 0.08,
-    "proj_next": 17.69
+    "snap_last2": 0.74,
+    "snap_before": 0.74,
+    "target_share_last2": 0.13,
+    "rz_opps_season": 7.0,
+    "ppg": 17.0,
+    "ppg_last2": 14.5,
+    "td_share_of_points": 0.24,
+    "proj_next": 0.0
    }
   ],
   "td_dependent": [
@@ -10381,6 +10435,68 @@
    "cost_the_game": false,
    "margin": 0.86,
    "swaps": []
+  }
+ ],
+ "busted_lineups": [
+  {
+   "roster_id": 8,
+   "starters": [
+    {
+     "name": "DeVonta Smith",
+     "pos": "WR",
+     "reason": "did not play",
+     "injury_status_now": "Out",
+     "best_replacement": {
+      "name": "Carnell Tate",
+      "pos": "WR",
+      "pts": 9.9
+     },
+     "points_lost": 9.9
+    },
+    {
+     "name": "Mike Evans",
+     "pos": "WR",
+     "reason": "did not play",
+     "injury_status_now": "Out",
+     "best_replacement": {
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "pts": 9.8
+     },
+     "points_lost": 9.8
+    },
+    {
+     "name": "Cam Little",
+     "pos": "K",
+     "reason": "bye week",
+     "injury_status_now": null,
+     "best_replacement": null,
+     "points_lost": 0
+    }
+   ],
+   "points_lost": 19.7,
+   "won_anyway": true,
+   "cost_the_game": false
+  },
+  {
+   "roster_id": 3,
+   "starters": [
+    {
+     "name": "Breece Hall",
+     "pos": "RB",
+     "reason": "did not play",
+     "injury_status_now": "Out",
+     "best_replacement": {
+      "name": "Woody Marks",
+      "pos": "RB",
+      "pts": 9.1
+     },
+     "points_lost": 9.1
+    }
+   ],
+   "points_lost": 9.1,
+   "won_anyway": true,
+   "cost_the_game": false
   }
  ]
 }

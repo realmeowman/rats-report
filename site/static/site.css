@@ -369,3 +369,8 @@ footer p{margin:0 0 6px;max-width:80ch}
 .sec.quiet .alh .cnt{background:var(--panel2);color:var(--mute)}
 .sec.quiet .al li{border-left-color:var(--line)!important;color:var(--mute)}
 .lede.small{font-size:14.5px;color:var(--mute);margin-top:-6px}
+
+.bustlead{margin:0 0 14px;border-left:5px solid var(--loss);padding:4px 0 4px 14px}
+.bustlead h3{font-family:var(--cond);font-weight:900;font-style:italic;text-transform:uppercase;font-size:clamp(26px,5vw,36px);line-height:1;margin:0 0 6px}
+.bustlead p{margin:0;color:var(--body);font-size:16px;max-width:70ch}
+.al .costtag,.al .tag{justify-self:start}

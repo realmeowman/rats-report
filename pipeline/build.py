@@ -131,13 +131,6 @@ class Edition:
         for k, m in nw.items():
             w = (s.get("lookahead") or {}).get(k, {})
             alerts = []
-            for rid in m["teams"]:
-                tp = A["teams"][str(rid)]["next_week"]
-                if tp["qbs_available"] < tp["qb_slots"]:
-                    alerts.append((rid, f"Only {tp['qbs_available']} healthy QB for {tp['qb_slots']} QB slots"))
-                for sl in tp["empty_slots"]:
-                    if sl != "QB":
-                        alerts.append((rid, f"No {sl} available"))
             self.lookahead.append(dict(m, headline=w.get("headline"), blurb=w.get("blurb"), alerts=alerts))
         self.stories = [s["lead"]] + s["games"] + s["features"] + self.moves + ([self.bench] if self.bench else []) + s["beats"]
 
@@ -314,6 +307,10 @@ def main():
         return t
     def alert_text(a):
         k = a["kind"]
+        if k == "started_on_bye":
+            return f"Started {a['player']} at {a['slot']} during his bye week"
+        if k == "started_did_not_play":
+            return f"Started {a['player']} at {a['slot']}. His team played. He didn't."
         if k == "empty_slot":
             return f"Empty {a['slot']} slot in the starting lineup"
         if k == "starter_on_bye":
@@ -331,7 +328,7 @@ def main():
         day_path = f"/daily/{d['date']}/"
         lead_m = next((m for m in d["matchups"] if m["key"] == dst["lead"].get("matchup_key")), None)
         groups = {}
-        for a_ in d["lineup_alerts"]:
+        for a_ in d.get("busted_lineups", []):
             groups.setdefault(a_["roster_id"], []).append(a_)
         alerts_by_team = sorted(groups.items(), key=lambda kv: -len(kv[1]))
         weekly_teasers = []

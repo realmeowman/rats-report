@@ -1,47 +1,35 @@
 {
   "lead": {
     "kicker": "Matchup of the Week",
-    "headline": "Poochinski has one move left before a first-place fight",
-    "dek": "The 6-1 leader still has Chris Olave in its lineup on bye. As set, Poochinski projects for 158.79 against Bad things man bad things at 170.4. Fixed, it’s 169.51. Less than a point. That’s the whole weekend.",
+    "headline": "First place is a coin flip, and Lob City already has 68.96",
+    "dek": "Poochinski vs. Bad things man bad things: 169.56 to 170.22 at full strength, 49.4% to 50.6%. One team banked its points Thursday. The other is waiting on a Sunday-night stack.",
     "matchup_key": "w8-m2",
-    "by_roster_id": 2,
-    "pull": "A bye week in your lineup on Saturday is a typo. On Sunday it’s a forfeit.",
+    "by_roster_id": 5,
+    "pull": "Six-tenths of a point. That’s the projected gap for first place.",
     "body": [
-      "This is the game. Poochinski, 6-1 with the most points in the league at 1198.44, against Bad things man bad things, 5-2 and the best all-play record in R.A.T.S. at 32-17. Poochinski’s is 31-18. One of these teams has the record. The other has been quietly arguing it deserves it.",
-      "And as of Saturday morning, Poochinski is still starting Chris Olave at receiver during his bye week. Same as Friday. As set, that lineup projects for 158.79 and is a 39.1% underdog. Put Quinshon Judkins (10.72) in the empty spot and it projects for 169.51. Bad things man bad things projects for 170.4. That turns a double-digit hole into a game decided by less than a point.",
-      "Bad things man bad things has no fix to make, because there’s nothing to fix. Its best lineup and its actual lineup are the same lineup: 170.4 either way, with 68.96 already banked from Thursday night. Chuba Hubbard put up 24.9, Matthew Golden 20.9. Still to come: Bijan Robinson (21.91), Trey McBride (18.61), James Cook III (17.32) and the Kirk Cousins pickup at 16.71. Michael Wilson’s ribs no longer show up on the injury report. This front office does homework.",
-      "Poochinski’s answer is Dallas. Dak Prescott (22.48), CeeDee Lamb (21.95), Javonte Williams (19.55) and Brandon Aubrey (7.69) all in one lineup, plus Jahmyr Gibbs at 23.29. When that stack hits, it erases 68.96 in a quarter. When it doesn’t, Poochinski is spotting the busiest front office in the league a full receiver slot.",
-      "My pick is Bad things man bad things, and I don’t love saying it about the team I cover. This is a 60.9% call as set and a coin flip at best. One click on Judkins makes it a fair fight for first place. Not making it would be the dumbest loss of the season, and Sunday morning is a terrible time to remember."
+      "This is the game of the week, and it isn’t close to close. Poochinski is 6-1 with the most points in the league, 1,198.44. Bad things man bad things is 5-2 with the best all-play record in R.A.T.S., 32-17, one game better than Poochinski’s 31-18. One of these teams has the record. The other has been quietly arguing it deserves it.",
+      "Thursday night was a statement. Chuba Hubbard went for 24.9, Matthew Golden for 20.9, Tetairoa McMillan for 11.8 and Bryce Young for 11.36. That’s 68.96 in the bank before Poochinski has played a snap.",
+      "Poochinski doesn’t panic and doesn’t need to. Its answer is Jahmyr Gibbs and the Dak Prescott–CeeDee Lamb stack, the same stack that turned a 43-point deficit into a 58-point win last week. Put both rosters at full strength and the projection is 169.56 to 170.22. Six-tenths of a point for first place.",
+      "My pick is the team I cover, and I’m not apologizing for it. Bad things man bad things has the points banked and the deeper all-play résumé. But this is a 50.6% call, and last Monday proved that nobody in this league should trust a Thursday lead."
     ]
   },
   "quick_hits": [
-    {"kicker": "Upset alert", "roster_ids": [8, 3], "headline": "AB81 fixed one hole and two more opened", "body": "George Kittle is out of the lineup and Dallas Goedert (10.19) is in. Progress. But Mike Evans is still at flex on bye, and DeVonta Smith went from Questionable to Out. Carnell Tate, Friday’s backup plan, is Out too. AB81 projects for 129.34 against the champ’s 160.31, a 23.1% shot, and the only healthy bench answer is Mark Andrews at 8.78."},
-    {"kicker": "Shop or drop", "roster_ids": [8], "headline": "The league’s quietest front office needs the wire", "body": "AB81 has won six games without making a move. It needs two now. Chris Godwin Jr. (11.54), KC Concepcion Jr. (10.33) and Makai Lemon (9.62) are all available in R.A.T.S. Any of them beats two zeros."},
-    {"kicker": "Exhale", "roster_ids": [7, 1], "headline": "Santa Clara’s Finest got its quarterback back", "body": "Lamar Jackson’s ankle is off the injury report. That matters for a team with no backup QB on the roster. It’s now 41% to win, down 72.62 to nothing to Big Stric Energy, which still has Josh Allen (24.48) and Justin Jefferson (17.63) to play. Colston Loveland is Questionable with a neck, and there’s no healthy tight end behind him."},
-    {"kicker": "Still unfixed", "roster_ids": [4, 6], "headline": "Cherry Blossom and deeboliciouskins are both still on bye", "body": "Cherry Blossom is starting Christian McCaffrey on bye and Bo Nix (14.05) over Trevor Lawrence (20.02): 131.34 as set, 142.64 at best. deeboliciouskins has Malik Nabers on bye at flex: 138.17 as set, 155.6 at best. Neither front office touched it Friday. The first one to look wins."},
-    {"kicker": "Bench QB", "roster_ids": [6], "headline": "deeboliciouskins is benching its best quarterback", "body": "Jayden Daniels projects for 18.51 and is on the bench. The starters are Kyler Murray (17.04) and Patrick Mahomes (16.79). Small gap, free points, same click as the Nabers fix."},
-    {"kicker": "Stream it", "roster_ids": [4], "headline": "Washington’s defense is still on the wire", "body": "Projected 8.45, available, and added 109,046 times on Sleeper. Cherry Blossom is still starting the Baltimore defense at 4.23."}
+    {"kicker": "Thursday lead", "roster_ids": [1], "headline": "Big Stric Energy is up 72.62 to nothing", "body": "Josh Jacobs (23.2), Jordan Love (22.52) and Tucker Kraft (17.3) did it again on Thursday night. Big Stric Energy is a 78.6% favorite to end the losing streak. It has also blown a 43.82-point lead in the last two weeks, so nobody is celebrating yet."},
+    {"kicker": "Bad timing", "roster_ids": [7], "headline": "Santa Clara’s Finest loses Lamar Jackson", "body": "Jackson is listed Out, and Santa Clara’s Finest starts two quarterbacks. Already down 72.62 to nothing, it’s a 21.4% shot to avoid a seventh loss."},
+    {"kicker": "Underdog", "roster_ids": [8, 3], "headline": "AB81 is a rare underdog", "body": "The champ leads 17.3 to nothing on Christian Watson’s Thursday night and projects for 159.43 to 138.1. AB81, 6-1 and luckier than anyone (+2.1 wins), is 30.6% to win."},
+    {"kicker": "Coin flip-ish", "roster_ids": [6, 4], "headline": "deeboliciouskins is the favorite in a race of two bye weeks", "body": "At full strength deeboliciouskins projects for 152.05 to Cherry Blossom’s 142.56, a 58.9% favorite. McCaffrey and Nabers are both off this week, so the depth charts decide it."},
+    {"kicker": "Most added", "roster_ids": [], "headline": "Makai Lemon is the wire’s best receiver", "body": "Added 118,324 times on Sleeper in a day and projected for 9.6. Still available in R.A.T.S."}
   ],
   "previews": {
-    "w8-m1": {"headline": "Big lead, real quarterback", "blurb": "Big Stric Energy leads 72.62 to nothing and projects for 154.96. Santa Clara’s Finest has Lamar Jackson back and projects for 145.44. Big Stric Energy has blown big leads before. 59% Big Stric Energy.", "pick": 1},
-    "w8-m2": {"headline": "First place comes down to one click", "blurb": "Bad things man bad things: 170.4, perfect lineup, 68.96 banked. Poochinski: 158.79 with Chris Olave on bye, 169.51 without. 60.9% Bad things.", "pick": 5},
-    "w8-m3": {"headline": "Two teams, two bye weeks", "blurb": "131.34 to 138.17 as set. 142.64 to 155.6 at best. deeboliciouskins has the bigger ceiling and the bigger mess. 56.5% deeboliciouskins.", "pick": 6},
-    "w8-m4": {"headline": "The 2-5 champ is the favorite", "blurb": "Maye I touch your TDs? leads 17.3 to nothing and projects for 160.31 with its best lineup set. AB81 is at 129.34 with two dead slots. 76.9% the champ.", "pick": 3}
-  },
-  "alert_notes": {
-    "2": "Chris Olave is on bye. Start Quinshon Judkins (10.72). This is a first-place game.",
-    "8": "Mike Evans is on bye and DeVonta Smith is Out. Start Mark Andrews (8.78) at flex and add a receiver: Chris Godwin Jr. (11.54) is available.",
-    "4": "Sit Christian McCaffrey (bye). Start Trevor Lawrence (20.02) over Bo Nix and Parker Washington (15.08) over Jameson Williams.",
-    "6": "Malik Nabers is on bye. DJ Moore (14.0) is the swap if his shoulder clears; George Pickens is Questionable too. Start Jayden Daniels (18.51).",
-    "7": "Colston Loveland is Questionable with a neck and there’s no healthy tight end on the bench. Brenton Strange (10.12) is available.",
-    "3": "Breece Hall is Questionable. Omarion Hampton (10.16) is the healthy fallback."
+    "w8-m1": {"headline": "Big lead, big history of blowing big leads", "blurb": "Big Stric Energy leads 72.62 to nothing and projects for 158.15 to 124.77. Santa Clara’s Finest needs a miracle without Lamar Jackson.", "pick": 1},
+    "w8-m2": {"headline": "First place, six-tenths of a point", "blurb": "Bad things man bad things has 68.96 banked. Poochinski has Gibbs and the Dallas stack still to come. 50.6% to 49.4%.", "pick": 5},
+    "w8-m3": {"headline": "Two teams better than their records", "blurb": "deeboliciouskins projects for 152.05, Cherry Blossom for 142.56. The second- and fourth-highest scoring teams in the league, with a playoff seed at stake.", "pick": 6},
+    "w8-m4": {"headline": "The champ is the favorite again", "blurb": "Maye I touch your TDs? leads 17.3 to nothing and projects for 159.43. AB81 projects for 138.1 and needs something its luck hasn’t provided yet: points.", "pick": 3}
   },
   "trending_notes": {
-    "4037": "Available in R.A.T.S., projected 11.54. AB81 has two empty receiver spots.",
-    "13298": "Available, projected 10.33. Another answer for AB81.",
-    "9480": "Still available, projected 10.12. Santa Clara’s Finest’s insurance if Colston Loveland sits.",
-    "WAS": "Available, projected 8.45. Cherry Blossom’s defense projects for 4.23.",
-    "8129": "On IR, on the Poochinski bench, and the most-dropped player on Sleeper again."
+    "13294": "Available in R.A.T.S. and projected for 9.6.",
+    "7561": "Still available, but projected for 3.31 this week. A handcuff, not a starter.",
+    "WAS": "Still available, projected for 8.39."
   },
   "move_grades": {},
   "external_facts": []
