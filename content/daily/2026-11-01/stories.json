@@ -1,105 +1,116 @@
 {
   "lead": {
-    "kicker": "Last Call",
-    "headline": "Five calls made, three still open, first place up for grabs",
-    "dek": "Poochinski slid CeeDee Lamb into Chris Olave’s spot, Cherry Blossom went to Trevor Lawrence, and the morning wire was busy. The first-place game opens at 56.5% Bad things man bad things.",
+    "kicker": "After the Early Games",
+    "headline": "Bad things man bad things buries Poochinski early",
+    "dek": "181.84 and nobody left to play. Poochinski sits at 98.6 with three starters to go and a live projection of 133.99. The first-place game is over before the late window opens.",
     "matchup_key": "w8-m2",
-    "by_roster_id": 2,
-    "pull": "Settled: Lamb in, Olave out. Still open: AB81, which has never made a move.",
+    "by_roster_id": 5,
+    "pull": "Poochinski’s live win odds: 0%. Three starters left, and none of them can fix this.",
     "body": [
-      "The developing stories mostly developed. Poochinski settled its receiver question by moving CeeDee Lamb into Chris Olave’s spot, then added Chris Godwin Jr. at 6:19 a.m. Cherry Blossom picked Trevor Lawrence (19.77) over Bo Nix and put Jaylen Warren in for Christian McCaffrey. deeboliciouskins filled Malik Nabers’ spot with Tyler Warren, and the champ swapped Breece Hall for Omarion Hampton.",
-      "The morning wire was busy too. Santa Clara’s Finest added Stefon Diggs at 6:20 a.m. and Hunter Henry three minutes later. Bad things man bad things grabbed Omar Cooper Jr. at 7:55 a.m. Five moves since Saturday night, and none of them from AB81.",
-      "Which brings us to the first-place game. Bad things man bad things has 68.96 in the bank and projects for 177.01. Poochinski projects for 170.84 with the full Lamb-and-Gibbs lineup still to play. That’s 56.5% Bad things, and a game the Dallas stack can flip by itself.",
-      "Still open at kickoff: Cherry Blossom’s flex, where Parker Washington (14.93) waits behind Jameson Williams (9.76), and AB81’s two holes with Mark Andrews (8.78) as the only bench answer. Next update after the early games."
+      "This morning the first-place game was a lean. By 1:48 PM it was a forwarding address. Bad things man bad things finished its day at 181.84 with every starter done, and the scoring came from everywhere: Kirk Cousins 28.18, Michael Wilson 26.8, Chuba Hubbard 24.9, Matthew Golden 20.9, Trey McBride 20.2, James Cook III 18.1. Six starters at 18.1 or better. That isn’t a lineup. That’s a firing squad.",
+      "Poochinski brought the Dallas stack and the Dallas stack brought a shrug. Dak Prescott 19.8, CeeDee Lamb 12.8, Javonte Williams 6.7, Brandon Aubrey 12.0. Jahmyr Gibbs did his part with 24.8 and Chase Brown chipped in 16.0. The 6:19 a.m. pickup, Chris Godwin Jr., is final at 0.0.",
+      "What’s left for Poochinski: Caleb Williams, Luther Burden III and the Seattle Seahawks D/ST, all yet to play. Even if all three hit their projections, the live math lands at 133.99. Bad things man bad things already has 181.84. The live odds give Poochinski 0%.",
+      "The CeeDee Lamb call this morning was the right one on paper. The paper just didn’t score. Poochinski walked into Sunday at 6-1 with the league’s best record; it walks out with a second loss and company at the top. Bad things man bad things, 5-2 this morning, gets to say it beat first place with a full day’s work done before the late games kicked off.",
+      "Next update after the late games, when AB81 finally gets to play."
     ]
   },
   "quick_hits": [
     {
-      "kicker": "Settled",
+      "kicker": "Still in doubt",
       "roster_ids": [
-        2
+        3,
+        8
       ],
-      "headline": "Poochinski made its call at WR",
-      "body": "CeeDee Lamb in for Chris Olave, Chris Godwin Jr. on the roster at 6:19 a.m. The first-place lineup is set."
+      "headline": "AB81 has 20.58 and eight starters left",
+      "body": "Maye I touch your TDs? leads 98.0 to 20.58, but AB81’s Sam Darnold, Jaxon Smith-Njigba, Dallas Goedert and the Philadelphia Eagles D/ST haven’t played, and Matthew Stafford, Kyren Williams and Rhamondre Stevenson are on the field now. The champ has two left, Drake Maye and Omarion Hampton. Live projection: 124.6 to 120.3, 56.2% Maye I touch your TDs?."
     },
     {
-      "kicker": "Settled",
+      "kicker": "Developing",
       "roster_ids": [
-        4
+        8
       ],
-      "headline": "Cherry Blossom goes with Lawrence",
-      "body": "Trevor Lawrence (19.77) starts at quarterback over Bo Nix, and Jaylen Warren takes McCaffrey’s spot. The coin flip with deeboliciouskins is 48.6% to 51.4%."
+      "headline": "AB81’s two open spots are still open",
+      "body": "Mike Evans (bye) and DeVonta Smith (Out) are both still in the lineup, and nothing on the bench fits. The answer would have to come off the wire, and the late games are the last window. In a game projected at 124.6 to 120.3, one body matters."
+    },
+    {
+      "kicker": "Cruising",
+      "roster_ids": [
+        4,
+        6
+      ],
+      "headline": "Cherry Blossom flips the closest game",
+      "body": "This morning’s coin flip is now 89.8% Cherry Blossom. Tee Higgins went for 37.5, Brock Bowers 28.2, and Jameson Williams rewarded the flex call with 17.0 while Parker Washington sat at 3.6. It’s 152.24 to 122.8, with Jonah Coleman, Puka Nacua and Travis Kelce still playing; deeboliciouskins needs Jayden Daniels, D’Andre Swift and Jason Myers to cover a live projection of 190.42 to 163.06."
+    },
+    {
+      "kicker": "Final, basically",
+      "roster_ids": [
+        1,
+        7
+      ],
+      "headline": "Big Stric Energy posts 181.48 and waits",
+      "body": "Every Big Stric Energy starter is done: Josh Allen 27.56, Braelon Allen 23.3, Josh Jacobs 23.2, Jordan Love 22.52, the Jacksonville Jaguars D/ST 20.0. Santa Clara’s Finest got 42.48 from Joe Burrow and 29.9 from Bhayshul Tuten, but Lamar Jackson finished at 0.0. It sits at 97.68 with four starters playing and Stefon Diggs yet to go. 94.9% Big Stric Energy."
     },
     {
       "kicker": "Morning wire",
       "roster_ids": [
+        2,
+        4,
         7
       ],
-      "headline": "Santa Clara’s Finest loaded up before breakfast",
-      "body": "Stefon Diggs at 6:20 a.m., Hunter Henry at 6:23 a.m. Down 72.62 to nothing, it projects for 153.95 against Big Stric Energy’s 175.68. 28.3% to win."
-    },
-    {
-      "kicker": "Still open",
-      "roster_ids": [
-        8
-      ],
-      "headline": "AB81 goes into kickoff with two holes",
-      "body": "Mike Evans and DeVonta Smith are both Out and both in the lineup. Mark Andrews (8.78) is on the bench. Zero moves all season. The clock says 10:00 a.m."
+      "headline": "How the Sunday pickups are doing",
+      "body": "Chris Godwin Jr. (Poochinski, 6:19 a.m.): 0.0, final. Hunter Henry (Santa Clara’s Finest, 6:23 a.m.): 4.6 and playing. Jonah Coleman (Cherry Blossom, 9:36 PM Saturday): 3.1 and playing. Stefon Diggs (Santa Clara’s Finest, 6:20 a.m.): yet to play."
     }
   ],
   "previews": {
     "w8-m1": {
-      "headline": "Big Stric Energy protects a 72.62 head start",
-      "blurb": "175.68 to 153.95 projected. Santa Clara’s Finest needs its new pickups and Lamar Jackson to all hit at once.",
+      "headline": "Big Stric Energy is done at 181.48",
+      "blurb": "Santa Clara’s Finest has 97.68, Stefon Diggs still to play and four starters on the field. Live projection 181.48 to 152.57.",
       "pick": 1
     },
     "w8-m2": {
-      "headline": "Banked points vs. the Dallas stack",
-      "blurb": "Bad things man bad things has 68.96 already and projects for 177.01. Poochinski is at 170.84 with everything still to play.",
+      "headline": "First place belongs to Bad things",
+      "blurb": "181.84 final for Bad things man bad things. Poochinski has 98.6 and three starters left, projecting to 133.99.",
       "pick": 5
     },
     "w8-m3": {
-      "headline": "The closest game on the board",
-      "blurb": "deeboliciouskins 155.7, Cherry Blossom 154.2. Parker Washington on the Cherry Blossom bench is the last open question.",
-      "pick": 6
+      "headline": "Cherry Blossom takes control, 152.24 to 122.8",
+      "blurb": "Three Cherry Blossom starters still playing, three deeboliciouskins starters yet to play. 89.8% Cherry Blossom.",
+      "pick": 4
     },
     "w8-m4": {
-      "headline": "The champ is up 17.3 and favored",
-      "blurb": "159.66 to 140.75 projected. AB81’s two open lineup spots are the difference.",
+      "headline": "The champ leads, AB81 has the bodies",
+      "blurb": "98.0 to 20.58 now, 124.6 to 120.3 projected. AB81 has eight starters left to the champ’s two. 56.2% Maye I touch your TDs?.",
       "pick": 3
     }
   },
   "decision_notes": {
     "w8-r8-s5": {
-      "headline": "Will AB81 make its first move of the season?",
-      "blurb": "DeVonta Smith is Out and starting. Mark Andrews (8.78) is the bench answer. The decision locks at 10:00 a.m."
+      "headline": "Does AB81 find a receiver for the late games?",
+      "blurb": "DeVonta Smith is Out and still starting, with no bench answer. A waiver add is the only fix, and the matchup is projected at 124.6 to 120.3."
     },
-    "w8-r4-s8": {
-      "headline": "Washington or Williams at flex?",
-      "blurb": "Parker Washington projects for 14.93, Jameson Williams for 9.76. In the closest game of the week, that gap matters."
+    "w8-r8-s8": {
+      "headline": "Mike Evans’ flex spot is still open",
+      "blurb": "Evans is on bye. Nothing on the AB81 bench can slide in, so this one also runs through the wire."
     }
   },
+  "alert_notes": {},
   "trending_notes": {},
   "move_grades": {
     "2026-11-01-m2": {
-      "grade": "B+",
-      "blurb": "Fills the hole Olave left without touching the first-place lineup."
-    },
-    "2026-11-01-m3": {
-      "grade": "B",
-      "blurb": "A real receiver for a team that needed one, projected 12.64."
+      "grade": "D",
+      "blurb": "Chris Godwin Jr. finished at 0.0 in the first-place game."
     },
     "2026-11-01-m4": {
-      "grade": "B",
-      "blurb": "Hunter Henry for Juwan Johnson is an upgrade at tight end."
+      "grade": "C",
+      "blurb": "Hunter Henry has 4.6 and is still playing."
     },
     "2026-11-01-m5": {
       "grade": "B-",
-      "blurb": "Omar Cooper Jr. for Isaiah Likely. Depth for a first-place fight."
+      "blurb": "Omar Cooper Jr. was depth, and Bad things man bad things didn’t need any."
     },
     "2026-11-01-m1": {
-      "grade": "C+",
-      "blurb": "A running back for a kicker. Roster math, not a lineup move."
+      "grade": "C",
+      "blurb": "Jonah Coleman has 3.1 and is still playing for a team that’s winning anyway."
     }
   },
   "external_facts": []

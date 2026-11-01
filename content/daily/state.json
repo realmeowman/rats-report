@@ -2,7 +2,7 @@
  "date": "2026-11-01",
  "since_ms": 1793323549311,
  "last_tx_ms": 1793548509310,
- "last_run": "2026-11-01T09:42-08:00",
+ "last_run": "2026-11-01T13:48-08:00",
  "decisions_by_date": {
   "2026-10-31": {
    "w8-r7-s0": {
@@ -128,17 +128,6 @@
    }
   },
   "2026-11-01": {
-   "w8-r4-s8": {
-    "roster_id": 4,
-    "slot": "FLEX",
-    "reason": "upgrade",
-    "current": {
-     "name": "Jameson Williams",
-     "pos": "WR",
-     "proj": 9.76,
-     "injury": null
-    }
-   },
    "w8-r8-s5": {
     "roster_id": 8,
     "slot": "WR",
