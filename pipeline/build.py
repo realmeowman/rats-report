@@ -347,7 +347,7 @@ def main():
         og_jobs.append((og, f"{d['weekday']} · {dst['lead']['kicker']}", dst["lead"]["headline"], col))
         base_ctx = dict(d=d, ds=dst, DT=lambda r, d=d: DT(r, d), lead_m=lead_m, alerts_by_team=alerts_by_team, alert_text=alert_text,
                         any_live=any(m["games_started"] for m in d["matchups"]), weekly=weekly_teasers, earlier=earlier,
-                        date_label=date_label, day_path=day_path, masthead_line=f"{d['weekday']} · Week {d['week']}")
+                        date_label=date_label, day_path=day_path, masthead_line=(f"{d['weekday']} · {d['update']['label']}" if (d.get("update") or {}).get("label") else f"{d['weekday']} · Week {d['week']}"))
         ctx = common(E, day_path, f"{dst['lead']['headline']} · {CFG['short_name']}", dst["lead"]["dek"], og, og_title=dst["lead"]["headline"], og_type="article")
         write(day_path, env.get_template("daily.html").render(**{**ctx, **base_ctx, "is_page": True}))
         if is_latest:

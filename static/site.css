@@ -398,3 +398,6 @@ footer p{margin:0 0 6px;max-width:80ch}
 .dvrow .out{color:var(--mute);text-decoration:line-through}.dvrow .in{color:var(--win)}.dvrow .in b{color:var(--ink)}
 @media (min-width:640px){.devs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (min-width:980px){.devs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+.upd{display:inline-block;background:var(--heat);color:#0A0A0B;border-radius:4px;padding:1px 7px;margin-right:8px}
+.ah .left{display:grid;gap:2px;font-family:var(--cond);font-weight:700;font-size:13.5px;color:var(--mute)}

@@ -24,6 +24,12 @@ Playwright must be available (it is in Claude's cloud sessions).
    improve the story. If the Monday-night edition didn't publish (e.g. a late game), write it now.
 6. Build, check, publish (below).
 
+## Sunday updates (8:47 AM, 1:47 PM, 4:47 PM, 8:47 PM Pacific)
+Same steps as the daily brief, rewriting today's brief in place (see "Sunday updates" in
+STYLE.md; `facts.update.phase` tells you which edition this is). Skip the fetch step: the
+daily desk pulls live scores itself. If the phase isn't the one this run expects (a window's
+games aren't final yet), schedule a one-time retry 30 minutes later and stop.
+
 ## The weekly edition (Monday night)
 1. Make sure the week is over: every game in the week has kicked off at least 3.5 hours ago
    (`data/raw/games.csv`) and Sleeper's matchup totals stop changing across two pulls a few

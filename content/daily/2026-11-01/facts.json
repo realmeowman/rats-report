@@ -3,7 +3,7 @@
  "weekday": "Sunday",
  "edition_type": "gameday",
  "lineups_matter": true,
- "generated_at": "2026-11-01T05:42-08:00",
+ "generated_at": "2026-11-01T09:42-08:00",
  "season": "2026",
  "week": 8,
  "teams": {
@@ -107,32 +107,76 @@
     7
    ],
    "projected": [
-    159.57,
-    148.08
+    175.68,
+    153.95
    ],
-   "projection_basis": "best available lineups",
+   "projection_basis": "points banked plus best available lineups",
+   "live_projection": [
+    175.68,
+    153.95
+   ],
+   "yet_to_play": [
+    [
+     "Josh Allen",
+     "Ashton Jeanty",
+     "Justin Jefferson",
+     "DK Metcalf",
+     "Braelon Allen",
+     "Chase McLaughlin",
+     "Jacksonville Jaguars D/ST"
+    ],
+    [
+     "Lamar Jackson",
+     "Joe Burrow",
+     "Kenneth Walker III",
+     "Bhayshul Tuten",
+     "Garrett Wilson",
+     "Stefon Diggs",
+     "Hunter Henry",
+     "J.K. Dobbins",
+     "Blake Corum",
+     "Spencer Shrader",
+     "Atlanta Falcons D/ST"
+    ]
+   ],
+   "playing_now": [
+    [],
+    []
+   ],
    "projected_as_set": [
-    156.64,
-    145.26
+    161.04,
+    149.31
    ],
    "projected_best": [
-    159.57,
-    148.08
+    163.02,
+    153.95
    ],
    "live": [
     72.62,
     0.0
    ],
    "win_prob": [
-    0.608,
-    0.392
+    0.717,
+    0.283
    ],
    "sides": [
     {
      "roster_id": 1,
      "live_points": 72.62,
-     "projected_set_lineup": 156.64,
-     "projected_best_lineup": 159.57,
+     "projected_set_lineup": 161.04,
+     "projected_best_lineup": 163.02,
+     "live_projection": 175.68,
+     "remaining_projection": 101.08,
+     "yet_to_play": [
+      "Josh Allen",
+      "Ashton Jeanty",
+      "Justin Jefferson",
+      "DK Metcalf",
+      "Braelon Allen",
+      "Chase McLaughlin",
+      "Jacksonville Jaguars D/ST"
+     ],
+     "playing_now": [],
      "starters": [
       {
        "id": "4984",
@@ -141,11 +185,12 @@
        "nfl_team": "BUF",
        "injury": null,
        "injury_body": null,
-       "news_updated": 1793460322721,
+       "news_updated": 1793550934561,
        "slot": "QB",
-       "proj": 24.48,
+       "proj": 24.42,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "6804",
@@ -158,7 +203,8 @@
        "slot": "QB",
        "proj": 17.12,
        "live": 22.52,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "final"
       },
       {
        "id": "5850",
@@ -171,7 +217,8 @@
        "slot": "RB",
        "proj": 16.03,
        "live": 23.2,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "final"
       },
       {
        "id": "12527",
@@ -182,9 +229,10 @@
        "injury_body": null,
        "news_updated": 1793413217087,
        "slot": "RB",
-       "proj": 15.97,
+       "proj": 16.03,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "11646",
@@ -197,7 +245,8 @@
        "slot": "WR",
        "proj": 15.93,
        "live": 9.6,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "final"
       },
       {
        "id": "6794",
@@ -208,9 +257,10 @@
        "injury_body": null,
        "news_updated": 1793391014164,
        "slot": "WR",
-       "proj": 17.63,
+       "proj": 17.73,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "9484",
@@ -223,7 +273,8 @@
        "slot": "TE",
        "proj": 10.88,
        "live": 17.3,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "final"
       },
       {
        "id": "5846",
@@ -236,7 +287,8 @@
        "slot": "FLEX",
        "proj": 11.12,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "11576",
@@ -247,9 +299,10 @@
        "injury_body": null,
        "news_updated": 1793536532670,
        "slot": "FLEX",
-       "proj": 11.85,
+       "proj": 16.28,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "6650",
@@ -262,7 +315,8 @@
        "slot": "K",
        "proj": 6.64,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "JAX",
@@ -273,9 +327,10 @@
        "injury_body": null,
        "news_updated": null,
        "slot": "DEF",
-       "proj": 8.99,
+       "proj": 8.86,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       }
      ],
      "bench": [
@@ -287,7 +342,7 @@
        "injury": null,
        "injury_body": null,
        "news_updated": 1793459122578,
-       "proj": 17.42,
+       "proj": 17.26,
        "live": 0.0,
        "on_bye": false
       },
@@ -298,7 +353,7 @@
        "nfl_team": "PHI",
        "injury": null,
        "injury_body": null,
-       "news_updated": 1793537432900,
+       "news_updated": 1793540733057,
        "proj": 12.96,
        "live": 0.0,
        "on_bye": false
@@ -311,7 +366,7 @@
        "injury": null,
        "injury_body": null,
        "news_updated": 1793390714275,
-       "proj": 12.64,
+       "proj": 12.71,
        "live": 0.0,
        "on_bye": false
       },
@@ -320,9 +375,9 @@
        "name": "Dalton Kincaid",
        "pos": "TE",
        "nfl_team": "BUF",
-       "injury": "Questionable",
-       "injury_body": "Chest",
-       "news_updated": 1793463623279,
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1793551534628,
        "proj": 10.46,
        "live": 0.0,
        "on_bye": false
@@ -356,8 +411,24 @@
     {
      "roster_id": 7,
      "live_points": 0.0,
-     "projected_set_lineup": 145.26,
-     "projected_best_lineup": 148.08,
+     "projected_set_lineup": 149.31,
+     "projected_best_lineup": 153.95,
+     "live_projection": 153.95,
+     "remaining_projection": 149.31,
+     "yet_to_play": [
+      "Lamar Jackson",
+      "Joe Burrow",
+      "Kenneth Walker III",
+      "Bhayshul Tuten",
+      "Garrett Wilson",
+      "Stefon Diggs",
+      "Hunter Henry",
+      "J.K. Dobbins",
+      "Blake Corum",
+      "Spencer Shrader",
+      "Atlanta Falcons D/ST"
+     ],
+     "playing_now": [],
      "starters": [
       {
        "id": "4881",
@@ -366,11 +437,12 @@
        "nfl_team": "BAL",
        "injury": null,
        "injury_body": null,
-       "news_updated": 1793456722387,
+       "news_updated": 1793549434334,
        "slot": "QB",
        "proj": 20.49,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "6770",
@@ -381,9 +453,10 @@
        "injury_body": null,
        "news_updated": 1793392514352,
        "slot": "QB",
-       "proj": 21.97,
+       "proj": 22.23,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "8151",
@@ -394,9 +467,10 @@
        "injury_body": null,
        "news_updated": 1793389514024,
        "slot": "RB",
-       "proj": 20.65,
+       "proj": 20.82,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "12490",
@@ -407,9 +481,10 @@
        "injury_body": null,
        "news_updated": 1793461822988,
        "slot": "RB",
-       "proj": 15.06,
+       "proj": 15.28,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "8146",
@@ -420,35 +495,38 @@
        "injury_body": null,
        "news_updated": 1793476827247,
        "slot": "WR",
-       "proj": 16.96,
+       "proj": 16.9,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
-       "id": "13346",
-       "name": "Denzel Boston",
+       "id": "2449",
+       "name": "Stefon Diggs",
        "pos": "WR",
-       "nfl_team": "CLE",
+       "nfl_team": "WAS",
        "injury": null,
        "injury_body": null,
-       "news_updated": 1793415017180,
+       "news_updated": 1793399715265,
        "slot": "WR",
-       "proj": 10.5,
+       "proj": 12.64,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
-       "id": "12517",
-       "name": "Colston Loveland",
+       "id": "3214",
+       "name": "Hunter Henry",
        "pos": "TE",
-       "nfl_team": "CHI",
+       "nfl_team": "NE",
        "injury": null,
        "injury_body": null,
-       "news_updated": 1793539532958,
+       "news_updated": 1793463023085,
        "slot": "TE",
-       "proj": 9.73,
+       "proj": 11.2,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "6806",
@@ -461,7 +539,8 @@
        "slot": "FLEX",
        "proj": 8.68,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "11586",
@@ -474,7 +553,8 @@
        "slot": "FLEX",
        "proj": 7.61,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "12185",
@@ -485,9 +565,10 @@
        "injury_body": null,
        "news_updated": 1793465423451,
        "slot": "K",
-       "proj": 7.28,
+       "proj": 7.18,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "ATL",
@@ -498,12 +579,25 @@
        "injury_body": null,
        "news_updated": null,
        "slot": "DEF",
-       "proj": 6.33,
+       "proj": 6.28,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       }
      ],
      "bench": [
+      {
+       "id": "13346",
+       "name": "Denzel Boston",
+       "pos": "WR",
+       "nfl_team": "CLE",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1793415017180,
+       "proj": 10.5,
+       "live": 0.0,
+       "on_bye": false
+      },
       {
        "id": "13287",
        "name": "Jeremiyah Love",
@@ -517,14 +611,14 @@
        "on_bye": false
       },
       {
-       "id": "11435",
-       "name": "Emanuel Wilson",
-       "pos": "RB",
-       "nfl_team": "SEA",
+       "id": "12517",
+       "name": "Colston Loveland",
+       "pos": "TE",
+       "nfl_team": "CHI",
        "injury": null,
        "injury_body": null,
-       "news_updated": 1792995913326,
-       "proj": 6.65,
+       "news_updated": 1793539532958,
+       "proj": 9.73,
        "live": 0.0,
        "on_bye": false
       },
@@ -551,18 +645,6 @@
        "proj": 0.0,
        "live": 0.0,
        "on_bye": false
-      },
-      {
-       "id": "7002",
-       "name": "Juwan Johnson",
-       "pos": "TE",
-       "nfl_team": "NO",
-       "injury": null,
-       "injury_body": null,
-       "news_updated": 1793198121822,
-       "proj": 0.0,
-       "live": 0.0,
-       "on_bye": true
       }
      ]
     }
@@ -577,32 +659,80 @@
     5
    ],
    "projected": [
-    169.91,
-    170.77
+    170.84,
+    177.01
    ],
-   "projection_basis": "best available lineups",
+   "projection_basis": "points banked plus best available lineups",
+   "live_projection": [
+    170.84,
+    177.01
+   ],
+   "yet_to_play": [
+    [
+     "Caleb Williams",
+     "Dak Prescott",
+     "Chase Brown",
+     "Jahmyr Gibbs",
+     "Chris Godwin Jr.",
+     "CeeDee Lamb",
+     "Sam LaPorta",
+     "Javonte Williams",
+     "Luther Burden III",
+     "Brandon Aubrey",
+     "Seattle Seahawks D/ST"
+    ],
+    [
+     "Kirk Cousins",
+     "Bijan Robinson",
+     "Michael Wilson",
+     "Trey McBride",
+     "James Cook III",
+     "Evan McPherson",
+     "Cincinnati Bengals D/ST"
+    ]
+   ],
+   "playing_now": [
+    [],
+    []
+   ],
    "projected_as_set": [
-    159.16,
-    170.77
+    170.84,
+    171.18
    ],
    "projected_best": [
-    169.91,
-    170.77
+    170.84,
+    171.18
    ],
    "live": [
     0.0,
     68.96
    ],
    "win_prob": [
-    0.492,
-    0.508
+    0.435,
+    0.565
    ],
    "sides": [
     {
      "roster_id": 2,
      "live_points": 0.0,
-     "projected_set_lineup": 159.16,
-     "projected_best_lineup": 169.91,
+     "projected_set_lineup": 170.84,
+     "projected_best_lineup": 170.84,
+     "live_projection": 170.84,
+     "remaining_projection": 170.84,
+     "yet_to_play": [
+      "Caleb Williams",
+      "Dak Prescott",
+      "Chase Brown",
+      "Jahmyr Gibbs",
+      "Chris Godwin Jr.",
+      "CeeDee Lamb",
+      "Sam LaPorta",
+      "Javonte Williams",
+      "Luther Burden III",
+      "Brandon Aubrey",
+      "Seattle Seahawks D/ST"
+     ],
+     "playing_now": [],
      "starters": [
       {
        "id": "11560",
@@ -615,7 +745,8 @@
        "slot": "QB",
        "proj": 15.67,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "3294",
@@ -626,9 +757,10 @@
        "injury_body": null,
        "news_updated": 1793430019040,
        "slot": "QB",
-       "proj": 22.47,
+       "proj": 22.51,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "9224",
@@ -641,7 +773,8 @@
        "slot": "RB",
        "proj": 18.08,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "9221",
@@ -652,9 +785,24 @@
        "injury_body": null,
        "news_updated": 1793455522103,
        "slot": "RB",
-       "proj": 23.29,
+       "proj": 23.41,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "4037",
+       "name": "Chris Godwin Jr.",
+       "pos": "WR",
+       "nfl_team": "TB",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1793552134954,
+       "slot": "WR",
+       "proj": 11.5,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "6786",
@@ -667,20 +815,8 @@
        "slot": "WR",
        "proj": 21.95,
        "live": 0.0,
-       "on_bye": false
-      },
-      {
-       "id": "8144",
-       "name": "Chris Olave",
-       "pos": "WR",
-       "nfl_team": "NO",
-       "injury": null,
-       "injury_body": null,
-       "news_updated": 1792983613413,
-       "slot": "WR",
-       "proj": 0.0,
-       "live": 0.0,
-       "on_bye": true
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "10859",
@@ -691,9 +827,10 @@
        "injury_body": null,
        "news_updated": 1793461822984,
        "slot": "TE",
-       "proj": 10.69,
+       "proj": 10.71,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "7588",
@@ -706,7 +843,8 @@
        "slot": "FLEX",
        "proj": 19.6,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "12519",
@@ -719,7 +857,8 @@
        "slot": "FLEX",
        "proj": 12.42,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "11533",
@@ -732,7 +871,8 @@
        "slot": "K",
        "proj": 7.69,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "SEA",
@@ -745,7 +885,8 @@
        "slot": "DEF",
        "proj": 7.3,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       }
      ],
      "bench": [
@@ -780,7 +921,7 @@
        "nfl_team": "SEA",
        "injury": "IR",
        "injury_body": "Chest",
-       "news_updated": 1793485225731,
+       "news_updated": 1793550934561,
        "proj": 5.02,
        "live": 0.0,
        "on_bye": false
@@ -798,24 +939,36 @@
        "on_bye": false
       },
       {
-       "id": "8129",
-       "name": "Dameon Pierce",
-       "pos": "RB",
-       "nfl_team": "PHI",
-       "injury": "IR",
-       "injury_body": "Undisclosed",
-       "news_updated": 1793228425524,
+       "id": "8144",
+       "name": "Chris Olave",
+       "pos": "WR",
+       "nfl_team": "NO",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1792983613413,
        "proj": 0.0,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": true
       }
      ]
     },
     {
      "roster_id": 5,
      "live_points": 68.96,
-     "projected_set_lineup": 170.77,
-     "projected_best_lineup": 170.77,
+     "projected_set_lineup": 171.18,
+     "projected_best_lineup": 171.18,
+     "live_projection": 177.01,
+     "remaining_projection": 108.05,
+     "yet_to_play": [
+      "Kirk Cousins",
+      "Bijan Robinson",
+      "Michael Wilson",
+      "Trey McBride",
+      "James Cook III",
+      "Evan McPherson",
+      "Cincinnati Bengals D/ST"
+     ],
+     "playing_now": [],
      "starters": [
       {
        "id": "1166",
@@ -824,11 +977,12 @@
        "nfl_team": "LV",
        "injury": null,
        "injury_body": null,
-       "news_updated": 1793394914710,
+       "news_updated": 1793547633967,
        "slot": "QB",
-       "proj": 16.94,
+       "proj": 16.98,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "9228",
@@ -841,7 +995,8 @@
        "slot": "QB",
        "proj": 17.94,
        "live": 11.36,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "final"
       },
       {
        "id": "9509",
@@ -852,9 +1007,10 @@
        "injury_body": null,
        "news_updated": 1793460022781,
        "slot": "RB",
-       "proj": 21.99,
+       "proj": 21.91,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "7594",
@@ -867,7 +1023,8 @@
        "slot": "RB",
        "proj": 16.66,
        "live": 24.9,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "final"
       },
       {
        "id": "10232",
@@ -880,7 +1037,8 @@
        "slot": "WR",
        "proj": 15.41,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "12501",
@@ -893,7 +1051,8 @@
        "slot": "WR",
        "proj": 13.73,
        "live": 20.9,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "final"
       },
       {
        "id": "8130",
@@ -906,7 +1065,8 @@
        "slot": "TE",
        "proj": 18.61,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "12526",
@@ -919,7 +1079,8 @@
        "slot": "FLEX",
        "proj": 14.8,
        "live": 11.8,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "final"
       },
       {
        "id": "8138",
@@ -930,9 +1091,10 @@
        "injury_body": null,
        "news_updated": 1793461522991,
        "slot": "FLEX",
-       "proj": 17.31,
+       "proj": 17.71,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "7839",
@@ -943,9 +1105,10 @@
        "injury_body": null,
        "news_updated": 1793397915060,
        "slot": "K",
-       "proj": 7.91,
+       "proj": 7.92,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "CIN",
@@ -956,9 +1119,10 @@
        "injury_body": null,
        "news_updated": null,
        "slot": "DEF",
-       "proj": 9.47,
+       "proj": 9.51,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       }
      ],
      "bench": [
@@ -970,7 +1134,19 @@
        "injury": null,
        "injury_body": null,
        "news_updated": 1793443220715,
-       "proj": 13.26,
+       "proj": 13.03,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "13276",
+       "name": "Omar Cooper Jr.",
+       "pos": "WR",
+       "nfl_team": "NYJ",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1793550334412,
+       "proj": 10.6,
        "live": 0.0,
        "on_bye": false
       },
@@ -994,18 +1170,6 @@
        "injury": null,
        "injury_body": null,
        "news_updated": 1792983613429,
-       "proj": 0.0,
-       "live": 0.0,
-       "on_bye": true
-      },
-      {
-       "id": "8131",
-       "name": "Isaiah Likely",
-       "pos": "TE",
-       "nfl_team": "NYG",
-       "injury": null,
-       "injury_body": null,
-       "news_updated": 1792997714763,
        "proj": 0.0,
        "live": 0.0,
        "on_bye": true
@@ -1035,32 +1199,84 @@
     6
    ],
    "projected": [
-    154.63,
-    155.77
+    154.2,
+    155.7
    ],
    "projection_basis": "best available lineups",
+   "live_projection": [
+    154.2,
+    155.7
+   ],
+   "yet_to_play": [
+    [
+     "Jared Goff",
+     "Trevor Lawrence",
+     "Jaylen Warren",
+     "Jonah Coleman",
+     "Tee Higgins",
+     "Puka Nacua",
+     "Travis Kelce",
+     "Brock Bowers",
+     "Jameson Williams",
+     "Jake Bates",
+     "Baltimore Ravens D/ST"
+    ],
+    [
+     "Kyler Murray",
+     "Jayden Daniels",
+     "Jonathan Taylor",
+     "D'Andre Swift",
+     "George Pickens",
+     "Ja'Marr Chase",
+     "T.J. Hockenson",
+     "Tyler Warren",
+     "Tony Pollard",
+     "Jason Myers",
+     "Minnesota Vikings D/ST"
+    ]
+   ],
+   "playing_now": [
+    [],
+    []
+   ],
    "projected_as_set": [
-    148.87,
-    150.89
+    149.03,
+    150.67
    ],
    "projected_best": [
-    154.63,
-    155.77
+    154.2,
+    155.7
    ],
    "live": [
     0.0,
     0.0
    ],
    "win_prob": [
-    0.489,
-    0.511
+    0.486,
+    0.514
    ],
    "sides": [
     {
      "roster_id": 4,
      "live_points": 0.0,
-     "projected_set_lineup": 148.87,
-     "projected_best_lineup": 154.63,
+     "projected_set_lineup": 149.03,
+     "projected_best_lineup": 154.2,
+     "live_projection": 154.2,
+     "remaining_projection": 149.03,
+     "yet_to_play": [
+      "Jared Goff",
+      "Trevor Lawrence",
+      "Jaylen Warren",
+      "Jonah Coleman",
+      "Tee Higgins",
+      "Puka Nacua",
+      "Travis Kelce",
+      "Brock Bowers",
+      "Jameson Williams",
+      "Jake Bates",
+      "Baltimore Ravens D/ST"
+     ],
+     "playing_now": [],
      "starters": [
       {
        "id": "3163",
@@ -1071,9 +1287,10 @@
        "injury_body": null,
        "news_updated": 1793455222255,
        "slot": "QB",
-       "proj": 15.61,
+       "proj": 15.71,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "7523",
@@ -1084,9 +1301,10 @@
        "injury_body": null,
        "news_updated": 1793461522990,
        "slot": "QB",
-       "proj": 20.4,
+       "proj": 19.77,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "8228",
@@ -1097,9 +1315,10 @@
        "injury_body": null,
        "news_updated": 1793412316799,
        "slot": "RB",
-       "proj": 14.42,
+       "proj": 14.48,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "13345",
@@ -1108,11 +1327,12 @@
        "nfl_team": "DEN",
        "injury": null,
        "injury_body": null,
-       "news_updated": 1793458222600,
+       "news_updated": 1793553034914,
        "slot": "RB",
-       "proj": 11.54,
+       "proj": 11.72,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "6801",
@@ -1123,9 +1343,10 @@
        "injury_body": null,
        "news_updated": 1793394314520,
        "slot": "WR",
-       "proj": 15.81,
+       "proj": 16.03,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "9493",
@@ -1138,7 +1359,8 @@
        "slot": "WR",
        "proj": 21.75,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "1466",
@@ -1149,9 +1371,10 @@
        "injury_body": null,
        "news_updated": 1793390114105,
        "slot": "TE",
-       "proj": 11.43,
+       "proj": 11.56,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "11604",
@@ -1162,9 +1385,10 @@
        "injury_body": null,
        "news_updated": 1793395214906,
        "slot": "FLEX",
-       "proj": 17.2,
+       "proj": 17.25,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "8148",
@@ -1175,9 +1399,10 @@
        "injury_body": null,
        "news_updated": 1793456122386,
        "slot": "FLEX",
-       "proj": 9.75,
+       "proj": 9.76,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "11539",
@@ -1188,9 +1413,10 @@
        "injury_body": null,
        "news_updated": 1793456722387,
        "slot": "K",
-       "proj": 6.73,
+       "proj": 6.77,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "BAL",
@@ -1203,7 +1429,8 @@
        "slot": "DEF",
        "proj": 4.23,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       }
      ],
      "bench": [
@@ -1215,7 +1442,7 @@
        "injury": null,
        "injury_body": null,
        "news_updated": 1793462123049,
-       "proj": 15.51,
+       "proj": 14.93,
        "live": 0.0,
        "on_bye": false
       },
@@ -1227,7 +1454,7 @@
        "injury": null,
        "injury_body": null,
        "news_updated": 1793455522103,
-       "proj": 14.57,
+       "proj": 14.43,
        "live": 0.0,
        "on_bye": false
       },
@@ -1239,7 +1466,7 @@
        "injury": null,
        "injury_body": null,
        "news_updated": 1793458222627,
-       "proj": 14.02,
+       "proj": 14.17,
        "live": 0.0,
        "on_bye": false
       },
@@ -1272,8 +1499,24 @@
     {
      "roster_id": 6,
      "live_points": 0.0,
-     "projected_set_lineup": 150.89,
-     "projected_best_lineup": 155.77,
+     "projected_set_lineup": 150.67,
+     "projected_best_lineup": 155.7,
+     "live_projection": 155.7,
+     "remaining_projection": 150.67,
+     "yet_to_play": [
+      "Kyler Murray",
+      "Jayden Daniels",
+      "Jonathan Taylor",
+      "D'Andre Swift",
+      "George Pickens",
+      "Ja'Marr Chase",
+      "T.J. Hockenson",
+      "Tyler Warren",
+      "Tony Pollard",
+      "Jason Myers",
+      "Minnesota Vikings D/ST"
+     ],
+     "playing_now": [],
      "starters": [
       {
        "id": "5849",
@@ -1284,9 +1527,10 @@
        "injury_body": null,
        "news_updated": 1793391314318,
        "slot": "QB",
-       "proj": 17.04,
+       "proj": 17.13,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "11566",
@@ -1299,7 +1543,8 @@
        "slot": "QB",
        "proj": 18.54,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "6813",
@@ -1308,11 +1553,12 @@
        "nfl_team": "IND",
        "injury": null,
        "injury_body": null,
-       "news_updated": 1793488225958,
+       "news_updated": 1793547633967,
        "slot": "RB",
-       "proj": 16.39,
+       "proj": 16.45,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "6790",
@@ -1321,24 +1567,26 @@
        "nfl_team": "CHI",
        "injury": null,
        "injury_body": null,
-       "news_updated": 1793284830276,
+       "news_updated": 1793544033560,
        "slot": "RB",
        "proj": 14.69,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "8137",
        "name": "George Pickens",
        "pos": "WR",
        "nfl_team": "DAL",
-       "injury": "Questionable",
-       "injury_body": "Shoulder",
-       "news_updated": 1793537132664,
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1793551534631,
        "slot": "WR",
        "proj": 14.53,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "7564",
@@ -1349,9 +1597,10 @@
        "injury_body": null,
        "news_updated": 1793392814550,
        "slot": "WR",
-       "proj": 19.66,
+       "proj": 19.89,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "5844",
@@ -1362,9 +1611,10 @@
        "injury_body": null,
        "news_updated": 1793391014210,
        "slot": "TE",
-       "proj": 10.83,
+       "proj": 10.91,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "12518",
@@ -1375,9 +1625,10 @@
        "injury_body": null,
        "news_updated": 1793432119325,
        "slot": "FLEX",
-       "proj": 11.11,
+       "proj": 10.69,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "5967",
@@ -1388,9 +1639,10 @@
        "injury_body": null,
        "news_updated": 1793401815728,
        "slot": "FLEX",
-       "proj": 14.7,
+       "proj": 14.41,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "2747",
@@ -1403,7 +1655,8 @@
        "slot": "K",
        "proj": 7.06,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "MIN",
@@ -1414,9 +1667,10 @@
        "injury_body": null,
        "news_updated": null,
        "slot": "DEF",
-       "proj": 6.34,
+       "proj": 6.37,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       }
      ],
      "bench": [
@@ -1428,7 +1682,7 @@
        "injury": null,
        "injury_body": null,
        "news_updated": 1793389514044,
-       "proj": 16.78,
+       "proj": 17.09,
        "live": 0.0,
        "on_bye": false
       },
@@ -1437,9 +1691,9 @@
        "name": "DJ Moore",
        "pos": "WR",
        "nfl_team": "BUF",
-       "injury": "Questionable",
-       "injury_body": "Shoulder - AC Joint",
-       "news_updated": 1793462123090,
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1793550935864,
        "proj": 14.0,
        "live": 0.0,
        "on_bye": false
@@ -1464,7 +1718,7 @@
        "injury": null,
        "injury_body": null,
        "news_updated": null,
-       "proj": 8.05,
+       "proj": 8.09,
        "live": 0.0,
        "on_bye": false
       },
@@ -1493,32 +1747,81 @@
     8
    ],
    "projected": [
-    159.86,
-    140.85
+    159.66,
+    140.75
    ],
-   "projection_basis": "best available lineups",
+   "projection_basis": "points banked plus best available lineups",
+   "live_projection": [
+    159.66,
+    140.75
+   ],
+   "yet_to_play": [
+    [
+     "Jacoby Brissett",
+     "Drake Maye",
+     "Omarion Hampton",
+     "Bucky Irving",
+     "Amon-Ra St. Brown",
+     "Harold Fannin Jr.",
+     "Zay Flowers",
+     "Drake London",
+     "Matt Gay",
+     "Cleveland Browns D/ST"
+    ],
+    [
+     "Sam Darnold",
+     "Matthew Stafford",
+     "Derrick Henry",
+     "Kyren Williams",
+     "Jaxon Smith-Njigba",
+     "DeVonta Smith",
+     "Dallas Goedert",
+     "Rhamondre Stevenson",
+     "Cam Little",
+     "Philadelphia Eagles D/ST"
+    ]
+   ],
+   "playing_now": [
+    [],
+    []
+   ],
    "projected_as_set": [
-    159.86,
-    132.07
+    158.34,
+    131.97
    ],
    "projected_best": [
-    159.86,
-    140.85
+    158.34,
+    140.75
    ],
    "live": [
     17.3,
     0.0
    ],
    "win_prob": [
-    0.674,
-    0.326
+    0.678,
+    0.322
    ],
    "sides": [
     {
      "roster_id": 3,
      "live_points": 17.3,
-     "projected_set_lineup": 159.86,
-     "projected_best_lineup": 159.86,
+     "projected_set_lineup": 158.34,
+     "projected_best_lineup": 158.34,
+     "live_projection": 159.66,
+     "remaining_projection": 142.36,
+     "yet_to_play": [
+      "Jacoby Brissett",
+      "Drake Maye",
+      "Omarion Hampton",
+      "Bucky Irving",
+      "Amon-Ra St. Brown",
+      "Harold Fannin Jr.",
+      "Zay Flowers",
+      "Drake London",
+      "Matt Gay",
+      "Cleveland Browns D/ST"
+     ],
+     "playing_now": [],
      "starters": [
       {
        "id": "3257",
@@ -1531,7 +1834,8 @@
        "slot": "QB",
        "proj": 18.41,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "11564",
@@ -1542,22 +1846,24 @@
        "injury_body": null,
        "news_updated": 1793462422938,
        "slot": "QB",
-       "proj": 21.59,
+       "proj": 21.15,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
-       "id": "8155",
-       "name": "Breece Hall",
+       "id": "12507",
+       "name": "Omarion Hampton",
        "pos": "RB",
-       "nfl_team": "NYJ",
-       "injury": "Questionable",
-       "injury_body": "Quadriceps",
-       "news_updated": 1793539832923,
+       "nfl_team": "LAC",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1793466923646,
        "slot": "RB",
-       "proj": 11.31,
+       "proj": 10.16,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "11584",
@@ -1568,9 +1874,10 @@
        "injury_body": null,
        "news_updated": 1793388014081,
        "slot": "RB",
-       "proj": 16.63,
+       "proj": 16.7,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "7547",
@@ -1581,9 +1888,10 @@
        "injury_body": null,
        "news_updated": 1793456122387,
        "slot": "WR",
-       "proj": 16.62,
+       "proj": 16.71,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "8167",
@@ -1596,7 +1904,8 @@
        "slot": "WR",
        "proj": 15.98,
        "live": 17.3,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "final"
       },
       {
        "id": "12506",
@@ -1609,7 +1918,8 @@
        "slot": "TE",
        "proj": 10.62,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "9997",
@@ -1622,7 +1932,8 @@
        "slot": "FLEX",
        "proj": 18.48,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "8112",
@@ -1633,9 +1944,10 @@
        "injury_body": null,
        "news_updated": 1793460922838,
        "slot": "FLEX",
-       "proj": 16.55,
+       "proj": 16.46,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "6083",
@@ -1648,7 +1960,8 @@
        "slot": "K",
        "proj": 7.59,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "CLE",
@@ -1661,7 +1974,8 @@
        "slot": "DEF",
        "proj": 6.08,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       }
      ],
      "bench": [
@@ -1672,20 +1986,8 @@
        "nfl_team": "DEN",
        "injury": "Questionable",
        "injury_body": "Undisclosed",
-       "news_updated": 1793535632519,
-       "proj": 11.25,
-       "live": 0.0,
-       "on_bye": false
-      },
-      {
-       "id": "12507",
-       "name": "Omarion Hampton",
-       "pos": "RB",
-       "nfl_team": "LAC",
-       "injury": null,
-       "injury_body": null,
-       "news_updated": 1793466923646,
-       "proj": 10.16,
+       "news_updated": 1793542234938,
+       "proj": 11.35,
        "live": 0.0,
        "on_bye": false
       },
@@ -1697,7 +1999,7 @@
        "injury": null,
        "injury_body": null,
        "news_updated": 1793391314318,
-       "proj": 9.82,
+       "proj": 9.88,
        "live": 0.0,
        "on_bye": false
       },
@@ -1709,6 +2011,18 @@
        "injury": "Out",
        "injury_body": "Ankle",
        "news_updated": 1793467523582,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "8155",
+       "name": "Breece Hall",
+       "pos": "RB",
+       "nfl_team": "NYJ",
+       "injury": "Out",
+       "injury_body": "Quadriceps",
+       "news_updated": 1793551834594,
        "proj": 0.0,
        "live": 0.0,
        "on_bye": false
@@ -1730,8 +2044,23 @@
     {
      "roster_id": 8,
      "live_points": 0.0,
-     "projected_set_lineup": 132.07,
-     "projected_best_lineup": 140.85,
+     "projected_set_lineup": 131.97,
+     "projected_best_lineup": 140.75,
+     "live_projection": 140.75,
+     "remaining_projection": 131.97,
+     "yet_to_play": [
+      "Sam Darnold",
+      "Matthew Stafford",
+      "Derrick Henry",
+      "Kyren Williams",
+      "Jaxon Smith-Njigba",
+      "DeVonta Smith",
+      "Dallas Goedert",
+      "Rhamondre Stevenson",
+      "Cam Little",
+      "Philadelphia Eagles D/ST"
+     ],
+     "playing_now": [],
      "starters": [
       {
        "id": "4943",
@@ -1744,7 +2073,8 @@
        "slot": "QB",
        "proj": 16.28,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "421",
@@ -1757,7 +2087,8 @@
        "slot": "QB",
        "proj": 16.09,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "3198",
@@ -1768,9 +2099,10 @@
        "injury_body": null,
        "news_updated": 1793457622355,
        "slot": "RB",
-       "proj": 16.05,
+       "proj": 16.17,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "8150",
@@ -1783,7 +2115,8 @@
        "slot": "RB",
        "proj": 19.76,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "9488",
@@ -1796,7 +2129,8 @@
        "slot": "WR",
        "proj": 25.26,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "7525",
@@ -1809,7 +2143,8 @@
        "slot": "WR",
        "proj": 0.0,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "5022",
@@ -1822,7 +2157,8 @@
        "slot": "TE",
        "proj": 10.09,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "7611",
@@ -1833,9 +2169,10 @@
        "injury_body": null,
        "news_updated": 1793462723058,
        "slot": "FLEX",
-       "proj": 15.67,
+       "proj": 15.48,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "2216",
@@ -1848,7 +2185,8 @@
        "slot": "FLEX",
        "proj": 0.0,
        "live": 0.0,
-       "on_bye": true
+       "on_bye": true,
+       "game_state": "bye"
       },
       {
        "id": "11786",
@@ -1859,9 +2197,10 @@
        "injury_body": null,
        "news_updated": 1793475024652,
        "slot": "K",
-       "proj": 7.05,
+       "proj": 7.02,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       },
       {
        "id": "PHI",
@@ -1874,7 +2213,8 @@
        "slot": "DEF",
        "proj": 5.82,
        "live": 0.0,
-       "on_bye": false
+       "on_bye": false,
+       "game_state": "not_started"
       }
      ],
      "bench": [
@@ -1961,9 +2301,9 @@
      "nfl_team": "DEN",
      "injury": null,
      "injury_body": null,
-     "news_updated": 1793458222600,
+     "news_updated": 1793553034914,
      "to": 4,
-     "proj_this_week": 11.54
+     "proj_this_week": 11.72
     }
    ],
    "drops": [
@@ -1981,22 +2321,153 @@
    ],
    "waiver_bid": null,
    "id": "2026-11-01-m1"
+  },
+  {
+   "time": "Sun 6:19 AM",
+   "ts": 1793542778173,
+   "type": "free_agent",
+   "rosters": [
+    2
+   ],
+   "adds": [
+    {
+     "id": "4037",
+     "name": "Chris Godwin Jr.",
+     "pos": "WR",
+     "nfl_team": "TB",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": 1793552134954,
+     "to": 2,
+     "proj_this_week": 11.5
+    }
+   ],
+   "drops": [
+    {
+     "id": "8129",
+     "name": "Dameon Pierce",
+     "pos": "RB",
+     "nfl_team": "PHI",
+     "injury": "IR",
+     "injury_body": "Undisclosed",
+     "news_updated": 1793228425524,
+     "from": 2,
+     "proj_this_week": 0.0
+    }
+   ],
+   "waiver_bid": null,
+   "id": "2026-11-01-m2"
+  },
+  {
+   "time": "Sun 6:20 AM",
+   "ts": 1793542815542,
+   "type": "free_agent",
+   "rosters": [
+    7
+   ],
+   "adds": [
+    {
+     "id": "2449",
+     "name": "Stefon Diggs",
+     "pos": "WR",
+     "nfl_team": "WAS",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": 1793399715265,
+     "to": 7,
+     "proj_this_week": 12.64
+    }
+   ],
+   "drops": [
+    {
+     "id": "11435",
+     "name": "Emanuel Wilson",
+     "pos": "RB",
+     "nfl_team": "SEA",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": 1792995913326,
+     "from": 7,
+     "proj_this_week": 6.66
+    }
+   ],
+   "waiver_bid": null,
+   "id": "2026-11-01-m3"
+  },
+  {
+   "time": "Sun 6:23 AM",
+   "ts": 1793543005331,
+   "type": "free_agent",
+   "rosters": [
+    7
+   ],
+   "adds": [
+    {
+     "id": "3214",
+     "name": "Hunter Henry",
+     "pos": "TE",
+     "nfl_team": "NE",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": 1793463023085,
+     "to": 7,
+     "proj_this_week": 11.2
+    }
+   ],
+   "drops": [
+    {
+     "id": "7002",
+     "name": "Juwan Johnson",
+     "pos": "TE",
+     "nfl_team": "NO",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": 1793198121822,
+     "from": 7,
+     "proj_this_week": 0.0
+    }
+   ],
+   "waiver_bid": null,
+   "id": "2026-11-01-m4"
+  },
+  {
+   "time": "Sun 7:55 AM",
+   "ts": 1793548509310,
+   "type": "free_agent",
+   "rosters": [
+    5
+   ],
+   "adds": [
+    {
+     "id": "13276",
+     "name": "Omar Cooper Jr.",
+     "pos": "WR",
+     "nfl_team": "NYJ",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": 1793550334412,
+     "to": 5,
+     "proj_this_week": 10.6
+    }
+   ],
+   "drops": [
+    {
+     "id": "8131",
+     "name": "Isaiah Likely",
+     "pos": "TE",
+     "nfl_team": "NYG",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": 1792997714763,
+     "from": 5,
+     "proj_this_week": 0.0
+    }
+   ],
+   "waiver_bid": null,
+   "id": "2026-11-01-m5"
   }
  ],
  "trending_adds": [
-  {
-   "id": "13424",
-   "name": "Seth McGowan",
-   "pos": "RB",
-   "nfl_team": "IND",
-   "injury": null,
-   "injury_body": null,
-   "news_updated": 1793465423421,
-   "count": 299016,
-   "rats_owner": null,
-   "proj_this_week": 4.94,
-   "on_bye": false
-  },
   {
    "id": "6130",
    "name": "Devin Singletary",
@@ -2005,10 +2476,23 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793229624568,
-   "count": 246051,
+   "count": 418365,
    "rats_owner": null,
    "proj_this_week": 0.0,
    "on_bye": true
+  },
+  {
+   "id": "13424",
+   "name": "Seth McGowan",
+   "pos": "RB",
+   "nfl_team": "IND",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1793465423421,
+   "count": 336000,
+   "rats_owner": null,
+   "proj_this_week": 4.93,
+   "on_bye": false
   },
   {
    "id": "4147",
@@ -2018,9 +2502,9 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793397314973,
-   "count": 181116,
+   "count": 305516,
    "rats_owner": null,
-   "proj_this_week": 9.13,
+   "proj_this_week": 9.14,
    "on_bye": false
   },
   {
@@ -2031,35 +2515,9 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793431519236,
-   "count": 151432,
+   "count": 234800,
    "rats_owner": null,
    "proj_this_week": 9.09,
-   "on_bye": false
-  },
-  {
-   "id": "7561",
-   "name": "Elijah Mitchell",
-   "pos": "RB",
-   "nfl_team": "PHI",
-   "injury": null,
-   "injury_body": null,
-   "news_updated": 1793496026958,
-   "count": 131382,
-   "rats_owner": null,
-   "proj_this_week": 3.23,
-   "on_bye": false
-  },
-  {
-   "id": "13294",
-   "name": "Makai Lemon",
-   "pos": "WR",
-   "nfl_team": "PHI",
-   "injury": null,
-   "injury_body": null,
-   "news_updated": 1793399715926,
-   "count": 124060,
-   "rats_owner": null,
-   "proj_this_week": 9.52,
    "on_bye": false
   },
   {
@@ -2070,7 +2528,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 105938,
+   "count": 201089,
    "rats_owner": null,
    "proj_this_week": 8.46,
    "on_bye": false
@@ -2083,9 +2541,22 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1792812354052,
-   "count": 104436,
+   "count": 178110,
    "rats_owner": null,
-   "proj_this_week": 6.48,
+   "proj_this_week": 6.37,
+   "on_bye": false
+  },
+  {
+   "id": "13294",
+   "name": "Makai Lemon",
+   "pos": "WR",
+   "nfl_team": "PHI",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1793399715926,
+   "count": 153808,
+   "rats_owner": null,
+   "proj_this_week": 9.52,
    "on_bye": false
   },
   {
@@ -2096,35 +2567,9 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793402715945,
-   "count": 99892,
+   "count": 131648,
    "rats_owner": null,
-   "proj_this_week": 8.86,
-   "on_bye": false
-  },
-  {
-   "id": "4037",
-   "name": "Chris Godwin Jr.",
-   "pos": "WR",
-   "nfl_team": "TB",
-   "injury": null,
-   "injury_body": null,
-   "news_updated": 1793388914192,
-   "count": 86544,
-   "rats_owner": null,
-   "proj_this_week": 11.53,
-   "on_bye": false
-  },
-  {
-   "id": "13286",
-   "name": "Jadarian Price",
-   "pos": "RB",
-   "nfl_team": "SEA",
-   "injury": "IR",
-   "injury_body": "Chest",
-   "news_updated": 1793485225731,
-   "count": 70407,
-   "rats_owner": 2,
-   "proj_this_week": 5.02,
+   "proj_this_week": 8.8,
    "on_bye": false
   },
   {
@@ -2135,9 +2580,35 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 68215,
+   "count": 128040,
    "rats_owner": null,
    "proj_this_week": 7.62,
+   "on_bye": false
+  },
+  {
+   "id": "4037",
+   "name": "Chris Godwin Jr.",
+   "pos": "WR",
+   "nfl_team": "TB",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1793552134954,
+   "count": 119010,
+   "rats_owner": 2,
+   "proj_this_week": 11.5,
+   "on_bye": false
+  },
+  {
+   "id": "7561",
+   "name": "Elijah Mitchell",
+   "pos": "RB",
+   "nfl_team": "PHI",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1793496026958,
+   "count": 116037,
+   "rats_owner": null,
+   "proj_this_week": 3.23,
    "on_bye": false
   },
   {
@@ -2148,22 +2619,9 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793496927207,
-   "count": 67293,
+   "count": 103608,
    "rats_owner": null,
-   "proj_this_week": 6.07,
-   "on_bye": false
-  },
-  {
-   "id": "11637",
-   "name": "Keon Coleman",
-   "pos": "WR",
-   "nfl_team": "BUF",
-   "injury": null,
-   "injury_body": null,
-   "news_updated": 1793463023086,
-   "count": 61767,
-   "rats_owner": null,
-   "proj_this_week": 8.27,
+   "proj_this_week": 6.21,
    "on_bye": false
   },
   {
@@ -2174,9 +2632,35 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793459422726,
-   "count": 61290,
+   "count": 90490,
    "rats_owner": null,
-   "proj_this_week": 8.09,
+   "proj_this_week": 8.03,
+   "on_bye": false
+  },
+  {
+   "id": "13286",
+   "name": "Jadarian Price",
+   "pos": "RB",
+   "nfl_team": "SEA",
+   "injury": "IR",
+   "injury_body": "Chest",
+   "news_updated": 1793550934561,
+   "count": 88866,
+   "rats_owner": 2,
+   "proj_this_week": 5.02,
+   "on_bye": false
+  },
+  {
+   "id": "11647",
+   "name": "Kimani Vidal",
+   "pos": "RB",
+   "nfl_team": "LAC",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1793467523556,
+   "count": 87875,
+   "rats_owner": null,
+   "proj_this_week": 6.98,
    "on_bye": false
   }
  ],
@@ -2189,8 +2673,8 @@
    "injury": "IR",
    "injury_body": "Undisclosed",
    "news_updated": 1793228425524,
-   "count": 135672,
-   "rats_owner": 2,
+   "count": 197456,
+   "rats_owner": null,
    "proj_this_week": 0.0,
    "on_bye": false
   },
@@ -2202,48 +2686,9 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1792995913326,
-   "count": 121887,
-   "rats_owner": 7,
-   "proj_this_week": 6.65,
-   "on_bye": false
-  },
-  {
-   "id": "7561",
-   "name": "Elijah Mitchell",
-   "pos": "RB",
-   "nfl_team": "PHI",
-   "injury": null,
-   "injury_body": null,
-   "news_updated": 1793496026958,
-   "count": 94302,
+   "count": 184275,
    "rats_owner": null,
-   "proj_this_week": 3.23,
-   "on_bye": false
-  },
-  {
-   "id": "12489",
-   "name": "RJ Harvey",
-   "pos": "RB",
-   "nfl_team": "DEN",
-   "injury": "IR",
-   "injury_body": "Knee",
-   "news_updated": 1793478626561,
-   "count": 72128,
-   "rats_owner": 7,
-   "proj_this_week": 0.0,
-   "on_bye": false
-  },
-  {
-   "id": "3271",
-   "name": "Tyler Higbee",
-   "pos": "TE",
-   "nfl_team": "LAR",
-   "injury": null,
-   "injury_body": null,
-   "news_updated": 1793467823627,
-   "count": 66870,
-   "rats_owner": 2,
-   "proj_this_week": 8.51,
+   "proj_this_week": 6.66,
    "on_bye": false
   },
   {
@@ -2254,22 +2699,48 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793229624568,
-   "count": 66429,
+   "count": 125532,
    "rats_owner": null,
    "proj_this_week": 0.0,
    "on_bye": true
   },
   {
-   "id": "12457",
-   "name": "Jaydon Blue",
+   "id": "7561",
+   "name": "Elijah Mitchell",
    "pos": "RB",
    "nfl_team": "PHI",
    "injury": null,
    "injury_body": null,
-   "news_updated": 1793497827206,
-   "count": 59456,
+   "news_updated": 1793496026958,
+   "count": 125298,
    "rats_owner": null,
-   "proj_this_week": 1.71,
+   "proj_this_week": 3.23,
+   "on_bye": false
+  },
+  {
+   "id": "3271",
+   "name": "Tyler Higbee",
+   "pos": "TE",
+   "nfl_team": "LAR",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1793467823627,
+   "count": 100233,
+   "rats_owner": 2,
+   "proj_this_week": 8.51,
+   "on_bye": false
+  },
+  {
+   "id": "12489",
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "nfl_team": "DEN",
+   "injury": "IR",
+   "injury_body": "Knee",
+   "news_updated": 1793478626561,
+   "count": 99252,
+   "rats_owner": 7,
+   "proj_this_week": 0.0,
    "on_bye": false
   },
   {
@@ -2280,7 +2751,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793122804513,
-   "count": 57336,
+   "count": 81240,
    "rats_owner": 2,
    "proj_this_week": 4.76,
    "on_bye": false
@@ -2293,7 +2764,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793476524799,
-   "count": 56943,
+   "count": 80964,
    "rats_owner": null,
    "proj_this_week": 4.49,
    "on_bye": false
@@ -2306,9 +2777,22 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 47978,
+   "count": 80948,
    "rats_owner": 3,
    "proj_this_week": 6.08,
+   "on_bye": false
+  },
+  {
+   "id": "12457",
+   "name": "Jaydon Blue",
+   "pos": "RB",
+   "nfl_team": "PHI",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1793497827206,
+   "count": 77456,
+   "rats_owner": null,
+   "proj_this_week": 1.71,
    "on_bye": false
   },
   {
@@ -2319,7 +2803,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": null,
-   "count": 42795,
+   "count": 73480,
    "rats_owner": null,
    "proj_this_week": 0.0,
    "on_bye": true
@@ -2332,7 +2816,7 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793464823270,
-   "count": 41964,
+   "count": 58032,
    "rats_owner": null,
    "proj_this_week": 4.81,
    "on_bye": false
@@ -2345,22 +2829,9 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793395214884,
-   "count": 39006,
+   "count": 57888,
    "rats_owner": null,
    "proj_this_week": 7.54,
-   "on_bye": false
-  },
-  {
-   "id": "11624",
-   "name": "Xavier Worthy",
-   "pos": "WR",
-   "nfl_team": "KC",
-   "injury": null,
-   "injury_body": null,
-   "news_updated": 1793400315767,
-   "count": 35748,
-   "rats_owner": null,
-   "proj_this_week": 9.02,
    "on_bye": false
   },
   {
@@ -2371,9 +2842,22 @@
    "injury": null,
    "injury_body": null,
    "news_updated": 1793391314318,
-   "count": 34744,
+   "count": 52400,
    "rats_owner": 6,
-   "proj_this_week": 17.04,
+   "proj_this_week": 17.13,
+   "on_bye": false
+  },
+  {
+   "id": "13330",
+   "name": "Kenyon Sadiq",
+   "pos": "TE",
+   "nfl_team": "NYJ",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1792984811912,
+   "count": 51498,
+   "rats_owner": null,
+   "proj_this_week": 4.01,
    "on_bye": false
   }
  ],
@@ -2390,59 +2874,15 @@
    "proj_this_week": 15.98
   },
   {
-   "id": "8137",
-   "name": "George Pickens",
-   "pos": "WR",
-   "nfl_team": "DAL",
-   "injury": "Questionable",
-   "injury_body": "Shoulder",
-   "news_updated": 1793537132664,
-   "roster_id": 6,
-   "proj_this_week": 14.53
-  },
-  {
-   "id": "4983",
-   "name": "DJ Moore",
-   "pos": "WR",
-   "nfl_team": "BUF",
-   "injury": "Questionable",
-   "injury_body": "Shoulder - AC Joint",
-   "news_updated": 1793462123090,
-   "roster_id": 6,
-   "proj_this_week": 14.0
-  },
-  {
-   "id": "8155",
-   "name": "Breece Hall",
-   "pos": "RB",
-   "nfl_team": "NYJ",
-   "injury": "Questionable",
-   "injury_body": "Quadriceps",
-   "news_updated": 1793539832923,
-   "roster_id": 3,
-   "proj_this_week": 11.31
-  },
-  {
    "id": "7526",
    "name": "Jaylen Waddle",
    "pos": "WR",
    "nfl_team": "DEN",
    "injury": "Questionable",
    "injury_body": "Undisclosed",
-   "news_updated": 1793535632519,
+   "news_updated": 1793542234938,
    "roster_id": 3,
-   "proj_this_week": 11.25
-  },
-  {
-   "id": "10236",
-   "name": "Dalton Kincaid",
-   "pos": "TE",
-   "nfl_team": "BUF",
-   "injury": "Questionable",
-   "injury_body": "Chest",
-   "news_updated": 1793463623279,
-   "roster_id": 1,
-   "proj_this_week": 10.46
+   "proj_this_week": 11.35
   },
   {
    "id": "13286",
@@ -2451,7 +2891,7 @@
    "nfl_team": "SEA",
    "injury": "IR",
    "injury_body": "Chest",
-   "news_updated": 1793485225731,
+   "news_updated": 1793550934561,
    "roster_id": 2,
    "proj_this_week": 5.02
   },
@@ -2467,17 +2907,6 @@
    "proj_this_week": 0.0
   },
   {
-   "id": "8129",
-   "name": "Dameon Pierce",
-   "pos": "RB",
-   "nfl_team": "PHI",
-   "injury": "IR",
-   "injury_body": "Undisclosed",
-   "news_updated": 1793228425524,
-   "roster_id": 2,
-   "proj_this_week": 0.0
-  },
-  {
    "id": "5859",
    "name": "A.J. Brown",
    "pos": "WR",
@@ -2485,6 +2914,17 @@
    "injury": "Out",
    "injury_body": "Ankle",
    "news_updated": 1793467523582,
+   "roster_id": 3,
+   "proj_this_week": 0.0
+  },
+  {
+   "id": "8155",
+   "name": "Breece Hall",
+   "pos": "RB",
+   "nfl_team": "NYJ",
+   "injury": "Out",
+   "injury_body": "Quadriceps",
+   "news_updated": 1793551834594,
    "roster_id": 3,
    "proj_this_week": 0.0
   },
@@ -2584,42 +3024,15 @@
   "SF"
  ],
  "latest_weekly_edition": "2026-w07",
+ "update": {
+  "phase": "last_call",
+  "label": "Last call before kickoff",
+  "time": "9:42 AM",
+  "nfl_games_final": 1,
+  "nfl_games_live": 0,
+  "nfl_games_left": 13
+ },
  "open_decisions": [
-  {
-   "id": "w8-r2-s5",
-   "roster_id": 2,
-   "slot": "WR",
-   "reason": "bye",
-   "current": {
-    "name": "Chris Olave",
-    "pos": "WR",
-    "proj": 0.0,
-    "injury": null
-   },
-   "options": [
-    {
-     "name": "Quinshon Judkins",
-     "pos": "RB",
-     "proj": 10.75,
-     "injury": null
-    },
-    {
-     "name": "Tyler Higbee",
-     "pos": "TE",
-     "proj": 8.51,
-     "injury": null
-    },
-    {
-     "name": "Roschon Johnson",
-     "pos": "RB",
-     "proj": 4.76,
-     "injury": null
-    }
-   ],
-   "via_flex_shuffle": true,
-   "needs_waiver_add": false,
-   "deadline": "Sun 10:00 AM"
-  },
   {
    "id": "w8-r4-s8",
    "roster_id": 4,
@@ -2628,72 +3041,20 @@
    "current": {
     "name": "Jameson Williams",
     "pos": "WR",
-    "proj": 9.75,
+    "proj": 9.76,
     "injury": null
    },
    "options": [
     {
      "name": "Parker Washington",
      "pos": "WR",
-     "proj": 15.51,
+     "proj": 14.93,
      "injury": null
     },
     {
      "name": "Tre Tucker",
      "pos": "WR",
      "proj": 11.2,
-     "injury": null
-    }
-   ],
-   "via_flex_shuffle": false,
-   "needs_waiver_add": false,
-   "deadline": "Sun 10:00 AM"
-  },
-  {
-   "id": "w8-r6-s4",
-   "roster_id": 6,
-   "slot": "WR",
-   "reason": "injury",
-   "current": {
-    "name": "George Pickens",
-    "pos": "WR",
-    "proj": 14.53,
-    "injury": "Questionable"
-   },
-   "options": [
-    {
-     "name": "DJ Moore",
-     "pos": "WR",
-     "proj": 14.0,
-     "injury": "Questionable"
-    }
-   ],
-   "via_flex_shuffle": false,
-   "needs_waiver_add": false,
-   "deadline": "Sun 10:00 AM"
-  },
-  {
-   "id": "w8-r3-s2",
-   "roster_id": 3,
-   "slot": "RB",
-   "reason": "injury",
-   "current": {
-    "name": "Breece Hall",
-    "pos": "RB",
-    "proj": 11.31,
-    "injury": "Questionable"
-   },
-   "options": [
-    {
-     "name": "Omarion Hampton",
-     "pos": "RB",
-     "proj": 10.16,
-     "injury": null
-    },
-    {
-     "name": "Aaron Jones Sr.",
-     "pos": "RB",
-     "proj": 9.82,
      "injury": null
     }
    ],
@@ -2743,20 +3104,20 @@
  ],
  "resolved_decisions": [
   {
-   "id": "w8-r7-s0",
-   "roster_id": 7,
-   "slot": "QB",
-   "reason": "injury",
+   "id": "w8-r2-s5",
+   "roster_id": 2,
+   "slot": "WR",
+   "reason": "bye",
    "was": {
-    "name": "Lamar Jackson",
-    "pos": "QB",
-    "proj": 20.49,
-    "injury": "Out"
+    "name": "Chris Olave",
+    "pos": "WR",
+    "proj": 0.0,
+    "injury": null
    },
    "now": {
-    "name": "Lamar Jackson",
-    "pos": "QB",
-    "proj": 20.49
+    "name": "CeeDee Lamb",
+    "pos": "WR",
+    "proj": 21.95
    }
   },
   {
@@ -2773,7 +3134,7 @@
    "now": {
     "name": "Trevor Lawrence",
     "pos": "QB",
-    "proj": 20.4
+    "proj": 19.77
    }
   },
   {
@@ -2790,7 +3151,7 @@
    "now": {
     "name": "Jaylen Warren",
     "pos": "RB",
-    "proj": 14.42
+    "proj": 14.48
    }
   },
   {
@@ -2807,41 +3168,24 @@
    "now": {
     "name": "Tyler Warren",
     "pos": "TE",
-    "proj": 11.11
+    "proj": 10.69
    }
   },
   {
-   "id": "w8-r3-s4",
+   "id": "w8-r3-s2",
    "roster_id": 3,
-   "slot": "WR",
+   "slot": "RB",
    "reason": "injury",
    "was": {
-    "name": "Amon-Ra St. Brown",
-    "pos": "WR",
-    "proj": 16.62,
-    "injury": "Questionable"
+    "name": "Breece Hall",
+    "pos": "RB",
+    "proj": 11.39,
+    "injury": "Out"
    },
    "now": {
-    "name": "Amon-Ra St. Brown",
-    "pos": "WR",
-    "proj": 16.62
-   }
-  },
-  {
-   "id": "w8-r3-s8",
-   "roster_id": 3,
-   "slot": "FLEX",
-   "reason": "injury",
-   "was": {
-    "name": "Drake London",
-    "pos": "WR",
-    "proj": 17.01,
-    "injury": "Questionable"
-   },
-   "now": {
-    "name": "Drake London",
-    "pos": "WR",
-    "proj": 16.55
+    "name": "Omarion Hampton",
+    "pos": "RB",
+    "proj": 10.16
    }
   }
  ]

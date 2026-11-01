@@ -28,7 +28,7 @@
 {% set L = ds.lead %}
 <section class="wrap hero">
   <div class="tile daytile" {% if lead_m %}style="--ca:{{ DT(lead_m.teams[0]).color }};--cb:{{ DT(lead_m.teams[1]).color }}"{% else %}style="--ca:#5A3614;--cb:#1D1D1F"{% endif %}>
-    <span class="kick">{{ d.weekday }} · {{ L.kicker }}</span>
+    <span class="kick">{% if d.update and d.update.label %}<span class="upd">Updated {{ d.update.time }} · {{ d.update.label }}</span>{% else %}{{ d.weekday }} · {% endif %}{{ L.kicker }}</span>
     <h1>{{ L.headline }}</h1>
     <p class="dek">{{ L.dek }}</p>
     {% if lead_m %}
@@ -95,7 +95,7 @@
 {% endif %}
 
 <section id="matchups" class="sec"><div class="wrap">
-  <div class="sh"><h2>Week {{ d.week }} <em>Matchups</em></h2><span class="tag">{{ 'Live scores' if any_live else ('Projected from ' ~ (d.matchups[0].projection_basis if d.matchups else 'lineups')) }}</span></div>
+  <div class="sh"><h2>Week {{ d.week }} <em>Matchups</em></h2><span class="tag">{{ ('Live scores · win odds from ' ~ d.matchups[0].projection_basis) if any_live else 'Projected from best available lineups' }}</span></div>
   <div class="ahead">
     {% for m in d.matchups %}{% set pv = (ds.previews or {}).get(m.key, {}) %}
     <div class="ah card">
@@ -104,6 +104,7 @@
       <div class="ahr num {{ 'fav' if m.win_prob[i] >= 0.5 }}">{{ av(t, 32) }}<span class="nm">{{ t.name }}</span><span class="pj">{% if m.games_started %}{{ "%.2f"|format(m.live[i]) }}{% else %}{{ "%.1f"|format(m.projected[i]) }}{% endif %}</span><span class="wp">{{ pct(m.win_prob[i]) }}</span></div>
       {% endfor %}
       <div class="wpbar"><i style="width:{{ (m.win_prob[0]*100)|round(1) }}%;background:{{ DT(m.teams[0]).color }}"></i><i style="width:{{ (m.win_prob[1]*100)|round(1) }}%;background:{{ DT(m.teams[1]).color }}"></i></div>
+      {% if m.games_started %}<div class="left num">{% for i in [0, 1] %}<span>{{ DT(m.teams[i]).name }}: {% if m.playing_now[i] %}{{ m.playing_now[i]|length }} playing, {% endif %}{{ m.yet_to_play[i]|length }} yet to play · proj {{ "%.1f"|format(m.live_projection[i]) }}</span>{% endfor %}</div>{% endif %}
       {% if pv.blurb %}<p>{{ pv.blurb }}</p>{% endif %}
       {% if pv.pick %}<div class="pick">{{ av(DT(pv.pick), 22) }}<span>The Desk’s pick: <b>{{ DT(pv.pick).name }}</b></span></div>{% endif %}
     </div>

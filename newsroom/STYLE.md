@@ -174,3 +174,23 @@ any lead change marked `time_estimated`, and don't pick Monday swing plays (ther
 Tuesday morning's run refreshes the edition with the full play-by-play and any stat corrections:
 rebuild the facts, re-run the fact-check, fix anything that changed, and add Monday's swing plays
 and lead-change times if they improve the story. Don't rewrite what's already right.
+
+## Sunday updates
+
+Sundays get four editions of the same day's brief, each rewriting `content/daily/<date>/stories.json`
+in place. `facts.update.phase` says which one you're writing:
+
+- **last_call** (morning, before the first Sunday kickoff): the final preview. Inactives are out;
+  game-time decisions are the developing stories. Every matchup gets a pick.
+- **after_early** (after the 10 a.m. Pacific games): who's up, who's sweating, who has players
+  left (`yet_to_play`, `playing_now`), how the win odds moved since the morning, any busted
+  lineups from the early window. Lead with the biggest swing.
+- **after_late** (after the afternoon games): same, with Sunday night still to come. Who is
+  depending on the night game and Monday? Name the players.
+- **after_night** (after Sunday night): where every matchup stands going into Monday and exactly
+  what each trailing team needs from its Monday players. This is the setup for Monday night's
+  weekly edition.
+
+Each update reads like a live blog that moved on: new lead, new headline, new picks. Read the
+earlier version of today's brief before you rewrite it so the story advances instead of
+repeating. Win probabilities on game days come from live points plus what's left to play.

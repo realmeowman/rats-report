@@ -115,6 +115,25 @@ def main():
                 k = dt.datetime.fromisoformat(f"{g['gameday']}T{g['gametime']}").replace(tzinfo=ZoneInfo("America/New_York"))
                 for tm in (g["away_team"], g["home_team"]):
                     kickoff[{"LA": "LAR"}.get(tm, tm)] = k
+    GAME_LEN = dt.timedelta(hours=3, minutes=20)
+    def game_state(info):
+        k = kickoff.get(info.get("nfl_team"))
+        if not k:
+            return "bye"
+        if now < k:
+            return "not_started"
+        return "final" if now >= k + GAME_LEN else "in_progress"
+    def live_proj(r):
+        st_ = game_state(r)
+        if st_ == "final" or st_ == "bye":
+            return r.get("live", 0)
+        if st_ == "not_started":
+            return r.get("proj", 0)
+        elapsed = (now - kickoff[r["nfl_team"]]) / GAME_LEN
+        return r.get("live", 0) + r.get("proj", 0) * max(0.0, 1 - elapsed)
+
+    sunday_kicked = any(k <= now for k in kickoff.values() if k.astimezone(TZ).weekday() == 6)
+
     def locked(info):
         k = kickoff.get(info.get("nfl_team"))
         return bool(k and k <= now)
@@ -208,19 +227,40 @@ def main():
             proj_total = r2(sum(r.get("proj", 0) for r in rows if not r.get("empty")))
             pool = [r for r in rows if not r.get("empty")] + bench_rows
             best_total = r2(sum(x["proj"] for x in best_lineup(pool, slots)))
+            real = [r for r in rows if not r.get("empty")]
+            for r in real:
+                r["game_state"] = game_state(r)
             sides.append({"roster_id": rid, "live_points": r2(m.get("points")), "projected_set_lineup": proj_total,
                           "projected_best_lineup": best_total,
+                          "live_projection": r2(max(sum(live_proj(r) for r in real),
+                                                    best_total - sum(r.get("proj", 0) for r in real if r["game_state"] != "not_started")
+                                                    + sum(r.get("live", 0) for r in real if r["game_state"] != "not_started"))
+                                                if not sunday_kicked else sum(live_proj(r) for r in real)),
+                          "remaining_projection": r2(sum(live_proj(r) - r.get("live", 0) for r in real)),
+                          "yet_to_play": [r["name"] for r in real if r["game_state"] == "not_started"],
+                          "playing_now": [r["name"] for r in real if r["game_state"] == "in_progress"],
                           "starters": rows, "bench": bench_rows[:6]})
         A, B = sides
-        basis = "projected_best_lineup"
-        z = (A[basis] - B[basis]) / (math.sqrt(2) * sd) if sd else 0
+        started = any(r.get("game_state") in ("in_progress", "final") for x in sides for r in x["starters"] if not r.get("empty"))
+        if started:
+            # in-game: live points plus what's left, with uncertainty shrinking as games finish
+            basis = "live_projection"
+            tot = max(1.0, A["projected_set_lineup"] + B["projected_set_lineup"])
+            frac = max(0.005, (A["remaining_projection"] + B["remaining_projection"]) / tot)
+            sd_eff = sd * math.sqrt(frac)
+        else:
+            basis, sd_eff = "projected_best_lineup", sd
+        z = (A[basis] - B[basis]) / (math.sqrt(2) * sd_eff) if sd_eff else 0
         wp = 0.5 * (1 + math.erf(z / math.sqrt(2)))
         matchups.append({"key": f"w{week}-m{mid}", "matchup_id": mid, "teams": [A["roster_id"], B["roster_id"]],
-                         "projected": [A[basis], B[basis]], "projection_basis": "best available lineups",
+                         "projected": [A[basis], B[basis]],
+                         "projection_basis": ("live score plus what's left" if sunday_kicked else "points banked plus best available lineups") if started else "best available lineups",
+                         "live_projection": [A["live_projection"], B["live_projection"]],
+                         "yet_to_play": [A["yet_to_play"], B["yet_to_play"]], "playing_now": [A["playing_now"], B["playing_now"]],
                          "projected_as_set": [A["projected_set_lineup"], B["projected_set_lineup"]],
                          "projected_best": [A["projected_best_lineup"], B["projected_best_lineup"]],
                          "live": [A["live_points"], B["live_points"]], "win_prob": [round(wp, 3), round(1 - wp, 3)],
-                         "sides": sides, "games_started": any(s["live_points"] for s in sides)})
+                         "sides": sides, "games_started": started})
 
     # ----- moves since the last brief -----
     state_p = os.path.join(ROOT, "content", "daily", "state.json")
@@ -297,17 +337,48 @@ def main():
         if did in now_ids or not did.startswith(f"w{week}-"):
             continue
         cur = starters_now.get(did) or {}
+        was_name = (old.get("current") or {}).get("name")
+        if (cur.get("name") if not cur.get("empty") else None) == was_name:
+            continue  # same starter, the decision just locked; busted_lineups covers it if it went wrong
         resolved.append({"id": did, "roster_id": old["roster_id"], "slot": old["slot"], "reason": old["reason"],
                          "was": old.get("current"), "now": None if cur.get("empty") else {k: cur.get(k) for k in ("name", "pos", "proj")}})
     hist[day.isoformat()] = {d_["id"]: {k: d_[k] for k in ("roster_id", "slot", "reason", "current")} for d_ in decisions}
     for k_ in sorted(hist)[:-10]:
         hist.pop(k_)
+    nfl_games = {}
+    for tm, k in kickoff.items():
+        nfl_games.setdefault(k, set()).add(tm)
+    ks = sorted({k for k in kickoff.values()})
+    n_final = sum(1 for k in kickoff.values() if now >= k + GAME_LEN) // 2
+    n_live = sum(1 for k in kickoff.values() if k <= now < k + GAME_LEN) // 2
+    n_left = sum(1 for k in kickoff.values() if now < k) // 2
+    sunday = [k for k in ks if k.astimezone(TZ).weekday() == 6]
+    def window_done(pred):
+        w = [k for k in sunday if pred(k.astimezone(TZ))]
+        return bool(w) and all(now >= k + GAME_LEN for k in w)
+    if day.weekday() == 6 and sunday:
+        if now < min(sunday):
+            phase = "last_call"
+        elif window_done(lambda t: t.hour >= 17):
+            phase = "after_night"
+        elif window_done(lambda t: 12 <= t.hour < 17):
+            phase = "after_late"
+        elif window_done(lambda t: t.hour < 12):
+            phase = "after_early"
+        else:
+            phase = "games_live"
+    else:
+        phase = "daily"
+    facts["update"] = {"phase": phase, "label": {"last_call": "Last call before kickoff", "after_early": "After the early games",
+                       "after_late": "After the late games", "after_night": "After Sunday night", "games_live": "Games in progress",
+                       "daily": None}[phase], "time": now.strftime("%-I:%M %p"),
+                       "nfl_games_final": n_final, "nfl_games_live": n_live, "nfl_games_left": n_left}
     facts["open_decisions"] = decisions
     facts["resolved_decisions"] = resolved
     json.dump(facts, open(os.path.join(out, "facts.json"), "w"), indent=1, default=str)
     last["last_run"] = now.isoformat(timespec="minutes")
     json.dump(last, open(state_p, "w"), indent=1)
-    print(f"wrote content/daily/{day}/facts.json | {facts['edition_type']} | week {week} | moves {len(tx)} | busted {len(alerts)} | open decisions {len(decisions)} | resolved {len(resolved)} | games started {any(m['games_started'] for m in matchups)}")
+    print(f"wrote content/daily/{day}/facts.json | {facts['edition_type']} | week {week} | moves {len(tx)} | busted {len(alerts)} | {facts['update']['phase']} | open decisions {len(decisions)} | resolved {len(resolved)} | games started {any(m['games_started'] for m in matchups)}")
 
 
 if __name__ == "__main__":
