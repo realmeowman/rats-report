@@ -104,7 +104,7 @@
       <div class="ahr num {{ 'fav' if m.win_prob[i] >= 0.5 }}">{{ av(t, 32) }}<span class="nm">{{ t.name }}</span><span class="pj">{% if m.games_started %}{{ "%.2f"|format(m.live[i]) }}{% else %}{{ "%.1f"|format(m.projected[i]) }}{% endif %}</span><span class="wp">{{ pct(m.win_prob[i]) }}</span></div>
       {% endfor %}
       <div class="wpbar"><i style="width:{{ (m.win_prob[0]*100)|round(1) }}%;background:{{ DT(m.teams[0]).color }}"></i><i style="width:{{ (m.win_prob[1]*100)|round(1) }}%;background:{{ DT(m.teams[1]).color }}"></i></div>
-      {% if m.games_started %}<div class="left num">{% for i in [0, 1] %}<span>{{ DT(m.teams[i]).name }}: {% if m.playing_now[i] %}{{ m.playing_now[i]|length }} playing, {% endif %}{{ m.yet_to_play[i]|length }} yet to play · proj {{ "%.1f"|format(m.live_projection[i]) }}</span>{% endfor %}</div>{% endif %}
+      {% if m.games_started and m.playing_now is defined %}<div class="left num">{% for i in [0, 1] %}<span>{{ DT(m.teams[i]).name }}: {% if m.playing_now[i] %}{{ m.playing_now[i]|length }} playing, {% endif %}{{ m.yet_to_play[i]|length }} yet to play · proj {{ "%.1f"|format(m.live_projection[i]) }}</span>{% endfor %}</div>{% endif %}
       {% if pv.blurb %}<p>{{ pv.blurb }}</p>{% endif %}
       {% if pv.pick %}<div class="pick">{{ av(DT(pv.pick), 22) }}<span>The Desk’s pick: <b>{{ DT(pv.pick).name }}</b></span></div>{% endif %}
     </div>
