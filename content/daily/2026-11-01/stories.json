@@ -1,81 +1,99 @@
 {
   "lead": {
-    "kicker": "After the Late Games",
-    "headline": "AB81 patches both holes and flips the champ",
-    "dek": "Maye I touch your TDs? is done at 122.72. AB81 has 54.18, six starters left and a live projection of 129.46 after two waiver adds in three minutes.",
+    "kicker": "After Sunday Night",
+    "headline": "0.8 points separate AB81 from the champ",
+    "dek": "Maye I touch your TDs? is done at 122.72. AB81 has 81.98, two starters left and a live projection of 123.52. It needs 40.75 from Sam Darnold and Jaxon Smith-Njigba.",
     "matchup_key": "w8-m4",
-    "by_roster_id": 8,
-    "pull": "AB81’s live win odds: 62.7%. After the early games, the champ was the favorite.",
+    "by_roster_id": 3,
+    "pull": "AB81 needs 40.75. Its last two starters project for 41.54.",
     "body": [
-      "All day this brief asked what AB81 would do about two dead lineup spots. At 3:06 PM, with the late games underway, the front office answered: Makai Lemon off the wire for DeVonta Smith, Mark Andrews out the door to make room. At 3:08 PM, Isiah Pacheco released. At 3:09 PM, Darius Cooper in for Mike Evans. Two holes, two bodies, three minutes. Lemon projects for 9.64, Cooper for 7.95. Not glamorous. Just points where there were none.",
-      "Those points matter because the defending champ is finished. Maye I touch your TDs? closed its day at 122.72 with every starter final. Harold Fannin Jr. went for 23.4, Drake Maye 22.46, Bucky Irving 21.0. The flex spots went the other way: Zay Flowers 0.0, Drake London 1.8. Jacoby Brissett gave the second QB slot 4.46. And Jaylen Waddle put up 14.9 on the bench, which is the kind of number you only notice when the other side still has six guys to play.",
-      "AB81 sits at 54.18 with a remaining projection of 75.28. The live math lands at 129.46 to 122.72, and the odds flipped: 62.7% AB81, after the champ was favored following the early window. Derrick Henry 14.0, Kyren Williams 12.9, Rhamondre Stevenson 12.0 and Matthew Stafford 9.28 got AB81 this far. Everything else is still in the locker room.",
-      "Here’s the schedule that decides it. Four AB81 starters play Sunday night: Makai Lemon, Dallas Goedert, Darius Cooper and the Philadelphia Eagles D/ST. The last two, Sam Darnold and Jaxon Smith-Njigba, wait for Monday night, and Smith-Njigba carries the biggest projection left in this game at 25.26. AB81 needs the bodies it just signed to show up tonight so its stars don’t have to rescue it Monday.",
-      "The stakes are first place. AB81 came into Sunday at 6-1, and the other 6-1 team, Poochinski, is losing. Win this and AB81 is alone at the top. Lose it and the champ, 2-5 with 77.7% playoff odds, gets a lifeline. Next update after Sunday Night Football."
+      "Here is Week 8’s best game with one night to go. Maye I touch your TDs?: 122.72, final. AB81: 81.98, two starters left, live projection 123.52. That’s a gap of 0.8. The odds that read 62.7% AB81 after the late games now read 52.1%. The champ has played its whole game and gets to spend Monday watching a coin in the air.",
+      "Sunday night is what moved it. AB81’s four evening starters projected for 33.74 and delivered 27.8. Makai Lemon, the 3:06 PM pickup, did his job and then some: 11.7 on a 9.64 projection. Darius Cooper, the 3:09 PM pickup, gave back 3.9 on a 7.95. Dallas Goedert added 7.2 and the Philadelphia Eagles D/ST 5.0. That shortfall took 5.94 off the live projection, from 129.46 to 123.52. Still, the two adds combined for 15.6 from spots that had nothing in them this afternoon, and that’s the only reason this is a game.",
+      "So here is exactly what AB81 needs. The gap is 40.74, which only ties it. Win it outright and the number is 40.75 from Sam Darnold and Jaxon Smith-Njigba, projected for 16.28 and 25.26. Together that’s 41.54. They play in the same game, on the same side, at 5:15 PM Pacific on Monday. There is no third option. AB81’s whole week is one offense clearing a bar it projects to clear by less than a point.",
+      "The champ’s side of the ledger is the part that’ll sting if this goes wrong. Its flex spots went Zay Flowers 0.0 and Drake London 1.8, against projections of 18.48 and 16.46. Jacoby Brissett gave the second QB slot 4.46. Jaylen Waddle scored 14.9 on the bench. With Waddle in for Flowers, the bar on Monday would be 55.64 instead of 40.74. Harold Fannin Jr. (23.4), Drake Maye (22.46) and Bucky Irving (21.0) did enough to make it a fight. Nobody else can do anything more now.",
+      "The stakes haven’t moved. AB81 came in at 6-1 and Poochinski, the other 6-1, is losing. Win this and AB81 stands alone at 7-1. Lose it and the champ climbs to 3-5 with 77.7% playoff odds behind it and a real lifeline. My pick is AB81, because the math says so and the math is all anybody has left. The weekly edition settles it Monday night."
     ]
   },
   "quick_hits": [
     {
-      "kicker": "Biggest number",
-      "roster_ids": [4, 6],
-      "headline": "Cherry Blossom posts 198.54 and waits",
-      "body": "Every Cherry Blossom starter is final: Tee Higgins 37.5, Brock Bowers 28.2, Puka Nacua 25.0, Jaylen Warren 21.3, Jonah Coleman 20.4. deeboliciouskins has 122.8 and needs Jayden Daniels, D’Andre Swift and Jason Myers to cover a remaining projection of 40.16 just to reach 162.96. Live odds: 99% Cherry Blossom. Patrick Mahomes scored 25.44 on the deeboliciouskins bench."
+      "kicker": "One game left",
+      "roster_ids": [
+        2,
+        6,
+        8
+      ],
+      "headline": "Seven starters, one Monday game, one real matchup",
+      "body": "Everything left in Week 8 plays in the same game. AB81 has Sam Darnold and Jaxon Smith-Njigba. Poochinski has Caleb Williams, Luther Burden III and the Seattle Seahawks D/ST. deeboliciouskins has D’Andre Swift and Jason Myers. Only AB81’s two can change a result."
     },
     {
-      "kicker": "Two left, both Monday",
-      "roster_ids": [2, 5],
-      "headline": "Poochinski’s second loss is all but official",
-      "body": "Poochinski has 98.7 and three starters to go, Caleb Williams, Luther Burden III and the Seattle Seahawks D/ST, all Monday night. Even on projection that’s 134.09 against the 181.84 Bad things man bad things posted before lunch. Bad things man bad things takes the win and a share of the conversation at the top."
+      "kicker": "What it needs",
+      "roster_ids": [
+        2,
+        5
+      ],
+      "headline": "Poochinski needs 83.14 from three Monday starters",
+      "body": "Poochinski sits at 98.7 against the 181.84 Bad things man bad things has already posted. Caleb Williams, Luther Burden III and the Seattle Seahawks D/ST project for 35.39 combined, which lands at 134.09. Live odds: 100% Bad things man bad things. First place is about to change hands or get crowded, and Poochinski has no vote in which."
     },
     {
-      "kicker": "Waiting on Diggs",
-      "roster_ids": [1, 7],
-      "headline": "Big Stric Energy’s 181.48 holds up",
-      "body": "Santa Clara’s Finest finished the afternoon at 123.68 with only Stefon Diggs left, projecting to 136.23. Joe Burrow’s 42.48 is the best single score in the league today and it still won’t be close. Lamar Jackson finished at 0.0. Live odds: 100% Big Stric Energy."
+      "kicker": "What it needs",
+      "roster_ids": [
+        4,
+        6
+      ],
+      "headline": "deeboliciouskins needs 60.76 from Swift and Myers",
+      "body": "Cherry Blossom’s 198.54 is sitting there, final. deeboliciouskins has 137.78, and D’Andre Swift and Jason Myers project for 21.75, good for 159.53. Jayden Daniels closed the night with 14.98 on an 18.41 projection. Patrick Mahomes’ 25.44 stayed on the bench, not that it would have closed this."
     },
     {
-      "kicker": "By a hair",
-      "roster_ids": [4],
-      "headline": "Cherry Blossom’s QB call held up",
-      "body": "Cherry Blossom went with Trevor Lawrence over Bo Nix this morning. Lawrence: 19.4. Nix, on the bench: 19.28. Right call, barely, in a game it didn’t need."
+      "kicker": "It’s official",
+      "roster_ids": [
+        1,
+        7
+      ],
+      "headline": "Big Stric Energy closes it out, 181.48 to 136.48",
+      "body": "Stefon Diggs went last for Santa Clara’s Finest and scored 12.8, right on his 12.55 projection, a fine night that changed nothing. Joe Burrow’s 42.48 led the team and Lamar Jackson’s 0.0 undid most of it. Every starter in this game is final."
     },
     {
       "kicker": "Pickup ledger",
-      "roster_ids": [2, 4, 7, 8],
-      "headline": "How this weekend’s adds finished",
-      "body": "Jonah Coleman (Cherry Blossom, Saturday 9:36 PM): 20.4, final. Chris Godwin Jr. (Poochinski, 6:19 AM): 0.0, final. Hunter Henry (Santa Clara’s Finest, 6:23 AM): 6.0, final. Stefon Diggs (Santa Clara’s Finest, 6:20 AM), Makai Lemon and Darius Cooper (AB81, 3:06 PM and 3:09 PM): all still to play."
+      "roster_ids": [
+        2,
+        4,
+        7,
+        8
+      ],
+      "headline": "Every weekend add has now played",
+      "body": "Jonah Coleman (Cherry Blossom): 20.4. Stefon Diggs (Santa Clara’s Finest): 12.8. Makai Lemon (AB81): 11.7. Hunter Henry (Santa Clara’s Finest): 6.0. Darius Cooper (AB81): 3.9. Chris Godwin Jr. (Poochinski) and Omar Cooper Jr. (Bad things man bad things, bench): 0.0. AB81’s pair, the last ones signed, may decide the most."
     }
   ],
   "previews": {
     "w8-m1": {
-      "headline": "Big Stric Energy wins it at 181.48",
-      "blurb": "Santa Clara’s Finest has 123.68 and only Stefon Diggs left. Live projection 181.48 to 136.23.",
+      "headline": "Big Stric Energy wins it, 181.48 to 136.48",
+      "blurb": "Stefon Diggs’ 12.8 was the last word. Every starter is final.",
       "pick": 1
     },
     "w8-m2": {
       "headline": "Bad things man bad things beats first place",
-      "blurb": "181.84 final. Poochinski has 98.7 and three Monday starters projecting to 134.09.",
+      "blurb": "181.84 final. Poochinski has 98.7 and needs 83.14 from three Monday starters projecting for 35.39.",
       "pick": 5
     },
     "w8-m3": {
-      "headline": "Cherry Blossom’s 198.54 is the week’s high",
-      "blurb": "deeboliciouskins has 122.8 with three starters left, projecting to 162.96. 99% Cherry Blossom.",
+      "headline": "Cherry Blossom’s 198.54 can’t be caught",
+      "blurb": "deeboliciouskins has 137.78 and needs 60.76 from Swift and Myers, who project for 21.75.",
       "pick": 4
     },
     "w8-m4": {
-      "headline": "AB81 needs its new bodies tonight",
-      "blurb": "The champ is final at 122.72. AB81 has 54.18 and six starters left, projecting to 129.46. 62.7% AB81.",
+      "headline": "AB81 needs 40.75 from two starters",
+      "blurb": "The champ is final at 122.72. AB81 has 81.98 and projects to 123.52. Darnold and Smith-Njigba decide it. 52.1% AB81.",
       "pick": 8
     }
   },
   "decision_notes": {
     "w8-r8-s5": {
-      "headline": "AB81 made its call at WR: Makai Lemon in",
-      "blurb": "At 3:06 PM, Lemon came off the wire and replaced DeVonta Smith, who was Out. Mark Andrews was the cost. Lemon projects for 9.64 and plays Sunday night."
+      "headline": "AB81’s call at WR paid: Makai Lemon 11.7",
+      "blurb": "Lemon came off the wire at 3:06 PM for DeVonta Smith, who was Out, and beat his 9.64 projection."
     },
     "w8-r8-s8": {
-      "headline": "Darius Cooper takes Mike Evans’ flex spot",
-      "blurb": "At 3:09 PM, AB81 added Cooper for the bye-week hole. Projection 7.95, kickoff Sunday night."
+      "headline": "Darius Cooper’s flex spot: 3.9",
+      "blurb": "The 3:09 PM add filled the bye-week hole Mike Evans left. He landed short of his 7.95 projection, and in a game this tight, that’s the margin."
     },
     "w8-r4-s1": {
       "headline": "Lawrence over Nix: 19.4 to 19.28",
@@ -93,23 +111,43 @@
       "grade": "D",
       "blurb": "Chris Godwin Jr. finished at 0.0 in the first-place game."
     },
+    "2026-11-01-m3": {
+      "grade": "B-",
+      "blurb": "Stefon Diggs scored 12.8 on a 12.55 projection. Did what the add promised in a game already gone."
+    },
     "2026-11-01-m4": {
       "grade": "C-",
       "blurb": "Hunter Henry finished at 6.0 against an 11.12 projection."
     },
     "2026-11-01-m6": {
-      "grade": "B",
-      "blurb": "Makai Lemon fills a dead WR spot with a 9.64 projection in a game AB81 is now favored to win."
+      "grade": "A-",
+      "blurb": "Makai Lemon turned a dead WR spot into 11.7, beating his 9.64 projection. Without him AB81 isn’t in this."
     },
     "2026-11-01-m8": {
-      "grade": "B",
-      "blurb": "Darius Cooper turns an empty flex into a 7.95 projection. Cheap, quick and necessary."
+      "grade": "C+",
+      "blurb": "Darius Cooper gave AB81 3.9 where it had nothing, short of his 7.95 projection. Better than an empty flex, and maybe not enough."
     }
   },
   "external_facts": [
     {
-      "claim": "Philadelphia at Washington is the Sunday night game; Chicago at Seattle is Monday night.",
+      "claim": "Chicago at Seattle is the Monday night game, kicking off at 5:15 PM Pacific.",
       "source": "nflverse schedule (data/raw/games.csv), week 8 of 2026"
+    },
+    {
+      "claim": "AB81 trailed by 40.74 (122.72 minus 81.98), so it needs 40.75 to win. Its four Sunday night starters projected for 33.74 and scored 27.8. Lemon and Cooper combined for 15.6. Darnold and Smith-Njigba project for 41.54 combined. With Waddle's 14.9 in for Flowers the champ would have 137.62 and the gap would be 55.64.",
+      "source": "Arithmetic on facts.json matchup w8-m4"
+    },
+    {
+      "claim": "Poochinski needs 83.14 (181.84 minus 98.7). deeboliciouskins needs 60.76 (198.54 minus 137.78).",
+      "source": "Arithmetic on facts.json matchups w8-m2 and w8-m3"
+    },
+    {
+      "claim": "After the late games AB81's live projection was 129.46 and its win odds were 62.7%; the drop to 123.52 is 5.94.",
+      "source": "content/daily/2026-11-01 after_late edition, commit 2813126"
+    },
+    {
+      "claim": "Records if results hold: AB81 7-1 with a win; Maye I touch your TDs? 3-5 with a win.",
+      "source": "Arithmetic on facts.json team records"
     }
   ]
 }
