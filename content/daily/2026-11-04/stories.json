@@ -1,0 +1,154 @@
+{
+  "lead": {
+    "kicker": "Waiver Wednesday",
+    "headline": "Nobody filed a claim. Now it’s a footrace.",
+    "dek": "Wednesday’s waiver run came up empty, so the wire’s best quarterback is free to whoever clicks first. Santa Clara’s Finest has until Thu 5:15 PM to find one.",
+    "matchup_key": "w9-m2",
+    "roster_ids": [
+      7,
+      8
+    ],
+    "pull": "Yesterday’s waiver order was a seating chart. Today it’s a sprint.",
+    "body": [
+      "Yesterday’s brief promised to grade every waiver claim this morning. Here’s the full report card: there isn’t one. Sleeper’s log, checked at 5:42 AM, shows zero claims from Wednesday’s run, not one success and not one failure. Seven straight Wednesdays had logged a claim. The eighth logged silence. I spent five paragraphs on the waiver order, and the waiver order just shrugged.",
+      "So the order stands exactly as it was. AB81 stays No. 1 and Bad things man bad things stays No. 8, and all of it now waits until next week. This morning the wire works differently. The players left behind are free agents, the same way free-agent adds have followed the claims all season. No priority. No line. First front office to the button.",
+      "That turns this morning into a race for Malik Willis, the top quarterback on the board at 17.93 and trending at 431,284 adds across Sleeper. Santa Clara’s Finest has the most riding on it. Lamar Jackson is Out with a thumb injury, nobody on the bench plays quarterback, and here’s the part the Sunday clock hides: his game is Thursday. A swap has to happen before that slot locks at Thu 5:15 PM. This call isn’t a weekend decision. It’s due in about a day and a half.",
+      "The math says what it’s worth. Santa Clara’s Finest projects for 132.15 against deeboliciouskins at 165.43, a 33.28-point hole with only a 21.3% chance to climb out. Willis would make it 150.08 and shrink the gap to 15.35. If he’s gone, Gardner Minshew II at 11.14 is the safety net, and J.J. McCarthy, Baker Mayfield and Daniel Jones were all still unrostered this morning. Two more things the front office has going for it: nobody ahead of it in the order matters anymore, and Jeremiyah Love and RJ Harvey both sit on the bench with IR tags, so it isn’t short on places to find a roster spot.",
+      "The rival shopper is AB81, and suddenly first place looks a lot less like a charity case. Mike Evans and DeVonta Smith went from Out to Questionable overnight, pushing AB81’s best lineup from 151.35 to 161.89 and its odds against Cherry Blossom from 30.9% to 37.8%. That fixes the receivers. It doesn’t fix quarterback, where Matthew Stafford is Questionable with an arm issue and the only other name behind him and Sam Darnold is Jalen Hurts, on IR. My call hasn’t changed since yesterday: Willis is the move. It’s just that nobody needs a waiver spot to make it anymore. The franchise that hasn’t made a successful claim all season gets to keep that streak, and could still get its man."
+    ]
+  },
+  "quick_hits": [
+    {
+      "kicker": "The Thursday clock",
+      "headline": "Five R.A.T.S. teams have skin in Thursday night",
+      "roster_ids": [
+        4,
+        8,
+        7,
+        3,
+        1
+      ],
+      "body": "The first lineup locks arrive at Thu 5:15 PM. Cherry Blossom has the most exposure, with Trevor Lawrence at 19.89, its defense at 5.45 and Parker Washington on the bench. AB81 has Derrick Henry and Cam Little, Santa Clara’s Finest has Bhayshul Tuten and Lamar’s locked-in-limbo slot, Maye I touch your TDs? has Zay Flowers, and Big Stric Energy has its defense."
+    },
+    {
+      "kicker": "Wire watch",
+      "headline": "Allgeier is still the claim worth racing for",
+      "roster_ids": [
+        7
+      ],
+      "body": "Tyler Allgeier is up to 1,522,110 adds across Sleeper and 11.93 projected. Santa Clara’s Finest owns Jeremiyah Love, whose tag moved from Out to IR, on that same backfield, and Allgeier would beat Blake Corum’s 7.27 in the flex. Adonai Mitchell leads the league-wide chase at 2,029,024 adds, and he still only projects for 7.04. Loud isn’t useful."
+    },
+    {
+      "kicker": "Injury report",
+      "headline": "The champ’s receiver room gets its week back",
+      "roster_ids": [
+        3,
+        1
+      ],
+      "body": "Maye I touch your TDs? got the best news of the night. Amon-Ra St. Brown and Drake London came off the report, and A.J. Brown went from Out to Questionable. That lifts its best lineup to 166.24 and its odds against Poochinski from 30.7% to 37.2%. For a team at 70.3% to make the playoffs with Big Stric Energy at 29.1%, that’s a real swing."
+    },
+    {
+      "kicker": "The bubble",
+      "headline": "Big Stric Energy’s game just got close",
+      "roster_ids": [
+        1,
+        5
+      ],
+      "body": "Yesterday this was a 60.4% lean toward Bad things man bad things. Today it’s 53.7%, and the spread is down to 3.85 points, 160.37 to 156.52. Nobody in this league needs that more than the team sitting at 29.1%. The Jacksonville defense on Thursday is its first chance to bank points."
+    },
+    {
+      "kicker": "The work rate",
+      "headline": "Half the league’s claims came from one team",
+      "roster_ids": [
+        5,
+        8,
+        2
+      ],
+      "body": "Before this week, the league had 26 successful waiver claims. Bad things man bad things made 13 of them. AB81 and Poochinski, a combined 13-3, have made none. Two of the league’s top three records, zero successful claims between them. Their additions came as free agents. It may be the most annoying stat in the league."
+    }
+  ],
+  "previews": {
+    "w9-m1": {
+      "headline": "Bad things man bad things, by a nose",
+      "blurb": "The spread shrank to 3.85 points and the odds to 53.7%. Bad things man bad things still has the better floor, with Michael Wilson’s ribs the one question. Tight enough that Thursday’s defense could matter.",
+      "pick": 5
+    },
+    "w9-m2": {
+      "headline": "A quarterback short of a contest",
+      "blurb": "deeboliciouskins is a 78.7% favorite, 165.43 to 132.15. Santa Clara’s Finest can close that with a Willis add by Thu 5:15 PM. It still wouldn’t be my pick.",
+      "pick": 6
+    },
+    "w9-m3": {
+      "headline": "The champ’s upset case gets stronger",
+      "blurb": "Poochinski still leads 179.9 to 166.24, but its edge dropped from 69.3% to 62.8%. Maye I touch your TDs? gets Purdy back and a healthier receiver room. Poochinski still has the better roster.",
+      "pick": 2
+    },
+    "w9-m4": {
+      "headline": "AB81 gets some receivers back",
+      "blurb": "Cherry Blossom leads 174.84 to 161.89 at 62.2%, down from 69.1%. Everything for the favorite runs through Christian McCaffrey’s calf. If he plays, Cherry Blossom’s four-game streak should reach five.",
+      "pick": 4
+    }
+  },
+  "decision_notes": {
+    "w9-r7-s0": {
+      "headline": "What will Santa Clara’s Finest do at QB?",
+      "blurb": "The bench has no answer and there’s no waiver line to wait in. Willis at 17.93 if he’s there, Minshew at 11.14 as the floor. Lamar’s game kicks off first, so the real clock is Thu 5:15 PM."
+    },
+    "w9-r7-s3": {
+      "headline": "Tuten’s ankle has a Thursday deadline",
+      "blurb": "Tuten is Questionable and projects for 14.03, with Cam Skattebo (12.0, also Questionable) behind him. Tuten’s game is Thursday, so this call comes at Thu 5:15 PM, not Sunday. If he’s active, he starts. If not, Skattebo’s hamstring gets the job."
+    },
+    "w9-r8-s1": {
+      "headline": "AB81 has a Stafford problem and no backup",
+      "blurb": "Stafford is Questionable at 18.47 and the bench has no quarterback who can play. There’s no claim needed now, just a free-agent add. I’d do it today, not after the practice reports."
+    },
+    "w9-r8-s5": {
+      "headline": "AB81’s receivers just got interesting",
+      "blurb": "Evans at 16.54 for Makai Lemon at 5.18 is the biggest single move on AB81’s board, and Smith at 12.86 beats Darius Cooper’s 2.48 in the flex. Both are Questionable, up from Out. That’s the two calls worth the most by Sun 10:00 AM."
+    },
+    "w9-r6-s0": {
+      "headline": "deeboliciouskins can’t wait out Kyler Murray",
+      "blurb": "Murray is Questionable at 17.17, plays Monday night, and Patrick Mahomes sits on the bench at 21.14 with a Sun 10:00 AM game. That’s the trap: wait for Murray’s answer and Mahomes is locked out. I’d start Mahomes and stop thinking about it."
+    },
+    "w9-r4-s2": {
+      "headline": "Cherry Blossom’s McCaffrey call is the swing of the week",
+      "blurb": "Jaylen Warren is on bye, McCaffrey is Questionable at 22.74, and the bench has nothing else at the position. Sun 1:05 PM is the clock. This one call moves the league’s most interesting game."
+    },
+    "w9-r4-s6": {
+      "headline": "Cherry Blossom gets the first call of the week",
+      "blurb": "Parker Washington at 14.21 edges Travis Kelce at 13.26 with a flex shuffle, and his game is the one that sets the deadline at Thu 5:15 PM. The gap is 0.95. I’d stay with Kelce and save the argument."
+    },
+    "w9-r3-s0": {
+      "headline": "Purdy is the 22.31-point formality",
+      "blurb": "Brissett projects for 0.0 and Purdy for 22.31, with a Sun 1:05 PM clock. It’s the easiest call on the board."
+    }
+  },
+  "alert_notes": {},
+  "trending_notes": {
+    "8161": "The wire’s top quarterback at 17.93, and no longer behind a waiver order. Santa Clara’s Finest needs him most. AB81 could use him too.",
+    "8132": "Up to 1,522,110 adds, 11.93 projected. Santa Clara’s Finest owns the injured back in the same room. It’s the best non-QB add out there.",
+    "6011": "Santa Clara’s Finest’s floor at quarterback, 11.14. Not exciting, but better than the 0.0 currently in the slot.",
+    "11625": "2,029,024 adds and 7.04 projected. Still a chase. Pass.",
+    "11610": "10.91 projected. AB81 should look here if Evans or Smith sits; he outscores Lemon and Cooper combined.",
+    "4881": "Hold. Drops are at 331,176 across Sleeper, but he’s one of Santa Clara’s Finest’s two quarterbacks."
+  },
+  "move_grades": {},
+  "external_facts": [
+    {
+      "claim": "Sleeper's transaction log, pulled 2026-11-04 at 5:42 AM Pacific and rechecked minutes later, shows no complete or failed waiver claims from this Wednesday's run. Waiver claims logged on each of the seven previous Wednesdays (Sept. 16 through Oct. 28). Through week 7, 26 successful claims: Bad things man bad things 13, AB81 0, Poochinski 0. Roster waiver positions are unchanged from Tuesday.",
+      "source": "Sleeper league transactions and rosters API, pulled 2026-11-04"
+    },
+    {
+      "claim": "Free-agent adds have followed each Wednesday's waiver run, with 17 logged on Wednesdays this season. Dropped players are subject to waiver_clear_days 2; the wire names cited here were not dropped this week.",
+      "source": "Sleeper league settings and transactions API"
+    },
+    {
+      "claim": "Week 9 schedule: Jacksonville at Baltimore is the Thursday game, kicking off at 5:15 PM Pacific (Thu 5:15 PM), so Lamar Jackson's and Bhayshul Tuten's lineup slots lock then. Buffalo at Minnesota is the Monday night game (Kyler Murray, DJ Moore).",
+      "source": "nflverse games.csv, data/raw/games.csv"
+    },
+    {
+      "claim": "Arithmetic: 132.15 + 17.93 = 150.08 for Santa Clara's Finest with Willis, which is 15.35 behind 165.43. 14.21 - 13.26 = 0.95. AB81 and Poochinski combined 7-1 and 6-2 = 13-3. Cherry Blossom has won four straight.",
+      "source": "Arithmetic on facts.json; yesterday's brief"
+    }
+  ]
+}
