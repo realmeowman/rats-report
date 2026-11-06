@@ -1,0 +1,177 @@
+{
+  "lead": {
+    "kicker": "Busted Lineup",
+    "headline": "Lamar locked in. Santa Clara’s Finest eats another zero.",
+    "dek": "The clock ran out at Thu 5:15 PM with an Out quarterback still in a two-QB lineup. It’s the second straight 0.0 at the position, and this one was on the board all week.",
+    "by_roster_id": 7,
+    "matchup_key": "w9-m2",
+    "roster_ids": [7, 6],
+    "pull": "The wire had a 17.01. The slot has a 0.0.",
+    "body": [
+      "It’s official, and it’s a mistake now. Lamar Jackson was still in the Santa Clara’s Finest lineup when his game kicked off at Thu 5:15 PM, and he didn’t play. That slot is locked for Week 9 at 0.0. No add, no swap, no Sunday-morning save. In a two-QB league, the Finest will play this week with Joe Burrow and an empty chair.",
+      "This wasn’t a Sunday-morning scratch. He’d been listed Out for days, and this column has been circling the Thursday clock since Wednesday. The call was simple: move him, then take your time on the replacement. Nobody had to win a footrace, either. Yes, Malik Willis went Wednesday night. But the wire this morning still has Drew Lock at 17.18, Bryce Young at 17.01, J.J. McCarthy at 16.44 and Baker Mayfield at 16.22. I can’t tell you why no move came. The league’s transaction log shows zero since Wednesday night.",
+      "Here’s the detail that stings. The Finest wouldn’t have had to cut anybody. With RJ Harvey in the IR slot, this roster has 15 of its 16 spots filled. There was an open bench seat, and a free quarterback, and a deadline in bold type.",
+      "Let’s be fair about the math. It’s 165.26 to 125.95, and 16.6% is the Finest’s number, down from 20.5% yesterday. McCarthy’s 16.44 would have made it 142.39, still 22.87 back. So the zero probably didn’t lose this game on its own. It just took a long shot and made it a very long one. Bhayshul Tuten’s 8.9 against a 13.52 projection didn’t help, either.",
+      "What makes it a season story is the repeat. Last week the Finest got 42.48 from Burrow and 0.0 from Lamar, scored 136.48 and lost to Big Stric Energy by 45. This week it starts from the same hole, at 1-7 with 2% playoff odds and the fewest points in the league at 1102.52. When a team has one good quarterback, the other slot isn’t a detail. It’s half the position.",
+      "It isn’t over, either. Lamar is now on IR, Sleeper’s update stamped Thu 6:45 PM, and nobody behind him plays quarterback. That means the same slot needs a body next week. Take McCarthy or Young today, while the seat’s still open. There’s still work left this week too: Colston Loveland over Hunter Henry is worth 3.92, and it has to happen before Henry’s Sun 1:25 PM kickoff, not Loveland’s."
+    ]
+  },
+  "quick_hits": [
+    {
+      "kicker": "Injury report",
+      "headline": "deeboliciouskins’ Murray call just stopped being close",
+      "roster_ids": [6],
+      "body": "Kyler Murray is still Questionable with a hamstring, but Sleeper has cut him from 17.17 to 0.0, 234,792 teams dropped him, and 479,886 added Carson Wentz. Patrick Mahomes is 21.19 on this bench with a Sun 10:00 AM clock. That’s the call that gets deeboliciouskins from 123.41 as set toward its 165.26. Same position as the Finest’s problem, very different clock: it’s Sunday, and the answer is already on the roster."
+    },
+    {
+      "kicker": "Thursday night",
+      "headline": "A kicker put AB81 in front",
+      "roster_ids": [8, 4],
+      "body": "AB81 leads Cherry Blossom 22.58 to 15.58 after one game, and 17.0 of that is Cam Little. Derrick Henry gave it 5.58. Cherry Blossom’s Trevor Lawrence scored 13.58 against its own defense, which scored 2.0, so that stack paid exactly as well as you’d expect. The odds still say Cherry Blossom, 65.6%, but that’s down from 67.9%."
+    },
+    {
+      "kicker": "I owe you one",
+      "headline": "Kelce’s tag is gone. Now he has to beat 14.1.",
+      "roster_ids": [4],
+      "body": "I told Cherry Blossom to stay with Travis Kelce over Parker Washington. Washington then scored 14.1 on its bench, and Kelce’s Questionable tag has since come off. His projection is 13.19, so the call is still open at the only place that matters: the scoreboard. We’ll know Sunday whether I cost this franchise a point."
+    },
+    {
+      "kicker": "The mortgage",
+      "headline": "AB81’s bench just lost two more starters",
+      "roster_ids": [8],
+      "body": "Mike Evans was 16.54 yesterday and DeVonta Smith was 12.25. Both are now 0.0, Evans with an Achilles and Smith with a hamstring, both still Questionable. That leaves George Kittle at 15.19 as the only live bat. But the Hurts spot is a free lunch: he’s on IR, the IR slot is open, and moving him makes room for Young without a drop. Young’s 17.01 beats Joe Milton’s 12.54 by 4.47, and Young was cut twice by this league already."
+    },
+    {
+      "kicker": "Triple tag",
+      "headline": "The champ’s finished lineup got three question marks",
+      "roster_ids": [3, 2],
+      "body": "Maye I touch your TDs? was the one team with nothing to do. Now Amon-Ra St. Brown (ribs), Christian Watson (undisclosed) and Harold Fannin Jr. (groin) are all Questionable. Zay Flowers gave it 5.3 on Thursday, 13.77 was the number, and Poochinski’s odds rose from 60.4% to 69%. Fannin’s the sneaky one: there’s no other tight end here, and Isaiah Likely is on the wire at 11.46."
+    },
+    {
+      "kicker": "Clean sheet",
+      "headline": "Bad things made its call at receiver: McMillan",
+      "roster_ids": [5, 1],
+      "body": "Bad things man bad things resolved the Michael Wilson question by going neither way I expected. Wilson sat, Tetairoa McMillan moved to receiver at 13.78, and Ollie Gordon II took the flex at 13.1. It’s the league’s only starting 11 without a tag or a call left, set at 163.17. Big Stric Energy’s 11.0 from its defense cut the gap to 3.76, though. This is now a 53.6% game, and it’s the week’s best one."
+    }
+  ],
+  "previews": {
+    "w9-m1": {
+      "headline": "The Thursday points made this one a game",
+      "blurb": "Bad things man bad things is 163.17 with no calls left. Big Stric Energy is 159.41 and banks 11.0 already. Rashee Rice’s tag is off. I’d take the favorite, narrowly, but this is the upset on the board.",
+      "pick": 5
+    },
+    "w9-m2": {
+      "headline": "One zero is locked. Keep the other one out.",
+      "blurb": "It’s 165.26 to 125.95 and 83.4%, assuming deeboliciouskins makes the Mahomes call. It will. The Finest’s path is now a Burrow game and a lot of luck.",
+      "pick": 6
+    },
+    "w9-m3": {
+      "headline": "Poochinski can make it 178.57",
+      "blurb": "Olave for Godwin and this is 178.57 to 158.24. Maye I touch your TDs? needs all three of its tagged guys healthy, and then some.",
+      "pick": 2
+    },
+    "w9-m4": {
+      "headline": "AB81 leads. Cherry Blossom is still the pick.",
+      "blurb": "AB81 is up 7 after Little’s night, but Cherry Blossom is still 165.21 to 149.65. It all flips if McCaffrey’s calf does: there’s no other back on that bench who can play.",
+      "pick": 4
+    }
+  },
+  "decision_notes": {
+    "w9-r6-s0": {
+      "headline": "What will deeboliciouskins do at QB?",
+      "blurb": "Mahomes, 21.19, by Sun 10:00 AM. Murray is 0.0 now and plays Monday, so there’s nothing left to wait for. While you’re there, the Kansas City defense is 9.27 against Minnesota’s 6.31."
+    },
+    "w9-r6-s8": {
+      "headline": "Nabers changes the Pollard math",
+      "blurb": "Yesterday I said Rachaad White. Today’s better answer is Malik Nabers at 15.72 in the flex if he’s active. He’s Questionable, but he plays in the same Sun 10:00 AM window as White at 10.65, so White’s the fallback. DJ Moore at 12.86 is Monday, with no fallback at all."
+    },
+    "w9-r6-s4": {
+      "headline": "Pickens or Nabers, or both?",
+      "blurb": "Both are Questionable in the Sun 10:00 AM window, George Pickens at 13.51 and Nabers at 15.72. If Nabers takes the flex, this isn’t a choice. Wait for the inactives and start whoever’s dressed."
+    },
+    "w9-r4-s2": {
+      "headline": "McCaffrey’s calf has a clean backup plan",
+      "blurb": "Christian McCaffrey is 22.99, Questionable, with no other back on the bench and Jaylen Warren on bye. Woody Marks is on the wire at 13.87 and plays in the same Sun 1:05 PM window. Check the inactives, then decide. That’s how you avoid a zero."
+    },
+    "w9-r3-s4": {
+      "headline": "St. Brown’s ribs are the 9.22-point question",
+      "blurb": "He’s 20.28, Questionable. Jaylen Waddle is 11.06 and clean, and both are Sun 10:00 AM. If he’s active, he starts. There’s no case for sitting him early."
+    },
+    "w9-r3-s7": {
+      "headline": "Watson’s undisclosed tag has a 5.86 cushion",
+      "blurb": "Christian Watson is 15.86 and Aaron Jones Sr. is 10.0. The listed Sun 10:00 AM only applies to Breece Hall. Watson plays Sun 1:25 PM and Jones plays Monday, so this front office can wait for the inactives."
+    },
+    "w9-r3-s6": {
+      "headline": "Fannin’s groin needs a wire answer",
+      "blurb": "No tight end on this bench. Isaiah Likely at 11.46 nearly matches Harold Fannin Jr. at 11.43, and he’s healthy. Worth a look today."
+    },
+    "w9-r1-s8": {
+      "headline": "Coker’s now a better call than Barkley",
+      "blurb": "Yesterday this was about avoiding a zero. Today Jalen Coker’s 13.83 beats Saquon Barkley’s 12.81 outright, and he has no tag. In a 3.76-point game, I’d make it now. Sun 10:00 AM."
+    },
+    "w9-r2-s4": {
+      "headline": "Poochinski’s easy 5.95, day three",
+      "blurb": "Olave at 15.39 for Godwin at 9.44. Still the best non-injury call on the board. Sun 10:00 AM."
+    },
+    "w9-r8-s5": {
+      "headline": "AB81’s Kittle shuffle is earlier than it looks",
+      "blurb": "Kittle at tight end, Goedert to flex, Cooper to receiver, Lemon out. That’s 7.2 points, 15.19 over 7.99. The listed Sun 1:05 PM is Kittle’s kickoff. Lemon, Goedert and Cooper all play Sun 10:00 AM, so the swap has to happen before that."
+    },
+    "w9-r7-s6": {
+      "headline": "Loveland’s real clock is Sun 1:25 PM",
+      "blurb": "Loveland is 10.96 and Henry is 7.04, Questionable with a foot. Loveland’s Sun 5:20 PM doesn’t matter. Henry’s game comes first, and we’ve all just seen what a locked slot does here."
+    },
+    "w9-r7-s4": {
+      "headline": "Garrett Wilson’s concussion is a same-window call",
+      "blurb": "Wilson is 14.23 and Denzel Boston is 10.72, both Questionable, both Sun 10:00 AM. Get the inactive list, then pick the one who’s dressed. Boston and Cam Skattebo also beat the flex at 7.24."
+    }
+  },
+  "alert_notes": {
+    "7": "Lamar Jackson locked in at Thu 5:15 PM and didn’t play. The slot is 0.0 for Week 9, the second straight zero at the position."
+  },
+  "trending_notes": {
+    "3161": "479,886 adds and 14.66 projected as Murray’s stock falls. Not enough for anyone here while Young sits at 17.01.",
+    "5849": "Sleeper’s 0.0 is the news. deeboliciouskins has Mahomes, so this is a roster call, not a lineup crisis.",
+    "4881": "Now on IR, but Harvey has the only IR slot, so Lamar’s roster spot stays occupied.",
+    "6130": "8.73 and available. A bench body at best, with no R.A.T.S. team that needs him over Marks at 13.87.",
+    "11610": "10.82 on the wire and it’s Willis’s team. Useful for AB81, whose receiver spot starts at 7.99.",
+    "4993": "10.16, which beats Henry’s 7.04, but Santa Clara’s Finest already owns the answer in Loveland.",
+    "11557": "AB81 is starting him at 12.54. Good add at the time. There are several better ones now.",
+    "10219": "5.89 and 481,239 adds. Still a pass."
+  },
+  "move_grades": {},
+  "external_facts": [
+    {
+      "claim": "Sleeper week 9 projections at league scoring, pulled 2026-11-06, unrostered in R.A.T.S.: Drew Lock 17.18 (Questionable, elbow), Bryce Young 17.01, J.J. McCarthy 16.44, Baker Mayfield 16.22, Woody Marks 13.87, Isaiah Likely 11.46.",
+      "source": "Sleeper projections, rosters and players APIs"
+    },
+    {
+      "claim": "Roster counts: league roster is 16 spots plus 1 IR slot. Santa Clara's Finest has 16 players including RJ Harvey in the IR slot, so 15 of 16 spots are filled. AB81 has an empty IR slot and Jalen Hurts is IR. Last R.A.T.S. transaction was Wednesday night, none since.",
+      "source": "Sleeper league and rosters APIs"
+    },
+    {
+      "claim": "Mike Evans Questionable (Achilles) and DeVonta Smith Questionable (hamstring), both now 0.0 in Sleeper projections.",
+      "source": "Sleeper players and projections APIs"
+    },
+    {
+      "claim": "Yesterday's numbers: Santa Clara's Finest 20.5%; Cherry Blossom 67.9%; Poochinski 60.4%; Kyler Murray 17.17; Mike Evans 16.54; DeVonta Smith 12.25.",
+      "source": "content/daily/2026-11-05/facts.json"
+    },
+    {
+      "claim": "Week 8: Santa Clara's Finest 136.48, Big Stric Energy 181.48, a 45-point loss; Burrow 42.48, Lamar Jackson 0.0.",
+      "source": "content/2026-w08/facts.json"
+    },
+    {
+      "claim": "Lamar Jackson's Sleeper news_updated stamp 1793933148051 is Thu 6:45 PM Pacific.",
+      "source": "facts.json injuries converted to Pacific"
+    },
+    {
+      "claim": "Week 9 schedule, Pacific: JAX at BAL Thu 5:15 PM. NYG at PHI, NYJ at KC, DAL at IND and LA at WAS Sun 10:00 AM. HOU at LAC and LV at SF Sun 1:05 PM. GB at NE and ARI at SEA Sun 1:25 PM. TB at CHI Sun 5:20 PM. BUF at MIN Monday.",
+      "source": "nflverse games.csv"
+    },
+    {
+      "claim": "Bryce Young was dropped by Maye I touch your TDs? Oct 18 and by Bad things man bad things Wednesday. Arithmetic: 15.39 - 9.44 = 5.95; 125.95 + 16.44 = 142.39; 165.26 - 142.39 = 22.87; 10.96 - 7.04 = 3.92; 17.01 - 12.54 = 4.47; 15.19 - 7.99 = 7.2; 20.28 - 11.06 = 9.22; 15.86 - 10.0 = 5.86; 22.58 - 15.58 = 7.",
+      "source": "Arithmetic on facts.json"
+    }
+  ]
+}
