@@ -1,106 +1,105 @@
 {
   "lead": {
-    "kicker": "The big swing",
-    "headline": "The 1-7 team is winning with one quarterback",
-    "dek": "Santa Clara’s Finest started Sunday with a locked zero at quarterback and a long-shot label. After the early games it leads deeboliciouskins 130.64 to 110.34 and is 65.4% to win, while deeboliciouskins carries a busted lineup of its own: George Pickens, Out, started at receiver.",
-    "by_roster_id": 7,
-    "matchup_key": "w9-m2",
+    "kicker": "The comeback",
+    "headline": "Maye I touch your TDs? came all the way back",
+    "dek": "At the last update, the 2-6 team was getting buried by Poochinski and its two quarterbacks had barely scored. After the late games it leads 148.14 to 144.3. Poochinski is still 76.8% to win, because the whole matchup now lives in one Sunday night game.",
+    "by_roster_id": 3,
+    "matchup_key": "w9-m3",
     "roster_ids": [
-      7,
-      6
+      3,
+      2
     ],
-    "pull": "Santa Clara’s Finest 130.64, deeboliciouskins 110.34. One player left against two.",
+    "pull": "Maye I touch your TDs? 148.14, Poochinski 144.3. Three players left, one stadium.",
     "body": [
-      "I’ve covered Santa Clara’s Finest for nine weeks, and I’ve written its obituary for most of them. This morning the Report had deeboliciouskins as the clear favorite. Then the early window happened, and the 1-7 team walked out of it leading 130.64 to 110.34. The odds flipped with it: Santa Clara’s Finest 65.4%, deeboliciouskins 34.6%.",
-      "This was done with one quarterback. Lamar Jackson’s 0.0 from Thursday is still sitting in the first QB slot, and it didn’t matter. Kenneth Walker III went for 36.3 against a 21.74 projection. Joe Burrow added 29.54. The kicker, Spencer Shrader, put up 16.0. And the two lineup calls this front office made before kickoff both cashed: Denzel Boston, in for the injured Garrett Wilson, scored 15.8, and Blake Corum gave the flex 11.8.",
-      "Now the other side of the ledger, and it’s a big one. George Pickens was Out this morning and stayed in the deeboliciouskins lineup at receiver. His game is final, the slot is locked, and it’s a 0.0. DJ Moore, projected for 12.78, is still on the bench. A correction from this desk: this morning’s brief said that swap could wait for Monday. It couldn’t. The slot locked the moment Pickens’ game kicked off.",
-      "deeboliciouskins did plenty right. Ja’Marr Chase scored 31.5, Patrick Mahomes 16.48, Jayden Daniels 14.36, the Kansas City defense 12.0. It just did it with ten starters instead of eleven, against a team doing it with ten starters instead of eleven. One of those zeros was an injury on Thursday. The other was still fixable at breakfast.",
-      "Here’s what’s left. deeboliciouskins has two: D’Andre Swift, projected for 18.99, on Sunday night, and Jason Myers, kicking now. Santa Clara’s Finest has one: Colston Loveland, at 11.0, in the same Sunday night game as Swift. The live projection is 141.64 to 135.61, Finest. My pick flips with the math. Santa Clara’s Finest. Write it down, because I may not get to write it again."
+      "I’ve covered Maye I touch your TDs? all season, and at the last update I had this one filed under blowouts. Poochinski was miles ahead, and this team’s quarterbacks were barely on the board. Then the late window happened. Maye I touch your TDs? walked out of it leading the 6-2 team 148.14 to 144.3.",
+      "This is how a two-quarterback league is supposed to work. Brock Purdy finished at 26.28. Drake Maye finished at 21.26. Both slots paid. Christian Watson went for 30.1 at flex against a 15.92 projection, Amon-Ra St. Brown added 16.6, Harold Fannin Jr. 12.2, and the Cleveland defense 11.0. Ten starters are final, and they’re ahead of the first-place team.",
+      "Poochinski, meanwhile, barely moved in the late window. Its damage was already done: CeeDee Lamb 33.5, Javonte Williams 22.4, Dak Prescott 19.5, Chris Olave 16.8. The disappointment was Jahmyr Gibbs, 13.4 against a 25.69 projection, with Sam LaPorta at 7.2.",
+      "Here’s why the lead isn’t a win yet. Poochinski has two players left: Caleb Williams, projected for 18.71, and Luther Burden III, at 14.44. That’s 33.15 to come. Maye I touch your TDs? has one: Bucky Irving, at 17.62. All three play in the same game, Sunday night at 5:20 PM Pacific. Irving on one side, a Williams-to-Burden stack on the other. The live projection is 177.45 to 165.76, Poochinski, and the win odds say 76.8%.",
+      "One thing that will haunt this front office if it goes wrong: Breece Hall scored 11.7 on the bench while Tyler Allgeier scored 6.6 at running back. In a game this close, that’s a Tuesday story waiting to happen. My pick follows the math, Poochinski. But for the first time all week, Maye I touch your TDs? is the one being chased."
     ]
   },
   "quick_hits": [
     {
       "kicker": "Busted lineup",
-      "headline": "Pickens started, Pickens sat, Pickens scored 0.0",
+      "headline": "DJ Moore hasn’t even played yet",
       "roster_ids": [
         6
       ],
-      "body": "George Pickens was Out and in the deeboliciouskins lineup when his game kicked off, and that WR slot is now a locked 0.0. DJ Moore, 12.78 projected, watches from the bench. deeboliciouskins trails 130.64 to 110.34 and is 34.6% to win."
+      "body": "George Pickens was Out and started at receiver for deeboliciouskins, and that slot is a locked 0.0. DJ Moore, projected for 12.78, sits on the bench and doesn’t play until Monday. The live projection has deeboliciouskins short of Santa Clara’s Finest by 8.11. Do that math once and then stop, because it hurts."
     },
     {
-      "kicker": "Over in Cherry Blossom",
-      "headline": "Puka Nacua turned a lead into a verdict",
+      "kicker": "Sunday night",
+      "headline": "Seven R.A.T.S. starters, one game",
+      "roster_ids": [
+        2,
+        3,
+        6,
+        7,
+        5,
+        1
+      ],
+      "body": "Tampa Bay at Chicago decides most of this league. Poochinski has Caleb Williams and Luther Burden III, Maye I touch your TDs? has Bucky Irving, deeboliciouskins has D’Andre Swift, Santa Clara’s Finest has Colston Loveland, Bad things has the Chicago defense and Big Stric Energy has its kicker, Chase McLaughlin. Three matchups are still live tonight, and that game touches all of them."
+    },
+    {
+      "kicker": "Final",
+      "headline": "Cherry Blossom hands the 7-1 team a loss",
       "roster_ids": [
         4,
         8
       ],
-      "body": "Cherry Blossom leads AB81 143.08 to 98.56, and the win odds are 98.8%. Puka Nacua scored 35.0, Tee Higgins finished at 20.2, Jonah Coleman 18.8, Travis Kelce 17.3, Jake Bates 15.0. Christian McCaffrey and Brock Bowers are still playing. The 7-1 team is about to have company at the top."
-    },
-    {
-      "kicker": "Standing pat",
-      "headline": "AB81 kept Lemon over Kittle, and it was right",
-      "roster_ids": [
-        8
-      ],
-      "body": "The Kittle shuffle never happened. Makai Lemon scored 12.1 in the lineup, George Kittle scored 6.1 on the bench, so the front office won the argument this desk was having with it. It just can’t win the game: AB81 has Jaxon Smith-Njigba, at 4.5, and Rhamondre Stevenson left and is 1.2% to win."
-    },
-    {
-      "kicker": "Comfortable",
-      "headline": "Poochinski is up 139.3 to 63.2",
-      "roster_ids": [
-        2,
-        3
-      ],
-      "body": "CeeDee Lamb scored 33.5, Javonte Williams 22.4, Dak Prescott 19.5, and Chris Olave, the morning’s WR call, 16.8. Maye I touch your TDs? has six starters left, but its quarterbacks are Brock Purdy at 3.04 and Drake Maye at -0.44. Poochinski, 90%."
-    },
-    {
-      "kicker": "Still in doubt",
-      "headline": "Big Stric Energy is down big and still alive",
-      "roster_ids": [
-        1,
-        5
-      ],
-      "body": "Bad things man bad things leads 98.62 to 49.2, but Big Stric Energy has eight starters left to five, and Josh Allen and Justin Jefferson haven’t played. The live projection is 161.47 to 156.35. Bad things, 56.7%. This is the one that goes to Monday."
+      "body": "It’s over: Cherry Blossom 178.18, AB81 120.56. Puka Nacua scored 35.0, Christian McCaffrey 22.7, Brock Bowers 22.3, Tee Higgins 20.2, and that’s the week’s top score so far; nobody’s live projection catches it. It even left Bo Nix’s 16.68 on the bench while Jared Goff scored 6.3. AB81’s best was its kicker, Cam Little, at 17.0."
     },
     {
       "kicker": "Bench points",
-      "headline": "Bad things’ best quarterback was on the bench",
+      "headline": "Bad things benched 36.36 at quarterback",
       "roster_ids": [
         5
       ],
-      "body": "Tyler Shough scored 19.7 on the Bad things bench. Malik Willis started and scored 4.82. Bijan Robinson’s 26.7 covered for a lot, but in a matchup this close, that’s a choice that could come back around on Monday night."
+      "body": "C.J. Stroud scored 36.36 on the Bad things bench, Tyler Shough added 19.7 there, and Malik Willis started and scored 4.82. It won’t matter: Matthew Golden’s 32.4 and Bijan Robinson’s 26.7 have Bad things up 141.56 to 90.18 and 92.8% to win. Lucky this time."
+    },
+    {
+      "kicker": "Cooked",
+      "headline": "Big Stric Energy needs a miracle Monday",
+      "roster_ids": [
+        1
+      ],
+      "body": "Jordan Love scored 36.18, and nothing else on this roster kept pace. Big Stric Energy trails 141.56 to 90.18 with Josh Allen and Justin Jefferson on Monday and Chase McLaughlin tonight. The live projection is 164.23 to 135.99, it’s 7.2% to win, and its playoff odds sit at 29.1%."
     }
   ],
   "previews": {
     "w9-m1": {
-      "headline": "Bad things banked it. Big Stric still has Allen and Jefferson.",
-      "blurb": "98.62 to 49.2, 161.47 to 156.35 on the live projection. Big Stric Energy has five playing now plus Allen, Jefferson and Chase McLaughlin to come; Bad things has James Cook III, the Chicago defense, and three in the late games. Bad things, 56.7%, and not by much.",
+      "headline": "Bad things has this one in hand",
+      "blurb": "141.56 to 90.18. Big Stric Energy has three left, Josh Allen and Justin Jefferson on Monday and Chase McLaughlin tonight; Bad things has James Cook III on Monday and the Chicago defense tonight. 164.23 to 135.99 projected. Bad things, 92.8%.",
       "pick": 5
     },
     "w9-m2": {
-      "headline": "The Finest leads with one quarterback",
-      "blurb": "130.64 to 110.34, 141.64 to 135.61 projected. deeboliciouskins needs D’Andre Swift, at 18.99, to outrun Colston Loveland, at 11.0, by enough to cover the gap, with Pickens’ 0.0 locked in. Santa Clara’s Finest, 65.4%.",
+      "headline": "Swift versus Loveland, and a locked zero",
+      "blurb": "Santa Clara’s Finest leads 130.64 to 114.54, with one player left each, both tonight: Colston Loveland, 11.0 projected, against D’Andre Swift, 18.99. The live projection is 141.64 to 133.53. The Finest, 72.1%, with Lamar Jackson’s 0.0 still in its lineup.",
       "pick": 7
     },
     "w9-m3": {
-      "headline": "Poochinski is cruising",
-      "blurb": "139.3 to 63.2, 180.0 to 147.81 projected. Maye I touch your TDs? has six starters left and needs every one of them to explode. Poochinski still has Caleb Williams and Luther Burden III on Sunday night. Poochinski, 90%.",
+      "headline": "The underdog leads. The favorite has two left.",
+      "blurb": "Maye I touch your TDs? 148.14, Poochinski 144.3. Bucky Irving against Caleb Williams and Luther Burden III, all in the same game tonight. 177.45 to 165.76 projected. Poochinski, 76.8%.",
       "pick": 2
     },
     "w9-m4": {
-      "headline": "Cherry Blossom is about to beat the 7-1 team",
-      "blurb": "143.08 to 98.56, 175.17 to 131.97 projected. AB81 has two players left and needs about a week’s worth from them. Cherry Blossom, 98.8%.",
+      "headline": "Final: Cherry Blossom 178.18, AB81 120.56",
+      "blurb": "Every starter is done. Puka Nacua’s 35.0 led a lineup with six players over 17, and the 7-1 team takes its second loss.",
       "pick": 4
     }
   },
   "decision_notes": {
+    "w9-r7-s6": {
+      "headline": "The Finest’s TE call now decides a game",
+      "blurb": "Hunter Henry sat and scored 6.5 on the bench. Colston Loveland, 11.0 projected, took the spot and plays tonight. He’s the only player Santa Clara’s Finest has left."
+    },
     "w9-r7-s4": {
-      "headline": "The Finest’s WR call: Boston in, and he scored 15.8",
-      "blurb": "Garrett Wilson was Out. Denzel Boston, projected for 10.75, took the spot and beat it. That call is part of why the 1-7 team is leading."
+      "headline": "The Finest’s WR call: Boston in, 15.8",
+      "blurb": "Garrett Wilson was Out. Denzel Boston, projected for 10.75, took the spot and beat it. Part of why the 1-7 team still leads."
     },
     "w9-r2-s4": {
       "headline": "Poochinski’s WR call: Olave in, 16.8",
-      "blurb": "Chris Olave over Chris Godwin Jr. Olave scored 16.8. Godwin, on the bench, scored 0.0. Clean."
+      "blurb": "Chris Olave over Chris Godwin Jr. Olave scored 16.8. Godwin, on the bench, plays tonight."
     },
     "w9-r6-s0": {
       "headline": "deeboliciouskins’ QB call: Mahomes, 16.48",
@@ -108,15 +107,15 @@
     }
   },
   "alert_notes": {
-    "6": "George Pickens started at receiver and his team played without him. The slot is locked at 0.0 and DJ Moore, 12.78 projected, is on the bench, in a game deeboliciouskins trails.",
-    "7": "Lamar Jackson started at quarterback and his team played without him on Thursday. That 0.0 is locked, and the Finest leads anyway."
+    "6": "George Pickens started at receiver and his team played without him. The slot is locked at 0.0, DJ Moore, 12.78 projected, is on the bench and plays Monday, and deeboliciouskins trails 130.64 to 114.54.",
+    "7": "Lamar Jackson started at quarterback and his team played without him on Thursday. That 0.0 is locked, and the Finest leads 130.64 to 114.54 anyway."
   },
   "trending_notes": {},
   "move_grades": {},
   "external_facts": [
     {
-      "claim": "The main Sunday slate kicked off Sun 10:00 AM Pacific; the late games kicked off Sun 1:05 PM and 1:25 PM Pacific; Tampa Bay at Chicago is Sunday night, Sun 5:20 PM Pacific; Buffalo at Minnesota is Monday, Mon 5:15 PM Pacific.",
-      "source": "nflverse 2026 schedule (data/raw/games.csv: 13:00, 16:05, 16:25 and 20:20 ET Sunday, 20:15 ET Monday)"
+      "claim": "The late Sunday games are final; Tampa Bay at Chicago is Sunday night, Sun 5:20 PM Pacific; Buffalo at Minnesota is Monday, Mon 5:15 PM Pacific.",
+      "source": "nflverse 2026 schedule (data/raw/games.csv: 20:20 ET Sunday, 20:15 ET Monday)"
     }
   ]
 }
