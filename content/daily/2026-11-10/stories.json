@@ -1,0 +1,111 @@
+{
+"lead": {
+"kicker": "Waiver Night",
+"headline": "Four quarterbacks on the wire, four teams in the line",
+"dek": "Poochinski, AB81 and Santa Clara’s Finest all project with an empty QB slot in Week 10, and deeboliciouskins has Patrick Mahomes Questionable. Bryce Young is the prize. The order decides who gets stuck with Drew Lock.",
+"matchup_key": "w10-m3",
+"roster_ids": [8, 2, 6, 7],
+"pull": "Young 19.73. Rodgers 17.57. McCarthy 16.94. Lock 16.48. Then the cliff.",
+"body": [
+"The weekly edition is up, refreshed with Monday’s full play-by-play, and the story is still the champ: Maye I touch your TDs? erased a 94.56-point deficit and lost by 6.12 anyway. Read it. Then come back, because tonight’s waiver claims decide who even has a full lineup on Sunday. This is a two-QB league, and three front offices project with a hole at quarterback: Poochinski (Caleb Williams on bye with Chicago), AB81 (Joe Milton on bye with Philadelphia, Jalen Hurts on IR) and Santa Clara’s Finest (Lamar Jackson on IR). A fourth, deeboliciouskins, has Patrick Mahomes Questionable with an elbow and Kyler Murray Out behind him.",
+"The wire has exactly four real answers. Bryce Young projects for 19.73, Aaron Rodgers 17.57, J.J. McCarthy 16.94, Drew Lock 16.48. After that it falls off a ledge: Deshaun Watson 13.86, Daniel Jones 13.66. And the line forms in this order, per Sleeper: AB81, Poochinski, deeboliciouskins, Santa Clara’s Finest. Nobody in this league made a waiver claim last week, so it’s the same order as seven days ago, and it still hands the first pick to a 7-2 team.",
+"AB81 has the first claim and the most to fix. Seven players on bye, Rhamondre Stevenson Out, and a best possible lineup that projects for 97.99, the lowest in the league, with six holes to fill: QB, WR, TE, both FLEX spots and DEF. George Kittle (16.19) covers one from the bench. The other five have to come off the wire. My call with the top spot: Young, no debate. A 7-2 team can live with a thin flex. It cannot live with a zero at quarterback against a Santa Clara’s Finest team that’s already a 65.1% favorite.",
+"Here’s the twist that makes this fun. Bad things man bad things dropped Young last Wednesday to add Malik Willis. Young scored 21.34 unrostered. Willis scored 4.82, is now Questionable with a groin, and is one of the most-dropped players in fantasy. The quarterback Bad things threw back is the best one in the pond, and Bad things picks last.",
+"Poochinski picks second and takes whoever is left of Young and Rodgers. It needs it: the best lineup projects for 149.4 against Cherry Blossom’s 170.29, a 20.89-point hole and a 30.7% chance. deeboliciouskins is the swing vote at No. 3. If it spends the claim on a Mahomes insurance policy, McCarthy is gone and Santa Clara’s Finest gets Lock. That’s still a starter, and Lock at 16.48 still beats an IR slot by 16.48.",
+"So what will the Finest do? It also needs a flex with J.K. Dobbins on bye, and it has the earliest clock in the league: Colston Loveland is on bye, Hunter Henry (10.03) is the answer at tight end, and that call is due by Sun 6:30 AM. Set your claims tonight. Tomorrow’s brief grades every one."
+]
+},
+"quick_hits": [
+{
+"kicker": "Final numbers",
+"headline": "No stat corrections. Every Week 9 result stands.",
+"roster_ids": [5, 1, 2, 3],
+"body": "Monday’s full play-by-play changed no scores. Bad things man bad things beat Big Stric Energy 173.26 to 122.84, and Poochinski’s 6.12-point escape against the champ holds. Only the forward-looking numbers moved: Poochinski’s top-two odds sit at 81.3% and Bad things man bad things’ at 79.5%."
+},
+{
+"kicker": "The rich get a problem",
+"headline": "Bad things man bad things has four quarterbacks and no defense",
+"roster_ids": [5],
+"body": "The Chicago Bears D/ST, last week’s 15.0-point Wednesday pickup, is on bye. Bad things picks eighth, but defenses don’t require a claim in front of anyone: the New Orleans Saints D/ST (6.36) is sitting there after being dropped 117,225 times across Sleeper. Then there’s the quarterback call, where Willis is Questionable and Tyler Shough (17.1) and C.J. Stroud (16.24) wait on the bench."
+},
+{
+"kicker": "Loud vs. useful",
+"headline": "Tank Dell leads the country in adds and projects for 2.63",
+"roster_ids": [],
+"body": "Dell is at 1,346,624 adds; that’s a stash, not a start. Corey Kiner (900,912 adds, 8.69) is a bye-week body. The most useful name on the list is further down: Jordyn Tyson at 10.33. And Darren Waller (8.43) is a cheap fix for AB81 with Dallas Goedert on bye."
+},
+{
+"kicker": "Big Stric Energy",
+"headline": "No kicker, no Jacobs, and a 6.3-point gap",
+"roster_ids": [1, 6],
+"body": "Josh Jacobs is Out with a finger, and Chase McLaughlin is on bye with Tampa Bay. Nico Collins (16.57) covers the running back hole through a flex shuffle, but the kicker has to come off the wire. Even with every fix, Big Stric Energy projects for 149.61 to deeboliciouskins’ 155.91, a 44% shot. It picks seventh, and it doesn’t need a quarterback, which is the best news it’s had in a week."
+},
+{
+"kicker": "Cherry Blossom",
+"headline": "The biggest gap between set and best is the favorite’s",
+"roster_ids": [4, 2],
+"body": "Cherry Blossom’s lineup as it sits projects for 137.85. Its best lineup projects for 170.29, the best in the league. The difference is Puka Nacua (Questionable, knee) and Jonah Coleman (bye), with Parker Washington (15.61) and Jaylen Warren (16.83) on the bench. Fill those two and Cherry Blossom is a 69.3% favorite for a sixth straight win."
+}
+],
+"previews": {
+"w10-m1": {
+"headline": "deeboliciouskins tries to end the skid",
+"blurb": "deeboliciouskins projects for 155.91, Big Stric Energy for 149.61. A 56% edge for the team that has lost four straight, and it rides on Mahomes’ elbow.",
+"pick": 6
+},
+"w10-m2": {
+"headline": "The champ gets the team that dropped Bryce Young",
+"blurb": "Maye I touch your TDs? is a 56.3% favorite, 158.86 to 152.29, even with Bucky Irving on bye. Bad things man bad things needs a defense first.",
+"pick": 3
+},
+"w10-m3": {
+"headline": "Two empty QB slots, one waiver line",
+"blurb": "Santa Clara’s Finest projects for 114.02, AB81 for 97.99. AB81 claims first; the Finest claim fourth. Whoever fills the most holes tonight wins Sunday.",
+"pick": 7
+},
+"w10-m4": {
+"headline": "Poochinski needs a quarterback to make it a game",
+"blurb": "Cherry Blossom 170.29, Poochinski 149.4, a 69.3% favorite. Poochinski holds the second claim and has to use it on a quarterback.",
+"pick": 4
+}
+},
+"decision_notes": {
+"w10-r5-s1": {
+"headline": "What will Bad things do at QB?",
+"blurb": "Malik Willis is Questionable with a groin and projects for 16.83. Tyler Shough projects for 17.1, C.J. Stroud for 16.24, and Stroud scored 36.36 on this bench this past Sunday. Willis is the worst bet of the three. My call: Shough, unless Willis practices in full. Deadline Sun 10:00 AM."
+},
+"w10-r3-s2": {
+"headline": "The champ’s Breece Hall question, again",
+"blurb": "Bucky Irving is on bye. Aaron Jones Sr. projects for 9.96, Breece Hall for 9.25, Omarion Hampton for 8.66. Hall scored 11.7 on the bench in the 6.12-point loss. It’s close enough that this one should go with the hot hand. Deadline Sun 10:00 AM."
+},
+"w10-r6-s4": {
+"headline": "DJ Moore gets his shot",
+"blurb": "George Pickens is Out with a hamstring again. DJ Moore (14.24) watched from the bench last week while the receiver slot scored 0.0. deeboliciouskins has until Sun 10:00 AM, and this time the answer is obvious."
+},
+"w10-r6-s0": {
+"headline": "Mahomes and the elbow",
+"blurb": "Patrick Mahomes is Questionable and projects for 18.96. Kyler Murray is Out, so there’s no backup on the roster. deeboliciouskins picks third on the wire. A hedge costs it nothing but a claim, and costs Santa Clara’s Finest a quarterback."
+},
+"w10-r4-s5": {
+"headline": "Puka or Parker?",
+"blurb": "Puka Nacua is Questionable with a knee. Parker Washington projects for 15.61 and Tre Tucker for 9.94. If Nacua plays, he plays. If there’s doubt by Sun 10:00 AM, Washington is a fine floor."
+},
+"w10-r7-s6": {
+"headline": "The league’s earliest clock",
+"blurb": "Colston Loveland is on bye. Hunter Henry (10.03) is the answer at tight end for Santa Clara’s Finest, and the deadline is Sun 6:30 AM, earlier than anyone else’s."
+}
+},
+"alert_notes": {},
+"trending_notes": {
+"8161": "Malik Willis is Questionable with a groin and one of the most-dropped quarterbacks in fantasy. Bad things man bad things dropped Bryce Young to get him.",
+"9758": "C.J. Stroud is being added all over Sleeper. In R.A.T.S. he’s already Bad things man bad things’ third quarterback, at 16.24 projected.",
+"2505": "Darren Waller projects for 8.43 and is unrostered. AB81 has Dallas Goedert on bye and no tight end behind him.",
+"13281": "Jordyn Tyson projects for 10.33 and is unrostered in R.A.T.S. The most useful receiver on the trending list.",
+"10232": "Michael Wilson is Out with a neck injury and the most-dropped player in fantasy. Bad things man bad things still has him.",
+"6650": "Chase McLaughlin is on bye with Tampa Bay, and Big Stric Energy needs a kicker for Sunday."
+},
+"move_grades": {},
+"external_facts": [
+{"claim": "Waiver order for Week 10 claims: AB81, Poochinski, deeboliciouskins, Santa Clara’s Finest, Cherry Blossom, Maye I touch your TDs?, Big Stric Energy, Bad things man bad things. All Week 9 adds were free-agent pickups, so the order did not change.", "source": "Sleeper rosters API (data/raw/2026/rosters.json settings.waiver_position, fetched 2026-11-10); content/2026-w09/facts.json transactions (all type free_agent)"}
+]
+}

@@ -2,7 +2,7 @@
  "publication": "The R.A.T.S. Report",
  "season": "2026",
  "week": 9,
- "generated_at": "2026-11-09T21:39-08:00",
+ "generated_at": "2026-11-10T05:43-08:00",
  "league": {
   "num_teams": 8,
   "format": "2-QB PPR",
@@ -8580,42 +8580,36 @@
     "last3_avg": 142.59,
     "high": 213.66,
     "low": 111.6,
-    "playoff_odds": 0.265,
+    "playoff_odds": 0.259,
     "top2_odds": 0.0,
     "projected_final_wins": 4.1,
     "games_left": 5,
     "next_week": {
-     "projected": 150.37,
+     "projected": 149.61,
      "lineup": [
       {
        "name": "Josh Allen",
        "pos": "QB",
-       "proj": 26.24,
+       "proj": 26.13,
        "slot": "QB"
       },
       {
        "name": "Jordan Love",
        "pos": "QB",
-       "proj": 17.12,
+       "proj": 16.85,
        "slot": "QB"
       },
       {
        "name": "Ashton Jeanty",
        "pos": "RB",
-       "proj": 12.54,
+       "proj": 12.53,
        "slot": "RB"
       },
       {
        "name": "Braelon Allen",
        "pos": "RB",
-       "proj": 10.63,
+       "proj": 10.79,
        "slot": "RB"
-      },
-      {
-       "name": "Justin Jefferson",
-       "pos": "WR",
-       "proj": 16.98,
-       "slot": "WR"
       },
       {
        "name": "Nico Collins",
@@ -8624,9 +8618,15 @@
        "slot": "WR"
       },
       {
+       "name": "Justin Jefferson",
+       "pos": "WR",
+       "proj": 16.55,
+       "slot": "WR"
+      },
+      {
        "name": "Dalton Kincaid",
        "pos": "TE",
-       "proj": 10.97,
+       "proj": 10.72,
        "slot": "TE"
       },
       {
@@ -8636,19 +8636,19 @@
       {
        "name": "Jacksonville Jaguars D/ST",
        "pos": "DEF",
-       "proj": 8.78,
+       "proj": 8.79,
        "slot": "DEF"
       },
       {
        "name": "Jalen Coker",
        "pos": "WR",
-       "proj": 15.43,
+       "proj": 15.49,
        "slot": "FLEX"
       },
       {
        "name": "Rashee Rice",
        "pos": "WR",
-       "proj": 15.11,
+       "proj": 15.19,
        "slot": "FLEX"
       }
      ],
@@ -8673,16 +8673,16 @@
     "high": 206.16,
     "low": 128.02,
     "playoff_odds": 1.0,
-    "top2_odds": 0.816,
+    "top2_odds": 0.813,
     "projected_final_wins": 10.1,
     "games_left": 5,
     "next_week": {
-     "projected": 149.88,
+     "projected": 149.4,
      "lineup": [
       {
        "name": "Dak Prescott",
        "pos": "QB",
-       "proj": 18.93,
+       "proj": 18.67,
        "slot": "QB"
       },
       {
@@ -8692,49 +8692,49 @@
       {
        "name": "Jahmyr Gibbs",
        "pos": "RB",
-       "proj": 24.62,
+       "proj": 24.68,
        "slot": "RB"
       },
       {
        "name": "Javonte Williams",
        "pos": "RB",
-       "proj": 17.95,
+       "proj": 17.77,
        "slot": "RB"
       },
       {
        "name": "CeeDee Lamb",
        "pos": "WR",
-       "proj": 20.32,
+       "proj": 20.18,
        "slot": "WR"
       },
       {
        "name": "Chris Olave",
        "pos": "WR",
-       "proj": 16.18,
+       "proj": 16.12,
        "slot": "WR"
       },
       {
        "name": "Sam LaPorta",
        "pos": "TE",
-       "proj": 12.85,
+       "proj": 12.87,
        "slot": "TE"
       },
       {
        "name": "Brandon Aubrey",
        "pos": "K",
-       "proj": 7.6,
+       "proj": 7.59,
        "slot": "K"
       },
       {
        "name": "Seattle Seahawks D/ST",
        "pos": "DEF",
-       "proj": 7.67,
+       "proj": 7.64,
        "slot": "DEF"
       },
       {
        "name": "Chase Brown",
        "pos": "RB",
-       "proj": 12.93,
+       "proj": 13.05,
        "slot": "FLEX"
       },
       {
@@ -8766,29 +8766,29 @@
     "last3_avg": 159.04,
     "high": 205.82,
     "low": 112.76,
-    "playoff_odds": 0.7,
+    "playoff_odds": 0.704,
     "top2_odds": 0.0,
     "projected_final_wins": 4.7,
     "games_left": 5,
     "next_week": {
-     "projected": 158.4,
+     "projected": 158.86,
      "lineup": [
-      {
-       "name": "Brock Purdy",
-       "pos": "QB",
-       "proj": 22.95,
-       "slot": "QB"
-      },
       {
        "name": "Drake Maye",
        "pos": "QB",
-       "proj": 22.93,
+       "proj": 23.61,
+       "slot": "QB"
+      },
+      {
+       "name": "Brock Purdy",
+       "pos": "QB",
+       "proj": 23.01,
        "slot": "QB"
       },
       {
        "name": "Aaron Jones Sr.",
        "pos": "RB",
-       "proj": 10.09,
+       "proj": 9.96,
        "slot": "RB"
       },
       {
@@ -8800,13 +8800,13 @@
       {
        "name": "Amon-Ra St. Brown",
        "pos": "WR",
-       "proj": 19.46,
+       "proj": 19.55,
        "slot": "WR"
       },
       {
        "name": "Drake London",
        "pos": "WR",
-       "proj": 16.46,
+       "proj": 16.5,
        "slot": "WR"
       },
       {
@@ -8818,7 +8818,7 @@
       {
        "name": "Matt Gay",
        "pos": "K",
-       "proj": 7.11,
+       "proj": 7.1,
        "slot": "K"
       },
       {
@@ -8828,15 +8828,15 @@
        "slot": "DEF"
       },
       {
-       "name": "Christian Watson",
+       "name": "Zay Flowers",
        "pos": "WR",
-       "proj": 16.41,
+       "proj": 16.25,
        "slot": "FLEX"
       },
       {
-       "name": "Zay Flowers",
+       "name": "Christian Watson",
        "pos": "WR",
-       "proj": 16.26,
+       "proj": 16.15,
        "slot": "FLEX"
       }
      ],
@@ -8859,58 +8859,58 @@
     "high": 228.58,
     "low": 116.14,
     "playoff_odds": 1.0,
-    "top2_odds": 0.25,
+    "top2_odds": 0.252,
     "projected_final_wins": 8.3,
     "games_left": 5,
     "next_week": {
-     "projected": 170.03,
+     "projected": 170.29,
      "lineup": [
       {
        "name": "Trevor Lawrence",
        "pos": "QB",
-       "proj": 21.59,
+       "proj": 21.49,
        "slot": "QB"
       },
       {
        "name": "Jared Goff",
        "pos": "QB",
-       "proj": 18.81,
+       "proj": 18.91,
        "slot": "QB"
       },
       {
        "name": "Christian McCaffrey",
        "pos": "RB",
-       "proj": 22.48,
+       "proj": 22.54,
        "slot": "RB"
       },
       {
        "name": "Jaylen Warren",
        "pos": "RB",
-       "proj": 16.71,
+       "proj": 16.83,
        "slot": "RB"
       },
       {
        "name": "Tee Higgins",
        "pos": "WR",
-       "proj": 16.78,
+       "proj": 16.83,
        "slot": "WR"
       },
       {
        "name": "Parker Washington",
        "pos": "WR",
-       "proj": 15.76,
+       "proj": 15.61,
        "slot": "WR"
       },
       {
        "name": "Brock Bowers",
        "pos": "TE",
-       "proj": 17.07,
+       "proj": 17.04,
        "slot": "TE"
       },
       {
        "name": "Jake Bates",
        "pos": "K",
-       "proj": 7.13,
+       "proj": 7.18,
        "slot": "K"
       },
       {
@@ -8922,13 +8922,13 @@
       {
        "name": "Travis Kelce",
        "pos": "TE",
-       "proj": 12.73,
+       "proj": 12.81,
        "slot": "FLEX"
       },
       {
        "name": "Jameson Williams",
        "pos": "WR",
-       "proj": 12.49,
+       "proj": 12.57,
        "slot": "FLEX"
       }
      ],
@@ -8951,16 +8951,16 @@
     "high": 206.42,
     "low": 117.94,
     "playoff_odds": 1.0,
-    "top2_odds": 0.796,
+    "top2_odds": 0.795,
     "projected_final_wins": 10.1,
     "games_left": 5,
     "next_week": {
-     "projected": 152.28,
+     "projected": 152.29,
      "lineup": [
       {
        "name": "Tyler Shough",
        "pos": "QB",
-       "proj": 17.28,
+       "proj": 17.1,
        "slot": "QB"
       },
       {
@@ -8972,13 +8972,13 @@
       {
        "name": "Bijan Robinson",
        "pos": "RB",
-       "proj": 19.91,
+       "proj": 19.97,
        "slot": "RB"
       },
       {
        "name": "Chuba Hubbard",
        "pos": "RB",
-       "proj": 17.89,
+       "proj": 17.95,
        "slot": "RB"
       },
       {
@@ -8990,7 +8990,7 @@
       {
        "name": "Matthew Golden",
        "pos": "WR",
-       "proj": 13.7,
+       "proj": 13.53,
        "slot": "WR"
       },
       {
@@ -9012,7 +9012,7 @@
       {
        "name": "James Cook III",
        "pos": "RB",
-       "proj": 15.05,
+       "proj": 15.29,
        "slot": "FLEX"
       },
       {
@@ -9041,23 +9041,23 @@
     "last3_avg": 154.07,
     "high": 223.42,
     "low": 116.64,
-    "playoff_odds": 0.981,
+    "playoff_odds": 0.982,
     "top2_odds": 0.021,
     "projected_final_wins": 6.8,
     "games_left": 5,
     "next_week": {
-     "projected": 155.8,
+     "projected": 155.91,
      "lineup": [
       {
        "name": "Jayden Daniels",
        "pos": "QB",
-       "proj": 19.39,
+       "proj": 19.49,
        "slot": "QB"
       },
       {
        "name": "Patrick Mahomes",
        "pos": "QB",
-       "proj": 18.81,
+       "proj": 18.96,
        "slot": "QB"
       },
       {
@@ -9069,13 +9069,13 @@
       {
        "name": "Tony Pollard",
        "pos": "RB",
-       "proj": 12.14,
+       "proj": 12.1,
        "slot": "RB"
       },
       {
        "name": "Ja'Marr Chase",
        "pos": "WR",
-       "proj": 19.65,
+       "proj": 19.83,
        "slot": "WR"
       },
       {
@@ -9093,25 +9093,25 @@
       {
        "name": "Jason Myers",
        "pos": "K",
-       "proj": 7.23,
+       "proj": 7.22,
        "slot": "K"
       },
       {
        "name": "Kansas City Chiefs D/ST",
        "pos": "DEF",
-       "proj": 6.56,
+       "proj": 6.59,
        "slot": "DEF"
       },
       {
        "name": "DJ Moore",
        "pos": "WR",
-       "proj": 14.6,
+       "proj": 14.24,
        "slot": "FLEX"
       },
       {
        "name": "Rachaad White",
        "pos": "RB",
-       "proj": 10.73,
+       "proj": 10.79,
        "slot": "FLEX"
       }
      ],
@@ -9132,17 +9132,17 @@
     "last3_avg": 133.13,
     "high": 161.62,
     "low": 115.08,
-    "playoff_odds": 0.055,
+    "playoff_odds": 0.056,
     "top2_odds": 0.0,
     "projected_final_wins": 3.3,
     "games_left": 5,
     "next_week": {
-     "projected": 113.41,
+     "projected": 114.02,
      "lineup": [
       {
        "name": "Joe Burrow",
        "pos": "QB",
-       "proj": 22.1,
+       "proj": 22.38,
        "slot": "QB"
       },
       {
@@ -9152,19 +9152,19 @@
       {
        "name": "Kenneth Walker III",
        "pos": "RB",
-       "proj": 21.08,
+       "proj": 21.07,
        "slot": "RB"
       },
       {
        "name": "Bhayshul Tuten",
        "pos": "RB",
-       "proj": 16.22,
+       "proj": 16.37,
        "slot": "RB"
       },
       {
        "name": "Stefon Diggs",
        "pos": "WR",
-       "proj": 11.41,
+       "proj": 11.46,
        "slot": "WR"
       },
       {
@@ -9176,7 +9176,7 @@
       {
        "name": "Hunter Henry",
        "pos": "TE",
-       "proj": 9.9,
+       "proj": 10.03,
        "slot": "TE"
       },
       {
@@ -9188,7 +9188,7 @@
       {
        "name": "Atlanta Falcons D/ST",
        "pos": "DEF",
-       "proj": 5.33,
+       "proj": 5.34,
        "slot": "DEF"
       },
       {
@@ -9225,11 +9225,11 @@
     "high": 190.74,
     "low": 120.56,
     "playoff_odds": 1.0,
-    "top2_odds": 0.117,
+    "top2_odds": 0.118,
     "projected_final_wins": 8.5,
     "games_left": 5,
     "next_week": {
-     "projected": 98.03,
+     "projected": 97.99,
      "lineup": [
       {
        "name": "Matthew Stafford",
@@ -9250,13 +9250,13 @@
       {
        "name": "Derrick Henry",
        "pos": "RB",
-       "proj": 15.53,
+       "proj": 15.59,
        "slot": "RB"
       },
       {
        "name": "Jaxon Smith-Njigba",
        "pos": "WR",
-       "proj": 24.46,
+       "proj": 24.37,
        "slot": "WR"
       },
       {
@@ -9266,13 +9266,13 @@
       {
        "name": "George Kittle",
        "pos": "TE",
-       "proj": 16.21,
+       "proj": 16.19,
        "slot": "TE"
       },
       {
        "name": "Cam Little",
        "pos": "K",
-       "proj": 6.96,
+       "proj": 6.97,
        "slot": "K"
       },
       {
@@ -9318,15 +9318,15 @@
      6
     ],
     "projected": [
-     150.37,
-     155.8
+     149.61,
+     155.91
     ],
     "win_prob": [
-     0.448,
-     0.552
+     0.44,
+     0.56
     ],
     "favorite": 6,
-    "spread": 5.43
+    "spread": 6.3
    },
    {
     "key": "w10-m4",
@@ -9336,15 +9336,15 @@
      4
     ],
     "projected": [
-     149.88,
-     170.03
+     149.4,
+     170.29
     ],
     "win_prob": [
-     0.313,
-     0.687
+     0.307,
+     0.693
     ],
     "favorite": 4,
-    "spread": 20.15
+    "spread": 20.89
    },
    {
     "key": "w10-m2",
@@ -9354,15 +9354,15 @@
      5
     ],
     "projected": [
-     158.4,
-     152.28
+     158.86,
+     152.29
     ],
     "win_prob": [
-     0.559,
-     0.441
+     0.563,
+     0.437
     ],
     "favorite": 3,
-    "spread": 6.12
+    "spread": 6.57
    },
    {
     "key": "w10-m3",
@@ -9372,15 +9372,15 @@
      8
     ],
     "projected": [
-     113.41,
-     98.03
+     114.02,
+     97.99
     ],
     "win_prob": [
-     0.645,
-     0.355
+     0.651,
+     0.349
     ],
     "favorite": 7,
-    "spread": 15.38
+    "spread": 16.03
    }
   ],
   "next_week_number": 10,
@@ -9421,7 +9421,7 @@
     "ppg": 14.56,
     "ppg_last2": 32.6,
     "td_share_of_points": 0.31,
-    "proj_next": 12.14
+    "proj_next": 12.1
    },
    {
     "player_id": "6130",
@@ -9459,7 +9459,7 @@
     "ppg": 8.86,
     "ppg_last2": 8.75,
     "td_share_of_points": 0.17,
-    "proj_next": 8.97
+    "proj_next": 8.96
    },
    {
     "player_id": "8132",
@@ -9497,6 +9497,25 @@
     "ppg": 17.73,
     "ppg_last2": 14.55,
     "td_share_of_points": 0.38,
+    "proj_next": 17.77
+   },
+   {
+    "player_id": "7594",
+    "name": "Chuba Hubbard",
+    "pos": "RB",
+    "nfl_team": "CAR",
+    "roster_id": 5,
+    "games": 8,
+    "opps_last2": 25.5,
+    "opps_before": 19.0,
+    "opps_change": 6.5,
+    "snap_last2": 0.91,
+    "snap_before": 0.76,
+    "target_share_last2": 0.18,
+    "rz_opps_season": 23.0,
+    "ppg": 18.32,
+    "ppg_last2": 19.25,
+    "td_share_of_points": 0.29,
     "proj_next": 17.95
    },
    {
@@ -9516,26 +9535,7 @@
     "ppg": 19.96,
     "ppg_last2": 31.3,
     "td_share_of_points": 0.26,
-    "proj_next": 19.65
-   },
-   {
-    "player_id": "7594",
-    "name": "Chuba Hubbard",
-    "pos": "RB",
-    "nfl_team": "CAR",
-    "roster_id": 5,
-    "games": 8,
-    "opps_last2": 25.5,
-    "opps_before": 19.0,
-    "opps_change": 6.5,
-    "snap_last2": 0.91,
-    "snap_before": 0.76,
-    "target_share_last2": 0.18,
-    "rz_opps_season": 23.0,
-    "ppg": 18.32,
-    "ppg_last2": 19.25,
-    "td_share_of_points": 0.29,
-    "proj_next": 17.89
+    "proj_next": 19.83
    },
    {
     "player_id": "8138",
@@ -9554,7 +9554,7 @@
     "ppg": 18.55,
     "ppg_last2": 17.4,
     "td_share_of_points": 0.32,
-    "proj_next": 15.05
+    "proj_next": 15.29
    },
    {
     "player_id": "11584",
@@ -9594,7 +9594,7 @@
     "ppg": 10.36,
     "ppg_last2": 4.55,
     "td_share_of_points": 0.14,
-    "proj_next": 10.09
+    "proj_next": 9.96
    },
    {
     "player_id": "12527",
@@ -9613,7 +9613,7 @@
     "ppg": 15.48,
     "ppg_last2": 8.65,
     "td_share_of_points": 0.17,
-    "proj_next": 12.54
+    "proj_next": 12.53
    },
    {
     "player_id": "12481",
@@ -9654,25 +9654,6 @@
     "proj_next": 17.09
    },
    {
-    "player_id": "3198",
-    "name": "Derrick Henry",
-    "pos": "RB",
-    "nfl_team": "BAL",
-    "roster_id": 8,
-    "games": 9,
-    "opps_last2": 15.0,
-    "opps_before": 22.7,
-    "opps_change": -7.7,
-    "snap_last2": 0.48,
-    "snap_before": 0.57,
-    "target_share_last2": 0.04,
-    "rz_opps_season": 39.0,
-    "ppg": 15.81,
-    "ppg_last2": 9.79,
-    "td_share_of_points": 0.38,
-    "proj_next": 15.53
-   },
-   {
     "player_id": "6806",
     "name": "J.K. Dobbins",
     "pos": "RB",
@@ -9690,6 +9671,25 @@
     "ppg_last2": 2.25,
     "td_share_of_points": 0.29,
     "proj_next": 0.0
+   },
+   {
+    "player_id": "3198",
+    "name": "Derrick Henry",
+    "pos": "RB",
+    "nfl_team": "BAL",
+    "roster_id": 8,
+    "games": 9,
+    "opps_last2": 15.0,
+    "opps_before": 22.7,
+    "opps_change": -7.7,
+    "snap_last2": 0.48,
+    "snap_before": 0.57,
+    "target_share_last2": 0.04,
+    "rz_opps_season": 39.0,
+    "ppg": 15.81,
+    "ppg_last2": 9.79,
+    "td_share_of_points": 0.38,
+    "proj_next": 15.59
    },
    {
     "player_id": "13287",
@@ -9727,7 +9727,7 @@
     "ppg": 26.15,
     "ppg_last2": 19.1,
     "td_share_of_points": 0.32,
-    "proj_next": 24.62
+    "proj_next": 24.68
    },
    {
     "player_id": "8155",
@@ -9749,23 +9749,23 @@
     "proj_next": 9.25
    },
    {
-    "player_id": "2133",
-    "name": "Davante Adams",
-    "pos": "WR",
-    "nfl_team": "LAR",
-    "roster_id": 1,
-    "games": 6,
-    "opps_last2": 5.5,
-    "opps_before": 9.5,
+    "player_id": "12512",
+    "name": "Quinshon Judkins",
+    "pos": "RB",
+    "nfl_team": "CLE",
+    "roster_id": 2,
+    "games": 8,
+    "opps_last2": 14.5,
+    "opps_before": 18.5,
     "opps_change": -4.0,
-    "snap_last2": 0.74,
-    "snap_before": 0.74,
-    "target_share_last2": 0.13,
-    "rz_opps_season": 7.0,
-    "ppg": 17.0,
-    "ppg_last2": 14.5,
-    "td_share_of_points": 0.24,
-    "proj_next": 0.0
+    "snap_last2": 0.36,
+    "snap_before": 0.59,
+    "target_share_last2": 0.04,
+    "rz_opps_season": 23.0,
+    "ppg": 11.51,
+    "ppg_last2": 6.2,
+    "td_share_of_points": 0.2,
+    "proj_next": 10.83
    }
   ],
   "td_dependent": [],
@@ -9775,7 +9775,7 @@
     "name": "Bryce Young",
     "pos": "QB",
     "nfl_team": "CAR",
-    "proj_next": 19.69,
+    "proj_next": 19.73,
     "season_points": 152.58,
     "last_week": 21.34,
     "opps_change": null,
@@ -9786,7 +9786,7 @@
     "name": "Aaron Rodgers",
     "pos": "QB",
     "nfl_team": "PIT",
-    "proj_next": 17.3,
+    "proj_next": 17.57,
     "season_points": 123.14,
     "last_week": 0.0,
     "opps_change": null,
@@ -9797,7 +9797,7 @@
     "name": "J.J. McCarthy",
     "pos": "QB",
     "nfl_team": "NYG",
-    "proj_next": 16.95,
+    "proj_next": 16.94,
     "season_points": 34.98,
     "last_week": 7.28,
     "opps_change": null,
@@ -9808,7 +9808,7 @@
     "name": "Drew Lock",
     "pos": "QB",
     "nfl_team": "SEA",
-    "proj_next": 16.58,
+    "proj_next": 16.48,
     "season_points": 46.78,
     "last_week": 12.6,
     "opps_change": null,
@@ -9837,6 +9837,17 @@
     "snap_last2": null
    },
    {
+    "player_id": "6797",
+    "name": "Justin Herbert",
+    "pos": "QB",
+    "nfl_team": "LAC",
+    "proj_next": 13.43,
+    "season_points": 91.64,
+    "last_week": 11.42,
+    "opps_change": null,
+    "snap_last2": null
+   },
+   {
     "player_id": "3257",
     "name": "Jacoby Brissett",
     "pos": "QB",
@@ -9848,22 +9859,11 @@
     "snap_last2": null
    },
    {
-    "player_id": "6797",
-    "name": "Justin Herbert",
-    "pos": "QB",
-    "nfl_team": "LAC",
-    "proj_next": 13.29,
-    "season_points": 91.64,
-    "last_week": 11.42,
-    "opps_change": null,
-    "snap_last2": null
-   },
-   {
     "player_id": "12522",
     "name": "Cam Ward",
     "pos": "QB",
     "nfl_team": "TEN",
-    "proj_next": 13.14,
+    "proj_next": 12.99,
     "season_points": 105.52,
     "last_week": 0.0,
     "opps_change": null,
@@ -9874,7 +9874,7 @@
     "name": "Carson Wentz",
     "pos": "QB",
     "nfl_team": "MIN",
-    "proj_next": 12.47,
+    "proj_next": 11.97,
     "season_points": 24.78,
     "last_week": -0.76,
     "opps_change": null,
@@ -9896,7 +9896,7 @@
     "name": "Carnell Tate",
     "pos": "WR",
     "nfl_team": "TEN",
-    "proj_next": 13.81,
+    "proj_next": 13.62,
     "season_points": 77.3,
     "last_week": 0.0,
     "opps_change": -0.4,
