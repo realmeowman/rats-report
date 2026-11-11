@@ -1,0 +1,131 @@
+{
+"lead": {
+"kicker": "The Wire",
+"headline": "Waivers ran. Nobody took Bryce Young.",
+"dek": "Three claims went through at 12:10 AM, all from the teams picking fourth and eighth. AB81, Poochinski and deeboliciouskins held their spots, and the best quarterback on the wire is still sitting there for whoever gets to him first.",
+"matchup_key": "w10-m3",
+"roster_ids": [5, 7, 8, 2],
+"pull": "Three claims. Zero of them for Bryce Young.",
+"body": [
+"Waivers processed at Wed 12:10 AM and the big quarterback rush never came. AB81 had the first claim and didn’t use it. Poochinski had the second and didn’t use it. deeboliciouskins had the third and didn’t use it. The order going into next week is exactly what it was: AB81, Poochinski, deeboliciouskins at the top. The only front offices that filed anything were Bad things man bad things, picking eighth, and Santa Clara’s Finest, picking fourth.",
+"Which means Bryce Young is still unrostered. So are Aaron Rodgers and J.J. McCarthy. Per Sleeper’s Week 10 projections Young is at 19.51, Rodgers 17.76, McCarthy 16.84. In a two-QB league with three teams staring at a zero in a quarterback slot, that’s not a wire. That’s a buffet nobody has walked up to yet.",
+"There’s a reasonable read on the patience. Waiver claims lock a team into the processing order; free agency, once waivers clear, is a footrace. Last week this league did all its shopping on Wednesday afternoon: AB81 grabbed Joe Milton at 12:15 PM, Bad things went on its run at 7:58 PM. If AB81 and Poochinski are planning the same thing today, the first one to the add button gets Young and the other gets Rodgers. That’s a 1.75-point difference in projection and a much bigger one in bragging rights.",
+"The one quarterback claim that did go through is the most interesting move of the night. Santa Clara’s Finest added Baker Mayfield and dropped Lamar Jackson, who is on IR with a thumb. Mayfield is a real starter for the stretch run. He’s also on bye this week, so the Finest’s second QB slot is still open for Sunday, next to Joe Burrow (22.43). Even with the hole, the Finest project for 134.19 to AB81’s 95.94 and are 82.2% favorites, because AB81 has six open spots of its own.",
+"Bad things man bad things, picking last, may have won the night anyway. It fixed its defense bye with the Los Angeles Rams D/ST (8.22), finally let go of Malik Willis (now on IR) and Michael Wilson (IR, the most-dropped player in fantasy), and added Josh Downs. The result: Bad things now projects for 163.05 to the champ’s 160.61 and is a 52.3% favorite in a matchup it trailed on paper yesterday. Grades for all three moves are below. The quarterbacks are still out there. Clock’s running."
+]
+},
+"quick_hits": [
+{
+"kicker": "Resolved",
+"headline": "The champ made its Breece Hall call: Hall starts",
+"roster_ids": [3],
+"body": "Maye I touch your TDs? filled the Bucky Irving bye with Breece Hall, the back who scored 11.7 on its bench in the 6.12-point loss. Hall now projects for 11.64, the best of the three options. Yesterday’s question, answered the way this desk would have answered it."
+},
+{
+"kicker": "The empty slot",
+"headline": "What will Bad things do at quarterback?",
+"roster_ids": [5],
+"body": "Dropping Willis left the second QB slot blank, and the bench has two answers: Tyler Shough (17.5) and C.J. Stroud (16.84), who scored 36.36 on this bench this past Sunday. Shough by a nose on projection, Stroud on recent form. Deadline Sun 10:00 AM. Either one beats what was there yesterday."
+},
+{
+"kicker": "AB81",
+"headline": "First in line, six holes, no claim",
+"roster_ids": [8, 7],
+"body": "AB81 is 7-2 and holds waiver priority No. 1, and its best lineup projects for 95.94, the lowest in the league. The holes: QB (Joe Milton on bye), TE (Dallas Goedert on bye), both FLEX spots, DEF, and a WR spot George Kittle (16.13) can cover through a flex shuffle. Five of them need an add. Young (19.51), Isaiah Likely (12.51) at tight end and the Houston Texans D/ST (8.19) are all unrostered."
+},
+{
+"kicker": "Poochinski",
+"headline": "One quarterback away from a coin flip",
+"roster_ids": [2, 4],
+"body": "Caleb Williams is on bye, so Poochinski projects for 149.97 to Cherry Blossom’s 169.2, a 19.23-point gap and a 32.1% chance. Young projects for 19.51. Do the math: one add turns the projection into a dead heat."
+},
+{
+"kicker": "Injury watch",
+"headline": "Pickens is Questionable now, not Out",
+"roster_ids": [6, 4],
+"body": "George Pickens upgraded to Questionable (hamstring) and projects for 13.68, barely ahead of DJ Moore’s 13.1. deeboliciouskins’ easy call just got hard. Meanwhile Cherry Blossom’s Puka Nacua slid from Questionable to Doubtful (knee), which makes Parker Washington (15.12) the likely answer."
+},
+{
+"kicker": "Big Stric Energy",
+"headline": "Still shopping for a kicker",
+"roster_ids": [1, 6],
+"body": "Chase McLaughlin is on bye and Big Stric Energy didn’t claim a replacement. Dominic Zvada (7.32) is the top kicker on the wire. With every fix the bench allows, including Nico Collins (15.03) for the injured Josh Jacobs, it projects for 145.71 to deeboliciouskins’ 156.48, a 39.7% shot."
+}
+],
+"previews": {
+"w10-m1": {
+"headline": "deeboliciouskins needs Mahomes’ elbow to cooperate",
+"blurb": "deeboliciouskins 156.48, Big Stric Energy 145.71, a 60.3% edge. Patrick Mahomes is Questionable and Kyler Murray is Doubtful, so there’s no quarterback behind him.",
+"pick": 6
+},
+"w10-m2": {
+"headline": "Bad things flips the projection",
+"blurb": "A defense and a second quarterback later, Bad things man bad things projects for 163.05 to the champ’s 160.61. A 52.3% favorite. Basically a coin with a Rams logo on it.",
+"pick": 5
+},
+"w10-m3": {
+"headline": "Two QB holes, one Mayfield on bye",
+"blurb": "Santa Clara’s Finest 134.19, AB81 95.94, an 82.2% favorite. AB81 has the waiver priority and the bigger hole. Whoever gets to the free-agent quarterbacks first changes this line.",
+"pick": 7
+},
+"w10-m4": {
+"headline": "Cherry Blossom, unless Poochinski finds a QB",
+"blurb": "Cherry Blossom projects for 169.2, Poochinski 149.97, a 67.9% favorite. Cherry needs Jaylen Warren (17.3) and Parker Washington (15.12) in; Poochinski needs a quarterback.",
+"pick": 4
+}
+},
+"decision_notes": {
+"w10-r7-s0": {
+"headline": "What will the Finest do at QB this week?",
+"blurb": "Mayfield is the future, but he’s on bye. The bench has no answer, so this slot needs an add. Young is the best one available. The Finest pick seventh on waivers now, so it’s a free-agent race."
+},
+"w10-r7-s7": {
+"headline": "The Finest’s Thursday clock",
+"blurb": "J.K. Dobbins is on bye. Garrett Wilson (14.39) is Questionable with a concussion; Cam Skattebo projects for 12.72. This one is due Thu 5:15 PM, the earliest call in the league. My lean: Skattebo, unless Wilson clears the protocol."
+},
+"w10-r6-s4": {
+"headline": "Pickens vs. Moore got close",
+"blurb": "Pickens (Questionable, hamstring) projects for 13.68, DJ Moore for 13.1. Last week the receiver slot scored 0.0. If Pickens isn’t a full go by Sun 10:00 AM, Moore is the safe call."
+},
+"w10-r6-s0": {
+"headline": "Mahomes with nobody behind him",
+"blurb": "Patrick Mahomes is Questionable (elbow) at 18.55, and Kyler Murray is Doubtful. deeboliciouskins kept the third waiver spot instead of hedging. Rodgers and McCarthy are still unrostered if it wants insurance."
+},
+"w10-r5-s10": {
+"headline": "Bad things has its defense",
+"blurb": "The Rams D/ST (8.22) is on the bench and the Chicago Bears D/ST is on bye. Swap due by Sun 1:05 PM."
+},
+"w10-r4-s5": {
+"headline": "Puka is Doubtful now",
+"blurb": "Nacua went from Questionable to Doubtful with the knee. Parker Washington (15.12) is the clear answer over Tre Tucker (9.37). Deadline Sun 10:00 AM."
+}
+},
+"alert_notes": {},
+"trending_notes": {
+"8161": "Malik Willis is on IR with a groin, and off Bad things man bad things’ roster. The Young-for-Willis swap is officially over, and Young is still unrostered.",
+"10232": "Michael Wilson (IR, neck) is the most-dropped player in fantasy. Bad things man bad things dropped him for Josh Downs.",
+"6650": "Chase McLaughlin is on bye and Big Stric Energy still needs a kicker for Sunday.",
+"5849": "Kyler Murray is Doubtful with a hamstring, so deeboliciouskins has no backup behind a Questionable Patrick Mahomes.",
+"12494": "Kyle McCord projects for 12.64 and is unrostered. A fallback if the better quarterbacks go fast.",
+"2505": "Darren Waller is unrostered at 8.37. AB81 needs a tight end, but Isaiah Likely (12.51) is the better add.",
+"12491": "Corey Kiner leads Sleeper in adds and projects for 9.16. A body for AB81’s empty flex spots."
+},
+"move_grades": {
+"2026-11-11-m1": {
+"grade": "A-",
+"blurb": "Bad things man bad things fixed its only real hole with the Los Angeles Rams D/ST (8.22) and cut Malik Willis, now on IR. Picking last and still getting what it needed is a win."
+},
+"2026-11-11-m2": {
+"grade": "B",
+"blurb": "Michael Wilson is on IR with a neck injury; Josh Downs (7.07) is a healthy body. Not a starter on this roster, but a free roster spot used on someone who can play is never wrong."
+},
+"2026-11-11-m3": {
+"grade": "C+",
+"blurb": "Baker Mayfield for Lamar Jackson (IR, thumb) is a smart long-term swap. The timing is the problem: Mayfield is on bye, so it doesn’t fill Sunday’s empty QB slot, and Bryce Young went unclaimed. The Finest still have work to do."
+}
+},
+"external_facts": [
+{"claim": "After Week 10 waivers processed, the waiver order is AB81, Poochinski, deeboliciouskins, Cherry Blossom, Maye I touch your TDs?, Big Stric Energy, Santa Clara’s Finest, Bad things man bad things.", "source": "Sleeper rosters API (data/raw/2026/rosters.json settings.waiver_position, fetched 2026-11-11 5:41 AM PT)"},
+{"claim": "Unrostered in R.A.T.S. with Sleeper Week 10 projections (league scoring): Bryce Young QB 19.51, Aaron Rodgers QB 17.76, J.J. McCarthy QB 16.84, Isaiah Likely TE 12.51, Houston Texans D/ST 8.19, Dominic Zvada K 7.32. Young minus Rodgers is 1.75.", "source": "Sleeper projections API /projections/nfl/regular/2026/10 scored with league scoring_settings, checked against data/raw/2026/rosters.json, 2026-11-11"}
+]
+}
