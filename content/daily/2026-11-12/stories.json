@@ -1,0 +1,123 @@
+{
+"lead": {
+"kicker": "Thursday Night",
+"headline": "Kickoff is tonight. Bryce Young is still unsigned.",
+"dek": "A full day of free agency went by and three teams still have a hole at quarterback. The week starts at 5:15 PM, and deeboliciouskins has three starters in the first game.",
+"matchup_key": "w10-m1",
+"roster_ids": [6, 1, 7, 8, 2],
+"pull": "The plates are still full. The kitchen closes at 5:15.",
+"body": [
+"As of this morning’s 5:42 AM check, Bryce Young is still unrostered. So are Aaron Rodgers and J.J. McCarthy. Yesterday this desk called the wire a buffet nobody had walked up to. A day later the plates are still full. AB81 (Joe Milton on bye), Poochinski (Caleb Williams on bye) and Santa Clara’s Finest (an empty slot, Baker Mayfield on bye) all have a quarterback spot to fill, and the league hasn’t logged a single move since waivers ran.",
+"Today the clock changes. The week starts tonight at 5:15 PM Pacific, and McCarthy (16.83) plays in that game. So do the wire’s best tight end, Isaiah Likely (12.51), and its best kicker, Dominic Zvada (7.1). Anyone who wants one of those three has until kickoff. Young (19.41) and Rodgers (17.76) play Sunday, so the big quarterback race can technically wait. AB81 holds the No. 1 waiver spot and Poochinski the second. Waiting is a strategy right up until somebody else stops waiting.",
+"deeboliciouskins is the R.A.T.S. team with real money on tonight’s game: Jayden Daniels (18.7), Rachaad White (10.94) and Malik Nabers (16.91). That’s 46.55 of its 156.7 projected points going off before anybody else in the league has played a snap. Big Stric Energy has nobody in the game, so it will spend Friday staring at a number it had no say in. The good news for deeboliciouskins came overnight: Patrick Mahomes, Questionable yesterday, is off the injury report and projects for 18.8. That makes it a 60.4% favorite.",
+"The Finest have the other Thursday story, and it’s the earliest decision in the league. Bhayshul Tuten is Questionable with an ankle and projects for 16.3. The backup plan, Cam Skattebo (12.73), plays tonight. Once Skattebo kicks off at 5:15 PM he can’t be slid into Sunday’s lineup, so the Finest have to make the Tuten call days before Sunday’s inactives come out. Stefon Diggs (11.02) is already in the lineup for tonight.",
+"Everywhere else the week sets up like this. Bad things man bad things put Tyler Shough in its empty quarterback slot and is a 52.4% favorite over the champ. Cherry Blossom is a 67.5% favorite over Poochinski, if it plays Jaylen Warren and Parker Washington. And AB81, 7-2 and tied for first, projects for 95.9, the lowest number in the league, with five lineup holes the bench can’t fill. Picks for all four games are below."
+]
+},
+"quick_hits": [
+{
+"kicker": "Resolved",
+"headline": "Bad things went with Shough",
+"roster_ids": [5],
+"body": "Yesterday’s question, answered: Tyler Shough (17.5) took the empty quarterback slot next to C.J. Stroud, and the Los Angeles Rams D/ST (8.7) replaced the Chicago Bears D/ST, who are on bye. Kirk Cousins (14.76) sits. Bad things’ lineup as set now projects for 164.21, exactly its best possible lineup. Nothing left to fix."
+},
+{
+"kicker": "Cleared",
+"headline": "Mahomes is off the injury report",
+"roster_ids": [6],
+"body": "The elbow that had deeboliciouskins sweating yesterday no longer shows up on the report, and Patrick Mahomes projects for 18.8. Kyler Murray is still Doubtful (hamstring), so there’s still no backup. Probably fine now."
+},
+{
+"kicker": "Cherry Blossom",
+"headline": "Puka is Out. Goff is Questionable.",
+"roster_ids": [4, 2],
+"body": "Puka Nacua went from Doubtful to Out (knee, MCL), and Jared Goff is Questionable with a chest injury. As the lineup sits right now, Cherry Blossom projects for 136.67, behind Poochinski’s 139.44. Put in Jaylen Warren (17.3) for the Jonah Coleman bye and Parker Washington (15.12) for Nacua and it’s 169.09. Michael Penix Jr. (15.08) is the Goff insurance."
+},
+{
+"kicker": "Same game",
+"headline": "Maye’s receiver call hits both sides of one game",
+"roster_ids": [3],
+"body": "Amon-Ra St. Brown is Questionable with ribs (19.5). The answer on the bench, A.J. Brown (14.36), is Questionable with a knee, and the two play each other in Sunday’s early game. That call is due Sun 6:30 AM. Harold Fannin Jr. (groin) is Questionable too, with no tight end behind him."
+},
+{
+"kicker": "Big Stric Energy",
+"headline": "Want Zvada? Add him by 5:15",
+"roster_ids": [1],
+"body": "Chase McLaughlin is on bye, and the wire’s best kicker plays tonight. Dominic Zvada projects for 7.1; miss the window and Tyler Bass (6.95) plays Sunday. The other fix is Josh Jacobs, now Out (finger): a flex shuffle brings in Nico Collins (15.34)."
+},
+{
+"kicker": "AB81",
+"headline": "First in line, still holding",
+"roster_ids": [8, 7],
+"body": "AB81’s lineup as set projects for 79.77 and its best for 95.9. QB, TE, both FLEX spots and DEF all need an add, and George Kittle (16.13) can cover the open WR spot through a flex shuffle by Sun 1:25 PM. It’s a 17.9% shot against the Finest. Five adds would change that."
+}
+],
+"previews": {
+"w10-m1": {
+"headline": "deeboliciouskins gets a head start tonight",
+"blurb": "deeboliciouskins 156.7, Big Stric Energy 145.8, a 60.4% favorite with Mahomes cleared. Daniels, White and Nabers all play tonight. Big Stric needs a kicker and Nico Collins in for Josh Jacobs, and it can’t afford a bad Thursday from the other side. Big Stric’s playoff odds sit at 25.9%.",
+"pick": 6
+},
+"w10-m2": {
+"headline": "The champ against a finished lineup",
+"blurb": "Bad things man bad things 164.21, Maye I touch your TDs? 161.72, a 52.4% edge. Bad things has nothing left to set. Maye is sweating St. Brown and Fannin. The closest matchup of the week, and the champ’s 70.4% playoff odds are on the line.",
+"pick": 5
+},
+"w10-m3": {
+"headline": "The Finest, by a quarterback or two",
+"blurb": "Santa Clara’s Finest 133.92, AB81 95.9, an 82.1% favorite. Both teams need a quarterback, and the Finest must decide on Tuten by 5:15 PM tonight. AB81 has the waiver priority and five holes. The 7-2 team is the big underdog here.",
+"pick": 7
+},
+"w10-m4": {
+"headline": "Cherry Blossom, once it sets the lineup",
+"blurb": "Cherry Blossom 169.09, Poochinski 150.33, a 67.5% favorite. As set, Poochinski leads 139.44 to 136.67. Cherry needs Warren and Washington in, and Poochinski needs a quarterback for the Caleb Williams bye.",
+"pick": 4
+}
+},
+"decision_notes": {
+"w10-r7-s3": {
+"headline": "The Finest’s 5:15 PM call: Tuten or Skattebo?",
+"blurb": "Tuten projects for 16.3 with an ankle tag. Skattebo projects for 12.73 and plays tonight, so the hedge is gone after kickoff. My lean: start Skattebo only if the Finest can’t stomach a zero. Tuten’s ceiling is the reason they’re 82.1% favorites."
+},
+"w10-r7-s0": {
+"headline": "Where will the Finest find a quarterback?",
+"blurb": "The bench has no answer and Mayfield is on bye. McCarthy (16.83) plays tonight; Young (19.41) and Rodgers (17.76) play Sunday. The Finest pick seventh, so this is a free-agent race, and the best quarterback is still sitting there."
+},
+"w10-r8-s0": {
+"headline": "AB81 has the first pick and no quarterback",
+"blurb": "Joe Milton is on bye and Matthew Stafford (16.63) is the only quarterback playing. Young is the obvious add. AB81 went 7-2 by beating the projections; this week it doesn’t have to."
+},
+"w10-r2-s0": {
+"headline": "What will Poochinski do at QB?",
+"blurb": "Caleb Williams is on bye and the bench has no quarterback. Dak Prescott (18.67) is the only one playing. A Young or Rodgers add closes most of the gap to Cherry Blossom."
+},
+"w10-r3-s4": {
+"headline": "St. Brown or A.J. Brown, same game",
+"blurb": "Both Questionable, both playing in the Sun 6:30 AM game. If St. Brown (19.5) is active, he starts. If he isn’t, A.J. Brown (14.36) has a knee tag of his own."
+},
+"w10-r4-s0": {
+"headline": "Goff or Penix?",
+"blurb": "Goff (chest) projects for 18.84; Penix for 15.08. Goff plays in the Sun 6:30 AM game, so Cherry Blossom will know early. Start Goff if he’s active."
+},
+"w10-r1-s9": {
+"headline": "Big Stric still needs a kicker",
+"blurb": "The bench has no kicker. Zvada (7.1) plays tonight; Bass (6.95) plays Sunday. Pick one. They’re 0.15 points apart."
+}
+},
+"alert_notes": {},
+"trending_notes": {
+"12491": "Corey Kiner leads Sleeper in adds again and projects for 11.76. Unrostered, and a body for one of AB81’s empty flex spots.",
+"13269": "Fernando Mendoza projects for 11.57 and is unrostered. A distant option behind Young, Rodgers and McCarthy for the three teams that need a quarterback.",
+"IND": "The Indianapolis Colts D/ST (8.03) is trending and unrostered. AB81 needs a defense with the Philadelphia Eagles D/ST on bye.",
+"2505": "Darren Waller (8.37) is still unrostered. AB81 and Maye I touch your TDs? could use a tight end, but Isaiah Likely is the better add.",
+"6650": "Chase McLaughlin is one of the most-dropped players in fantasy this week. Big Stric Energy still has him, on bye, in its kicker slot.",
+"5849": "Kyler Murray is still Doubtful (hamstring). Mahomes is cleared, so deeboliciouskins can live with it."
+},
+"move_grades": {},
+"external_facts": [
+{"claim": "Week 10 Thursday night game: WAS at NYG, 8:15 PM ET (5:15 PM PT), Thursday 2026-11-12. Sunday's earliest game is NE vs. DET.", "source": "nflverse schedule, data/raw/games.csv (game_ids 2026_10_WAS_NYG, 2026_10_NE_DET), fetched 2026-11-12"},
+{"claim": "deeboliciouskins starters in the Thursday game project for 46.55 combined: Jayden Daniels 18.7 + Rachaad White 10.94 + Malik Nabers 16.91.", "source": "Sum of proj values in content/daily/2026-11-12/facts.json"},
+{"claim": "Unrostered in R.A.T.S. with Sleeper Week 10 projections (league scoring): Bryce Young QB 19.41, Aaron Rodgers QB 17.76, J.J. McCarthy QB (NYG) 16.83, Isaiah Likely TE (NYG) 12.51, Pat Freiermuth TE 11.14, Dominic Zvada K (NYG) 7.1, Tyler Bass K 6.95, Houston Texans D/ST 8.35. Zvada minus Bass is 0.15.", "source": "Sleeper projections API /projections/nfl/regular/2026/10 scored with league scoring_settings, checked against the league rosters API, 2026-11-12"},
+{"claim": "Waiver order is unchanged: AB81 first, Poochinski second, Santa Clara’s Finest seventh.", "source": "Sleeper rosters API settings.waiver_position, 2026-11-12"}
+]
+}
