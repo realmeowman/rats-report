@@ -1,0 +1,3454 @@
+{
+ "date": "2026-11-13",
+ "weekday": "Friday",
+ "edition_type": "lineup_watch",
+ "lineups_matter": true,
+ "generated_at": "2026-11-13T06:50-08:00",
+ "season": "2026",
+ "week": 10,
+ "teams": {
+  "1": {
+   "name": "Big Stric Energy",
+   "record": "2-7",
+   "pf": 1308.4
+  },
+  "2": {
+   "name": "Poochinski",
+   "record": "7-2",
+   "pf": 1514.48
+  },
+  "3": {
+   "name": "Maye I touch your TDs?",
+   "record": "2-7",
+   "pf": 1414.22
+  },
+  "4": {
+   "name": "Cherry Blossom",
+   "record": "5-4",
+   "pf": 1502.96
+  },
+  "5": {
+   "name": "Bad things man bad things",
+   "record": "7-2",
+   "pf": 1505.3
+  },
+  "6": {
+   "name": "deeboliciouskins",
+   "record": "4-5",
+   "pf": 1447.46
+  },
+  "7": {
+   "name": "Santa Clara\u2019s Finest",
+   "record": "2-7",
+   "pf": 1242.56
+  },
+  "8": {
+   "name": "AB81",
+   "record": "7-2",
+   "pf": 1353.58
+  }
+ },
+ "standings_context": {
+  "1": {
+   "playoff_odds": 0.259,
+   "all_play": "23-40",
+   "luck": -1.3,
+   "projected_final_wins": 4.1
+  },
+  "2": {
+   "playoff_odds": 1.0,
+   "all_play": "40-23",
+   "luck": 1.3,
+   "projected_final_wins": 10.1
+  },
+  "3": {
+   "playoff_odds": 0.704,
+   "all_play": "28-35",
+   "luck": -2.0,
+   "projected_final_wins": 4.7
+  },
+  "4": {
+   "playoff_odds": 1.0,
+   "all_play": "37-26",
+   "luck": -0.3,
+   "projected_final_wins": 8.3
+  },
+  "5": {
+   "playoff_odds": 1.0,
+   "all_play": "42-21",
+   "luck": 1.0,
+   "projected_final_wins": 10.1
+  },
+  "6": {
+   "playoff_odds": 0.982,
+   "all_play": "33-30",
+   "luck": -0.7,
+   "projected_final_wins": 6.8
+  },
+  "7": {
+   "playoff_odds": 0.056,
+   "all_play": "20-43",
+   "luck": -0.9,
+   "projected_final_wins": 3.3
+  },
+  "8": {
+   "playoff_odds": 1.0,
+   "all_play": "29-34",
+   "luck": 2.9,
+   "projected_final_wins": 8.5
+  }
+ },
+ "matchups": [
+  {
+   "key": "w10-m1",
+   "matchup_id": 1,
+   "teams": [
+    1,
+    6
+   ],
+   "projected": [
+    140.89,
+    145.41
+   ],
+   "projection_basis": "points banked plus best available lineups",
+   "live_projection": [
+    140.89,
+    145.41
+   ],
+   "yet_to_play": [
+    [
+     "Josh Allen",
+     "Jordan Love",
+     "Braelon Allen",
+     "Ashton Jeanty",
+     "Nico Collins",
+     "Justin Jefferson",
+     "Dalton Kincaid",
+     "Jalen Coker",
+     "Rashee Rice",
+     "Jacksonville Jaguars D/ST"
+    ],
+    [
+     "Patrick Mahomes",
+     "Jonathan Taylor",
+     "George Pickens",
+     "Ja'Marr Chase",
+     "Tyler Warren",
+     "Jason Myers",
+     "Kansas City Chiefs D/ST"
+    ]
+   ],
+   "playing_now": [
+    [],
+    []
+   ],
+   "projected_as_set": [
+    139.98,
+    141.32
+   ],
+   "projected_best": [
+    140.89,
+    155.22
+   ],
+   "live": [
+    0.0,
+    36.36
+   ],
+   "win_prob": [
+    0.452,
+    0.548
+   ],
+   "sides": [
+    {
+     "roster_id": 1,
+     "live_points": 0.0,
+     "projected_set_lineup": 139.98,
+     "projected_best_lineup": 140.89,
+     "live_projection": 140.89,
+     "remaining_projection": 139.98,
+     "yet_to_play": [
+      "Josh Allen",
+      "Jordan Love",
+      "Braelon Allen",
+      "Ashton Jeanty",
+      "Nico Collins",
+      "Justin Jefferson",
+      "Dalton Kincaid",
+      "Jalen Coker",
+      "Rashee Rice",
+      "Jacksonville Jaguars D/ST"
+     ],
+     "playing_now": [],
+     "starters": [
+      {
+       "id": "4984",
+       "name": "Josh Allen",
+       "pos": "QB",
+       "nfl_team": "BUF",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794322550611,
+       "slot": "QB",
+       "proj": 24.54,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "6804",
+       "name": "Jordan Love",
+       "pos": "QB",
+       "nfl_team": "GB",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794494734698,
+       "slot": "QB",
+       "proj": 17.43,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "11576",
+       "name": "Braelon Allen",
+       "pos": "RB",
+       "nfl_team": "NYJ",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794504658447,
+       "slot": "RB",
+       "proj": 7.9,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "12527",
+       "name": "Ashton Jeanty",
+       "pos": "RB",
+       "nfl_team": "LV",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794498935058,
+       "slot": "RB",
+       "proj": 11.94,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "7569",
+       "name": "Nico Collins",
+       "pos": "WR",
+       "nfl_team": "HOU",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794456930427,
+       "slot": "WR",
+       "proj": 14.78,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "6794",
+       "name": "Justin Jefferson",
+       "pos": "WR",
+       "nfl_team": "MIN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794537325607,
+       "slot": "WR",
+       "proj": 17.64,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "10236",
+       "name": "Dalton Kincaid",
+       "pos": "TE",
+       "nfl_team": "BUF",
+       "injury": "Questionable",
+       "injury_body": "Ankle",
+       "news_updated": 1794519023754,
+       "slot": "TE",
+       "proj": 9.84,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "11646",
+       "name": "Jalen Coker",
+       "pos": "WR",
+       "nfl_team": "CAR",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794498035031,
+       "slot": "FLEX",
+       "proj": 12.94,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "10229",
+       "name": "Rashee Rice",
+       "pos": "WR",
+       "nfl_team": "KC",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794435929666,
+       "slot": "FLEX",
+       "proj": 14.29,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "6650",
+       "name": "Chase McLaughlin",
+       "pos": "K",
+       "nfl_team": "TB",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794278444652,
+       "slot": "K",
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true,
+       "game_state": "bye"
+      },
+      {
+       "id": "JAX",
+       "name": "Jacksonville Jaguars D/ST",
+       "pos": "DEF",
+       "nfl_team": "JAX",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": null,
+       "slot": "DEF",
+       "proj": 8.68,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      }
+     ],
+     "bench": [
+      {
+       "id": "1373",
+       "name": "Geno Smith",
+       "pos": "QB",
+       "nfl_team": "NYJ",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794410425406,
+       "proj": 16.41,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "5846",
+       "name": "DK Metcalf",
+       "pos": "WR",
+       "nfl_team": "PIT",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794496234828,
+       "proj": 12.5,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "9484",
+       "name": "Tucker Kraft",
+       "pos": "TE",
+       "nfl_team": "GB",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794498935056,
+       "proj": 10.75,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "2133",
+       "name": "Davante Adams",
+       "pos": "WR",
+       "nfl_team": "LAR",
+       "injury": "IR",
+       "injury_body": "Hamstring",
+       "news_updated": 1794495335009,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "4866",
+       "name": "Saquon Barkley",
+       "pos": "RB",
+       "nfl_team": "PHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794232829597,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "5850",
+       "name": "Josh Jacobs",
+       "pos": "RB",
+       "nfl_team": "GB",
+       "injury": "Out",
+       "injury_body": "Finger",
+       "news_updated": 1794505523622,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": false
+      }
+     ]
+    },
+    {
+     "roster_id": 6,
+     "live_points": 36.36,
+     "projected_set_lineup": 141.32,
+     "projected_best_lineup": 155.22,
+     "live_projection": 145.41,
+     "remaining_projection": 95.15,
+     "yet_to_play": [
+      "Patrick Mahomes",
+      "Jonathan Taylor",
+      "George Pickens",
+      "Ja'Marr Chase",
+      "Tyler Warren",
+      "Jason Myers",
+      "Kansas City Chiefs D/ST"
+     ],
+     "playing_now": [],
+     "starters": [
+      {
+       "id": "4046",
+       "name": "Patrick Mahomes",
+       "pos": "QB",
+       "nfl_team": "KC",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794579030107,
+       "slot": "QB",
+       "proj": 18.59,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "11566",
+       "name": "Jayden Daniels",
+       "pos": "QB",
+       "nfl_team": "WAS",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794565229863,
+       "slot": "QB",
+       "proj": 18.78,
+       "live": 22.76,
+       "on_bye": false,
+       "game_state": "final"
+      },
+      {
+       "id": "6813",
+       "name": "Jonathan Taylor",
+       "pos": "RB",
+       "nfl_team": "IND",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794506422122,
+       "slot": "RB",
+       "proj": 16.59,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "6790",
+       "name": "D'Andre Swift",
+       "pos": "RB",
+       "nfl_team": "CHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794219628147,
+       "slot": "RB",
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true,
+       "game_state": "bye"
+      },
+      {
+       "id": "8137",
+       "name": "George Pickens",
+       "pos": "WR",
+       "nfl_team": "DAL",
+       "injury": "Questionable",
+       "injury_body": "Hamstring",
+       "news_updated": 1794529224554,
+       "slot": "WR",
+       "proj": 13.68,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "7564",
+       "name": "Ja'Marr Chase",
+       "pos": "WR",
+       "nfl_team": "CIN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794167122631,
+       "slot": "WR",
+       "proj": 19.89,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "12518",
+       "name": "Tyler Warren",
+       "pos": "TE",
+       "nfl_team": "IND",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794431727887,
+       "slot": "TE",
+       "proj": 12.64,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8136",
+       "name": "Rachaad White",
+       "pos": "RB",
+       "nfl_team": "WAS",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794565229853,
+       "slot": "FLEX",
+       "proj": 10.98,
+       "live": 6.2,
+       "on_bye": false,
+       "game_state": "final"
+      },
+      {
+       "id": "11632",
+       "name": "Malik Nabers",
+       "pos": "WR",
+       "nfl_team": "NYG",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794577829911,
+       "slot": "FLEX",
+       "proj": 16.41,
+       "live": 7.4,
+       "on_bye": false,
+       "game_state": "final"
+      },
+      {
+       "id": "2747",
+       "name": "Jason Myers",
+       "pos": "K",
+       "nfl_team": "SEA",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794279944856,
+       "slot": "K",
+       "proj": 7.08,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "KC",
+       "name": "Kansas City Chiefs D/ST",
+       "pos": "DEF",
+       "nfl_team": "KC",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": null,
+       "slot": "DEF",
+       "proj": 6.68,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      }
+     ],
+     "bench": [
+      {
+       "id": "5967",
+       "name": "Tony Pollard",
+       "pos": "RB",
+       "nfl_team": "TEN",
+       "injury": "Questionable",
+       "injury_body": "Finger",
+       "news_updated": 1794519324955,
+       "proj": 12.58,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "4983",
+       "name": "DJ Moore",
+       "pos": "WR",
+       "nfl_team": "BUF",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794319550190,
+       "proj": 12.3,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "5844",
+       "name": "T.J. Hockenson",
+       "pos": "TE",
+       "nfl_team": "MIN",
+       "injury": "Questionable",
+       "injury_body": "Wrist",
+       "news_updated": 1794555029331,
+       "proj": 10.65,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "MIN",
+       "name": "Minnesota Vikings D/ST",
+       "pos": "DEF",
+       "nfl_team": "MIN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": null,
+       "proj": 6.66,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "5849",
+       "name": "Kyler Murray",
+       "pos": "QB",
+       "nfl_team": "MIN",
+       "injury": "Doubtful",
+       "injury_body": "Hamstring",
+       "news_updated": 1794426028767,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": false
+      }
+     ]
+    }
+   ],
+   "games_started": true
+  },
+  {
+   "key": "w10-m2",
+   "matchup_id": 2,
+   "teams": [
+    3,
+    5
+   ],
+   "projected": [
+    158.89,
+    165.49
+   ],
+   "projection_basis": "best available lineups",
+   "live_projection": [
+    158.89,
+    165.49
+   ],
+   "yet_to_play": [
+    [
+     "Brock Purdy",
+     "Drake Maye",
+     "Breece Hall",
+     "Tyler Allgeier",
+     "Amon-Ra St. Brown",
+     "Zay Flowers",
+     "Harold Fannin Jr.",
+     "Christian Watson",
+     "Drake London",
+     "Matt Gay",
+     "Cleveland Browns D/ST"
+    ],
+    [
+     "C.J. Stroud",
+     "Tyler Shough",
+     "Bijan Robinson",
+     "Chuba Hubbard",
+     "Tetairoa McMillan",
+     "Matthew Golden",
+     "Trey McBride",
+     "Ollie Gordon II",
+     "James Cook III",
+     "Evan McPherson",
+     "Los Angeles Rams D/ST"
+    ]
+   ],
+   "playing_now": [
+    [],
+    []
+   ],
+   "projected_as_set": [
+    158.89,
+    165.49
+   ],
+   "projected_best": [
+    158.89,
+    165.49
+   ],
+   "live": [
+    0.0,
+    0.0
+   ],
+   "win_prob": [
+    0.437,
+    0.563
+   ],
+   "sides": [
+    {
+     "roster_id": 3,
+     "live_points": 0.0,
+     "projected_set_lineup": 158.89,
+     "projected_best_lineup": 158.89,
+     "live_projection": 158.89,
+     "remaining_projection": 158.89,
+     "yet_to_play": [
+      "Brock Purdy",
+      "Drake Maye",
+      "Breece Hall",
+      "Tyler Allgeier",
+      "Amon-Ra St. Brown",
+      "Zay Flowers",
+      "Harold Fannin Jr.",
+      "Christian Watson",
+      "Drake London",
+      "Matt Gay",
+      "Cleveland Browns D/ST"
+     ],
+     "playing_now": [],
+     "starters": [
+      {
+       "id": "8183",
+       "name": "Brock Purdy",
+       "pos": "QB",
+       "nfl_team": "SF",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794208525420,
+       "slot": "QB",
+       "proj": 22.5,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "11564",
+       "name": "Drake Maye",
+       "pos": "QB",
+       "nfl_team": "NE",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794507622404,
+       "slot": "QB",
+       "proj": 22.83,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8155",
+       "name": "Breece Hall",
+       "pos": "RB",
+       "nfl_team": "NYJ",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794331850073,
+       "slot": "RB",
+       "proj": 11.93,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8132",
+       "name": "Tyler Allgeier",
+       "pos": "RB",
+       "nfl_team": "ARI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794203726249,
+       "slot": "RB",
+       "proj": 9.94,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "7547",
+       "name": "Amon-Ra St. Brown",
+       "pos": "WR",
+       "nfl_team": "DET",
+       "injury": "Questionable",
+       "injury_body": "Ribs",
+       "news_updated": 1794521424969,
+       "slot": "WR",
+       "proj": 19.24,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "9997",
+       "name": "Zay Flowers",
+       "pos": "WR",
+       "nfl_team": "BAL",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794498335132,
+       "slot": "WR",
+       "proj": 16.45,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "12506",
+       "name": "Harold Fannin Jr.",
+       "pos": "TE",
+       "nfl_team": "CLE",
+       "injury": "Questionable",
+       "injury_body": "Groin",
+       "news_updated": 1794523524366,
+       "slot": "TE",
+       "proj": 10.49,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8167",
+       "name": "Christian Watson",
+       "pos": "WR",
+       "nfl_team": "GB",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794192624066,
+       "slot": "FLEX",
+       "proj": 15.59,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8112",
+       "name": "Drake London",
+       "pos": "WR",
+       "nfl_team": "ATL",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794185422680,
+       "slot": "FLEX",
+       "proj": 16.69,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "6083",
+       "name": "Matt Gay",
+       "pos": "K",
+       "nfl_team": "LV",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794279944854,
+       "slot": "K",
+       "proj": 6.98,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "CLE",
+       "name": "Cleveland Browns D/ST",
+       "pos": "DEF",
+       "nfl_team": "CLE",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": null,
+       "slot": "DEF",
+       "proj": 6.25,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      }
+     ],
+     "bench": [
+      {
+       "id": "5859",
+       "name": "A.J. Brown",
+       "pos": "WR",
+       "nfl_team": "NE",
+       "injury": "Questionable",
+       "injury_body": "Knee",
+       "news_updated": 1794575729659,
+       "proj": 14.24,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "4199",
+       "name": "Aaron Jones Sr.",
+       "pos": "RB",
+       "nfl_team": "MIN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794323750861,
+       "proj": 8.97,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "12507",
+       "name": "Omarion Hampton",
+       "pos": "RB",
+       "nfl_team": "LAC",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794242130218,
+       "proj": 7.83,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "11584",
+       "name": "Bucky Irving",
+       "pos": "RB",
+       "nfl_team": "TB",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794254146039,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "7526",
+       "name": "Jaylen Waddle",
+       "pos": "WR",
+       "nfl_team": "DEN",
+       "injury": "Out",
+       "injury_body": "Head",
+       "news_updated": 1794196523932,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      }
+     ]
+    },
+    {
+     "roster_id": 5,
+     "live_points": 0.0,
+     "projected_set_lineup": 165.49,
+     "projected_best_lineup": 165.49,
+     "live_projection": 165.49,
+     "remaining_projection": 165.49,
+     "yet_to_play": [
+      "C.J. Stroud",
+      "Tyler Shough",
+      "Bijan Robinson",
+      "Chuba Hubbard",
+      "Tetairoa McMillan",
+      "Matthew Golden",
+      "Trey McBride",
+      "Ollie Gordon II",
+      "James Cook III",
+      "Evan McPherson",
+      "Los Angeles Rams D/ST"
+     ],
+     "playing_now": [],
+     "starters": [
+      {
+       "id": "9758",
+       "name": "C.J. Stroud",
+       "pos": "QB",
+       "nfl_team": "HOU",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794234029418,
+       "slot": "QB",
+       "proj": 17.09,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "12545",
+       "name": "Tyler Shough",
+       "pos": "QB",
+       "nfl_team": "NO",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794416426068,
+       "slot": "QB",
+       "proj": 17.88,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "9509",
+       "name": "Bijan Robinson",
+       "pos": "RB",
+       "nfl_team": "ATL",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794406525090,
+       "slot": "RB",
+       "proj": 20.12,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "7594",
+       "name": "Chuba Hubbard",
+       "pos": "RB",
+       "nfl_team": "CAR",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794511822848,
+       "slot": "RB",
+       "proj": 17.89,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "12526",
+       "name": "Tetairoa McMillan",
+       "pos": "WR",
+       "nfl_team": "CAR",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794188124484,
+       "slot": "WR",
+       "proj": 15.54,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "12501",
+       "name": "Matthew Golden",
+       "pos": "WR",
+       "nfl_team": "GB",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794195923872,
+       "slot": "WR",
+       "proj": 15.29,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8130",
+       "name": "Trey McBride",
+       "pos": "TE",
+       "nfl_team": "ARI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794203726219,
+       "slot": "TE",
+       "proj": 14.98,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "12495",
+       "name": "Ollie Gordon II",
+       "pos": "RB",
+       "nfl_team": "MIA",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794497734834,
+       "slot": "FLEX",
+       "proj": 13.29,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8138",
+       "name": "James Cook III",
+       "pos": "RB",
+       "nfl_team": "BUF",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794321950736,
+       "slot": "FLEX",
+       "proj": 17.28,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "7839",
+       "name": "Evan McPherson",
+       "pos": "K",
+       "nfl_team": "CIN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794200424965,
+       "slot": "K",
+       "proj": 7.43,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "LAR",
+       "name": "Los Angeles Rams D/ST",
+       "pos": "DEF",
+       "nfl_team": "LAR",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": null,
+       "slot": "DEF",
+       "proj": 8.7,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      }
+     ],
+     "bench": [
+      {
+       "id": "1166",
+       "name": "Kirk Cousins",
+       "pos": "QB",
+       "nfl_team": "MIN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794580230051,
+       "proj": 14.66,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "9753",
+       "name": "Zach Charbonnet",
+       "pos": "RB",
+       "nfl_team": "SEA",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794411625681,
+       "proj": 12.41,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "11635",
+       "name": "Ladd McConkey",
+       "pos": "WR",
+       "nfl_team": "LAC",
+       "injury": "Questionable",
+       "injury_body": "Back",
+       "news_updated": 1794555929287,
+       "proj": 11.71,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "9500",
+       "name": "Josh Downs",
+       "pos": "WR",
+       "nfl_team": "KC",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794428427230,
+       "proj": 6.34,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "CHI",
+       "name": "Chicago Bears D/ST",
+       "pos": "DEF",
+       "nfl_team": "CHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": null,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      }
+     ]
+    }
+   ],
+   "games_started": false
+  },
+  {
+   "key": "w10-m3",
+   "matchup_id": 3,
+   "teams": [
+    7,
+    8
+   ],
+   "projected": [
+    193.64,
+    93.76
+   ],
+   "projection_basis": "points banked plus best available lineups",
+   "live_projection": [
+    193.64,
+    93.76
+   ],
+   "yet_to_play": [
+    [
+     "Joe Burrow",
+     "Bryce Young",
+     "Kenneth Walker III",
+     "Bhayshul Tuten",
+     "Denzel Boston",
+     "Blake Corum",
+     "Spencer Shrader",
+     "Houston Texans D/ST"
+    ],
+    [
+     "Matthew Stafford",
+     "Derrick Henry",
+     "Kyren Williams",
+     "Jaxon Smith-Njigba",
+     "Rhamondre Stevenson",
+     "Cam Little"
+    ]
+   ],
+   "playing_now": [
+    [],
+    []
+   ],
+   "projected_as_set": [
+    149.34,
+    78.49
+   ],
+   "projected_best": [
+    153.35,
+    93.76
+   ],
+   "live": [
+    75.2,
+    0.0
+   ],
+   "win_prob": [
+    0.996,
+    0.004
+   ],
+   "sides": [
+    {
+     "roster_id": 7,
+     "live_points": 75.2,
+     "projected_set_lineup": 149.34,
+     "projected_best_lineup": 153.35,
+     "live_projection": 193.64,
+     "remaining_projection": 114.43,
+     "yet_to_play": [
+      "Joe Burrow",
+      "Bryce Young",
+      "Kenneth Walker III",
+      "Bhayshul Tuten",
+      "Denzel Boston",
+      "Blake Corum",
+      "Spencer Shrader",
+      "Houston Texans D/ST"
+     ],
+     "playing_now": [],
+     "starters": [
+      {
+       "id": "6770",
+       "name": "Joe Burrow",
+       "pos": "QB",
+       "nfl_team": "CIN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794461731012,
+       "slot": "QB",
+       "proj": 22.47,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "9228",
+       "name": "Bryce Young",
+       "pos": "QB",
+       "nfl_team": "CAR",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794463531128,
+       "slot": "QB",
+       "proj": 18.91,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8151",
+       "name": "Kenneth Walker III",
+       "pos": "RB",
+       "nfl_team": "KC",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794176722024,
+       "slot": "RB",
+       "proj": 20.84,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "12490",
+       "name": "Bhayshul Tuten",
+       "pos": "RB",
+       "nfl_team": "JAX",
+       "injury": "Questionable",
+       "injury_body": "Ankle",
+       "news_updated": 1794524425485,
+       "slot": "RB",
+       "proj": 14.1,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "13346",
+       "name": "Denzel Boston",
+       "pos": "WR",
+       "nfl_team": "CLE",
+       "injury": "Questionable",
+       "injury_body": "Toe",
+       "news_updated": 1794510922654,
+       "slot": "WR",
+       "proj": 10.33,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "2449",
+       "name": "Stefon Diggs",
+       "pos": "WR",
+       "nfl_team": "WAS",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794565829762,
+       "slot": "WR",
+       "proj": 10.24,
+       "live": 20.3,
+       "on_bye": false,
+       "game_state": "final"
+      },
+      {
+       "id": "8131",
+       "name": "Isaiah Likely",
+       "pos": "TE",
+       "nfl_team": "NYG",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794567930226,
+       "slot": "TE",
+       "proj": 12.33,
+       "live": 27.7,
+       "on_bye": false,
+       "game_state": "final"
+      },
+      {
+       "id": "12481",
+       "name": "Cam Skattebo",
+       "pos": "RB",
+       "nfl_team": "NYG",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794567330286,
+       "slot": "FLEX",
+       "proj": 12.34,
+       "live": 27.2,
+       "on_bye": false,
+       "game_state": "final"
+      },
+      {
+       "id": "11586",
+       "name": "Blake Corum",
+       "pos": "RB",
+       "nfl_team": "LAR",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794461731011,
+       "slot": "FLEX",
+       "proj": 11.06,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "12185",
+       "name": "Spencer Shrader",
+       "pos": "K",
+       "nfl_team": "IND",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794198324693,
+       "slot": "K",
+       "proj": 8.45,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "HOU",
+       "name": "Houston Texans D/ST",
+       "pos": "DEF",
+       "nfl_team": "HOU",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": null,
+       "slot": "DEF",
+       "proj": 8.27,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      }
+     ],
+     "bench": [
+      {
+       "id": "8146",
+       "name": "Garrett Wilson",
+       "pos": "WR",
+       "nfl_team": "NYJ",
+       "injury": "Questionable",
+       "injury_body": "Concussion",
+       "news_updated": 1794525924172,
+       "proj": 14.25,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "12489",
+       "name": "RJ Harvey",
+       "pos": "RB",
+       "nfl_team": "DEN",
+       "injury": "IR",
+       "injury_body": "Knee",
+       "news_updated": 1793478626561,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "12517",
+       "name": "Colston Loveland",
+       "pos": "TE",
+       "nfl_team": "CHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794220828174,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "13287",
+       "name": "Jeremiyah Love",
+       "pos": "RB",
+       "nfl_team": "ARI",
+       "injury": "IR",
+       "injury_body": "Ankle",
+       "news_updated": 1793740528278,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "4892",
+       "name": "Baker Mayfield",
+       "pos": "QB",
+       "nfl_team": "TB",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794221428438,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "6806",
+       "name": "J.K. Dobbins",
+       "pos": "RB",
+       "nfl_team": "DEN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794412225655,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      }
+     ]
+    },
+    {
+     "roster_id": 8,
+     "live_points": 0.0,
+     "projected_set_lineup": 78.49,
+     "projected_best_lineup": 93.76,
+     "live_projection": 93.76,
+     "remaining_projection": 78.49,
+     "yet_to_play": [
+      "Matthew Stafford",
+      "Derrick Henry",
+      "Kyren Williams",
+      "Jaxon Smith-Njigba",
+      "Rhamondre Stevenson",
+      "Cam Little"
+     ],
+     "playing_now": [],
+     "starters": [
+      {
+       "id": "11557",
+       "name": "Joe Milton",
+       "pos": "QB",
+       "nfl_team": "PHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794244228806,
+       "slot": "QB",
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true,
+       "game_state": "bye"
+      },
+      {
+       "id": "421",
+       "name": "Matthew Stafford",
+       "pos": "QB",
+       "nfl_team": "LAR",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794497434896,
+       "slot": "QB",
+       "proj": 16.59,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "3198",
+       "name": "Derrick Henry",
+       "pos": "RB",
+       "nfl_team": "BAL",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794249045509,
+       "slot": "RB",
+       "proj": 15.26,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8150",
+       "name": "Kyren Williams",
+       "pos": "RB",
+       "nfl_team": "LAR",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794240630270,
+       "slot": "RB",
+       "proj": 17.07,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "9488",
+       "name": "Jaxon Smith-Njigba",
+       "pos": "WR",
+       "nfl_team": "SEA",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794204926464,
+       "slot": "WR",
+       "proj": 22.82,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "13294",
+       "name": "Makai Lemon",
+       "pos": "WR",
+       "nfl_team": "PHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794233429538,
+       "slot": "WR",
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true,
+       "game_state": "bye"
+      },
+      {
+       "id": "5022",
+       "name": "Dallas Goedert",
+       "pos": "TE",
+       "nfl_team": "PHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794233429512,
+       "slot": "TE",
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true,
+       "game_state": "bye"
+      },
+      {
+       "id": "7611",
+       "name": "Rhamondre Stevenson",
+       "pos": "RB",
+       "nfl_team": "NE",
+       "injury": "Questionable",
+       "injury_body": "Knee",
+       "news_updated": 1794578430093,
+       "slot": "FLEX",
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "13150",
+       "name": "Darius Cooper",
+       "pos": "WR",
+       "nfl_team": "PHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794359720938,
+       "slot": "FLEX",
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true,
+       "game_state": "bye"
+      },
+      {
+       "id": "11786",
+       "name": "Cam Little",
+       "pos": "K",
+       "nfl_team": "JAX",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794019207956,
+       "slot": "K",
+       "proj": 6.75,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "PHI",
+       "name": "Philadelphia Eagles D/ST",
+       "pos": "DEF",
+       "nfl_team": "PHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": null,
+       "slot": "DEF",
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true,
+       "game_state": "bye"
+      }
+     ],
+     "bench": [
+      {
+       "id": "4217",
+       "name": "George Kittle",
+       "pos": "TE",
+       "nfl_team": "SF",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794206726810,
+       "proj": 15.27,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "2216",
+       "name": "Mike Evans",
+       "pos": "WR",
+       "nfl_team": "SF",
+       "injury": "Questionable",
+       "injury_body": "Achilles",
+       "news_updated": 1794555929220,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "4943",
+       "name": "Sam Darnold",
+       "pos": "QB",
+       "nfl_team": "SEA",
+       "injury": "Out",
+       "injury_body": "Quadriceps",
+       "news_updated": 1794270643611,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "6904",
+       "name": "Jalen Hurts",
+       "pos": "QB",
+       "nfl_team": "PHI",
+       "injury": "IR",
+       "injury_body": "Calf",
+       "news_updated": 1793877042842,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "7525",
+       "name": "DeVonta Smith",
+       "pos": "WR",
+       "nfl_team": "PHI",
+       "injury": "Out",
+       "injury_body": "Hamstring",
+       "news_updated": 1794002704514,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      }
+     ]
+    }
+   ],
+   "games_started": true
+  },
+  {
+   "key": "w10-m4",
+   "matchup_id": 4,
+   "teams": [
+    2,
+    4
+   ],
+   "projected": [
+    148.36,
+    165.63
+   ],
+   "projection_basis": "best available lineups",
+   "live_projection": [
+    148.36,
+    165.63
+   ],
+   "yet_to_play": [
+    [
+     "Dak Prescott",
+     "Chase Brown",
+     "Jahmyr Gibbs",
+     "Chris Olave",
+     "CeeDee Lamb",
+     "Sam LaPorta",
+     "Javonte Williams",
+     "Brandon Aubrey",
+     "Seattle Seahawks D/ST"
+    ],
+    [
+     "Jared Goff",
+     "Trevor Lawrence",
+     "Christian McCaffrey",
+     "Jaylen Warren",
+     "Tee Higgins",
+     "Parker Washington",
+     "Travis Kelce",
+     "Brock Bowers",
+     "Jameson Williams",
+     "Jake Bates",
+     "Baltimore Ravens D/ST"
+    ]
+   ],
+   "playing_now": [
+    [],
+    []
+   ],
+   "projected_as_set": [
+    138.49,
+    165.63
+   ],
+   "projected_best": [
+    148.36,
+    165.63
+   ],
+   "live": [
+    0.0,
+    0.0
+   ],
+   "win_prob": [
+    0.338,
+    0.662
+   ],
+   "sides": [
+    {
+     "roster_id": 2,
+     "live_points": 0.0,
+     "projected_set_lineup": 138.49,
+     "projected_best_lineup": 148.36,
+     "live_projection": 148.36,
+     "remaining_projection": 138.49,
+     "yet_to_play": [
+      "Dak Prescott",
+      "Chase Brown",
+      "Jahmyr Gibbs",
+      "Chris Olave",
+      "CeeDee Lamb",
+      "Sam LaPorta",
+      "Javonte Williams",
+      "Brandon Aubrey",
+      "Seattle Seahawks D/ST"
+     ],
+     "playing_now": [],
+     "starters": [
+      {
+       "id": "11560",
+       "name": "Caleb Williams",
+       "pos": "QB",
+       "nfl_team": "CHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794219327792,
+       "slot": "QB",
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true,
+       "game_state": "bye"
+      },
+      {
+       "id": "3294",
+       "name": "Dak Prescott",
+       "pos": "QB",
+       "nfl_team": "DAL",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794324349296,
+       "slot": "QB",
+       "proj": 18.67,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "9224",
+       "name": "Chase Brown",
+       "pos": "RB",
+       "nfl_team": "CIN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794167122644,
+       "slot": "RB",
+       "proj": 13.72,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "9221",
+       "name": "Jahmyr Gibbs",
+       "pos": "RB",
+       "nfl_team": "DET",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794183623879,
+       "slot": "RB",
+       "proj": 24.44,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8144",
+       "name": "Chris Olave",
+       "pos": "WR",
+       "nfl_team": "NO",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794196225311,
+       "slot": "WR",
+       "proj": 16.4,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "6786",
+       "name": "CeeDee Lamb",
+       "pos": "WR",
+       "nfl_team": "DAL",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794177322105,
+       "slot": "WR",
+       "proj": 20.18,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "10859",
+       "name": "Sam LaPorta",
+       "pos": "TE",
+       "nfl_team": "DET",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794327049665,
+       "slot": "TE",
+       "proj": 11.96,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "7588",
+       "name": "Javonte Williams",
+       "pos": "RB",
+       "nfl_team": "DAL",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794234628078,
+       "slot": "FLEX",
+       "proj": 17.77,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "12519",
+       "name": "Luther Burden III",
+       "pos": "WR",
+       "nfl_team": "CHI",
+       "injury": "Questionable",
+       "injury_body": "Undisclosed",
+       "news_updated": 1794220228201,
+       "slot": "FLEX",
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true,
+       "game_state": "bye"
+      },
+      {
+       "id": "11533",
+       "name": "Brandon Aubrey",
+       "pos": "K",
+       "nfl_team": "DAL",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794204025303,
+       "slot": "K",
+       "proj": 6.85,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "SEA",
+       "name": "Seattle Seahawks D/ST",
+       "pos": "DEF",
+       "nfl_team": "SEA",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": null,
+       "slot": "DEF",
+       "proj": 8.5,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      }
+     ],
+     "bench": [
+      {
+       "id": "12512",
+       "name": "Quinshon Judkins",
+       "pos": "RB",
+       "nfl_team": "CLE",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794498335130,
+       "proj": 9.87,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "3271",
+       "name": "Tyler Higbee",
+       "pos": "TE",
+       "nfl_team": "LAR",
+       "injury": "Questionable",
+       "injury_body": "Illness",
+       "news_updated": 1794556828922,
+       "proj": 8.63,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "13286",
+       "name": "Jadarian Price",
+       "pos": "RB",
+       "nfl_team": "SEA",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794498634935,
+       "proj": 8.59,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "10235",
+       "name": "Roschon Johnson",
+       "pos": "RB",
+       "nfl_team": "CHI",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794360321002,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "4037",
+       "name": "Chris Godwin Jr.",
+       "pos": "WR",
+       "nfl_team": "TB",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794412525781,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      }
+     ]
+    },
+    {
+     "roster_id": 4,
+     "live_points": 0.0,
+     "projected_set_lineup": 165.63,
+     "projected_best_lineup": 165.63,
+     "live_projection": 165.63,
+     "remaining_projection": 165.63,
+     "yet_to_play": [
+      "Jared Goff",
+      "Trevor Lawrence",
+      "Christian McCaffrey",
+      "Jaylen Warren",
+      "Tee Higgins",
+      "Parker Washington",
+      "Travis Kelce",
+      "Brock Bowers",
+      "Jameson Williams",
+      "Jake Bates",
+      "Baltimore Ravens D/ST"
+     ],
+     "playing_now": [],
+     "starters": [
+      {
+       "id": "3163",
+       "name": "Jared Goff",
+       "pos": "QB",
+       "nfl_team": "DET",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794521424921,
+       "slot": "QB",
+       "proj": 18.39,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "7523",
+       "name": "Trevor Lawrence",
+       "pos": "QB",
+       "nfl_team": "JAX",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794462330945,
+       "slot": "QB",
+       "proj": 20.71,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "4034",
+       "name": "Christian McCaffrey",
+       "pos": "RB",
+       "nfl_team": "SF",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794206426943,
+       "slot": "RB",
+       "proj": 22.56,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8228",
+       "name": "Jaylen Warren",
+       "pos": "RB",
+       "nfl_team": "PIT",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794410425404,
+       "slot": "RB",
+       "proj": 17.21,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "6801",
+       "name": "Tee Higgins",
+       "pos": "WR",
+       "nfl_team": "CIN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794168620543,
+       "slot": "WR",
+       "proj": 17.14,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "9487",
+       "name": "Parker Washington",
+       "pos": "WR",
+       "nfl_team": "JAX",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794516323122,
+       "slot": "WR",
+       "proj": 14.71,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "1466",
+       "name": "Travis Kelce",
+       "pos": "TE",
+       "nfl_team": "KC",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794435929693,
+       "slot": "TE",
+       "proj": 12.34,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "11604",
+       "name": "Brock Bowers",
+       "pos": "TE",
+       "nfl_team": "LV",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794205526443,
+       "slot": "FLEX",
+       "proj": 15.17,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "8148",
+       "name": "Jameson Williams",
+       "pos": "WR",
+       "nfl_team": "DET",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794183324432,
+       "slot": "FLEX",
+       "proj": 12.35,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "11539",
+       "name": "Jake Bates",
+       "pos": "K",
+       "nfl_team": "DET",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794198924877,
+       "slot": "K",
+       "proj": 6.71,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      },
+      {
+       "id": "BAL",
+       "name": "Baltimore Ravens D/ST",
+       "pos": "DEF",
+       "nfl_team": "BAL",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": null,
+       "slot": "DEF",
+       "proj": 8.34,
+       "live": 0.0,
+       "on_bye": false,
+       "game_state": "not_started"
+      }
+     ],
+     "bench": [
+      {
+       "id": "11559",
+       "name": "Michael Penix Jr.",
+       "pos": "QB",
+       "nfl_team": "ATL",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794327649649,
+       "proj": 15.38,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "10213",
+       "name": "Tre Tucker",
+       "pos": "WR",
+       "nfl_team": "LV",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794205526472,
+       "proj": 7.54,
+       "live": 0.0,
+       "on_bye": false
+      },
+      {
+       "id": "11563",
+       "name": "Bo Nix",
+       "pos": "QB",
+       "nfl_team": "DEN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794187524366,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "13345",
+       "name": "Jonah Coleman",
+       "pos": "RB",
+       "nfl_team": "DEN",
+       "injury": null,
+       "injury_body": null,
+       "news_updated": 1794187524351,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "9493",
+       "name": "Puka Nacua",
+       "pos": "WR",
+       "nfl_team": "LAR",
+       "injury": "IR",
+       "injury_body": "Knee - MCL",
+       "news_updated": 1794556528875,
+       "proj": 0.0,
+       "live": 0.0,
+       "on_bye": false
+      }
+     ]
+    }
+   ],
+   "games_started": false
+  }
+ ],
+ "busted_lineups": [],
+ "new_moves": [
+  {
+   "time": "Thu 4:17 PM",
+   "ts": 1794529067865,
+   "type": "free_agent",
+   "rosters": [
+    7
+   ],
+   "adds": [
+    {
+     "id": "9228",
+     "name": "Bryce Young",
+     "pos": "QB",
+     "nfl_team": "CAR",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": 1794463531128,
+     "to": 7,
+     "proj_this_week": 18.91
+    }
+   ],
+   "drops": [
+    {
+     "id": "3214",
+     "name": "Hunter Henry",
+     "pos": "TE",
+     "nfl_team": "NE",
+     "injury": "Questionable",
+     "injury_body": "Foot",
+     "news_updated": 1794519023764,
+     "from": 7,
+     "proj_this_week": 9.99
+    }
+   ],
+   "waiver_bid": null,
+   "id": "2026-11-13-m1"
+  },
+  {
+   "time": "Thu 4:19 PM",
+   "ts": 1794529180136,
+   "type": "free_agent",
+   "rosters": [
+    7
+   ],
+   "adds": [
+    {
+     "id": "8131",
+     "name": "Isaiah Likely",
+     "pos": "TE",
+     "nfl_team": "NYG",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": 1794567930226,
+     "to": 7,
+     "proj_this_week": 12.33
+    }
+   ],
+   "drops": [],
+   "waiver_bid": null,
+   "id": "2026-11-13-m2"
+  },
+  {
+   "time": "Thu 6:53 PM",
+   "ts": 1794538439588,
+   "type": "free_agent",
+   "rosters": [
+    7
+   ],
+   "adds": [
+    {
+     "id": "HOU",
+     "name": "Houston Texans D/ST",
+     "pos": "DEF",
+     "nfl_team": "HOU",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": null,
+     "to": 7,
+     "proj_this_week": 8.27
+    }
+   ],
+   "drops": [
+    {
+     "id": "ATL",
+     "name": "Atlanta Falcons D/ST",
+     "pos": "DEF",
+     "nfl_team": "ATL",
+     "injury": null,
+     "injury_body": null,
+     "news_updated": null,
+     "from": 7,
+     "proj_this_week": 5.46
+    }
+   ],
+   "waiver_bid": null,
+   "id": "2026-11-13-m3"
+  }
+ ],
+ "trending_adds": [
+  {
+   "id": "2505",
+   "name": "Darren Waller",
+   "pos": "TE",
+   "nfl_team": "CAR",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794282344651,
+   "count": 469854,
+   "rats_owner": null,
+   "proj_this_week": 8.73,
+   "on_bye": false
+  },
+  {
+   "id": "12718",
+   "name": "Konata Mumpfield",
+   "pos": "WR",
+   "nfl_team": "LAR",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794461130737,
+   "count": 451719,
+   "rats_owner": null,
+   "proj_this_week": 7.51,
+   "on_bye": false
+  },
+  {
+   "id": "7562",
+   "name": "Tutu Atwell",
+   "pos": "WR",
+   "nfl_team": "LAR",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794377722257,
+   "count": 357098,
+   "rats_owner": null,
+   "proj_this_week": 7.55,
+   "on_bye": false
+  },
+  {
+   "id": "12491",
+   "name": "Corey Kiner",
+   "pos": "RB",
+   "nfl_team": "NE",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794237628173,
+   "count": 355224,
+   "rats_owner": null,
+   "proj_this_week": 11.79,
+   "on_bye": false
+  },
+  {
+   "id": "5995",
+   "name": "Justice Hill",
+   "pos": "RB",
+   "nfl_team": "BAL",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794324949409,
+   "count": 298575,
+   "rats_owner": null,
+   "proj_this_week": 7.23,
+   "on_bye": false
+  },
+  {
+   "id": "IND",
+   "name": "Indianapolis Colts D/ST",
+   "pos": "DEF",
+   "nfl_team": "IND",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": null,
+   "count": 238689,
+   "rats_owner": null,
+   "proj_this_week": 8.03,
+   "on_bye": false
+  },
+  {
+   "id": "10219",
+   "name": "Chris Rodriguez Jr.",
+   "pos": "RB",
+   "nfl_team": "JAX",
+   "injury": "Questionable",
+   "injury_body": "Hand",
+   "news_updated": 1794524425468,
+   "count": 225765,
+   "rats_owner": null,
+   "proj_this_week": 7.85,
+   "on_bye": false
+  },
+  {
+   "id": "6427",
+   "name": "Ashton Dulin",
+   "pos": "WR",
+   "nfl_team": "IND",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794418226423,
+   "count": 195930,
+   "rats_owner": null,
+   "proj_this_week": 6.41,
+   "on_bye": false
+  },
+  {
+   "id": "11539",
+   "name": "Jake Bates",
+   "pos": "K",
+   "nfl_team": "DET",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794198924877,
+   "count": 174880,
+   "rats_owner": 4,
+   "proj_this_week": 6.71,
+   "on_bye": false
+  },
+  {
+   "id": "13269",
+   "name": "Fernando Mendoza",
+   "pos": "QB",
+   "nfl_team": "LV",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794341420400,
+   "count": 166200,
+   "rats_owner": null,
+   "proj_this_week": 11.65,
+   "on_bye": false
+  },
+  {
+   "id": "8134",
+   "name": "Khalil Shakir",
+   "pos": "WR",
+   "nfl_team": "BUF",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794319250719,
+   "count": 163431,
+   "rats_owner": null,
+   "proj_this_week": 10.19,
+   "on_bye": false
+  },
+  {
+   "id": "9756",
+   "name": "Jordan Addison",
+   "pos": "WR",
+   "nfl_team": "MIN",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794323150583,
+   "count": 152685,
+   "rats_owner": null,
+   "proj_this_week": 9.32,
+   "on_bye": false
+  },
+  {
+   "id": "7042",
+   "name": "Tyler Bass",
+   "pos": "K",
+   "nfl_team": "BUF",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794361820979,
+   "count": 148280,
+   "rats_owner": null,
+   "proj_this_week": 6.95,
+   "on_bye": false
+  },
+  {
+   "id": "5119",
+   "name": "Jason Sanders",
+   "pos": "K",
+   "nfl_team": "NYJ",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794199825088,
+   "count": 121540,
+   "rats_owner": null,
+   "proj_this_week": 6.3,
+   "on_bye": false
+  },
+  {
+   "id": "11579",
+   "name": "Audric Estime",
+   "pos": "RB",
+   "nfl_team": "NO",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794242728744,
+   "count": 114006,
+   "rats_owner": null,
+   "proj_this_week": 8.21,
+   "on_bye": false
+  }
+ ],
+ "trending_drops": [
+  {
+   "id": "6130",
+   "name": "Devin Singletary",
+   "pos": "RB",
+   "nfl_team": "NYG",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794567330272,
+   "count": 324063,
+   "rats_owner": null,
+   "proj_this_week": 8.03,
+   "on_bye": false
+  },
+  {
+   "id": "6650",
+   "name": "Chase McLaughlin",
+   "pos": "K",
+   "nfl_team": "TB",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794278444652,
+   "count": 308840,
+   "rats_owner": 1,
+   "proj_this_week": 0.0,
+   "on_bye": true
+  },
+  {
+   "id": "10232",
+   "name": "Michael Wilson",
+   "pos": "WR",
+   "nfl_team": "ARI",
+   "injury": "IR",
+   "injury_body": "Neck",
+   "news_updated": 1794468033062,
+   "count": 255258,
+   "rats_owner": null,
+   "proj_this_week": 0.0,
+   "on_bye": false
+  },
+  {
+   "id": "2020",
+   "name": "Cairo Santos",
+   "pos": "K",
+   "nfl_team": "CHI",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794279044886,
+   "count": 203917,
+   "rats_owner": null,
+   "proj_this_week": 0.0,
+   "on_bye": true
+  },
+  {
+   "id": "11435",
+   "name": "Emanuel Wilson",
+   "pos": "RB",
+   "nfl_team": "SEA",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794411925636,
+   "count": 190404,
+   "rats_owner": null,
+   "proj_this_week": 1.1,
+   "on_bye": false
+  },
+  {
+   "id": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "nfl_team": "MIN",
+   "injury": "Doubtful",
+   "injury_body": "Hamstring",
+   "news_updated": 1794426028767,
+   "count": 176104,
+   "rats_owner": 6,
+   "proj_this_week": 0.0,
+   "on_bye": false
+  },
+  {
+   "id": "650",
+   "name": "Nick Folk",
+   "pos": "K",
+   "nfl_team": null,
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794333650178,
+   "count": 166962,
+   "rats_owner": null,
+   "proj_this_week": 0.0,
+   "on_bye": true
+  },
+  {
+   "id": "13424",
+   "name": "Seth McGowan",
+   "pos": "RB",
+   "nfl_team": "IND",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794236728110,
+   "count": 160760,
+   "rats_owner": null,
+   "proj_this_week": 6.77,
+   "on_bye": false
+  },
+  {
+   "id": "DET",
+   "name": "Detroit Lions D/ST",
+   "pos": "DEF",
+   "nfl_team": "DET",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": null,
+   "count": 158958,
+   "rats_owner": null,
+   "proj_this_week": 5.65,
+   "on_bye": false
+  },
+  {
+   "id": "8161",
+   "name": "Malik Willis",
+   "pos": "QB",
+   "nfl_team": "MIA",
+   "injury": "IR",
+   "injury_body": "Groin",
+   "news_updated": 1794428427370,
+   "count": 136766,
+   "rats_owner": null,
+   "proj_this_week": 0.0,
+   "on_bye": false
+  },
+  {
+   "id": "NE",
+   "name": "New England Patriots D/ST",
+   "pos": "DEF",
+   "nfl_team": "NE",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": null,
+   "count": 133868,
+   "rats_owner": null,
+   "proj_this_week": 5.76,
+   "on_bye": false
+  },
+  {
+   "id": "11625",
+   "name": "Adonai Mitchell",
+   "pos": "WR",
+   "nfl_team": "NYJ",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794238228347,
+   "count": 114320,
+   "rats_owner": null,
+   "proj_this_week": 7.68,
+   "on_bye": false
+  },
+  {
+   "id": "8129",
+   "name": "Dameon Pierce",
+   "pos": "RB",
+   "nfl_team": null,
+   "injury": "Questionable",
+   "injury_body": "Undisclosed",
+   "news_updated": 1794119716732,
+   "count": 110248,
+   "rats_owner": null,
+   "proj_this_week": 0.0,
+   "on_bye": true
+  },
+  {
+   "id": "4035",
+   "name": "Alvin Kamara",
+   "pos": "RB",
+   "nfl_team": "NO",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": 1794520825080,
+   "count": 107976,
+   "rats_owner": null,
+   "proj_this_week": 5.58,
+   "on_bye": false
+  },
+  {
+   "id": "TB",
+   "name": "Tampa Bay Buccaneers D/ST",
+   "pos": "DEF",
+   "nfl_team": "TB",
+   "injury": null,
+   "injury_body": null,
+   "news_updated": null,
+   "count": 102935,
+   "rats_owner": null,
+   "proj_this_week": 0.0,
+   "on_bye": true
+  }
+ ],
+ "injuries": [
+  {
+   "id": "7547",
+   "name": "Amon-Ra St. Brown",
+   "pos": "WR",
+   "nfl_team": "DET",
+   "injury": "Questionable",
+   "injury_body": "Ribs",
+   "news_updated": 1794521424969,
+   "roster_id": 3,
+   "proj_this_week": 19.24
+  },
+  {
+   "id": "8146",
+   "name": "Garrett Wilson",
+   "pos": "WR",
+   "nfl_team": "NYJ",
+   "injury": "Questionable",
+   "injury_body": "Concussion",
+   "news_updated": 1794525924172,
+   "roster_id": 7,
+   "proj_this_week": 14.25
+  },
+  {
+   "id": "5859",
+   "name": "A.J. Brown",
+   "pos": "WR",
+   "nfl_team": "NE",
+   "injury": "Questionable",
+   "injury_body": "Knee",
+   "news_updated": 1794575729659,
+   "roster_id": 3,
+   "proj_this_week": 14.24
+  },
+  {
+   "id": "12490",
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
+   "nfl_team": "JAX",
+   "injury": "Questionable",
+   "injury_body": "Ankle",
+   "news_updated": 1794524425485,
+   "roster_id": 7,
+   "proj_this_week": 14.1
+  },
+  {
+   "id": "8137",
+   "name": "George Pickens",
+   "pos": "WR",
+   "nfl_team": "DAL",
+   "injury": "Questionable",
+   "injury_body": "Hamstring",
+   "news_updated": 1794529224554,
+   "roster_id": 6,
+   "proj_this_week": 13.68
+  },
+  {
+   "id": "5967",
+   "name": "Tony Pollard",
+   "pos": "RB",
+   "nfl_team": "TEN",
+   "injury": "Questionable",
+   "injury_body": "Finger",
+   "news_updated": 1794519324955,
+   "roster_id": 6,
+   "proj_this_week": 12.58
+  },
+  {
+   "id": "11635",
+   "name": "Ladd McConkey",
+   "pos": "WR",
+   "nfl_team": "LAC",
+   "injury": "Questionable",
+   "injury_body": "Back",
+   "news_updated": 1794555929287,
+   "roster_id": 5,
+   "proj_this_week": 11.71
+  },
+  {
+   "id": "5844",
+   "name": "T.J. Hockenson",
+   "pos": "TE",
+   "nfl_team": "MIN",
+   "injury": "Questionable",
+   "injury_body": "Wrist",
+   "news_updated": 1794555029331,
+   "roster_id": 6,
+   "proj_this_week": 10.65
+  },
+  {
+   "id": "12506",
+   "name": "Harold Fannin Jr.",
+   "pos": "TE",
+   "nfl_team": "CLE",
+   "injury": "Questionable",
+   "injury_body": "Groin",
+   "news_updated": 1794523524366,
+   "roster_id": 3,
+   "proj_this_week": 10.49
+  },
+  {
+   "id": "13346",
+   "name": "Denzel Boston",
+   "pos": "WR",
+   "nfl_team": "CLE",
+   "injury": "Questionable",
+   "injury_body": "Toe",
+   "news_updated": 1794510922654,
+   "roster_id": 7,
+   "proj_this_week": 10.33
+  },
+  {
+   "id": "10236",
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "nfl_team": "BUF",
+   "injury": "Questionable",
+   "injury_body": "Ankle",
+   "news_updated": 1794519023754,
+   "roster_id": 1,
+   "proj_this_week": 9.84
+  },
+  {
+   "id": "3271",
+   "name": "Tyler Higbee",
+   "pos": "TE",
+   "nfl_team": "LAR",
+   "injury": "Questionable",
+   "injury_body": "Illness",
+   "news_updated": 1794556828922,
+   "roster_id": 2,
+   "proj_this_week": 8.63
+  },
+  {
+   "id": "2133",
+   "name": "Davante Adams",
+   "pos": "WR",
+   "nfl_team": "LAR",
+   "injury": "IR",
+   "injury_body": "Hamstring",
+   "news_updated": 1794495335009,
+   "roster_id": 1,
+   "proj_this_week": 0.0
+  },
+  {
+   "id": "5850",
+   "name": "Josh Jacobs",
+   "pos": "RB",
+   "nfl_team": "GB",
+   "injury": "Out",
+   "injury_body": "Finger",
+   "news_updated": 1794505523622,
+   "roster_id": 1,
+   "proj_this_week": 0.0
+  },
+  {
+   "id": "12519",
+   "name": "Luther Burden III",
+   "pos": "WR",
+   "nfl_team": "CHI",
+   "injury": "Questionable",
+   "injury_body": "Undisclosed",
+   "news_updated": 1794220228201,
+   "roster_id": 2,
+   "proj_this_week": 0.0
+  },
+  {
+   "id": "7526",
+   "name": "Jaylen Waddle",
+   "pos": "WR",
+   "nfl_team": "DEN",
+   "injury": "Out",
+   "injury_body": "Head",
+   "news_updated": 1794196523932,
+   "roster_id": 3,
+   "proj_this_week": 0.0
+  },
+  {
+   "id": "9493",
+   "name": "Puka Nacua",
+   "pos": "WR",
+   "nfl_team": "LAR",
+   "injury": "IR",
+   "injury_body": "Knee - MCL",
+   "news_updated": 1794556528875,
+   "roster_id": 4,
+   "proj_this_week": 0.0
+  },
+  {
+   "id": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "nfl_team": "MIN",
+   "injury": "Doubtful",
+   "injury_body": "Hamstring",
+   "news_updated": 1794426028767,
+   "roster_id": 6,
+   "proj_this_week": 0.0
+  },
+  {
+   "id": "12489",
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "nfl_team": "DEN",
+   "injury": "IR",
+   "injury_body": "Knee",
+   "news_updated": 1793478626561,
+   "roster_id": 7,
+   "proj_this_week": 0.0
+  },
+  {
+   "id": "13287",
+   "name": "Jeremiyah Love",
+   "pos": "RB",
+   "nfl_team": "ARI",
+   "injury": "IR",
+   "injury_body": "Ankle",
+   "news_updated": 1793740528278,
+   "roster_id": 7,
+   "proj_this_week": 0.0
+  }
+ ],
+ "nfl_teams_on_bye": [
+  "CHI",
+  "DEN",
+  "PHI",
+  "TB"
+ ],
+ "latest_weekly_edition": "2026-w09",
+ "update": {
+  "phase": "daily",
+  "label": null,
+  "time": "6:50 AM",
+  "nfl_games_final": 1,
+  "nfl_games_live": 0,
+  "nfl_games_left": 13
+ },
+ "open_decisions": [
+  {
+   "id": "w10-r1-s6",
+   "roster_id": 1,
+   "slot": "TE",
+   "reason": "injury",
+   "current": {
+    "name": "Dalton Kincaid",
+    "pos": "TE",
+    "proj": 9.84,
+    "injury": "Questionable"
+   },
+   "options": [
+    {
+     "name": "Tucker Kraft",
+     "pos": "TE",
+     "proj": 10.75,
+     "injury": null
+    }
+   ],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": false,
+   "deadline": "Sun 10:00 AM"
+  },
+  {
+   "id": "w10-r1-s9",
+   "roster_id": 1,
+   "slot": "K",
+   "reason": "bye",
+   "current": {
+    "name": "Chase McLaughlin",
+    "pos": "K",
+    "proj": 0.0,
+    "injury": null
+   },
+   "options": [],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": true,
+   "deadline": null
+  },
+  {
+   "id": "w10-r6-s3",
+   "roster_id": 6,
+   "slot": "RB",
+   "reason": "bye",
+   "current": {
+    "name": "D'Andre Swift",
+    "pos": "RB",
+    "proj": 0.0,
+    "injury": null
+   },
+   "options": [
+    {
+     "name": "Tony Pollard",
+     "pos": "RB",
+     "proj": 12.58,
+     "injury": "Questionable"
+    }
+   ],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": false,
+   "deadline": "Sun 10:00 AM"
+  },
+  {
+   "id": "w10-r6-s4",
+   "roster_id": 6,
+   "slot": "WR",
+   "reason": "injury",
+   "current": {
+    "name": "George Pickens",
+    "pos": "WR",
+    "proj": 13.68,
+    "injury": "Questionable"
+   },
+   "options": [
+    {
+     "name": "DJ Moore",
+     "pos": "WR",
+     "proj": 12.3,
+     "injury": null
+    }
+   ],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": false,
+   "deadline": "Sun 10:00 AM"
+  },
+  {
+   "id": "w10-r3-s4",
+   "roster_id": 3,
+   "slot": "WR",
+   "reason": "injury",
+   "current": {
+    "name": "Amon-Ra St. Brown",
+    "pos": "WR",
+    "proj": 19.24,
+    "injury": "Questionable"
+   },
+   "options": [
+    {
+     "name": "A.J. Brown",
+     "pos": "WR",
+     "proj": 14.24,
+     "injury": "Questionable"
+    }
+   ],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": false,
+   "deadline": "Sun 6:30 AM"
+  },
+  {
+   "id": "w10-r3-s6",
+   "roster_id": 3,
+   "slot": "TE",
+   "reason": "injury",
+   "current": {
+    "name": "Harold Fannin Jr.",
+    "pos": "TE",
+    "proj": 10.49,
+    "injury": "Questionable"
+   },
+   "options": [],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": true,
+   "deadline": null
+  },
+  {
+   "id": "w10-r7-s3",
+   "roster_id": 7,
+   "slot": "RB",
+   "reason": "injury",
+   "current": {
+    "name": "Bhayshul Tuten",
+    "pos": "RB",
+    "proj": 14.1,
+    "injury": "Questionable"
+   },
+   "options": [
+    {
+     "name": "Garrett Wilson",
+     "pos": "WR",
+     "proj": 14.25,
+     "injury": "Questionable"
+    }
+   ],
+   "via_flex_shuffle": true,
+   "needs_waiver_add": false,
+   "deadline": "Sun 10:00 AM"
+  },
+  {
+   "id": "w10-r7-s4",
+   "roster_id": 7,
+   "slot": "WR",
+   "reason": "injury",
+   "current": {
+    "name": "Denzel Boston",
+    "pos": "WR",
+    "proj": 10.33,
+    "injury": "Questionable"
+   },
+   "options": [],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": true,
+   "deadline": null
+  },
+  {
+   "id": "w10-r8-s0",
+   "roster_id": 8,
+   "slot": "QB",
+   "reason": "bye",
+   "current": {
+    "name": "Joe Milton",
+    "pos": "QB",
+    "proj": 0.0,
+    "injury": null
+   },
+   "options": [],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": true,
+   "deadline": null
+  },
+  {
+   "id": "w10-r8-s5",
+   "roster_id": 8,
+   "slot": "WR",
+   "reason": "bye",
+   "current": {
+    "name": "Makai Lemon",
+    "pos": "WR",
+    "proj": 0.0,
+    "injury": null
+   },
+   "options": [
+    {
+     "name": "George Kittle",
+     "pos": "TE",
+     "proj": 15.27,
+     "injury": null
+    }
+   ],
+   "via_flex_shuffle": true,
+   "needs_waiver_add": false,
+   "deadline": "Sun 1:25 PM"
+  },
+  {
+   "id": "w10-r8-s6",
+   "roster_id": 8,
+   "slot": "TE",
+   "reason": "bye",
+   "current": {
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "proj": 0.0,
+    "injury": null
+   },
+   "options": [],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": true,
+   "deadline": null
+  },
+  {
+   "id": "w10-r8-s7",
+   "roster_id": 8,
+   "slot": "FLEX",
+   "reason": "injury",
+   "current": {
+    "name": "Rhamondre Stevenson",
+    "pos": "RB",
+    "proj": 0.0,
+    "injury": "Questionable"
+   },
+   "options": [],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": true,
+   "deadline": null
+  },
+  {
+   "id": "w10-r8-s8",
+   "roster_id": 8,
+   "slot": "FLEX",
+   "reason": "bye",
+   "current": {
+    "name": "Darius Cooper",
+    "pos": "WR",
+    "proj": 0.0,
+    "injury": null
+   },
+   "options": [],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": true,
+   "deadline": null
+  },
+  {
+   "id": "w10-r8-s10",
+   "roster_id": 8,
+   "slot": "DEF",
+   "reason": "bye",
+   "current": {
+    "name": "Philadelphia Eagles D/ST",
+    "pos": "DEF",
+    "proj": 0.0,
+    "injury": null
+   },
+   "options": [],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": true,
+   "deadline": null
+  },
+  {
+   "id": "w10-r2-s0",
+   "roster_id": 2,
+   "slot": "QB",
+   "reason": "bye",
+   "current": {
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "proj": 0.0,
+    "injury": null
+   },
+   "options": [],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": true,
+   "deadline": null
+  },
+  {
+   "id": "w10-r2-s8",
+   "roster_id": 2,
+   "slot": "FLEX",
+   "reason": "bye",
+   "current": {
+    "name": "Luther Burden III",
+    "pos": "WR",
+    "proj": 0.0,
+    "injury": "Questionable"
+   },
+   "options": [
+    {
+     "name": "Quinshon Judkins",
+     "pos": "RB",
+     "proj": 9.87,
+     "injury": null
+    },
+    {
+     "name": "Tyler Higbee",
+     "pos": "TE",
+     "proj": 8.63,
+     "injury": "Questionable"
+    },
+    {
+     "name": "Jadarian Price",
+     "pos": "RB",
+     "proj": 8.59,
+     "injury": null
+    }
+   ],
+   "via_flex_shuffle": false,
+   "needs_waiver_add": false,
+   "deadline": "Sun 10:00 AM"
+  }
+ ],
+ "resolved_decisions": [
+  {
+   "id": "w10-r1-s2",
+   "roster_id": 1,
+   "slot": "RB",
+   "reason": "injury",
+   "was": {
+    "name": "Josh Jacobs",
+    "pos": "RB",
+    "proj": 0.0,
+    "injury": "Out"
+   },
+   "now": {
+    "name": "Braelon Allen",
+    "pos": "RB",
+    "proj": 7.9
+   }
+  },
+  {
+   "id": "w10-r1-s8",
+   "roster_id": 1,
+   "slot": "FLEX",
+   "reason": "upgrade",
+   "was": {
+    "name": "Braelon Allen",
+    "pos": "RB",
+    "proj": 8.32,
+    "injury": null
+   },
+   "now": {
+    "name": "Rashee Rice",
+    "pos": "WR",
+    "proj": 14.29
+   }
+  },
+  {
+   "id": "w10-r7-s0",
+   "roster_id": 7,
+   "slot": "QB",
+   "reason": "empty",
+   "was": null,
+   "now": {
+    "name": "Joe Burrow",
+    "pos": "QB",
+    "proj": 22.47
+   }
+  },
+  {
+   "id": "w10-r7-s6",
+   "roster_id": 7,
+   "slot": "TE",
+   "reason": "bye",
+   "was": {
+    "name": "Colston Loveland",
+    "pos": "TE",
+    "proj": 0.0,
+    "injury": null
+   },
+   "now": {
+    "name": "Isaiah Likely",
+    "pos": "TE",
+    "proj": 12.33
+   }
+  },
+  {
+   "id": "w10-r7-s7",
+   "roster_id": 7,
+   "slot": "FLEX",
+   "reason": "bye",
+   "was": {
+    "name": "J.K. Dobbins",
+    "pos": "RB",
+    "proj": 0.0,
+    "injury": null
+   },
+   "now": {
+    "name": "Cam Skattebo",
+    "pos": "RB",
+    "proj": 12.34
+   }
+  },
+  {
+   "id": "w10-r4-s3",
+   "roster_id": 4,
+   "slot": "RB",
+   "reason": "bye",
+   "was": {
+    "name": "Jonah Coleman",
+    "pos": "RB",
+    "proj": 0.0,
+    "injury": null
+   },
+   "now": {
+    "name": "Jaylen Warren",
+    "pos": "RB",
+    "proj": 17.21
+   }
+  },
+  {
+   "id": "w10-r4-s5",
+   "roster_id": 4,
+   "slot": "WR",
+   "reason": "injury",
+   "was": {
+    "name": "Puka Nacua",
+    "pos": "WR",
+    "proj": 0.0,
+    "injury": "Out"
+   },
+   "now": {
+    "name": "Parker Washington",
+    "pos": "WR",
+    "proj": 14.71
+   }
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+"lead": {
+"kicker": "Thursday Night",
+"headline": "The Finest signed Bryce Young, then dropped 75.2",
+"dek": "The 2-7 Santa Clara’s Finest made two adds under an hour before Thursday kickoff. One of them scored 27.7. AB81, 7-2, has yet to play, has yet to move, and is a 0.4% shot.",
+"matchup_key": "w10-m3",
+"by_roster_id": 7,
+"roster_ids": [7, 8],
+"pull": "A team with 5.6% playoff odds just played Thursday like it was a playoff game.",
+"body": [
+"For two days this desk wrote that Bryce Young was sitting on the wire and nobody wanted him. At 4:17 PM Thursday, somebody did. Santa Clara’s Finest, seventh in the waiver order and 2-7 on the season, added Young (18.91) and cut Hunter Henry. Two minutes later, at 4:19 PM, it added Isaiah Likely, the wire’s best tight end and one of the three players in Thursday’s game this desk said you had to grab before kickoff. Then it put both of them in the lineup. Young filled the empty quarterback slot next to Joe Burrow. Likely replaced Colston Loveland, who is on bye.",
+"Likely scored 27.7. He was projected for 12.33. I’ve covered this franchise all season and I’ve watched it lose to projections, to bye weeks and to itself. Thursday it beat the projections with a guy it had owned for about an hour.",
+"Then there’s the Tuten call. Yesterday we framed it as either-or: Bhayshul Tuten, Questionable with an ankle, or Cam Skattebo, who played Thursday. The Finest found door number three. Skattebo went into the flex for the J.K. Dobbins bye, and Tuten stays in the RB slot. Skattebo scored 27.2. Stefon Diggs added 20.3. That’s 75.2 points banked before anybody else in this matchup has played a snap. And at 6:53 PM, mid-game, the front office swapped the Atlanta Falcons D/ST for the Houston Texans D/ST (8.27). This team is shopping like the season is still alive. At 5.6% playoff odds, it barely is.",
+"On the other side sits AB81: 7-2, tied for first, and the owner of the No. 1 waiver spot it never used. As set, AB81 projects for 78.49. Its best lineup projects for 93.76. Joe Milton, Makai Lemon, Dallas Goedert, Darius Cooper and the Philadelphia Eagles D/ST are all on bye, and Rhamondre Stevenson is a Questionable zero in the flex. The bench has George Kittle (15.27) and nobody else who’s playing. The Finest now project for 193.64. AB81 needs 75.2 just to catch up to Thursday.",
+"Is it over? The model says 99.6%. Aaron Rodgers (17.76) is still unrostered and so is a full set of defenses, so AB81 can make this respectable by Sunday. It can’t make it close. The bigger question for the 7-2 team is whether a loss here drops it out of the three-way tie at the top with Poochinski and Bad things man bad things. The full injury report and every open start/sit call in the league are below."
+]
+},
+"quick_hits": [
+{
+"kicker": "deeboliciouskins",
+"headline": "Daniels delivered. Nabers and White didn’t.",
+"roster_ids": [6, 1],
+"body": "deeboliciouskins had three starters on Thursday and banked 36.36: Jayden Daniels 22.76, Malik Nabers 7.4, Rachaad White 6.2. Big Stric Energy has nobody played yet and trails by the full 36.36. deeboliciouskins is now a 54.8% favorite."
+},
+{
+"kicker": "Poochinski",
+"headline": "Rodgers is still there. Poochinski still needs him.",
+"roster_ids": [2, 4],
+"body": "Caleb Williams is on bye and the bench has no quarterback, so Poochinski projects for 138.49 as set and 148.36 with an add. Aaron Rodgers (17.76) is the best unrostered quarterback, and Young is gone. It’s a 33.8% shot against Cherry Blossom either way, but a 7-2 team in a tie for first can’t spot anybody a quarterback."
+},
+{
+"kicker": "Cherry Blossom",
+"headline": "Cherry Blossom made its calls",
+"roster_ids": [4],
+"body": "Yesterday’s to-do list is done: Jaylen Warren (17.21) is in for the Jonah Coleman bye, Parker Washington (14.71) is in for Puka Nacua, now on IR. Jared Goff is off the injury report and projects for 18.39, so Michael Penix Jr. stays on the bench. As set: 165.63, its best possible lineup, and a 66.2% favorite."
+},
+{
+"kicker": "Maye I touch your TDs?",
+"headline": "Maye’s tight end answer just hit the wire",
+"roster_ids": [3, 7],
+"body": "Harold Fannin Jr. is Questionable (groin) and Maye has no tight end behind him. The Finest just released one: Hunter Henry (9.99) is unrostered, Questionable himself with a foot. Brenton Strange (9.91) is the healthy option. Maye trails the champ 165.49 to 158.89 in projections, a 43.7% shot."
+},
+{
+"kicker": "Big Stric Energy",
+"headline": "Still no kicker, and Zvada’s window closed",
+"roster_ids": [1],
+"body": "Chase McLaughlin is on bye and still in the K slot. The Thursday kicker is gone; Tyler Bass (6.95) is the best one left. One easy call: Tucker Kraft (10.75) projects above a Questionable Dalton Kincaid (9.84), so I’d start Kraft by Sun 10:00 AM."
+},
+{
+"kicker": "Bad things",
+"headline": "The champ has nothing to do",
+"roster_ids": [5],
+"body": "Bad things man bad things projects for 165.49 as set, which is its best lineup. Ladd McConkey (Questionable, back) is on the bench, so the injury report doesn’t touch it. Enjoy the weekend."
+}
+],
+"previews": {
+"w10-m1": {
+"headline": "deeboliciouskins up 36.36 with Big Stric yet to play",
+"blurb": "deeboliciouskins projects 145.41, Big Stric Energy 140.89, a 54.8% edge. deeboliciouskins still has to solve the D’Andre Swift bye and a Questionable George Pickens; fix both and the ceiling is 155.22. Big Stric needs a kicker and a big Josh Allen day.",
+"pick": 6
+},
+"w10-m2": {
+"headline": "The champ, set and waiting",
+"blurb": "Bad things man bad things 165.49, Maye I touch your TDs? 158.89, 56.3% to 43.7%. Bad things has a finished lineup. Maye has three Questionable tags in play: St. Brown, A.J. Brown and Fannin. The closest matchup of the week.",
+"pick": 5
+},
+"w10-m3": {
+"headline": "The Finest, already",
+"blurb": "Santa Clara’s Finest 75.2, AB81 0, and the Finest project for 193.64 against AB81’s best of 93.76. That’s a 99.6% favorite. The upset of the season would need AB81 to make five adds and the Finest’s Sunday starters to stay home.",
+"pick": 7
+},
+"w10-m4": {
+"headline": "Cherry Blossom, with Poochinski needing a QB",
+"blurb": "Cherry Blossom 165.63, Poochinski 148.36 if it adds a quarterback, 138.49 if it doesn’t. 66.2% to 33.8%. Cherry Blossom is done setting; Poochinski still has the Caleb Williams bye and a flex call for Luther Burden III.",
+"pick": 4
+}
+},
+"decision_notes": {
+"w10-r7-s7": {
+"headline": "Resolved: the Finest started Tuten and Skattebo",
+"blurb": "The either-or call became a both. Skattebo went into the flex for J.K. Dobbins and scored 27.2. Tuten stays at RB, Questionable, through Sunday."
+},
+"w10-r6-s3": {
+"headline": "What will deeboliciouskins do at RB?",
+"blurb": "D’Andre Swift is on bye and the only backup, Tony Pollard (12.58), is Questionable with a finger. If Pollard is a go, he’s the call. If he isn’t, Corey Kiner (11.79) is the most-added running back on the wire. Deadline Sun 10:00 AM."
+},
+"w10-r6-s4": {
+"headline": "Pickens or DJ Moore?",
+"blurb": "Pickens (hamstring) projects for 13.68, Moore for 12.3. The gap is small enough that the hamstring decides it. If Pickens practices fully, keep him; if there’s any doubt, Moore is the safe floor."
+},
+"w10-r3-s4": {
+"headline": "St. Brown or A.J. Brown, still",
+"blurb": "Both Questionable, both in the Sun 6:30 AM game. St. Brown (19.24) starts if active. A.J. Brown (14.24) is the hedge with a knee tag of his own. Maye gets the earliest answer in the league."
+},
+"w10-r3-s6": {
+"headline": "Maye needs a backup tight end",
+"blurb": "Fannin (10.49) has a groin tag and nothing behind him. Hunter Henry (9.99) and Brenton Strange (9.91) are unrostered. Strange is healthy. I’d add him now and decide Sunday."
+},
+"w10-r2-s0": {
+"headline": "Poochinski’s QB race is down to Rodgers",
+"blurb": "Dak Prescott (18.67) is the only quarterback playing. Rodgers (17.76) is the best available after Young went to the Finest. Any free agent can add him, so first come, first served."
+},
+"w10-r2-s8": {
+"headline": "Who replaces Burden in Poochinski’s flex?",
+"blurb": "Luther Burden III is on bye. Quinshon Judkins (9.87) is the best healthy option, ahead of Jadarian Price (8.59) and a Questionable Tyler Higbee (8.63). I’d go Judkins by Sun 10:00 AM."
+},
+"w10-r8-s0": {
+"headline": "AB81 needs a quarterback and four more",
+"blurb": "Matthew Stafford (16.59) is the only AB81 quarterback playing. QB, TE, both FLEX spots and DEF need an add, and Kittle can cover WR by Sun 1:25 PM. It won’t save the week. It might save the points-for tiebreaker."
+},
+"w10-r1-s9": {
+"headline": "Big Stric’s kicker: Bass",
+"blurb": "No kicker on the bench, and the Thursday option is gone. Tyler Bass (6.95) is the best unrostered kicker this week."
+}
+},
+"alert_notes": {},
+"trending_notes": {
+"12491": "Corey Kiner projects for 11.79 and is unrostered. Insurance for deeboliciouskins if Pollard sits, and a flex body for AB81.",
+"7042": "Tyler Bass (6.95) is the best kicker left for Big Stric Energy, which still has the bye-week McLaughlin in its K slot.",
+"6650": "Chase McLaughlin is one of the most-dropped players in fantasy. Big Stric Energy still starts him, on bye.",
+"2505": "Darren Waller (8.73) is the trendy tight end add, but Maye I touch your TDs? has better options in Henry and Strange.",
+"IND": "The Indianapolis Colts D/ST (8.03) is unrostered. AB81’s defense, the Philadelphia Eagles D/ST, is on bye.",
+"13269": "Fernando Mendoza (11.65) is unrostered. A long way behind Rodgers for Poochinski and AB81.",
+"5849": "Kyler Murray is still Doubtful (hamstring) and one of the most-dropped quarterbacks around. deeboliciouskins doesn’t need him with Mahomes healthy.",
+"11539": "Jake Bates is trending and already Cherry Blossom’s kicker (6.71)."
+},
+"move_grades": {
+"2026-11-13-m1": {
+"grade": "A",
+"blurb": "Young (18.91) for Hunter Henry at 4:17 PM filled an empty quarterback slot. The only knock: the team at No. 7 in the waiver order got the best quarterback on the wire because nobody ahead of it bothered."
+},
+"2026-11-13-m2": {
+"grade": "A+",
+"blurb": "Likely at 4:19 PM, into the lineup for Loveland’s bye, projected 12.33, scored 27.7. The best move of the week so far."
+},
+"2026-11-13-m3": {
+"grade": "B",
+"blurb": "Houston Texans D/ST (8.27) for the Atlanta Falcons D/ST (5.46), made at 6:53 PM. A real upgrade, a little late in the night for a defense swap."
+}
+},
+"external_facts": [
+{"claim": "Week 10 Thursday night game: WAS at NYG, 8:15 PM ET (5:15 PM PT), Thursday 2026-11-12.", "source": "nflverse schedule, data/raw/games.csv (game_id 2026_10_WAS_NYG)"},
+{"claim": "Unrostered in R.A.T.S. with Sleeper Week 10 projections (league scoring), excluding players whose game is final: Aaron Rodgers QB 17.76, Hunter Henry TE 9.99 (Questionable), Brenton Strange TE 9.91, Corey Kiner RB 11.79, Tyler Bass K 6.95, Indianapolis Colts D/ST 8.03.", "source": "Sleeper projections API /projections/nfl/regular/2026/10 scored with league scoring_settings, checked against the league rosters API, 2026-11-13"}
+]
+}

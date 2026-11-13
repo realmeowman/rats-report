@@ -1,242 +1,9 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "since_ms": 1794384657048,
- "last_tx_ms": 1794384657048,
- "last_run": "2026-11-12T05:42-08:00",
+ "last_tx_ms": 1794538439588,
+ "last_run": "2026-11-13T06:50-08:00",
  "decisions_by_date": {
-  "2026-11-03": {
-   "w9-r5-s4": {
-    "roster_id": 5,
-    "slot": "WR",
-    "reason": "injury",
-    "current": {
-     "name": "Michael Wilson",
-     "pos": "WR",
-     "proj": 11.95,
-     "injury": "Questionable"
-    }
-   },
-   "w9-r5-s8": {
-    "roster_id": 5,
-    "slot": "FLEX",
-    "reason": "injury",
-    "current": {
-     "name": "James Cook III",
-     "pos": "RB",
-     "proj": 15.06,
-     "injury": "Questionable"
-    }
-   },
-   "w9-r6-s0": {
-    "roster_id": 6,
-    "slot": "QB",
-    "reason": "injury",
-    "current": {
-     "name": "Kyler Murray",
-     "pos": "QB",
-     "proj": 16.84,
-     "injury": "Questionable"
-    }
-   },
-   "w9-r6-s8": {
-    "roster_id": 6,
-    "slot": "FLEX",
-    "reason": "bye",
-    "current": {
-     "name": "Tony Pollard",
-     "pos": "RB",
-     "proj": 0.0,
-     "injury": null
-    }
-   },
-   "w9-r7-s0": {
-    "roster_id": 7,
-    "slot": "QB",
-    "reason": "injury",
-    "current": {
-     "name": "Lamar Jackson",
-     "pos": "QB",
-     "proj": 0.0,
-     "injury": "Out"
-    }
-   },
-   "w9-r7-s3": {
-    "roster_id": 7,
-    "slot": "RB",
-    "reason": "injury",
-    "current": {
-     "name": "Bhayshul Tuten",
-     "pos": "RB",
-     "proj": 12.52,
-     "injury": "Questionable"
-    }
-   },
-   "w9-r7-s6": {
-    "roster_id": 7,
-    "slot": "TE",
-    "reason": "injury",
-    "current": {
-     "name": "Hunter Henry",
-     "pos": "TE",
-     "proj": 9.04,
-     "injury": "Out"
-    }
-   },
-   "w9-r2-s4": {
-    "roster_id": 2,
-    "slot": "WR",
-    "reason": "upgrade",
-    "current": {
-     "name": "Chris Godwin Jr.",
-     "pos": "WR",
-     "proj": 9.1,
-     "injury": null
-    }
-   },
-   "w9-r3-s0": {
-    "roster_id": 3,
-    "slot": "QB",
-    "reason": "upgrade",
-    "current": {
-     "name": "Jacoby Brissett",
-     "pos": "QB",
-     "proj": 0.0,
-     "injury": null
-    }
-   },
-   "w9-r3-s4": {
-    "roster_id": 3,
-    "slot": "WR",
-    "reason": "injury",
-    "current": {
-     "name": "Amon-Ra St. Brown",
-     "pos": "WR",
-     "proj": 18.86,
-     "injury": "Questionable"
-    }
-   },
-   "w9-r3-s5": {
-    "roster_id": 3,
-    "slot": "WR",
-    "reason": "injury",
-    "current": {
-     "name": "Christian Watson",
-     "pos": "WR",
-     "proj": 15.6,
-     "injury": "Questionable"
-    }
-   },
-   "w9-r3-s8": {
-    "roster_id": 3,
-    "slot": "FLEX",
-    "reason": "injury",
-    "current": {
-     "name": "Drake London",
-     "pos": "WR",
-     "proj": 17.81,
-     "injury": "Questionable"
-    }
-   },
-   "w9-r4-s2": {
-    "roster_id": 4,
-    "slot": "RB",
-    "reason": "bye",
-    "current": {
-     "name": "Jaylen Warren",
-     "pos": "RB",
-     "proj": 0.0,
-     "injury": null
-    }
-   },
-   "w9-r4-s3": {
-    "roster_id": 4,
-    "slot": "RB",
-    "reason": "upgrade",
-    "current": {
-     "name": "Jonah Coleman",
-     "pos": "RB",
-     "proj": 14.35,
-     "injury": null
-    }
-   },
-   "w9-r4-s6": {
-    "roster_id": 4,
-    "slot": "TE",
-    "reason": "upgrade",
-    "current": {
-     "name": "Travis Kelce",
-     "pos": "TE",
-     "proj": 13.11,
-     "injury": null
-    }
-   },
-   "w9-r4-s7": {
-    "roster_id": 4,
-    "slot": "FLEX",
-    "reason": "upgrade",
-    "current": {
-     "name": "Brock Bowers",
-     "pos": "TE",
-     "proj": 17.17,
-     "injury": null
-    }
-   },
-   "w9-r4-s8": {
-    "roster_id": 4,
-    "slot": "FLEX",
-    "reason": "upgrade",
-    "current": {
-     "name": "Jameson Williams",
-     "pos": "WR",
-     "proj": 11.43,
-     "injury": null
-    }
-   },
-   "w9-r8-s1": {
-    "roster_id": 8,
-    "slot": "QB",
-    "reason": "injury",
-    "current": {
-     "name": "Matthew Stafford",
-     "pos": "QB",
-     "proj": 18.77,
-     "injury": "Questionable"
-    }
-   },
-   "w9-r8-s5": {
-    "roster_id": 8,
-    "slot": "WR",
-    "reason": "upgrade",
-    "current": {
-     "name": "Makai Lemon",
-     "pos": "WR",
-     "proj": 5.02,
-     "injury": null
-    }
-   },
-   "w9-r8-s6": {
-    "roster_id": 8,
-    "slot": "TE",
-    "reason": "upgrade",
-    "current": {
-     "name": "Dallas Goedert",
-     "pos": "TE",
-     "proj": 9.86,
-     "injury": null
-    }
-   },
-   "w9-r8-s8": {
-    "roster_id": 8,
-    "slot": "FLEX",
-    "reason": "upgrade",
-    "current": {
-     "name": "Darius Cooper",
-     "pos": "WR",
-     "proj": 2.51,
-     "injury": null
-    }
-   }
-  },
   "2026-11-04": {
    "w9-r5-s4": {
     "roster_id": 5,
@@ -1665,6 +1432,184 @@
      "pos": "WR",
      "proj": 0.0,
      "injury": "Out"
+    }
+   }
+  },
+  "2026-11-13": {
+   "w10-r1-s6": {
+    "roster_id": 1,
+    "slot": "TE",
+    "reason": "injury",
+    "current": {
+     "name": "Dalton Kincaid",
+     "pos": "TE",
+     "proj": 9.84,
+     "injury": "Questionable"
+    }
+   },
+   "w10-r1-s9": {
+    "roster_id": 1,
+    "slot": "K",
+    "reason": "bye",
+    "current": {
+     "name": "Chase McLaughlin",
+     "pos": "K",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w10-r6-s3": {
+    "roster_id": 6,
+    "slot": "RB",
+    "reason": "bye",
+    "current": {
+     "name": "D'Andre Swift",
+     "pos": "RB",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w10-r6-s4": {
+    "roster_id": 6,
+    "slot": "WR",
+    "reason": "injury",
+    "current": {
+     "name": "George Pickens",
+     "pos": "WR",
+     "proj": 13.68,
+     "injury": "Questionable"
+    }
+   },
+   "w10-r3-s4": {
+    "roster_id": 3,
+    "slot": "WR",
+    "reason": "injury",
+    "current": {
+     "name": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "proj": 19.24,
+     "injury": "Questionable"
+    }
+   },
+   "w10-r3-s6": {
+    "roster_id": 3,
+    "slot": "TE",
+    "reason": "injury",
+    "current": {
+     "name": "Harold Fannin Jr.",
+     "pos": "TE",
+     "proj": 10.49,
+     "injury": "Questionable"
+    }
+   },
+   "w10-r7-s3": {
+    "roster_id": 7,
+    "slot": "RB",
+    "reason": "injury",
+    "current": {
+     "name": "Bhayshul Tuten",
+     "pos": "RB",
+     "proj": 14.1,
+     "injury": "Questionable"
+    }
+   },
+   "w10-r7-s4": {
+    "roster_id": 7,
+    "slot": "WR",
+    "reason": "injury",
+    "current": {
+     "name": "Denzel Boston",
+     "pos": "WR",
+     "proj": 10.33,
+     "injury": "Questionable"
+    }
+   },
+   "w10-r8-s0": {
+    "roster_id": 8,
+    "slot": "QB",
+    "reason": "bye",
+    "current": {
+     "name": "Joe Milton",
+     "pos": "QB",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w10-r8-s5": {
+    "roster_id": 8,
+    "slot": "WR",
+    "reason": "bye",
+    "current": {
+     "name": "Makai Lemon",
+     "pos": "WR",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w10-r8-s6": {
+    "roster_id": 8,
+    "slot": "TE",
+    "reason": "bye",
+    "current": {
+     "name": "Dallas Goedert",
+     "pos": "TE",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w10-r8-s7": {
+    "roster_id": 8,
+    "slot": "FLEX",
+    "reason": "injury",
+    "current": {
+     "name": "Rhamondre Stevenson",
+     "pos": "RB",
+     "proj": 0.0,
+     "injury": "Questionable"
+    }
+   },
+   "w10-r8-s8": {
+    "roster_id": 8,
+    "slot": "FLEX",
+    "reason": "bye",
+    "current": {
+     "name": "Darius Cooper",
+     "pos": "WR",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w10-r8-s10": {
+    "roster_id": 8,
+    "slot": "DEF",
+    "reason": "bye",
+    "current": {
+     "name": "Philadelphia Eagles D/ST",
+     "pos": "DEF",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w10-r2-s0": {
+    "roster_id": 2,
+    "slot": "QB",
+    "reason": "bye",
+    "current": {
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w10-r2-s8": {
+    "roster_id": 2,
+    "slot": "FLEX",
+    "reason": "bye",
+    "current": {
+     "name": "Luther Burden III",
+     "pos": "WR",
+     "proj": 0.0,
+     "injury": "Questionable"
     }
    }
   }
