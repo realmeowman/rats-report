@@ -1,0 +1,138 @@
+{
+"lead": {
+"kicker": "Upset Alert",
+"headline": "Down 36.36, Big Stric Energy is the favorite",
+"dek": "A 2-7 team that hasn’t played a snap now projects for 148.49 against deeboliciouskins’ 144.9. A Thursday flop and a Friday kicker flipped the model to 53.8%.",
+"matchup_key": "w10-m1",
+"by_roster_id": 1,
+"roster_ids": [1, 6],
+"pull": "Big Stric’s projected edge is 3.59 points. The kicker it added Friday projects for 6.95.",
+"body": [
+"Big Stric Energy is 2-7. It has 25.9% playoff odds. It has not scored a single point this week. And as of 5:42 AM Saturday, it is the favorite. The model has Big Stric at 148.49 and deeboliciouskins at 144.9, a 53.8% to 46.2% edge for the team that trails 36.36 to nothing.",
+"Here’s how a 36-point head start turns into a coin flip with a lean. deeboliciouskins sent three starters out Thursday. Jayden Daniels did his job: 22.76 on an 18.78 projection. Malik Nabers did not: 7.4 against 16.41. Rachaad White scored 6.2 against 10.98. The lead is real. It’s just a lot smaller than it was supposed to be.",
+"Then Big Stric fixed the one hole it had. At 3:12 PM Friday the front office dropped Chase McLaughlin, on bye and projecting 0.0, and added Tyler Bass (6.95). That’s the K slot this desk has been tracking all week, resolved. Big Stric’s projected edge is now 3.59 points. Its new kicker projects for nearly double that. I’ve covered this franchise all season, and that’s the most useful Friday afternoon it has had.",
+"All 11 Big Stric starters are still to play, and the whole bet starts in one 10:00 AM window: Josh Allen (24.39), Dalton Kincaid and the new kicker all play in the same game, with Braelon Allen on the other sideline. Justin Jefferson (18.42), Nico Collins (14.86) and Rashee Rice (14.29) do the rest. One more lever if the front office wants it: Tucker Kraft (10.69) still projects a hair above Kincaid (9.84).",
+"deeboliciouskins isn’t done either. D’Andre Swift is on bye and Tony Pollard is off the injury report at 12.4, so that RB call is the easiest one in the league, and it’s already baked into the 144.9. After that it’s Patrick Mahomes (18.69), Ja’Marr Chase (19.89) and Jonathan Taylor (16.59) against Allen and company. At 4-5 with 98.2% playoff odds, deeboliciouskins can survive a loss. At 2-7, Big Stric can’t afford one.",
+"The pick is Big Stric. Barely. Elsewhere this weekend: two of the three 7-2 teams are underdogs, Santa Clara’s Finest are 99.5% to finish off AB81, and the closest matchup on the board starts at 6:30 AM Sunday in Munich."
+]
+},
+"quick_hits": [
+{
+"kicker": "Standings",
+"headline": "Three teams at 7-2. Two are underdogs.",
+"roster_ids": [2, 5, 8],
+"body": "Poochinski, Bad things man bad things and AB81 share first place. Only Bad things man bad things is favored this week, at 56.6%. Poochinski is a 32.3% shot against Cherry Blossom, and AB81 is at 0.5% against a team that’s already banked 75.2."
+},
+{
+"kicker": "AB81",
+"headline": "AB81’s five open slots, one Sunday",
+"roster_ids": [8, 7],
+"body": "AB81 projects for 93.76 at its best against the Finest’s 191.04. Joe Milton, Makai Lemon, Dallas Goedert, Darius Cooper and the Philadelphia Eagles D/ST are on bye, and Rhamondre Stevenson is a Questionable zero in the flex. Aaron Rodgers (17.68), Hunter Henry (9.99) and the Indianapolis Colts D/ST (8.03) are all still on the wire. The week is gone; the points-for tiebreaker isn’t."
+},
+{
+"kicker": "Poochinski",
+"headline": "Rodgers is still out there. So is Poochinski’s QB hole.",
+"roster_ids": [2, 4],
+"body": "Caleb Williams is on bye with no quarterback behind him: 136.62 as set, 146.5 with an add. Rodgers (17.68) and Drew Lock (16.21) are the best quarterbacks on the wire. Cherry Blossom, at 165.57 with its best lineup already in, is a 67.7% favorite either way."
+},
+{
+"kicker": "Maye I touch your TDs?",
+"headline": "Fannin cleared. Now it’s both Browns.",
+"roster_ids": [3],
+"body": "Harold Fannin Jr. is off the injury report, so the tight end scramble ended without a move. The new worry is at receiver: Amon-Ra St. Brown (ribs) and A.J. Brown (knee) are both Questionable, both in the 6:30 AM Munich game, along with Drake Maye himself. Maye gets its answers before anybody else in the league is awake."
+},
+{
+"kicker": "Santa Clara’s Finest",
+"headline": "The 75.2 team has three Questionable tags",
+"roster_ids": [7],
+"body": "Kenneth Walker III (groin, 18.25) and Denzel Boston (toe, 10.36) are Questionable starters, and the bench answer, Garrett Wilson (concussion, 14.25), is Questionable too. Boston has no backup; Wan’Dale Robinson (11.25) is the best receiver on the wire. The win is all but banked, but this team has the fewest points in the league, 1242.56, and every one counts."
+},
+{
+"kicker": "Bad things",
+"headline": "Bad things is still done, and a correction",
+"roster_ids": [5],
+"body": "Bad things man bad things projects for 165.83, which is its best lineup. Ladd McConkey (Questionable, back) sits on the bench where he can’t hurt anyone. Correction: yesterday’s brief called Bad things the champ. The defending champion is its opponent this week, Maye I touch your TDs?. Bad things just plays like one."
+}
+],
+"previews": {
+"w10-m1": {
+"headline": "Upset alert: Big Stric, down 36.36, now favored",
+"blurb": "Big Stric Energy 148.49, deeboliciouskins 144.9, 53.8% to 46.2%. deeboliciouskins banked 36.36 Thursday but its trio ran short of projection, and Big Stric’s Bass add closed the last hole. Pollard for Swift is deeboliciouskins’ only call. Josh Allen decides it.",
+"pick": 1
+},
+"w10-m2": {
+"headline": "Matchup of the week: 7-2 Bad things vs. the champ",
+"blurb": "Bad things man bad things 165.83, Maye I touch your TDs? 158.91, 56.6% to 43.4%. Both lineups are already their best. The defending champ, 2-7, opens at 6:30 AM with two Questionable Browns; Bad things counters with Bijan Robinson (20.12) and James Cook III (17.43). The closest game on the board.",
+"pick": 5
+},
+"w10-m3": {
+"headline": "The Finest, basically final",
+"blurb": "Santa Clara’s Finest 75.2, AB81 0, with the Finest projecting 191.04 to AB81’s best of 93.76. A 99.5% favorite. AB81 has five lineup holes and a 7-2 record to protect.",
+"pick": 7
+},
+"w10-m4": {
+"headline": "Cherry Blossom over a 7-2 team without a QB",
+"blurb": "Cherry Blossom 165.57, Poochinski 146.5 with a quarterback add and 136.62 without. 67.7% to 32.3%. Cherry Blossom is set; Poochinski still has the Caleb Williams bye and the Burden flex to fill.",
+"pick": 4
+}
+},
+"decision_notes": {
+"w10-r1-s9": {
+"headline": "Resolved: Big Stric adds Bass",
+"blurb": "At 3:12 PM Friday, Tyler Bass (6.95) in, Chase McLaughlin out. The kicker slot is filled, and the projection flipped Big Stric into the favorite."
+},
+"w10-r6-s3": {
+"headline": "What will deeboliciouskins do at RB? Easy now.",
+"blurb": "D’Andre Swift is on bye, and Tony Pollard (12.4) no longer carries an injury tag. Pollard in, by Sun 10:00 AM. It’s the difference between a toss-up and a hole."
+},
+"w10-r3-s4": {
+"headline": "St. Brown or A.J. Brown, now with a 6:30 AM deadline",
+"blurb": "St. Brown (19.24, ribs) starts if active. A.J. Brown (14.24, knee) is the hedge, and he’s Questionable too. Both play in Munich at 6:30 AM, so Maye gets the inactives list first. If both sit, the bench has nobody else at receiver who’s playing."
+},
+"w10-r7-s2": {
+"headline": "Walker or Wilson in the Finest’s backfield slot?",
+"blurb": "Kenneth Walker III (18.25, groin) is the starter. The only alternative is a flex shuffle to get Garrett Wilson (14.25) in, and he’s Questionable with a concussion. Walker if active. Deadline Sun 10:00 AM."
+},
+"w10-r7-s4": {
+"headline": "Boston’s toe, and no one behind him",
+"blurb": "Denzel Boston (10.36) is Questionable and the bench has no healthy receiver. If he’s trending the wrong way, Wan’Dale Robinson (11.25) projects higher anyway."
+},
+"w10-r8-s0": {
+"headline": "AB81’s quarterback: Rodgers or Lock",
+"blurb": "Joe Milton is on bye and Sam Darnold is Out, so Matthew Stafford (16.59) is AB81’s only quarterback playing. Rodgers (17.68) is the best on the wire, Lock (16.21) the next. One more spot to fill in a five-slot Sunday."
+},
+"w10-r2-s0": {
+"headline": "Poochinski’s QB race: Rodgers, still",
+"blurb": "Dak Prescott (17.93) is Poochinski’s only quarterback playing. Rodgers (17.68) is still unrostered, and he’s first come, first served. AB81 needs one too."
+},
+"w10-r2-s8": {
+"headline": "Who replaces Burden in Poochinski’s flex?",
+"blurb": "Luther Burden III is on bye. Quinshon Judkins (9.88) leads Tyler Higbee (8.63) and Jadarian Price (8.59). Judkins by Sun 10:00 AM."
+}
+},
+"alert_notes": {},
+"trending_notes": {
+"6650": "Chase McLaughlin is one of the most-dropped players in fantasy this week, and Big Stric Energy was one of the droppers, for Tyler Bass at 3:12 PM Friday.",
+"12491": "Corey Kiner (11.79) is still unrostered. deeboliciouskins no longer needs him with Pollard healthy; AB81 has two flex holes.",
+"9480": "Brenton Strange (9.91) is unrostered. Maye’s tight end need went away when Fannin cleared; AB81’s, with Goedert on bye, didn’t.",
+"13337": "Emmett Johnson (9.75) is the most-added player in fantasy and unrostered in R.A.T.S. A flex body for AB81.",
+"3271": "Tyler Higbee is on both the most-added and most-dropped lists. On Poochinski he’s option two for the Burden flex, at 8.63.",
+"5849": "Kyler Murray is Out (hamstring) and among the most-dropped quarterbacks. deeboliciouskins has Mahomes and Daniels and doesn’t need him."
+},
+"move_grades": {
+"2026-11-14-m1": {
+"grade": "B+",
+"blurb": "Tyler Bass (6.95) for a bye-week Chase McLaughlin at 3:12 PM Friday. It filled the last hole in the lineup and turned Big Stric into a 53.8% favorite. The only knock: it took until Friday."
+}
+},
+"external_facts": [
+{
+"claim": "Week 10 Thursday night game: WAS at NYG, final 24-21, Thursday 2026-11-12. Week 10 Sunday: NE vs DET at FC Bayern Munich Stadium, 9:30 AM ET (6:30 AM PT); BUF at NYJ 1:00 PM ET (10:00 AM PT), Sunday 2026-11-15.",
+"source": "nflverse schedule, data/raw/games.csv (game_ids 2026_10_WAS_NYG, 2026_10_NE_DET, 2026_10_BUF_NYJ)"
+},
+{
+"claim": "Unrostered in R.A.T.S. with Sleeper Week 10 projections (league scoring), excluding players whose game is final: Aaron Rodgers QB 17.68, Drew Lock QB 16.21, Corey Kiner RB 11.79, Wan'Dale Robinson WR 11.25, Hunter Henry TE 9.99, Brenton Strange TE 9.91, Indianapolis Colts D/ST 8.03.",
+"source": "Sleeper projections API /projections/nfl/regular/2026/10 scored with league scoring_settings, checked against the league rosters API, 2026-11-14"
+}
+]
+}
