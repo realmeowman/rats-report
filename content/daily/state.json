@@ -2,7 +2,7 @@
  "date": "2026-11-15",
  "since_ms": 1794611541530,
  "last_tx_ms": 1794671793506,
- "last_run": "2026-11-15T05:43-08:00",
+ "last_run": "2026-11-15T08:48-08:00",
  "decisions_by_date": {
   "2026-11-06": {
    "w9-r1-s8": {
@@ -1337,25 +1337,14 @@
      "injury": null
     }
    },
-   "w10-r7-s2": {
+   "w10-r7-s8": {
     "roster_id": 7,
-    "slot": "RB",
+    "slot": "FLEX",
     "reason": "injury",
     "current": {
-     "name": "Kenneth Walker III",
-     "pos": "RB",
-     "proj": 0.0,
-     "injury": "Out"
-    }
-   },
-   "w10-r7-s4": {
-    "roster_id": 7,
-    "slot": "WR",
-    "reason": "injury",
-    "current": {
-     "name": "Denzel Boston",
+     "name": "Garrett Wilson",
      "pos": "WR",
-     "proj": 10.63,
+     "proj": 14.31,
      "injury": "Questionable"
     }
    },
@@ -1388,17 +1377,6 @@
     "current": {
      "name": "Dallas Goedert",
      "pos": "TE",
-     "proj": 0.0,
-     "injury": null
-    }
-   },
-   "w10-r8-s7": {
-    "roster_id": 8,
-    "slot": "FLEX",
-    "reason": "upgrade",
-    "current": {
-     "name": "Rhamondre Stevenson",
-     "pos": "RB",
      "proj": 0.0,
      "injury": null
     }
