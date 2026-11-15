@@ -1,8 +1,8 @@
 {
  "date": "2026-11-15",
  "since_ms": 1794611541530,
- "last_tx_ms": 1794671793506,
- "last_run": "2026-11-15T08:48-08:00",
+ "last_tx_ms": 1794763696349,
+ "last_run": "2026-11-15T13:49-08:00",
  "decisions_by_date": {
   "2026-11-06": {
    "w9-r1-s8": {
@@ -1337,17 +1337,6 @@
      "injury": null
     }
    },
-   "w10-r7-s8": {
-    "roster_id": 7,
-    "slot": "FLEX",
-    "reason": "injury",
-    "current": {
-     "name": "Garrett Wilson",
-     "pos": "WR",
-     "proj": 14.31,
-     "injury": "Questionable"
-    }
-   },
    "w10-r8-s0": {
     "roster_id": 8,
     "slot": "QB",
@@ -1401,28 +1390,6 @@
      "pos": "DEF",
      "proj": 0.0,
      "injury": null
-    }
-   },
-   "w10-r2-s0": {
-    "roster_id": 2,
-    "slot": "QB",
-    "reason": "bye",
-    "current": {
-     "name": "Caleb Williams",
-     "pos": "QB",
-     "proj": 0.0,
-     "injury": null
-    }
-   },
-   "w10-r2-s8": {
-    "roster_id": 2,
-    "slot": "FLEX",
-    "reason": "bye",
-    "current": {
-     "name": "Luther Burden III",
-     "pos": "WR",
-     "proj": 0.0,
-     "injury": "Questionable"
     }
    }
   }
