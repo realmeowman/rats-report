@@ -1,130 +1,154 @@
 {
 "lead": {
-"kicker": "After the Early Games",
-"headline": "Big Stric leads by 14.06. Chase is coming.",
-"dek": "Big Stric Energy was a 66.6% favorite at 8:48 AM. It now leads deeboliciouskins 115.14 to 101.08 with one player left, and the live board makes it a 20% team, because Ja’Marr Chase hasn’t kicked off.",
-"matchup_key": "w10-m1",
-"by_roster_id": 6,
-"roster_ids": [1, 6],
-"pull": "Big Stric Energy 115.14. deeboliciouskins 101.08. Guess which one is sweating.",
+"kicker": "After the Late Games",
+"headline": "Poochinski erased 37.36. It’s still the underdog.",
+"dek": "At 1:49 PM Poochinski trailed Cherry Blossom 101.8 to 64.44. At 4:48 PM it leads 148.24 to 147.5, and the live board still makes Cherry Blossom a 70.4% favorite. Sunday night decides it.",
+"matchup_key": "w10-m4",
+"by_roster_id": 2,
+"roster_ids": [2, 4],
+"pull": "Poochinski 148.24. Cherry Blossom 147.5. One game left that matters, and both teams have their hands in it.",
 "body": [
-"At 8:48 AM, Big Stric Energy sat on 0.0 and the live board had it a 66.6% favorite anyway. Five hours later Big Stric leads 115.14 to 101.08, and it is 20% to win. That’s the biggest swing of the morning, and it ran directly against the scoreboard.",
-"Here’s how a team leads and loses at the same time: Big Stric Energy spent its whole lineup before lunch. Nico Collins went for 24.4 against a 15.44 projection, Josh Allen 23.34, Justin Jefferson 16.4, Rashee Rice 13.2. Then the potholes: Jalen Coker 0.3 in the flex against 13.19, Jordan Love 11.8 against 17.5, the Jaguars D/ST 3.0. One Big Stric player is left, Ashton Jeanty, at 2.3 and live. Live projection: 124.49.",
-"The franchise I cover still has three bullets. Ja’Marr Chase (19.89) hasn’t played yet; he goes at 5:20 PM. George Pickens (1.6) and Jason Myers (1.0) are live in the late window. They already had Patrick Mahomes going nuclear, 35.42 against a 20.04 projection, plus Jayden Daniels’ 22.76 from Thursday and 12.0 from the Chiefs D/ST. Live projection: 138.43. The math is simple: Chase, Pickens and Myers have to outscore Jeanty by more than 14.06.",
-"And yes, deeboliciouskins is doing it a man down. D’Andre Swift is still in the RB slot on bye at 0.0. Tony Pollard, the bench answer, played at 10:00 AM and put 23.9 on the bench. DJ Moore (19.4) and the Vikings D/ST (21.0) joined him there. The Swift slot isn’t a busted lineup yet; it can still be filled from the wire, and Justice Hill (7.23), unrostered in R.A.T.S. and trending, plays Monday at 5:15 PM. Free points are free points.",
-"Pick: deeboliciouskins, at 80%. Big Stric Energy has done everything a 2-7 team can do, and it might not matter. This is Chase against Jeanty now, and Chase has the bigger projection and the later kickoff. Big Stric fans, find a hobby until 5:20 PM."
+"I’ve covered Poochinski all season, and this was its best afternoon. Down 37.36 at 1:49 PM, the franchise put up 83.8 points in the late window and walked into the evening with a 0.74 lead. That’s a 38.1-point swing in three hours. Dak Prescott did the heavy lifting, 35.14 against an 18.39 projection. CeeDee Lamb added 20.2, Jadarian Price 11.4, Brandon Aubrey 11.0 and the Seahawks D/ST 10.0. Jahmyr Gibbs’ 44.2 from the morning was the foundation; the afternoon built a house on it.",
+"So why is Poochinski a 29.6% team while leading? Because Cherry Blossom didn’t sit still either. Christian McCaffrey had 0.6 at 1:49 PM. He finished at 46.3 against a 22.55 projection, and Cherry Blossom added 45.7 of its own in the late window. The potholes were real, Brock Bowers 3.8 in the flex and Travis Kelce 5.0 at tight end, and they still couldn’t sink it.",
+"Here’s the board. Poochinski has two left: Aaron Rodgers (17.68) and Chase Brown (13.72), both at 5:20 PM. Cherry Blossom has three: Jaylen Warren (17.15) and Tee Higgins (17.14) in that same game, then the Ravens D/ST (8.34) on Monday at 5:15 PM. Live projection: 190.13 to 179.64, Cherry Blossom by 10.49. It’s a mirror match in one building: each team has one player on each sideline, and Cherry Blossom keeps a Monday insurance policy.",
+"And Poochinski has a receipt it won’t enjoy. Quinshon Judkins scored 16.1 on the bench. Javonte Williams started in the flex and scored 7.7. In a game separated by 0.74, that one call is worth more than the whole margin, and it’s the first thing this front office should circle when it watches the replay.",
+"Pick: Cherry Blossom, at 70.4%. Three bullets beat two, and the third one fires Monday. But the 9:28 AM Rodgers add now carries the week. If he’s good tonight, nobody will remember the 37.36."
 ]
 },
 "quick_hits": [
 {
-"kicker": "Maye I touch your TDs?",
-"headline": "Emmett Johnson: 35.1. The 7:56 AM add.",
-"roster_ids": [3, 5],
-"body": "The Saturday pickup this desk graded A this morning put up 35.1 against a 16.74 projection, and it hasn’t been enough. Yet. Bad things man bad things leads 151.32 to 131.78 behind Chuba Hubbard’s 34.2 and James Cook III’s 21.7. The live board moved from 51.8% at 8:48 AM to 57.6% for Bad things; Maye is at 42.4%, 173.36 to 176.91 projected."
+"kicker": "deeboliciouskins",
+"headline": "George Pickens: 43.5. Lead flipped, game over.",
+"roster_ids": [6, 1],
+"body": "At 1:49 PM deeboliciouskins trailed by 14.06 and needed help. George Pickens supplied 43.5 points against a 13.58 projection, and deeboliciouskins now leads Big Stric Energy 143.98 to 123.24, a 20.74 margin with nobody left on the other side. Ja’Marr Chase (19.89) still plays at 5:20 PM. The live board says 100%. Chase is dessert."
+},
+{
+"kicker": "Big Stric Energy",
+"headline": "Big Stric spent everything by 4:48 PM. It wasn’t enough.",
+"roster_ids": [1],
+"body": "Ashton Jeanty finished at 10.4 and Big Stric Energy is done at 123.24, zero players left. Nico Collins’ 24.4 and Josh Allen’s 23.34 deserved better. Jalen Coker’s 0.3 in the flex, against a 13.19 projection, is the line this franchise will be staring at all week."
 },
 {
 "kicker": "The Matchup in Doubt",
-"headline": "Three left on each side, 3.55 apart",
+"headline": "Purdy flipped the board. Now it’s a kicker vs. a receiver.",
 "roster_ids": [3, 5],
-"body": "Maye I touch your TDs? has Brock Purdy (6.36, live), Matt Gay (4.0, live) and Monday’s Zay Flowers (16.24). Bad things man bad things has Trey McBride (3.3, live), the Rams D/ST (8.0, live) and Evan McPherson (7.43) at 5:20 PM. The projections are 3.55 apart. Drake Maye finished with 3.02. Purdy is the only quarterback this franchise has left."
+"body": "Brock Purdy had 6.36 at 1:49 PM and finished at 31.66. Bad things man bad things still leads Maye I touch your TDs? 165.72 to 161.08, but that’s 4.64 with one player left on each side: Evan McPherson (7.43) at 5:20 PM for Bad things, Zay Flowers (16.24) on Monday at 5:15 PM for Maye. The live board swung from 42.4% to 64.7% Maye, 177.32 to 173.15 projected. Pick: Maye I touch your TDs?, and Emmett Johnson’s 35.1 gets the assist."
 },
 {
-"kicker": "Poochinski",
-"headline": "Down 37.36, Poochinski has eight left",
-"roster_ids": [2, 4],
-"body": "Jahmyr Gibbs finished at 44.2 and Poochinski still trails Cherry Blossom 101.8 to 64.44. But Poochinski has eight starters still to go, led by CeeDee Lamb (19.98, live) and Dak Prescott (18.39, live), with Aaron Rodgers and Chase Brown at 5:20 PM. Cherry Blossom has five left. The live board moved Poochinski from 26.8% to 35.2%."
-},
-{
-"kicker": "Cherry Blossom",
-"headline": "Cherry Blossom’s Jacksonville stack cashed",
-"roster_ids": [4],
-"body": "Parker Washington (28.2) and Trevor Lawrence (27.78) both blew through their projections, and Jared Goff added 22.42. Christian McCaffrey (0.6) and Brock Bowers (3.8) are live; Jaylen Warren, Tee Higgins and the Ravens D/ST are still to come. Projection: 176.08 to 164.69, 64.8%."
+"kicker": "AB81",
+"headline": "AB81 filled five bye slots in nine minutes",
+"roster_ids": [8, 7],
+"body": "From 4:33 PM to 4:42 PM, AB81 added Justin Herbert, Rico Dowdle, Germie Bernard, the Bengals D/ST and Mark Andrews, with a two-minute Mike Gesicki stay in between. It trails Santa Clara’s Finest 157.7 to 77.56 and now has six players left, more than anyone in R.A.T.S. Live projection: 180.13 to 141.39, 4.5%. Not alive, but at least it has a pulse."
 },
 {
 "kicker": "Santa Clara’s Finest",
-"headline": "The Finest: 141.7, with Burrow still to play",
-"roster_ids": [7, 8],
-"body": "Isaiah Likely 27.7, Cam Skattebo 27.2, Bhayshul Tuten 20.3, Stefon Diggs 20.3. Santa Clara’s Finest leads AB81 141.7 to 27.64 and is 100% to win, with Joe Burrow (22.43) still to play. AB81’s best scorer is its kicker, Cam Little, at 19.0."
+"headline": "The Finest: 157.7, and Burrow still to come",
+"roster_ids": [7],
+"body": "Blake Corum, the injury fill-in for Kenneth Walker III, went for 20.9 against an 11.08 projection, and Isaiah Likely’s 27.7 and Cam Skattebo’s 27.2 held up. Joe Burrow (22.43) plays at 5:20 PM. The board says 95.5%, the lead says 80.14, and the 2-7 Finest are about to make somebody’s 7-2 look awkward."
 },
 {
 "kicker": "Bench Watch",
-"headline": "The benches had a better morning",
-"roster_ids": [2, 5, 6],
-"body": "deeboliciouskins: Pollard 23.9, Vikings D/ST 21.0, DJ Moore 19.4 on the bench. Bad things man bad things: Kirk Cousins 16.38 on the bench while Tyler Shough started for 10.98, plus Josh Downs 15.3. Poochinski: Quinshon Judkins 16.1 on the bench. None of it has cost a game. Yet."
+"headline": "Kirk Cousins outscored the starter by 5.4",
+"roster_ids": [5, 6, 8],
+"body": "Bad things man bad things started Tyler Shough (10.98) and left Kirk Cousins (16.38) and Josh Downs (15.3) on the bench, in a game it leads by 4.64. deeboliciouskins benched Tony Pollard 23.9, the Vikings D/ST 21.0 and DJ Moore 19.4 and won anyway. AB81 left George Kittle’s 13.4 on the bench."
 }
 ],
 "previews": {
 "w10-m1": {
-"headline": "Big Stric leads; deeboliciouskins is the pick",
-"blurb": "Big Stric Energy 115.14, deeboliciouskins 101.08. Big Stric has only Ashton Jeanty (2.3, live) left; deeboliciouskins has Ja’Marr Chase at 5:20 PM plus Pickens and Myers live. Live projection 138.43 to 124.49, 80% deeboliciouskins.",
+"headline": "deeboliciouskins, flipped and finished",
+"blurb": "deeboliciouskins 143.98, Big Stric Energy 123.24 and done. Pickens’ 43.5 turned a 14.06 deficit into a 20.74 lead. Ja’Marr Chase plays at 5:20 PM for style points. 100%.",
 "pick": 6
 },
 "w10-m2": {
-"headline": "Johnson’s 35.1 vs Hubbard’s 34.2",
-"blurb": "Bad things man bad things leads 151.32 to 131.78. Three left each: Purdy, Gay and Monday’s Flowers for Maye; McBride, the Rams D/ST and McPherson for Bad things. Projected 176.91 to 173.36, 57.6% Bad things.",
-"pick": 5
+"headline": "McPherson tonight, Flowers Monday",
+"blurb": "Bad things man bad things leads 165.72 to 161.08. One left each: Evan McPherson (7.43) at 5:20 PM, Zay Flowers (16.24) Monday at 5:15 PM. Projected 177.32 to 173.15, 64.7% Maye I touch your TDs?.",
+"pick": 3
 },
 "w10-m3": {
-"headline": "The Finest, done in all but name",
-"blurb": "Santa Clara’s Finest 141.7, AB81 27.64, 100%. Burrow is still to come for the Finest; Derrick Henry, Stafford, Kyren Williams and Jaxon Smith-Njigba are AB81’s four left.",
+"headline": "The Finest by 80.14, AB81 by committee",
+"blurb": "Santa Clara’s Finest 157.7, AB81 77.56. Burrow left for the Finest; six for AB81, three tonight and three Monday. Projected 180.13 to 141.39, 95.5% the Finest.",
 "pick": 7
 },
 "w10-m4": {
-"headline": "Cherry Blossom by 37.36, Poochinski has the bodies",
-"blurb": "Cherry Blossom 101.8, Poochinski 64.44. Poochinski has eight starters left to Cherry Blossom’s five. Projected 176.08 to 164.69, 64.8% Cherry Blossom.",
+"headline": "0.74 apart, and it all happens at 5:20 PM",
+"blurb": "Poochinski 148.24, Cherry Blossom 147.5. Rodgers and Chase Brown against Warren and Higgins in the same game, then the Ravens D/ST on Monday. Projected 190.13 to 179.64, 70.4% Cherry Blossom.",
 "pick": 4
 }
 },
 "decision_notes": {
 "w10-r6-s3": {
-"headline": "Swift’s slot: Pollard played; the wire is next",
-"blurb": "D’Andre Swift is on bye and still in the RB slot. Tony Pollard’s 23.9 came off the bench at 10:00 AM, so the answer now has to come from the wire. Justice Hill (7.23), unrostered and trending, plays Monday at 5:15 PM."
-},
-"w10-r2-s0": {
-"headline": "Resolved: Poochinski added Rodgers at 9:28 AM",
-"blurb": "Poochinski picked up Aaron Rodgers at 9:28 AM, dropped Chris Godwin Jr. and put Rodgers in for the bye-week Caleb Williams. Rodgers (17.68) goes at 5:20 PM."
-},
-"w10-r2-s8": {
-"headline": "Resolved: Price in for Burden",
-"blurb": "Poochinski made the flex call: Jadarian Price (8.97) in for Luther Burden III. Price has 0.9 and is live; Quinshon Judkins went for 16.1 on the bench."
-},
-"w10-r7-s2": {
-"headline": "Corum in for Walker, and live",
-"blurb": "The Finest’s RB call: Blake Corum in, Kenneth Walker III out. Corum has 4.9 and is live. At 100%, it’s a footnote."
+"headline": "Swift’s slot: still open, no longer urgent",
+"blurb": "D’Andre Swift is on bye and still in deeboliciouskins’ RB slot, but the matchup is decided: 143.98 to a finished 123.24. If the front office wants free points anyway, Justice Hill (7.23), unrostered and trending, plays Monday at 5:15 PM."
 },
 "w10-r8-s0": {
-"headline": "AB81 rides out the bye week",
-"blurb": "Joe Milton, Makai Lemon, Dallas Goedert, Darius Cooper and the Eagles D/ST are still in AB81’s lineup on bye, and George Kittle (3.0, live) stayed on the bench when his game kicked off at 1:25 PM. AB81 is at 27.64 with four players left."
+"headline": "Resolved: AB81 fills the byes at 4:33 PM",
+"blurb": "Joe Milton, Makai Lemon, Darius Cooper, Dallas Goedert and the Eagles D/ST are out. Justin Herbert (13.91), Germie Bernard (11.12), Rico Dowdle (9.97), Mark Andrews (6.93) and the Bengals D/ST (6.33) are in. Down 80.14, it’s about pride now."
+},
+"w10-r2-s0": {
+"headline": "Rodgers: the 9:28 AM add carries the week",
+"blurb": "Poochinski added Aaron Rodgers at 9:28 AM for the bye-week Caleb Williams. He plays at 5:20 PM with Poochinski up 0.74."
+},
+"w10-r2-s8": {
+"headline": "Price in for Burden: 11.4",
+"blurb": "Jadarian Price beat his 8.97 projection with 11.4 in Poochinski’s flex. The other flex is the problem: Javonte Williams 7.7, Quinshon Judkins 16.1 on the bench."
+},
+"w10-r7-s2": {
+"headline": "Corum in for Walker: 20.9",
+"blurb": "The Finest’s RB call paid: Blake Corum 20.9 against an 11.08 projection."
 }
 },
 "alert_notes": {},
 "trending_notes": {
-"13337": "Emmett Johnson, the most-added player in fantasy, scored 35.1 for Maye I touch your TDs? against a 16.74 projection.",
+"13337": "Emmett Johnson, one of the most-added players in fantasy, scored 35.1 for Maye I touch your TDs? against a 16.74 projection, and Maye is now a 64.7% team.",
 "5995": "Justice Hill (7.23) is unrostered in R.A.T.S. and plays Monday. deeboliciouskins still has D’Andre Swift’s bye in its RB slot.",
-"3271": "Tyler Higbee has 1.5 and is live on Poochinski’s bench.",
-"IND": "The Indianapolis Colts D/ST (8.08) is trending up and unrostered. AB81’s Eagles are on bye."
+"3271": "Tyler Higbee scored 10.7 on Poochinski’s bench.",
+"4993": "Mike Gesicki (9.78) spent two minutes on AB81’s roster, 4:40 PM to 4:42 PM, before being dropped for Mark Andrews (6.93)."
 },
 "move_grades": {
 "2026-11-15-m1": {
 "grade": "A+",
-"blurb": "Emmett Johnson for Aaron Jones Sr. at 7:56 AM Saturday: 35.1 points against a 16.74 projection. Upgrade earned."
+"blurb": "Emmett Johnson for Aaron Jones Sr. at 7:56 AM Saturday: 35.1 points against a 16.74 projection, and Maye I touch your TDs? is the pick to win."
 },
 "2026-11-15-m2": {
 "grade": "A-",
-"blurb": "Aaron Rodgers (17.68) for Chris Godwin Jr. at 9:28 AM, filling Caleb Williams’ bye. Godwin projected 0.0 this week. Rodgers plays at 5:20 PM, with Poochinski down 37.36."
+"blurb": "Aaron Rodgers (17.68) for Chris Godwin Jr., who projected 0.0, at 9:28 AM. Rodgers plays at 5:20 PM in a game Poochinski leads by 0.74."
+},
+"2026-11-15-m3": {
+"grade": "B",
+"blurb": "Justin Herbert (13.91) for the bye-week Joe Milton at 4:33 PM. Any quarterback beats a bye. Monday at 5:15 PM."
+},
+"2026-11-15-m4": {
+"grade": "B",
+"blurb": "Rico Dowdle (9.97) for Makai Lemon (0.0) at 4:34 PM. Real points, in a game that needs 80.14 of them."
+},
+"2026-11-15-m5": {
+"grade": "B",
+"blurb": "Germie Bernard (11.12) for Dallas Goedert at 4:36 PM. A bye slot filled with a Sunday-night receiver."
+},
+"2026-11-15-m6": {
+"grade": "B-",
+"blurb": "Bengals D/ST (6.33) for Darius Cooper at 4:38 PM. A defense for a bye; fine."
+},
+"2026-11-15-m7": {
+"grade": "C",
+"blurb": "Mike Gesicki (9.78) for the bye-week Eagles D/ST at 4:40 PM. A good add for exactly two minutes."
+},
+"2026-11-15-m8": {
+"grade": "C-",
+"blurb": "Mark Andrews (6.93) for Mike Gesicki (9.78) at 4:42 PM. AB81 traded a higher projection for a lower one. Bold, in a game down 80.14."
 }
 },
 "external_facts": [
 {
-"claim": "Week 10 kickoffs (Pacific): Sunday 2026-11-15 NE vs DET in Munich 6:30 AM PT; KC at ATL, BUF at NYJ, JAX at TEN, MIN at GB, HOU at CLE, MIA at IND, CAR at NO 10:00 AM PT; LA at ARI and SEA at LV 1:05 PM PT; SF at DAL 1:25 PM PT; PIT at CIN 5:20 PM PT. Monday 2026-11-16 LAC at BAL 5:15 PM PT. Thursday WAS at NYG final 24-21.",
+"claim": "Week 10 kickoffs (Pacific): Sunday 2026-11-15 NE vs DET in Munich 6:30 AM PT; KC at ATL, BUF at NYJ, JAX at TEN, MIN at GB, HOU at CLE, MIA at IND, CAR at NO 10:00 AM PT; LA at ARI and SEA at LV 1:05 PM PT; SF at DAL 1:25 PM PT; PIT at CIN 5:20 PM PT. Monday 2026-11-16 LAC at BAL 5:15 PM PT.",
 "source": "nflverse schedule, data/raw/games.csv (week 10 game_ids; times listed in ET, converted to PT)"
 },
 {
-"claim": "Today's 8:48 AM last-call update: win probabilities Big Stric Energy 66.6% vs deeboliciouskins 33.4%; Bad things man bad things 51.8% vs Maye I touch your TDs? 48.2%; Cherry Blossom 73.2% vs Poochinski 26.8%; Santa Clara's Finest 99.6%. Both of today's earlier editions graded the Emmett Johnson add an A.",
-"source": "content/daily/2026-11-15/stories.json at commit 9008bf1"
+"claim": "Today's 1:49 PM after-early update: Cherry Blossom led Poochinski 101.8 to 64.44 (37.36), Poochinski at 35.2% and Cherry Blossom 64.8%; Big Stric Energy led deeboliciouskins by 14.06 with deeboliciouskins at 80%; Bad things man bad things led Maye I touch your TDs? 151.32 to 131.78 (19.54), Maye at 42.4%; Brock Purdy had 6.36; Christian McCaffrey had 0.6.",
+"source": "content/daily/2026-11-15/stories.json at commit cf74da1"
 },
 {
-"claim": "Live margins at 1:49 PM, computed from facts.json matchups[].live: Big Stric Energy over deeboliciouskins by 14.06; Bad things man bad things over Maye I touch your TDs? by 19.54; Santa Clara's Finest over AB81 by 114.06; Cherry Blossom over Poochinski by 37.36.",
+"claim": "Computed from facts.json at 4:48 PM: live margins deeboliciouskins over Big Stric Energy 20.74; Bad things over Maye 4.64; Santa Clara's Finest over AB81 80.14; Poochinski over Cherry Blossom 0.74. Live-projection gaps: Cherry Blossom 10.49, Maye 4.17, the Finest 38.74. Poochinski scored 83.8 since 1:49 PM (64.44 to 148.24), a 38.1-point swing; Cherry Blossom 45.7 (101.8 to 147.5). Cousins 16.38 minus Shough 10.98 is 5.4. Win probabilities (matchups[].win_prob as percents): deeboliciouskins 100%, Big Stric Energy 0%; Maye 64.7%, Bad things 35.3%; the Finest 95.5%, AB81 4.5%; Cherry Blossom 70.4%, Poochinski 29.6%.",
 "source": "arithmetic on content/daily/2026-11-15/facts.json"
 }
 ]
