@@ -1,0 +1,100 @@
+{
+"lead": {
+"kicker": "Monday Night Math",
+"headline": "Zay Flowers holds the top of the standings",
+"dek": "Bad things man bad things is finished at 172.72. Maye I touch your TDs? has 161.08 and one receiver left. If Flowers clears 11.64, the 2-7 team takes down a 7-2 team tonight.",
+"matchup_key": "w10-m2",
+"by_roster_id": 3,
+"roster_ids": [3, 5],
+"pull": "Three R.A.T.S. matchups are all but final. The fourth comes down to one Ravens receiver, projected 16.24, needing 11.65.",
+"body": [
+"Thirteen NFL games are final. One is left, Chargers at Ravens at 5:15 PM, and five R.A.T.S. starters are in it. Three of the week’s four matchups are as good as done. This one isn’t. Bad things man bad things has 172.72 and nobody left. Maye I touch your TDs? has 161.08 and Zay Flowers. He needs more than 11.64 to win it. He’s projected for 16.24, and the board makes Maye a 69.3% team.",
+"Here are the stakes, and they’re bigger for the team that’s already done playing. Bad things man bad things came in 7-2, level with Poochinski and AB81. Poochinski is 99.2% to win with nobody left to play. AB81 is losing to Santa Clara’s Finest by 101.9. So Flowers decides whether Bad things takes its eighth win and stays level with Poochinski, or falls a game behind it. A 2-7 team is holding the tiebreaker sheet hostage.",
+"Maye got here without its namesake. Drake Maye scored 3.02 against a 23.29 projection, and Sleeper now lists him Out with an ankle. Brock Purdy carried the quarterback room with 31.66, Amon-Ra St. Brown added 25.8, and Emmett Johnson, the Saturday-morning waiver add, put up 35.1 against a 16.74 projection. That’s a lineup that scored like a contender and is 2-7 anyway.",
+"If Bad things loses, look at its bench before you look at Flowers. Kirk Cousins scored 16.38 on it while Tyler Shough started and scored 10.98. Josh Downs scored 15.3 on it while Tetairoa McMillan started and scored 6.5. Those two swaps add up to more than tonight’s margin. Chuba Hubbard’s 34.2 and the Rams D/ST’s 17.0 built the lead; the bench is what kept it from being out of reach.",
+"My pick: Maye I touch your TDs?. A receiver projected 16.24 needs 11.65, in a game where four other R.A.T.S. starters are also playing. One catch-and-run either way and this is a different standings page Tuesday."
+]
+},
+"quick_hits": [
+{
+"kicker": "Busted Lineup",
+"headline": "deeboliciouskins played Sunday with a bye at RB",
+"roster_ids": [6, 1],
+"body": "D’Andre Swift’s bye stayed in deeboliciouskins’ RB slot all weekend, and Tony Pollard scored 23.9 on the bench. It cost nothing: deeboliciouskins beat Big Stric Energy 178.08 to 123.24 behind George Pickens’ 43.5 and Patrick Mahomes’ 35.42. Next time the margin won’t be 54.84."
+},
+{
+"kicker": "Cherry Blossom",
+"headline": "It needs 24.25 from the Ravens defense",
+"roster_ids": [4, 2, 8],
+"body": "Cherry Blossom sits at 168.2 against Poochinski’s 192.44 with only the Ravens D/ST (8.34) left. The board says 0.8%. The joke is who that defense is playing: Justin Herbert, AB81’s quarterback. Cherry Blossom needs Herbert to have the worst night of his life, and AB81 needs him to have a great one for nothing."
+},
+{
+"kicker": "Poochinski",
+"headline": "192.44, the best score of Week 10",
+"roster_ids": [2],
+"body": "Jahmyr Gibbs scored 44.2, Dak Prescott 35.42, Chase Brown 28.3. Poochinski is done, 99.2% to win, and owns the week’s high score by 1.58 over the Finest. Quinshon Judkins’ 16.1 on the bench is a rounding error now."
+},
+{
+"kicker": "AB81",
+"headline": "Down 101.9, with 36.41 left to play",
+"roster_ids": [8, 7],
+"body": "Herbert, Derrick Henry and Mark Andrews are projected for 36.41 combined. AB81 trails Santa Clara’s Finest 190.86 to 88.96. The 7-2 team takes its third loss tonight, and the 2-7 Finest gets Joe Burrow’s 33.16 and Isaiah Likely’s 27.7 in the win column."
+},
+{
+"kicker": "Injury Desk",
+"headline": "Bowers is Out, Kelce questionable: Cherry Blossom’s TE problem",
+"roster_ids": [4, 3],
+"body": "Sleeper now lists Brock Bowers Out with an ankle and Travis Kelce Questionable with an ankle. Bowers scored 3.8 in the flex Sunday; Kelce 5.0 at tight end. Maye I touch your TDs? has its own Monday headache: Drake Maye Out, A.J. Brown Out, and no quarterback on the bench in a two-QB league."
+},
+{
+"kicker": "Playoff Race",
+"headline": "Big Stric Energy at 25.9%, the Finest at 5.6%",
+"roster_ids": [1, 7, 3],
+"body": "The model gives Maye I touch your TDs? 70.4% playoff odds at 2-7, Big Stric Energy 25.9% and Santa Clara’s Finest 5.6%. Tonight’s Flowers game moves the one that’s still contested."
+}
+],
+"previews": {
+"w10-m1": {
+"headline": "Final: deeboliciouskins 178.08, Big Stric 123.24",
+"blurb": "Nobody plays tonight. deeboliciouskins by 54.84 despite a bye at RB.",
+"pick": 6
+},
+"w10-m2": {
+"headline": "Flowers needs 11.65",
+"blurb": "Bad things man bad things is finished at 172.72. Maye I touch your TDs? has 161.08 and Zay Flowers (16.24) at 5:15 PM. Projected 177.32 to 172.72; 69.3% Maye.",
+"pick": 3
+},
+"w10-m3": {
+"headline": "The Finest by 101.9",
+"blurb": "Santa Clara’s Finest is done at 190.86. AB81 has 88.96 and Herbert, Henry and Andrews tonight, projected 125.37.",
+"pick": 7
+},
+"w10-m4": {
+"headline": "Poochinski 192.44; Cherry Blossom needs a miracle defense",
+"blurb": "Cherry Blossom has 168.2 and the Ravens D/ST (8.34) left. It needs more than 24.24. 99.2% Poochinski.",
+"pick": 2
+}
+},
+"decision_notes": {},
+"alert_notes": {
+"6": "Started D’Andre Swift on his bye at RB while Tony Pollard scored 23.9 on the bench. Won by 54.84 anyway."
+},
+"trending_notes": {
+"13337": "Emmett Johnson scored 35.1 for Maye I touch your TDs?, and the rest of fantasy is now chasing him. He’s already spoken for in R.A.T.S.",
+"5995": "Justice Hill tops Sleeper’s trending adds and unrostered in R.A.T.S. He plays tonight for the Ravens.",
+"13269": "Fernando Mendoza is unrostered here. Maye I touch your TDs? has Drake Maye listed Out and no quarterback on the bench in a two-QB league.",
+"2505": "Darren Waller is unrostered. Cherry Blossom has Brock Bowers Out and Travis Kelce Questionable.",
+"3271": "Tyler Higbee scored 10.7 on Poochinski’s bench and is one of the week’s hot adds elsewhere."
+},
+"move_grades": {},
+"external_facts": [
+{
+"claim": "Week 10's last game: Monday 2026-11-16, LAC at BAL, 8:15 PM ET = 5:15 PM PT.",
+"source": "nflverse schedule, data/raw/games.csv (game_id 2026_10_LAC_BAL)"
+},
+{
+"claim": "Computed from facts.json at 5:43 AM: Bad things 172.72 minus Maye 161.08 = 11.64 (Maye needs 11.65 to win outright); Poochinski 192.44 minus Cherry Blossom 168.2 = 24.24 (needs 24.25); the Finest 190.86 minus AB81 88.96 = 101.9; AB81 remaining projection 13.91 + 15.57 + 6.93 = 36.41; Poochinski 192.44 minus the Finest 190.86 = 1.58. Thirteen NFL games final, one left. Win probability 0.992 = 99.2%, 0.008 = 0.8%.",
+"source": "content/daily/2026-11-16/facts.json"
+}
+]
+}
