@@ -1,0 +1,132 @@
+{
+"lead": {
+"kicker": "Waiver Night",
+"headline": "The elimination game starts tonight, on the wire",
+"dek": "Big Stric Energy and Maye I touch your TDs? are both 2-8, both short a quarterback, and play each other Sunday. AB81 picks first and needs one too. Cam Ward goes first. The fight is over who gets J.J. McCarthy.",
+"matchup_key": "w11-m1",
+"roster_ids": [1, 3, 8],
+"pull": "Ward 17.09. McCarthy 15.27. Then nobody on the wire projects above 12.12.",
+"body": [
+"The weekly edition is up, refreshed with Monday’s full play-by-play, and nothing moved: no stat corrections, and Bad things man bad things still beats Maye I touch your TDs? by 0.24 on Zay Flowers’ fumble. Read it. Then come back, because that result built this week’s biggest game. Big Stric Energy is 2-8 with 17.7% playoff odds. Maye I touch your TDs? is 2-8 with 25.2%. Santa Clara’s Finest holds the last spot at 57.1%. They play each other in Week 11. The loser is probably done.",
+"And both of them start the week short a quarterback in a two-QB league. Big Stric Energy has Jordan Love on bye and Geno Smith Out with an ankle, which leaves Josh Allen alone. Maye I touch your TDs? has Drake Maye Out with an ankle and on bye anyway, which leaves Brock Purdy alone. The champ’s problem is bigger: Harold Fannin Jr. and the Cleveland Browns D/ST are on bye too, and nobody on the bench plays tight end or defense. As set, Maye projects for 80.61. Its best possible lineup from its own roster is 106.7, still with three empty slots, against Big Stric’s 137.72. That’s 77.6% to 22.4%.",
+"So it comes down to the wire, and the wire has two real quarterbacks. Cam Ward scored 20.14 for nobody last week and projects for 17.09. J.J. McCarthy scored 18.12 and projects for 15.27. Then it falls off a ledge: Fernando Mendoza 12.12, Joe Milton 12.09, Jacoby Brissett 11.57. The claim order, per Sleeper: AB81, Poochinski, deeboliciouskins, Cherry Blossom, Maye I touch your TDs?, Big Stric Energy, Santa Clara’s Finest, Bad things man bad things.",
+"AB81 picks first and needs a quarterback as badly as anyone: Matthew Stafford is on bye, Sam Darnold is Out and Jalen Hurts is on IR, leaving Justin Herbert alone. Expect Ward to go there. The three teams behind it don’t need one: Poochinski and Cherry Blossom each have three quarterbacks available and deeboliciouskins has two. Which means McCarthy should fall to the champ at No. 5, one spot ahead of Big Stric Energy. In an elimination game, one spot in the waiver line is worth about three points of projection at quarterback. That’s the whole tiebreaker.",
+"What would I do? Maye I touch your TDs? claims McCarthy first, then Michael Mayer at tight end (8.58, the most-added player in Sleeper this week, and Brock Bowers is Out on the same team), then the Detroit Lions D/ST (7.73). Big Stric Energy has exactly one hole: take the best quarterback left and go. Mendoza edges Milton by a hair.",
+"My pick: Big Stric Energy. The champ needs three claims to go and field a full lineup; Big Stric needs one. But Maye has a card to play on its own bench, too: Bucky Irving (17.17) is sitting behind Breece Hall (12.15). That call is due by Sun 10:00 AM. The claims are due tonight."
+]
+},
+"quick_hits": [
+{
+"kicker": "Trade Deadline",
+"headline": "Three benched QBs outproject the whole wire",
+"roster_ids": [2, 4, 5, 1, 3, 8],
+"body": "Week 11 is the trade deadline, and the league’s all-time trade count is still 0. Meanwhile Caleb Williams (20.93) sits on Poochinski’s bench, Bo Nix (17.93) on Cherry Blossom’s and Kirk Cousins (17.76) on Bad things man bad things’. All three project higher than Ward, the best quarterback on the wire, and three teams have an empty QB slot. That isn’t a waiver problem. That’s a market nobody has ever opened."
+},
+{
+"kicker": "AB81",
+"headline": "The No. 1 claim and a 1.5% week",
+"roster_ids": [8, 6],
+"body": "AB81 has empty QB, WR and FLEX slots and projects for 66.38 as set, 78.98 at best, against deeboliciouskins’ 168.0. George Kittle (12.6) can cover Kyren Williams’ bye through a flex shuffle before Sun 5:20 PM. AB81 is at 100% playoff odds in the simulations, so Ward is about seeding: take him, then Jordyn Tyson (11.67, 19.0 unrostered last week) at receiver."
+},
+{
+"kicker": "Kicker Watch",
+"headline": "deeboliciouskins needs the kicker Big Stric cut",
+"roster_ids": [6, 1],
+"body": "Jason Myers is on bye, and the bench has no kicker. The obvious claim is Chase McLaughlin: Big Stric Energy dropped him Fri 3:12 PM for Tyler Bass, and he’s been added 129,432 times across Sleeper. He projects for 6.37. deeboliciouskins is a 98.5% favorite, so this is housekeeping, not panic."
+},
+{
+"kicker": "Cherry Blossom",
+"headline": "What will Cherry Blossom do at tight end?",
+"roster_ids": [4, 5],
+"body": "Brock Bowers is Out and Travis Kelce is Questionable, both with ankles. The answer is already on the bench: Jonah Coleman projects for 17.11 and slides in through a flex shuffle. Do that and Cherry Blossom goes from 157.82 to 160.81, a 71.9% favorite over Bad things man bad things. Bonus question: Bo Nix (17.93) projects higher than starter Jared Goff (17.14)."
+},
+{
+"kicker": "Bad things",
+"headline": "The co-leader picks last and needs a receiver",
+"roster_ids": [5, 4],
+"body": "Matthew Golden is on bye and nobody on the bench can replace him at WR. Bijan Robinson’s bye can be covered by Josh Downs (8.66) via a flex shuffle, and the Chicago Bears D/ST (8.25) can step in for the Rams’ defense. Set, Bad things projects for 118.99; fixed, 137.09. It’s still a 28.1% underdog, and it picks eighth."
+},
+{
+"kicker": "Poochinski",
+"headline": "A defense, and a Luther Burden decision",
+"roster_ids": [2, 7],
+"body": "The Seattle Seahawks D/ST is on bye and there’s no defense on the bench; the Lions D/ST (7.73) is right there, and Poochinski picks second. Jadarian Price’s bye opens a FLEX for Luther Burden III, who projects for 16.05 but is Questionable. Fixed, Poochinski projects for 174.93 and is a 69.2% favorite over Santa Clara’s Finest at 154.49."
+}
+],
+"previews": {
+"w11-m1": {
+"headline": "Two 2-8 teams, one McCarthy",
+"blurb": "Big Stric Energy 137.72, Maye I touch your TDs? 106.7, a 31.02-point spread and 77.6% Big Stric. Both have an empty QB slot; Maye also needs a TE and a defense. Maye claims fifth, Big Stric sixth.",
+"pick": 1
+},
+"w11-m2": {
+"headline": "AB81 gets the first claim and an 89-point hole",
+"blurb": "deeboliciouskins projects for 168.0, AB81 for 78.98 with empty QB, WR and FLEX slots. 98.5% deeboliciouskins. Its only chore is a kicker.",
+"pick": 6
+},
+"w11-m3": {
+"headline": "Cherry Blossom has the answers on its bench",
+"blurb": "Cherry Blossom 160.81, Bad things man bad things 137.09, 71.9% Cherry Blossom. Coleman for Bowers is the move. Bad things needs a receiver off the wire and picks last.",
+"pick": 4
+},
+"w11-m4": {
+"headline": "Poochinski vs. the hottest team in the league",
+"blurb": "Poochinski 174.93, Santa Clara’s Finest 154.49, 69.2% Poochinski. Poochinski needs a defense; the Finest need to fill Blake Corum’s and Denzel Boston’s byes, which the bench can do.",
+"pick": 2
+}
+},
+"decision_notes": {
+"w11-r3-s1": {
+"headline": "What will the champ do at QB?",
+"blurb": "Drake Maye is Out and on bye; Brock Purdy is the only quarterback on the roster. Ward goes first to AB81, so McCarthy (15.27) should be there at No. 5. Claim him first, before the tight end and the defense. This one needs the wire: claims are due tonight."
+},
+"w11-r1-s1": {
+"headline": "What will Big Stric Energy do at QB?",
+"blurb": "Jordan Love is on bye and Geno Smith is Out. Big Stric claims sixth, right behind the team it plays Sunday. If McCarthy is gone, Mendoza (12.12) over Milton (12.09) and Brissett (11.57). It’s the only hole in the lineup."
+},
+"w11-r8-s1": {
+"headline": "AB81 has the first pick. Ward or bust?",
+"blurb": "Stafford on bye, Darnold Out, Hurts on IR. AB81 picks first and Ward (17.09) is the best quarterback on the wire. Even with him AB81 is a heavy underdog, but a 7-3 team still playing for seeding doesn’t pass on the top arm."
+},
+"w11-r4-s6": {
+"headline": "Kelce or Coleman?",
+"blurb": "Kelce is Questionable (12.64). Jonah Coleman projects for 17.11 on the bench and fits through a flex shuffle, with Tre Tucker (8.56) as the other answer for Bowers. I’d start Coleman either way. Deadline Sun 1:25 PM."
+},
+"w11-r2-s8": {
+"headline": "Burden or bust at FLEX",
+"blurb": "Jadarian Price is on bye. Luther Burden III projects for 16.05 but is Questionable with an undisclosed injury; the other bench option, Roschon Johnson, projects for 0.6. Watch the injury report. Deadline Sun 10:00 AM."
+},
+"w11-r6-s9": {
+"headline": "deeboliciouskins needs a kicker",
+"blurb": "Jason Myers is on bye and there’s no kicker on the bench. Chase McLaughlin (6.37) is the most-added kicker in Sleeper and was on Big Stric Energy’s roster until Friday."
+},
+"w11-r3-s2": {
+"headline": "Irving over Hall, finally?",
+"blurb": "Bucky Irving projects for 17.17 on the bench; Breece Hall projects for 12.15 in the lineup. That’s the easiest five points the champ will find all week. Deadline Sun 10:00 AM."
+},
+"w11-r7-s4": {
+"headline": "The Finest’s Boston fix is on the bench",
+"blurb": "Denzel Boston is on bye. Colston Loveland (11.53) covers it through a flex shuffle, and J.K. Dobbins (8.17) covers Blake Corum. Kenneth Walker III is Out, so no temptation there. Deadline Sun 10:00 AM."
+}
+},
+"alert_notes": {},
+"trending_notes": {
+"9482": "Michael Mayer is the most-added player in Sleeper (556,875) and unrostered here. Brock Bowers is Out on the same team. Maye I touch your TDs? has an empty TE slot.",
+"13281": "Jordyn Tyson scored 19.0 unrostered last week and projects for 11.67. AB81 and Bad things man bad things both have an empty WR slot.",
+"DET": "The Detroit Lions D/ST (7.73) is free. Poochinski and Maye I touch your TDs? both need a defense.",
+"6650": "Chase McLaughlin, cut by Big Stric Energy on Friday, projects for 6.37. deeboliciouskins needs a kicker.",
+"11563": "Bo Nix is being added 117,492 times elsewhere. In R.A.T.S. he’s on Cherry Blossom’s bench, projecting 17.93.",
+"5012": "Mark Andrews (289,260 adds) is already AB81’s, the last of its six Sunday moves. He projects for 6.24."
+},
+"move_grades": {},
+"external_facts": [
+{
+"claim": "Waiver order for Week 11 claims: AB81, Poochinski, deeboliciouskins, Cherry Blossom, Maye I touch your TDs?, Big Stric Energy, Santa Clara’s Finest, Bad things man bad things. Waivers process Wednesday (Week 10 claims processed Wed 12:10 AM).",
+"source": "Sleeper rosters API (data/raw/2026/rosters.json settings.waiver_position, fetched 2026-11-17); data/raw/2026/league.json settings.waiver_day_of_week = 2"
+},
+{
+"claim": "Waiver quarterback projections (Ward 17.09, McCarthy 15.27, Mendoza 12.12, Milton 12.09, Brissett 11.57) and qbs_available counts are from the published Week 10 analysis; matchup projections and win odds from this morning's daily facts. 0 trades in league history per the Week 10 edition.",
+"source": "content/2026-w10/facts.json analysis; content/daily/2026-11-17/facts.json"
+}
+]
+}
