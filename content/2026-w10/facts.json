@@ -1,0 +1,10631 @@
+{
+ "publication": "The R.A.T.S. Report",
+ "season": "2026",
+ "week": 10,
+ "generated_at": "2026-11-16T21:38-08:00",
+ "league": {
+  "num_teams": 8,
+  "format": "2-QB PPR",
+  "playoff_teams": 6,
+  "playoff_week_start": 15,
+  "trade_deadline_week": 11
+ },
+ "teams": {
+  "1": {
+   "roster_id": 1,
+   "name": "Big Stric Energy",
+   "owner": "mikestric",
+   "slug": "big-stric-energy",
+   "color": "#7DBE1E",
+   "reporter": "Big Stric Energy Insider",
+   "avatar_url": "https://sleepercdn.com/uploads/73d1fcac564bbe6a0888a9f5aa2d75b1",
+   "record_before": "2-7",
+   "record": "2-8",
+   "pf": 1431.64,
+   "pa": 1591.1,
+   "pf_rank": 8,
+   "standing": 8,
+   "streak": "L2"
+  },
+  "2": {
+   "roster_id": 2,
+   "name": "Poochinski",
+   "owner": "Poochinskii",
+   "slug": "poochinski",
+   "color": "#1F6FEB",
+   "reporter": "Poochinski Insider",
+   "avatar_url": "https://sleepercdn.com/uploads/ade85c7223c5ee9594ac9f2ac515b047.jpg",
+   "record_before": "7-2",
+   "record": "8-2",
+   "pf": 1706.92,
+   "pa": 1646.66,
+   "pf_rank": 1,
+   "standing": 1,
+   "streak": "W2"
+  },
+  "3": {
+   "roster_id": 3,
+   "name": "Maye I touch your TDs?",
+   "owner": "csalguero",
+   "slug": "maye-i-touch-your-tds",
+   "color": "#0E9F8E",
+   "reporter": "Maye I touch your TDs? Insider",
+   "avatar_url": "https://sleepercdn.com/avatars/82aec8e811b839b8ec25d7b458afd57b",
+   "record_before": "2-7",
+   "record": "2-8",
+   "pf": 1586.7,
+   "pa": 1662.84,
+   "pf_rank": 5,
+   "standing": 7,
+   "streak": "L3"
+  },
+  "4": {
+   "roster_id": 4,
+   "name": "Cherry Blossom",
+   "owner": "benshapiro12",
+   "slug": "cherry-blossom",
+   "color": "#D9468F",
+   "reporter": "Cherry Blossom Insider",
+   "avatar_url": "https://sleepercdn.com/uploads/3e766fe9de11adae1e7cfc6b1b81f18f.jpg",
+   "record_before": "5-4",
+   "record": "5-5",
+   "pf": 1675.16,
+   "pa": 1638.22,
+   "pf_rank": 3,
+   "standing": 4,
+   "streak": "L1"
+  },
+  "5": {
+   "roster_id": 5,
+   "name": "Bad things man bad things",
+   "owner": "originallobcity",
+   "slug": "bad-things-man-bad-things",
+   "color": "#D7263D",
+   "reporter": "Bad things man bad things Insider",
+   "avatar_url": "https://sleepercdn.com/avatars/7572250c2fb084c434fed0e82229e183",
+   "record_before": "7-2",
+   "record": "8-2",
+   "pf": 1678.02,
+   "pa": 1478.94,
+   "pf_rank": 2,
+   "standing": 2,
+   "streak": "W3"
+  },
+  "6": {
+   "roster_id": 6,
+   "name": "deeboliciouskins",
+   "owner": "deeboliciouskins",
+   "slug": "deeboliciouskins",
+   "color": "#E8660C",
+   "reporter": "deeboliciouskins Insider",
+   "avatar_url": "https://sleepercdn.com/avatars/d22e52781a5d7a94bcbf2aa70e748382",
+   "record_before": "4-5",
+   "record": "5-5",
+   "pf": 1625.54,
+   "pa": 1474.8,
+   "pf_rank": 4,
+   "standing": 5,
+   "streak": "W1"
+  },
+  "7": {
+   "roster_id": 7,
+   "name": "Santa Clara\u2019s Finest",
+   "owner": "PurdyAvg",
+   "slug": "santa-clara-s-finest",
+   "color": "#B8870B",
+   "reporter": "Santa Clara\u2019s Finest Insider",
+   "avatar_url": "https://sleepercdn.com/uploads/3ed4f2330b5ecd0dceca1007e36d51ea.jpg",
+   "record_before": "2-7",
+   "record": "3-7",
+   "pf": 1433.42,
+   "pa": 1673.28,
+   "pf_rank": 7,
+   "standing": 6,
+   "streak": "W2"
+  },
+  "8": {
+   "roster_id": 8,
+   "name": "AB81",
+   "owner": "AB81",
+   "slug": "ab81",
+   "color": "#7C4DFF",
+   "reporter": "AB81 Insider",
+   "avatar_url": "https://sleepercdn.com/avatars/578c6b253dd7b4bab45382e1af102204",
+   "record_before": "7-2",
+   "record": "7-3",
+   "pf": 1494.0,
+   "pa": 1465.56,
+   "pf_rank": 6,
+   "standing": 3,
+   "streak": "L2"
+  }
+ },
+ "standings": [
+  2,
+  5,
+  8,
+  4,
+  6,
+  7,
+  3,
+  1
+ ],
+ "matchups": [
+  {
+   "matchup_id": 1,
+   "winner": 6,
+   "loser": 1,
+   "margin": 54.84,
+   "sides": [
+    {
+     "roster_id": 6,
+     "points": 178.08,
+     "starters": [
+      {
+       "id": "4046",
+       "name": "Patrick Mahomes",
+       "pos": "QB",
+       "nfl_team": "KC",
+       "pts": 35.42,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11566",
+       "name": "Jayden Daniels",
+       "pos": "QB",
+       "nfl_team": "WAS",
+       "pts": 22.76,
+       "game_day": "Thu"
+      },
+      {
+       "id": "6813",
+       "name": "Jonathan Taylor",
+       "pos": "RB",
+       "nfl_team": "IND",
+       "pts": 12.3,
+       "game_day": "Sun"
+      },
+      {
+       "id": "6790",
+       "name": "D'Andre Swift",
+       "pos": "RB",
+       "nfl_team": "CHI",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "8137",
+       "name": "George Pickens",
+       "pos": "WR",
+       "nfl_team": "DAL",
+       "pts": 43.5,
+       "game_day": "Sun"
+      },
+      {
+       "id": "7564",
+       "name": "Ja'Marr Chase",
+       "pos": "WR",
+       "nfl_team": "CIN",
+       "pts": 34.1,
+       "game_day": "Sun"
+      },
+      {
+       "id": "12518",
+       "name": "Tyler Warren",
+       "pos": "TE",
+       "nfl_team": "IND",
+       "pts": 2.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "8136",
+       "name": "Rachaad White",
+       "pos": "RB",
+       "nfl_team": "WAS",
+       "pts": 6.2,
+       "game_day": "Thu"
+      },
+      {
+       "id": "11632",
+       "name": "Malik Nabers",
+       "pos": "WR",
+       "nfl_team": "NYG",
+       "pts": 7.4,
+       "game_day": "Thu"
+      },
+      {
+       "id": "2747",
+       "name": "Jason Myers",
+       "pos": "K",
+       "nfl_team": "SEA",
+       "pts": 2.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "KC",
+       "name": "Kansas City Chiefs D/ST",
+       "pos": "DEF",
+       "nfl_team": "KC",
+       "pts": 12.0,
+       "game_day": "Sun"
+      }
+     ],
+     "bench": [
+      {
+       "id": "5967",
+       "name": "Tony Pollard",
+       "pos": "RB",
+       "nfl_team": "TEN",
+       "pts": 23.9,
+       "game_day": "Sun"
+      },
+      {
+       "id": "MIN",
+       "name": "Minnesota Vikings D/ST",
+       "pos": "DEF",
+       "nfl_team": "MIN",
+       "pts": 21.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "4983",
+       "name": "DJ Moore",
+       "pos": "WR",
+       "nfl_team": "BUF",
+       "pts": 19.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "5844",
+       "name": "T.J. Hockenson",
+       "pos": "TE",
+       "nfl_team": "MIN",
+       "pts": 0.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "5849",
+       "name": "Kyler Murray",
+       "pos": "QB",
+       "nfl_team": "MIN",
+       "pts": 0.0,
+       "game_day": "Sun"
+      }
+     ],
+     "optimal_points": 224.18,
+     "points_left_on_bench": 46.1,
+     "should_have_started": [
+      {
+       "name": "Tony Pollard",
+       "pos": "RB",
+       "pts": 23.9
+      },
+      {
+       "name": "Minnesota Vikings D/ST",
+       "pos": "DEF",
+       "pts": 21.0
+      },
+      {
+       "name": "DJ Moore",
+       "pos": "WR",
+       "pts": 19.4
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "D'Andre Swift",
+       "pos": "RB",
+       "pts": 0.0
+      },
+      {
+       "name": "Rachaad White",
+       "pos": "RB",
+       "pts": 6.2
+      },
+      {
+       "name": "Kansas City Chiefs D/ST",
+       "pos": "DEF",
+       "pts": 12.0
+      }
+     ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "DJ Moore",
+        "pos": "WR",
+        "pts": 19.4
+       },
+       "instead_of": {
+        "name": "D'Andre Swift",
+        "pos": "RB",
+        "pts": 0.0
+       },
+       "gain": 19.4
+      },
+      {
+       "start": {
+        "name": "Tony Pollard",
+        "pos": "RB",
+        "pts": 23.9
+       },
+       "instead_of": {
+        "name": "Rachaad White",
+        "pos": "RB",
+        "pts": 6.2
+       },
+       "gain": 17.7
+      },
+      {
+       "start": {
+        "name": "Minnesota Vikings D/ST",
+        "pos": "DEF",
+        "pts": 21.0
+       },
+       "instead_of": {
+        "name": "Kansas City Chiefs D/ST",
+        "pos": "DEF",
+        "pts": 12.0
+       },
+       "gain": 9.0
+      }
+     ],
+     "max_lead_before_final_day": {
+      "margin": 54.84,
+      "time": "Sun 7:52 PM"
+     },
+     "starter_stacks": {
+      "WAS": {
+       "players": [
+        "Jayden Daniels",
+        "Rachaad White"
+       ],
+       "pts": 28.96
+      },
+      "IND": {
+       "players": [
+        "Jonathan Taylor",
+        "Tyler Warren"
+       ],
+       "pts": 14.7
+      }
+     },
+     "zero_starters": [
+      "D'Andre Swift"
+     ],
+     "busted_starters": [
+      {
+       "name": "D'Andre Swift",
+       "pos": "RB",
+       "reason": "bye week",
+       "injury_status_now": null,
+       "best_replacement": {
+        "name": "DJ Moore",
+        "pos": "WR",
+        "pts": 19.4
+       },
+       "points_lost": 19.4
+      }
+     ],
+     "bye_starters": [
+      "D'Andre Swift"
+     ],
+     "best_bench": {
+      "id": "5967",
+      "name": "Tony Pollard",
+      "pos": "RB",
+      "nfl_team": "TEN",
+      "pts": 23.9,
+      "game_day": "Sun"
+     },
+     "max_lead": {
+      "margin": 54.84,
+      "time": "Sun 7:52 PM"
+     },
+     "optimal_would_have_won": null
+    },
+    {
+     "roster_id": 1,
+     "points": 123.24,
+     "starters": [
+      {
+       "id": "4984",
+       "name": "Josh Allen",
+       "pos": "QB",
+       "nfl_team": "BUF",
+       "pts": 23.34,
+       "game_day": "Sun"
+      },
+      {
+       "id": "6804",
+       "name": "Jordan Love",
+       "pos": "QB",
+       "nfl_team": "GB",
+       "pts": 11.8,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11576",
+       "name": "Braelon Allen",
+       "pos": "RB",
+       "nfl_team": "NYJ",
+       "pts": 5.6,
+       "game_day": "Sun"
+      },
+      {
+       "id": "12527",
+       "name": "Ashton Jeanty",
+       "pos": "RB",
+       "nfl_team": "LV",
+       "pts": 10.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "7569",
+       "name": "Nico Collins",
+       "pos": "WR",
+       "nfl_team": "HOU",
+       "pts": 24.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "6794",
+       "name": "Justin Jefferson",
+       "pos": "WR",
+       "nfl_team": "MIN",
+       "pts": 16.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "10236",
+       "name": "Dalton Kincaid",
+       "pos": "TE",
+       "nfl_team": "BUF",
+       "pts": 7.8,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11646",
+       "name": "Jalen Coker",
+       "pos": "WR",
+       "nfl_team": "CAR",
+       "pts": 0.3,
+       "game_day": "Sun"
+      },
+      {
+       "id": "10229",
+       "name": "Rashee Rice",
+       "pos": "WR",
+       "nfl_team": "KC",
+       "pts": 13.2,
+       "game_day": "Sun"
+      },
+      {
+       "id": "7042",
+       "name": "Tyler Bass",
+       "pos": "K",
+       "nfl_team": "BUF",
+       "pts": 7.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "JAX",
+       "name": "Jacksonville Jaguars D/ST",
+       "pos": "DEF",
+       "nfl_team": "JAX",
+       "pts": 3.0,
+       "game_day": "Sun"
+      }
+     ],
+     "bench": [
+      {
+       "id": "5846",
+       "name": "DK Metcalf",
+       "pos": "WR",
+       "nfl_team": "PIT",
+       "pts": 15.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "1373",
+       "name": "Geno Smith",
+       "pos": "QB",
+       "nfl_team": "NYJ",
+       "pts": 5.92,
+       "game_day": "Sun"
+      },
+      {
+       "id": "9484",
+       "name": "Tucker Kraft",
+       "pos": "TE",
+       "nfl_team": "GB",
+       "pts": 2.9,
+       "game_day": "Sun"
+      },
+      {
+       "id": "2133",
+       "name": "Davante Adams",
+       "pos": "WR",
+       "nfl_team": "LAR",
+       "pts": 0.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "4866",
+       "name": "Saquon Barkley",
+       "pos": "RB",
+       "nfl_team": "PHI",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "5850",
+       "name": "Josh Jacobs",
+       "pos": "RB",
+       "nfl_team": "GB",
+       "pts": 0.0,
+       "game_day": "Sun"
+      }
+     ],
+     "optimal_points": 138.34,
+     "points_left_on_bench": 15.1,
+     "should_have_started": [
+      {
+       "name": "DK Metcalf",
+       "pos": "WR",
+       "pts": 15.4
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "Jalen Coker",
+       "pos": "WR",
+       "pts": 0.3
+      }
+     ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "DK Metcalf",
+        "pos": "WR",
+        "pts": 15.4
+       },
+       "instead_of": {
+        "name": "Jalen Coker",
+        "pos": "WR",
+        "pts": 0.3
+       },
+       "gain": 15.1
+      }
+     ],
+     "max_lead_before_final_day": {
+      "margin": 26.58,
+      "time": "Sun 12:27 PM"
+     },
+     "starter_stacks": {
+      "BUF": {
+       "players": [
+        "Josh Allen",
+        "Dalton Kincaid",
+        "Tyler Bass"
+       ],
+       "pts": 38.14
+      }
+     },
+     "zero_starters": [],
+     "busted_starters": [],
+     "bye_starters": [],
+     "best_bench": {
+      "id": "5846",
+      "name": "DK Metcalf",
+      "pos": "WR",
+      "nfl_team": "PIT",
+      "pts": 15.4,
+      "game_day": "Sun"
+     },
+     "max_lead": {
+      "margin": 26.58,
+      "time": "Sun 12:27 PM"
+     },
+     "optimal_would_have_won": false
+    }
+   ],
+   "lead_changes": [
+    {
+     "time": "Sun 11:59 AM",
+     "new_leader": 1,
+     "score": [
+      58.12,
+      61.94
+     ],
+     "player": "Dalton Kincaid",
+     "play": "(9:54) (Shotgun) 17-J.Allen pass deep right to 86-D.Kincaid pushed ob at NYJ 8 for 54 yards (6-D.Belton; 27-M.Moore).",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 4:00 PM",
+     "new_leader": 6,
+     "score": [
+      126.48,
+      123.24
+     ],
+     "player": "George Pickens",
+     "play": "(9:11) (Shotgun) 4-D.Prescott pass short right to 3-G.Pickens for 5 yards, TOUCHDOWN.",
+     "time_estimated": false
+    }
+   ],
+   "big_plays": [
+    {
+     "time": "Thu 5:24 PM",
+     "game": "WAS @ NYG",
+     "quarter": 1,
+     "desc": "(11:18) R.White left tackle to WAS 10 for 2 yards (A.Reese).",
+     "net_for_winner": 0.2,
+     "players": {
+      "6": [
+       {
+        "name": "Rachaad White",
+        "pts": 0.2
+       }
+      ],
+      "1": []
+     },
+     "score_before": [
+      0.0,
+      0.0
+     ],
+     "score_after": [
+      0.2,
+      0.0
+     ],
+     "changed_lead": true,
+     "id": "m1-p1"
+    },
+    {
+     "time": "Sun 10:10 AM",
+     "game": "HOU @ CLE",
+     "quarter": 1,
+     "desc": "(9:35) C.Stroud pass short middle to N.Collins for 12 yards, TOUCHDOWN.",
+     "net_for_winner": -8.2,
+     "players": {
+      "6": [],
+      "1": [
+       {
+        "name": "Nico Collins",
+        "pts": 2.2
+       },
+       {
+        "name": "Nico Collins",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      38.48,
+      3.22
+     ],
+     "score_after": [
+      38.48,
+      11.42
+     ],
+     "changed_lead": false,
+     "id": "m1-p2"
+    },
+    {
+     "time": "Sun 10:29 AM",
+     "game": "BUF @ NYJ",
+     "quarter": 1,
+     "desc": "(2:50) J.Allen left guard for 1 yard, TOUCHDOWN.",
+     "net_for_winner": -6.1,
+     "players": {
+      "6": [],
+      "1": [
+       {
+        "name": "Josh Allen",
+        "pts": 0.1
+       },
+       {
+        "name": "Josh Allen",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      44.54,
+      18.4
+     ],
+     "score_after": [
+      44.54,
+      24.5
+     ],
+     "changed_lead": false,
+     "id": "m1-p3"
+    },
+    {
+     "time": "Sun 11:59 AM",
+     "game": "BUF @ NYJ",
+     "quarter": 3,
+     "desc": "(9:54) J.Allen pass deep right to D.Kincaid pushed ob at NYJ 8 for 54 yards (D.Belton; M.Moore).",
+     "net_for_winner": -8.56,
+     "players": {
+      "6": [],
+      "1": [
+       {
+        "name": "Josh Allen",
+        "pts": 2.16
+       },
+       {
+        "name": "Dalton Kincaid",
+        "pts": 6.4
+       }
+      ]
+     },
+     "score_before": [
+      58.12,
+      53.38
+     ],
+     "score_after": [
+      58.12,
+      61.94
+     ],
+     "changed_lead": true,
+     "id": "m1-p4"
+    },
+    {
+     "time": "Sun 1:55 PM",
+     "game": "SF @ DAL",
+     "quarter": 1,
+     "desc": "(1:15) B.Jones reported in as eligible. D.Prescott pass deep right to G.Pickens for 35 yards, TOUCHDOWN.",
+     "net_for_winner": 10.5,
+     "players": {
+      "6": [
+       {
+        "name": "George Pickens",
+        "pts": 4.5
+       },
+       {
+        "name": "George Pickens",
+        "pts": 6.0
+       }
+      ],
+      "1": []
+     },
+     "score_before": [
+      103.08,
+      115.74
+     ],
+     "score_after": [
+      113.58,
+      115.74
+     ],
+     "changed_lead": false,
+     "id": "m1-p5"
+    },
+    {
+     "time": "Sun 4:00 PM",
+     "game": "SF @ DAL",
+     "quarter": 4,
+     "desc": "(9:11) D.Prescott pass short right to G.Pickens for 5 yards, TOUCHDOWN.",
+     "net_for_winner": 7.5,
+     "players": {
+      "6": [
+       {
+        "name": "George Pickens",
+        "pts": 1.5
+       },
+       {
+        "name": "George Pickens",
+        "pts": 6.0
+       }
+      ],
+      "1": []
+     },
+     "score_before": [
+      118.98,
+      123.24
+     ],
+     "score_after": [
+      126.48,
+      123.24
+     ],
+     "changed_lead": true,
+     "id": "m1-p6"
+    },
+    {
+     "time": "Sun 6:23 PM",
+     "game": "PIT @ CIN",
+     "quarter": 2,
+     "desc": "(7:54) J.Burrow pass deep left to J.Chase to PIT 16 for 53 yards (A.Samuel).",
+     "net_for_winner": 6.3,
+     "players": {
+      "6": [
+       {
+        "name": "Ja'Marr Chase",
+        "pts": 6.3
+       }
+      ],
+      "1": []
+     },
+     "score_before": [
+      157.18,
+      123.24
+     ],
+     "score_after": [
+      163.48,
+      123.24
+     ],
+     "changed_lead": false,
+     "id": "m1-p7"
+    }
+   ],
+   "entering_final_day": {
+    "day": "Monday",
+    "score": [
+     178.08,
+     123.24
+    ],
+    "remaining": {
+     "6": [],
+     "1": []
+    }
+   },
+   "race": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.155,
+     0.2,
+     0.0
+    ],
+    [
+     0.167,
+     0.48,
+     0.0
+    ],
+    [
+     0.178,
+     0.58,
+     0.0
+    ],
+    [
+     0.187,
+     0.88,
+     0.0
+    ],
+    [
+     0.21,
+     1.04,
+     0.0
+    ],
+    [
+     0.286,
+     1.74,
+     0.0
+    ],
+    [
+     0.322,
+     3.34,
+     0.0
+    ],
+    [
+     0.407,
+     3.66,
+     0.0
+    ],
+    [
+     0.422,
+     3.9,
+     0.0
+    ],
+    [
+     0.429,
+     4.2,
+     0.0
+    ],
+    [
+     0.451,
+     5.0,
+     0.0
+    ],
+    [
+     0.476,
+     5.44,
+     0.0
+    ],
+    [
+     0.706,
+     5.64,
+     0.0
+    ],
+    [
+     0.88,
+     7.14,
+     0.0
+    ],
+    [
+     1.067,
+     7.46,
+     0.0
+    ],
+    [
+     1.122,
+     8.66,
+     0.0
+    ],
+    [
+     1.144,
+     9.14,
+     0.0
+    ],
+    [
+     1.205,
+     9.84,
+     0.0
+    ],
+    [
+     1.221,
+     10.54,
+     0.0
+    ],
+    [
+     1.279,
+     14.58,
+     0.0
+    ],
+    [
+     1.568,
+     14.48,
+     0.0
+    ],
+    [
+     1.798,
+     15.44,
+     0.0
+    ],
+    [
+     1.809,
+     16.24,
+     0.0
+    ],
+    [
+     1.821,
+     16.44,
+     0.0
+    ],
+    [
+     1.842,
+     16.64,
+     0.0
+    ],
+    [
+     1.853,
+     21.88,
+     0.0
+    ],
+    [
+     1.93,
+     26.58,
+     0.0
+    ],
+    [
+     1.974,
+     25.48,
+     0.0
+    ],
+    [
+     2.058,
+     25.6,
+     0.0
+    ],
+    [
+     2.246,
+     26.1,
+     0.0
+    ],
+    [
+     2.267,
+     26.6,
+     0.0
+    ],
+    [
+     2.289,
+     26.8,
+     0.0
+    ],
+    [
+     2.3,
+     28.6,
+     0.0
+    ],
+    [
+     2.31,
+     29.2,
+     0.0
+    ],
+    [
+     2.33,
+     29.28,
+     0.0
+    ],
+    [
+     2.494,
+     29.72,
+     0.0
+    ],
+    [
+     2.5,
+     29.92,
+     0.0
+    ],
+    [
+     2.535,
+     30.42,
+     0.0
+    ],
+    [
+     2.542,
+     32.12,
+     0.0
+    ],
+    [
+     2.593,
+     32.72,
+     0.0
+    ],
+    [
+     2.604,
+     31.72,
+     0.0
+    ],
+    [
+     2.776,
+     32.08,
+     0.0
+    ],
+    [
+     2.782,
+     31.98,
+     0.0
+    ],
+    [
+     2.79,
+     30.98,
+     0.0
+    ],
+    [
+     2.903,
+     31.08,
+     0.0
+    ],
+    [
+     2.915,
+     31.28,
+     0.0
+    ],
+    [
+     3.041,
+     31.18,
+     0.0
+    ],
+    [
+     3.051,
+     36.36,
+     0.0
+    ],
+    [
+     64.811,
+     36.66,
+     0.0
+    ],
+    [
+     64.842,
+     36.66,
+     0.2
+    ],
+    [
+     64.844,
+     37.58,
+     0.2
+    ],
+    [
+     64.852,
+     37.58,
+     0.72
+    ],
+    [
+     64.861,
+     37.58,
+     0.92
+    ],
+    [
+     64.877,
+     37.58,
+     3.22
+    ],
+    [
+     64.885,
+     38.48,
+     3.22
+    ],
+    [
+     64.916,
+     38.48,
+     11.42
+    ],
+    [
+     64.93,
+     42.96,
+     11.42
+    ],
+    [
+     65.003,
+     42.96,
+     11.66
+    ],
+    [
+     65.026,
+     42.96,
+     12.26
+    ],
+    [
+     65.039,
+     42.96,
+     12.54
+    ],
+    [
+     65.079,
+     42.96,
+     15.74
+    ],
+    [
+     65.081,
+     43.76,
+     15.74
+    ],
+    [
+     65.111,
+     44.04,
+     15.74
+    ],
+    [
+     65.122,
+     44.04,
+     15.9
+    ],
+    [
+     65.132,
+     44.04,
+     16.1
+    ],
+    [
+     65.156,
+     44.04,
+     18.4
+    ],
+    [
+     65.215,
+     44.54,
+     18.4
+    ],
+    [
+     65.23,
+     44.54,
+     24.5
+    ],
+    [
+     65.266,
+     45.24,
+     24.5
+    ],
+    [
+     65.276,
+     45.44,
+     24.5
+    ],
+    [
+     65.288,
+     45.74,
+     24.5
+    ],
+    [
+     65.289,
+     46.58,
+     24.5
+    ],
+    [
+     65.316,
+     46.66,
+     25.1
+    ],
+    [
+     65.319,
+     46.86,
+     25.1
+    ],
+    [
+     65.397,
+     46.86,
+     25.7
+    ],
+    [
+     65.439,
+     46.86,
+     27.5
+    ],
+    [
+     65.452,
+     46.86,
+     28.0
+    ],
+    [
+     65.457,
+     46.86,
+     27.0
+    ],
+    [
+     65.463,
+     46.86,
+     27.2
+    ],
+    [
+     65.623,
+     46.86,
+     27.64
+    ],
+    [
+     65.635,
+     46.86,
+     29.2
+    ],
+    [
+     65.681,
+     46.86,
+     30.48
+    ],
+    [
+     65.705,
+     46.86,
+     31.98
+    ],
+    [
+     65.716,
+     46.86,
+     33.68
+    ],
+    [
+     65.781,
+     47.26,
+     35.68
+    ],
+    [
+     65.845,
+     47.7,
+     37.78
+    ],
+    [
+     65.938,
+     48.9,
+     37.78
+    ],
+    [
+     65.944,
+     48.9,
+     39.98
+    ],
+    [
+     65.949,
+     50.6,
+     39.98
+    ],
+    [
+     65.954,
+     50.6,
+     40.28
+    ],
+    [
+     66.012,
+     51.96,
+     40.28
+    ],
+    [
+     66.017,
+     51.96,
+     42.58
+    ],
+    [
+     66.024,
+     52.44,
+     43.48
+    ],
+    [
+     66.029,
+     52.34,
+     43.48
+    ],
+    [
+     66.038,
+     52.58,
+     43.48
+    ],
+    [
+     66.074,
+     52.58,
+     44.08
+    ],
+    [
+     66.076,
+     52.58,
+     46.78
+    ],
+    [
+     66.078,
+     52.86,
+     48.48
+    ],
+    [
+     66.117,
+     57.58,
+     48.48
+    ],
+    [
+     66.118,
+     57.58,
+     49.08
+    ],
+    [
+     66.17,
+     57.58,
+     49.88
+    ],
+    [
+     66.176,
+     57.58,
+     49.96
+    ],
+    [
+     66.182,
+     57.58,
+     50.36
+    ],
+    [
+     66.261,
+     57.58,
+     50.26
+    ],
+    [
+     66.447,
+     57.86,
+     50.26
+    ],
+    [
+     66.513,
+     57.86,
+     50.46
+    ],
+    [
+     66.525,
+     57.86,
+     51.02
+    ],
+    [
+     66.629,
+     58.02,
+     52.42
+    ],
+    [
+     66.656,
+     58.12,
+     52.42
+    ],
+    [
+     66.72,
+     58.12,
+     53.38
+    ],
+    [
+     66.735,
+     58.12,
+     61.94
+    ],
+    [
+     66.752,
+     58.12,
+     62.14
+    ],
+    [
+     66.755,
+     58.12,
+     62.38
+    ],
+    [
+     66.762,
+     58.12,
+     62.86
+    ],
+    [
+     66.767,
+     58.12,
+     68.96
+    ],
+    [
+     66.77,
+     58.12,
+     74.24
+    ],
+    [
+     66.787,
+     58.12,
+     75.44
+    ],
+    [
+     66.816,
+     58.72,
+     75.44
+    ],
+    [
+     66.827,
+     64.28,
+     75.44
+    ],
+    [
+     66.871,
+     64.28,
+     76.54
+    ],
+    [
+     66.896,
+     64.78,
+     76.54
+    ],
+    [
+     66.906,
+     66.98,
+     76.54
+    ],
+    [
+     66.939,
+     66.98,
+     77.06
+    ],
+    [
+     66.958,
+     68.78,
+     77.06
+    ],
+    [
+     66.967,
+     68.78,
+     77.82
+    ],
+    [
+     66.968,
+     68.88,
+     77.82
+    ],
+    [
+     66.974,
+     68.88,
+     78.38
+    ],
+    [
+     66.983,
+     68.88,
+     78.74
+    ],
+    [
+     66.991,
+     68.88,
+     84.54
+    ],
+    [
+     67.15,
+     68.88,
+     84.82
+    ],
+    [
+     67.156,
+     70.88,
+     90.82
+    ],
+    [
+     67.173,
+     70.88,
+     92.82
+    ],
+    [
+     67.177,
+     70.96,
+     92.82
+    ],
+    [
+     67.185,
+     70.96,
+     94.02
+    ],
+    [
+     67.195,
+     70.96,
+     94.62
+    ],
+    [
+     67.198,
+     71.16,
+     94.62
+    ],
+    [
+     67.203,
+     71.16,
+     95.14
+    ],
+    [
+     67.206,
+     71.16,
+     97.74
+    ],
+    [
+     67.21,
+     75.4,
+     97.74
+    ],
+    [
+     67.235,
+     75.4,
+     99.54
+    ],
+    [
+     67.259,
+     75.4,
+     101.64
+    ],
+    [
+     67.275,
+     75.4,
+     100.64
+    ],
+    [
+     67.328,
+     75.4,
+     101.24
+    ],
+    [
+     67.337,
+     76.7,
+     101.24
+    ],
+    [
+     67.532,
+     77.06,
+     101.24
+    ],
+    [
+     67.544,
+     77.16,
+     101.24
+    ],
+    [
+     67.566,
+     78.06,
+     101.24
+    ],
+    [
+     67.574,
+     83.78,
+     101.24
+    ],
+    [
+     67.679,
+     83.78,
+     102.84
+    ],
+    [
+     67.753,
+     84.98,
+     102.84
+    ],
+    [
+     67.852,
+     84.98,
+     109.84
+    ],
+    [
+     67.895,
+     84.98,
+     110.14
+    ],
+    [
+     67.916,
+     84.98,
+     110.54
+    ],
+    [
+     67.929,
+     96.98,
+     110.54
+    ],
+    [
+     67.946,
+     96.98,
+     113.54
+    ],
+    [
+     67.996,
+     98.48,
+     113.54
+    ],
+    [
+     68.007,
+     98.48,
+     113.94
+    ],
+    [
+     68.017,
+     98.48,
+     113.54
+    ],
+    [
+     68.419,
+     98.48,
+     115.04
+    ],
+    [
+     68.43,
+     98.48,
+     115.14
+    ],
+    [
+     68.536,
+     100.08,
+     115.14
+    ],
+    [
+     68.555,
+     101.38,
+     115.14
+    ],
+    [
+     68.583,
+     103.08,
+     115.14
+    ],
+    [
+     68.657,
+     103.08,
+     115.74
+    ],
+    [
+     68.662,
+     113.58,
+     115.74
+    ],
+    [
+     68.684,
+     113.58,
+     115.64
+    ],
+    [
+     68.756,
+     113.58,
+     115.84
+    ],
+    [
+     68.96,
+     113.58,
+     117.54
+    ],
+    [
+     69.139,
+     115.28,
+     117.54
+    ],
+    [
+     69.775,
+     115.28,
+     117.84
+    ],
+    [
+     69.781,
+     115.28,
+     118.44
+    ],
+    [
+     70.069,
+     116.98,
+     118.44
+    ],
+    [
+     70.256,
+     115.98,
+     118.44
+    ],
+    [
+     70.454,
+     115.98,
+     123.24
+    ],
+    [
+     70.682,
+     118.98,
+     123.24
+    ],
+    [
+     70.741,
+     126.48,
+     123.24
+    ],
+    [
+     70.945,
+     129.08,
+     123.24
+    ],
+    [
+     71.45,
+     143.98,
+     123.24
+    ],
+    [
+     72.155,
+     145.48,
+     123.24
+    ],
+    [
+     72.176,
+     149.18,
+     123.24
+    ],
+    [
+     72.437,
+     151.28,
+     123.24
+    ],
+    [
+     72.446,
+     152.68,
+     123.24
+    ],
+    [
+     72.899,
+     157.18,
+     123.24
+    ],
+    [
+     73.126,
+     163.48,
+     123.24
+    ],
+    [
+     73.55,
+     165.58,
+     123.24
+    ],
+    [
+     74.022,
+     167.98,
+     123.24
+    ],
+    [
+     74.046,
+     169.68,
+     123.24
+    ],
+    [
+     74.116,
+     172.78,
+     123.24
+    ],
+    [
+     74.616,
+     178.08,
+     123.24
+    ]
+   ],
+   "rebuilt_matches_official": true
+  },
+  {
+   "matchup_id": 4,
+   "winner": 2,
+   "loser": 4,
+   "margin": 20.24,
+   "sides": [
+    {
+     "roster_id": 2,
+     "points": 192.44,
+     "starters": [
+      {
+       "id": "96",
+       "name": "Aaron Rodgers",
+       "pos": "QB",
+       "nfl_team": "PIT",
+       "pts": 15.62,
+       "game_day": "Sun"
+      },
+      {
+       "id": "3294",
+       "name": "Dak Prescott",
+       "pos": "QB",
+       "nfl_team": "DAL",
+       "pts": 35.42,
+       "game_day": "Sun"
+      },
+      {
+       "id": "9224",
+       "name": "Chase Brown",
+       "pos": "RB",
+       "nfl_team": "CIN",
+       "pts": 28.3,
+       "game_day": "Sun"
+      },
+      {
+       "id": "9221",
+       "name": "Jahmyr Gibbs",
+       "pos": "RB",
+       "nfl_team": "DET",
+       "pts": 44.2,
+       "game_day": "Sun"
+      },
+      {
+       "id": "8144",
+       "name": "Chris Olave",
+       "pos": "WR",
+       "nfl_team": "NO",
+       "pts": 6.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "6786",
+       "name": "CeeDee Lamb",
+       "pos": "WR",
+       "nfl_team": "DAL",
+       "pts": 20.2,
+       "game_day": "Sun"
+      },
+      {
+       "id": "10859",
+       "name": "Sam LaPorta",
+       "pos": "TE",
+       "nfl_team": "DET",
+       "pts": 2.6,
+       "game_day": "Sun"
+      },
+      {
+       "id": "7588",
+       "name": "Javonte Williams",
+       "pos": "RB",
+       "nfl_team": "DAL",
+       "pts": 7.7,
+       "game_day": "Sun"
+      },
+      {
+       "id": "13286",
+       "name": "Jadarian Price",
+       "pos": "RB",
+       "nfl_team": "SEA",
+       "pts": 11.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11533",
+       "name": "Brandon Aubrey",
+       "pos": "K",
+       "nfl_team": "DAL",
+       "pts": 11.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "SEA",
+       "name": "Seattle Seahawks D/ST",
+       "pos": "DEF",
+       "nfl_team": "SEA",
+       "pts": 10.0,
+       "game_day": "Sun"
+      }
+     ],
+     "bench": [
+      {
+       "id": "12512",
+       "name": "Quinshon Judkins",
+       "pos": "RB",
+       "nfl_team": "CLE",
+       "pts": 16.1,
+       "game_day": "Sun"
+      },
+      {
+       "id": "3271",
+       "name": "Tyler Higbee",
+       "pos": "TE",
+       "nfl_team": "LAR",
+       "pts": 10.7,
+       "game_day": "Sun"
+      },
+      {
+       "id": "10235",
+       "name": "Roschon Johnson",
+       "pos": "RB",
+       "nfl_team": "CHI",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "11560",
+       "name": "Caleb Williams",
+       "pos": "QB",
+       "nfl_team": "CHI",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "12519",
+       "name": "Luther Burden III",
+       "pos": "WR",
+       "nfl_team": "CHI",
+       "pts": 0.0,
+       "on_bye": true
+      }
+     ],
+     "optimal_points": 208.94,
+     "points_left_on_bench": 16.5,
+     "should_have_started": [
+      {
+       "name": "Quinshon Judkins",
+       "pos": "RB",
+       "pts": 16.1
+      },
+      {
+       "name": "Tyler Higbee",
+       "pos": "TE",
+       "pts": 10.7
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "Sam LaPorta",
+       "pos": "TE",
+       "pts": 2.6
+      },
+      {
+       "name": "Javonte Williams",
+       "pos": "RB",
+       "pts": 7.7
+      }
+     ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "Quinshon Judkins",
+        "pos": "RB",
+        "pts": 16.1
+       },
+       "instead_of": {
+        "name": "Javonte Williams",
+        "pos": "RB",
+        "pts": 7.7
+       },
+       "gain": 8.4
+      },
+      {
+       "start": {
+        "name": "Tyler Higbee",
+        "pos": "TE",
+        "pts": 10.7
+       },
+       "instead_of": {
+        "name": "Sam LaPorta",
+        "pos": "TE",
+        "pts": 2.6
+       },
+       "gain": 8.1
+      }
+     ],
+     "max_lead_before_final_day": {
+      "margin": 24.24,
+      "time": "Sun 8:24 PM"
+     },
+     "starter_stacks": {
+      "DAL": {
+       "players": [
+        "Dak Prescott",
+        "CeeDee Lamb",
+        "Javonte Williams",
+        "Brandon Aubrey"
+       ],
+       "pts": 74.32
+      },
+      "DET": {
+       "players": [
+        "Jahmyr Gibbs",
+        "Sam LaPorta"
+       ],
+       "pts": 46.8
+      }
+     },
+     "zero_starters": [],
+     "busted_starters": [],
+     "bye_starters": [],
+     "best_bench": {
+      "id": "12512",
+      "name": "Quinshon Judkins",
+      "pos": "RB",
+      "nfl_team": "CLE",
+      "pts": 16.1,
+      "game_day": "Sun"
+     },
+     "max_lead": {
+      "margin": 24.24,
+      "time": "Sun 8:24 PM"
+     },
+     "optimal_would_have_won": null
+    },
+    {
+     "roster_id": 4,
+     "points": 172.2,
+     "starters": [
+      {
+       "id": "3163",
+       "name": "Jared Goff",
+       "pos": "QB",
+       "nfl_team": "DET",
+       "pts": 22.42,
+       "game_day": "Sun"
+      },
+      {
+       "id": "7523",
+       "name": "Trevor Lawrence",
+       "pos": "QB",
+       "nfl_team": "JAX",
+       "pts": 27.78,
+       "game_day": "Sun"
+      },
+      {
+       "id": "4034",
+       "name": "Christian McCaffrey",
+       "pos": "RB",
+       "nfl_team": "SF",
+       "pts": 46.3,
+       "game_day": "Sun"
+      },
+      {
+       "id": "8228",
+       "name": "Jaylen Warren",
+       "pos": "RB",
+       "nfl_team": "PIT",
+       "pts": 9.1,
+       "game_day": "Sun"
+      },
+      {
+       "id": "6801",
+       "name": "Tee Higgins",
+       "pos": "WR",
+       "nfl_team": "CIN",
+       "pts": 11.6,
+       "game_day": "Sun"
+      },
+      {
+       "id": "9487",
+       "name": "Parker Washington",
+       "pos": "WR",
+       "nfl_team": "JAX",
+       "pts": 28.2,
+       "game_day": "Sun"
+      },
+      {
+       "id": "1466",
+       "name": "Travis Kelce",
+       "pos": "TE",
+       "nfl_team": "KC",
+       "pts": 5.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11604",
+       "name": "Brock Bowers",
+       "pos": "TE",
+       "nfl_team": "LV",
+       "pts": 3.8,
+       "game_day": "Sun"
+      },
+      {
+       "id": "8148",
+       "name": "Jameson Williams",
+       "pos": "WR",
+       "nfl_team": "DET",
+       "pts": 9.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11539",
+       "name": "Jake Bates",
+       "pos": "K",
+       "nfl_team": "DET",
+       "pts": 5.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "BAL",
+       "name": "Baltimore Ravens D/ST",
+       "pos": "DEF",
+       "nfl_team": "BAL",
+       "pts": 4.0,
+       "game_day": "Mon"
+      }
+     ],
+     "bench": [
+      {
+       "id": "11559",
+       "name": "Michael Penix Jr.",
+       "pos": "QB",
+       "nfl_team": "ATL",
+       "pts": 13.34,
+       "game_day": "Sun"
+      },
+      {
+       "id": "10213",
+       "name": "Tre Tucker",
+       "pos": "WR",
+       "nfl_team": "LV",
+       "pts": 1.9,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11563",
+       "name": "Bo Nix",
+       "pos": "QB",
+       "nfl_team": "DEN",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "13345",
+       "name": "Jonah Coleman",
+       "pos": "RB",
+       "nfl_team": "DEN",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "9493",
+       "name": "Puka Nacua",
+       "pos": "WR",
+       "nfl_team": "LAR",
+       "pts": 0.0,
+       "game_day": "Sun"
+      }
+     ],
+     "optimal_points": 172.2,
+     "points_left_on_bench": 0.0,
+     "should_have_started": [],
+     "should_have_sat": [],
+     "bench_swaps": [],
+     "max_lead_before_final_day": {
+      "margin": 53.0,
+      "time": "Sun 2:34 PM"
+     },
+     "starter_stacks": {
+      "DET": {
+       "players": [
+        "Jared Goff",
+        "Jameson Williams",
+        "Jake Bates"
+       ],
+       "pts": 36.42
+      },
+      "JAX": {
+       "players": [
+        "Trevor Lawrence",
+        "Parker Washington"
+       ],
+       "pts": 55.98
+      }
+     },
+     "zero_starters": [],
+     "busted_starters": [],
+     "bye_starters": [],
+     "best_bench": {
+      "id": "11559",
+      "name": "Michael Penix Jr.",
+      "pos": "QB",
+      "nfl_team": "ATL",
+      "pts": 13.34,
+      "game_day": "Sun"
+     },
+     "max_lead": {
+      "margin": 53.0,
+      "time": "Sun 2:34 PM"
+     },
+     "optimal_would_have_won": false
+    }
+   ],
+   "lead_changes": [
+    {
+     "time": "Sun 6:50 AM",
+     "new_leader": 4,
+     "score": [
+      1.3,
+      2.52
+     ],
+     "player": "Jared Goff",
+     "play": "(6:26) (Shotgun) 16-J.Goff pass short right to 14-A.St. Brown for 56 yards, TOUCHDOWN.",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 7:44 AM",
+     "new_leader": 2,
+     "score": [
+      12.9,
+      11.42
+     ],
+     "player": "Jahmyr Gibbs",
+     "play": "(3:44) (Shotgun) 16-J.Goff pass short left to 0-J.Gibbs pushed ob at DET 45 for 22 yards (4-C.Woodson).",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 10:11 AM",
+     "new_leader": 4,
+     "score": [
+      46.8,
+      47.0
+     ],
+     "player": "Parker Washington",
+     "play": "(9:38) 16-T.Lawrence pass short middle to 11-P.Washington for 2 yards, TOUCHDOWN.",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 4:42 PM",
+     "new_leader": 2,
+     "score": [
+      136.12,
+      131.7
+     ],
+     "player": "CeeDee Lamb",
+     "play": "end-of-game scoring (defense, kicker or other)",
+     "time_estimated": false
+    }
+   ],
+   "big_plays": [
+    {
+     "time": "Sun 6:48 AM",
+     "game": "NE @ DET",
+     "quarter": 1,
+     "desc": "(9:00) J.Gibbs right tackle to DET 38 for 8 yards (E.Ponder; C.Elliss).",
+     "net_for_winner": 0.8,
+     "players": {
+      "2": [
+       {
+        "name": "Jahmyr Gibbs",
+        "pts": 0.8
+       }
+      ],
+      "4": []
+     },
+     "score_before": [
+      0.0,
+      0.0
+     ],
+     "score_after": [
+      0.8,
+      0.0
+     ],
+     "changed_lead": true,
+     "id": "m4-p1"
+    },
+    {
+     "time": "Sun 6:50 AM",
+     "game": "NE @ DET",
+     "quarter": 1,
+     "desc": "(6:26) J.Goff pass short right to A.St. Brown for 56 yards, TOUCHDOWN.",
+     "net_for_winner": -6.24,
+     "players": {
+      "2": [],
+      "4": [
+       {
+        "name": "Jared Goff",
+        "pts": 2.24
+       },
+       {
+        "name": "Jared Goff",
+        "pts": 4.0
+       }
+      ]
+     },
+     "score_before": [
+      1.3,
+      0.28
+     ],
+     "score_after": [
+      1.3,
+      6.52
+     ],
+     "changed_lead": true,
+     "id": "m4-p2"
+    },
+    {
+     "time": "Sun 7:44 AM",
+     "game": "NE @ DET",
+     "quarter": 2,
+     "desc": "(3:44) J.Goff pass short left to J.Gibbs pushed ob at DET 45 for 22 yards (C.Woodson).",
+     "net_for_winner": 2.32,
+     "players": {
+      "2": [
+       {
+        "name": "Jahmyr Gibbs",
+        "pts": 3.2
+       }
+      ],
+      "4": [
+       {
+        "name": "Jared Goff",
+        "pts": 0.88
+       }
+      ]
+     },
+     "score_before": [
+      9.7,
+      11.42
+     ],
+     "score_after": [
+      12.9,
+      12.3
+     ],
+     "changed_lead": true,
+     "id": "m4-p3"
+    },
+    {
+     "time": "Sun 9:15 AM",
+     "game": "NE @ DET",
+     "quarter": 4,
+     "desc": "(9:05) J.Gibbs right end for 28 yards, TOUCHDOWN.",
+     "net_for_winner": 8.8,
+     "players": {
+      "2": [
+       {
+        "name": "Jahmyr Gibbs",
+        "pts": 2.8
+       },
+       {
+        "name": "Jahmyr Gibbs",
+        "pts": 6.0
+       }
+      ],
+      "4": []
+     },
+     "score_before": [
+      36.8,
+      31.34
+     ],
+     "score_after": [
+      45.6,
+      31.34
+     ],
+     "changed_lead": false,
+     "id": "m4-p4"
+    },
+    {
+     "time": "Sun 10:11 AM",
+     "game": "JAX @ TEN",
+     "quarter": 1,
+     "desc": "(9:38) T.Lawrence pass short middle to P.Washington for 2 yards, TOUCHDOWN.",
+     "net_for_winner": -11.28,
+     "players": {
+      "2": [],
+      "4": [
+       {
+        "name": "Trevor Lawrence",
+        "pts": 0.08
+       },
+       {
+        "name": "Trevor Lawrence",
+        "pts": 4.0
+       },
+       {
+        "name": "Parker Washington",
+        "pts": 1.2
+       },
+       {
+        "name": "Parker Washington",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      46.8,
+      41.72
+     ],
+     "score_after": [
+      46.8,
+      53.0
+     ],
+     "changed_lead": true,
+     "id": "m4-p5"
+    },
+    {
+     "time": "Sun 10:53 AM",
+     "game": "JAX @ TEN",
+     "quarter": 2,
+     "desc": "(10:27) T.Lawrence pass short middle to P.Washington pushed ob at TEN 17 for 50 yards (T.Adams). Penalty on TEN-O.Oladejo, Neutral Zone Inf",
+     "net_for_winner": -8.0,
+     "players": {
+      "2": [],
+      "4": [
+       {
+        "name": "Trevor Lawrence",
+        "pts": 2.0
+       },
+       {
+        "name": "Parker Washington",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      46.8,
+      63.96
+     ],
+     "score_after": [
+      46.8,
+      71.96
+     ],
+     "changed_lead": false,
+     "id": "m4-p6"
+    },
+    {
+     "time": "Sun 2:34 PM",
+     "game": "SF @ DAL",
+     "quarter": 2,
+     "desc": "(2:43) B.Purdy pass short right to C.McCaffrey for 74 yards, TOUCHDOWN.",
+     "net_for_winner": -14.4,
+     "players": {
+      "2": [],
+      "4": [
+       {
+        "name": "Christian McCaffrey",
+        "pts": 8.4
+       },
+       {
+        "name": "Christian McCaffrey",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      66.4,
+      105.0
+     ],
+     "score_after": [
+      66.4,
+      119.4
+     ],
+     "changed_lead": false,
+     "id": "m4-p7"
+    },
+    {
+     "time": "Sun 3:51 PM",
+     "game": "SF @ DAL",
+     "quarter": 4,
+     "desc": "(11:34) C.McCaffrey left tackle for 16 yards, TOUCHDOWN.",
+     "net_for_winner": -7.6,
+     "players": {
+      "2": [],
+      "4": [
+       {
+        "name": "Christian McCaffrey",
+        "pts": 1.6
+       },
+       {
+        "name": "Christian McCaffrey",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      81.98,
+      124.1
+     ],
+     "score_after": [
+      81.98,
+      131.7
+     ],
+     "changed_lead": false,
+     "id": "m4-p8"
+    },
+    {
+     "time": "Sun 7:23 PM",
+     "game": "PIT @ CIN",
+     "quarter": 3,
+     "desc": "(4:19) J.Burrow pass short right to C.Brown for 4 yards, TOUCHDOWN.",
+     "net_for_winner": 7.4,
+     "players": {
+      "2": [
+       {
+        "name": "Chase Brown",
+        "pts": 1.4
+       },
+       {
+        "name": "Chase Brown",
+        "pts": 6.0
+       }
+      ],
+      "4": []
+     },
+     "score_before": [
+      167.18,
+      164.8
+     ],
+     "score_after": [
+      174.58,
+      164.8
+     ],
+     "changed_lead": false,
+     "id": "m4-p9"
+    }
+   ],
+   "entering_final_day": {
+    "day": "Monday",
+    "score": [
+     192.44,
+     168.2
+    ],
+    "remaining": {
+     "2": [],
+     "4": [
+      "Baltimore Ravens D/ST"
+     ]
+    }
+   },
+   "race": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     61.545,
+     0.8,
+     0.0
+    ],
+    [
+     61.555,
+     1.3,
+     0.0
+    ],
+    [
+     61.576,
+     1.3,
+     0.28
+    ],
+    [
+     61.588,
+     1.3,
+     6.52
+    ],
+    [
+     61.851,
+     2.7,
+     6.68
+    ],
+    [
+     61.862,
+     3.2,
+     6.68
+    ],
+    [
+     61.871,
+     3.2,
+     6.98
+    ],
+    [
+     61.881,
+     5.7,
+     6.98
+    ],
+    [
+     61.892,
+     5.7,
+     7.26
+    ],
+    [
+     61.957,
+     5.7,
+     7.94
+    ],
+    [
+     61.978,
+     7.1,
+     7.94
+    ],
+    [
+     61.991,
+     7.3,
+     7.94
+    ],
+    [
+     62.001,
+     7.3,
+     12.42
+    ],
+    [
+     62.297,
+     8.6,
+     12.42
+    ],
+    [
+     62.308,
+     9.0,
+     12.42
+    ],
+    [
+     62.354,
+     9.0,
+     11.42
+    ],
+    [
+     62.462,
+     9.5,
+     11.42
+    ],
+    [
+     62.472,
+     9.7,
+     11.42
+    ],
+    [
+     62.483,
+     12.9,
+     12.3
+    ],
+    [
+     62.526,
+     18.9,
+     14.3
+    ],
+    [
+     62.538,
+     25.4,
+     14.3
+    ],
+    [
+     62.713,
+     25.4,
+     14.58
+    ],
+    [
+     62.729,
+     25.4,
+     18.24
+    ],
+    [
+     62.756,
+     25.4,
+     20.36
+    ],
+    [
+     62.775,
+     25.9,
+     20.36
+    ],
+    [
+     62.815,
+     25.9,
+     19.36
+    ],
+    [
+     63.122,
+     27.3,
+     19.52
+    ],
+    [
+     63.132,
+     27.3,
+     19.68
+    ],
+    [
+     63.28,
+     28.7,
+     19.68
+    ],
+    [
+     63.29,
+     30.6,
+     20.04
+    ],
+    [
+     63.332,
+     30.6,
+     25.16
+    ],
+    [
+     63.494,
+     31.4,
+     25.16
+    ],
+    [
+     63.505,
+     34.0,
+     25.8
+    ],
+    [
+     63.517,
+     34.1,
+     25.8
+    ],
+    [
+     63.528,
+     34.9,
+     25.8
+    ],
+    [
+     63.937,
+     34.9,
+     28.06
+    ],
+    [
+     63.95,
+     35.2,
+     28.06
+    ],
+    [
+     63.963,
+     35.0,
+     28.06
+    ],
+    [
+     63.973,
+     36.8,
+     28.38
+    ],
+    [
+     63.985,
+     36.8,
+     31.34
+    ],
+    [
+     63.997,
+     46.8,
+     36.42
+    ],
+    [
+     64.819,
+     46.8,
+     36.66
+    ],
+    [
+     64.831,
+     46.8,
+     37.78
+    ],
+    [
+     64.843,
+     46.8,
+     38.22
+    ],
+    [
+     64.844,
+     46.8,
+     41.52
+    ],
+    [
+     64.9,
+     46.8,
+     41.72
+    ],
+    [
+     64.934,
+     46.8,
+     53.0
+    ],
+    [
+     65.162,
+     46.8,
+     58.62
+    ],
+    [
+     65.169,
+     46.8,
+     57.62
+    ],
+    [
+     65.333,
+     46.8,
+     60.16
+    ],
+    [
+     65.368,
+     46.8,
+     63.96
+    ],
+    [
+     65.623,
+     46.8,
+     71.96
+    ],
+    [
+     65.887,
+     46.8,
+     72.28
+    ],
+    [
+     66.212,
+     46.8,
+     77.76
+    ],
+    [
+     66.219,
+     46.8,
+     78.2
+    ],
+    [
+     66.243,
+     46.8,
+     78.8
+    ],
+    [
+     66.275,
+     46.8,
+     79.08
+    ],
+    [
+     66.447,
+     46.8,
+     80.78
+    ],
+    [
+     66.69,
+     48.9,
+     80.78
+    ],
+    [
+     66.724,
+     48.9,
+     81.26
+    ],
+    [
+     66.805,
+     48.9,
+     81.74
+    ],
+    [
+     66.828,
+     48.9,
+     81.98
+    ],
+    [
+     66.904,
+     48.9,
+     86.1
+    ],
+    [
+     67.197,
+     48.9,
+     86.22
+    ],
+    [
+     67.293,
+     48.9,
+     86.52
+    ],
+    [
+     67.316,
+     48.9,
+     88.08
+    ],
+    [
+     67.353,
+     48.9,
+     89.58
+    ],
+    [
+     67.365,
+     50.6,
+     89.58
+    ],
+    [
+     67.378,
+     50.6,
+     89.9
+    ],
+    [
+     67.402,
+     50.6,
+     94.9
+    ],
+    [
+     67.586,
+     50.6,
+     95.34
+    ],
+    [
+     67.611,
+     50.6,
+     95.74
+    ],
+    [
+     67.623,
+     50.6,
+     96.14
+    ],
+    [
+     67.636,
+     50.6,
+     96.84
+    ],
+    [
+     67.763,
+     52.8,
+     96.84
+    ],
+    [
+     67.788,
+     52.8,
+     97.4
+    ],
+    [
+     67.884,
+     52.8,
+     99.0
+    ],
+    [
+     68.18,
+     53.7,
+     99.0
+    ],
+    [
+     68.233,
+     54.1,
+     99.0
+    ],
+    [
+     68.243,
+     54.9,
+     99.0
+    ],
+    [
+     68.255,
+     55.2,
+     99.0
+    ],
+    [
+     68.35,
+     55.2,
+     99.4
+    ],
+    [
+     68.395,
+     55.2,
+     101.6
+    ],
+    [
+     68.412,
+     55.2,
+     101.8
+    ],
+    [
+     68.536,
+     55.44,
+     101.8
+    ],
+    [
+     68.545,
+     55.54,
+     101.8
+    ],
+    [
+     68.555,
+     55.66,
+     101.8
+    ],
+    [
+     68.572,
+     55.86,
+     101.8
+    ],
+    [
+     68.583,
+     56.14,
+     101.8
+    ],
+    [
+     68.617,
+     56.34,
+     101.8
+    ],
+    [
+     68.627,
+     57.14,
+     101.8
+    ],
+    [
+     68.638,
+     57.24,
+     101.8
+    ],
+    [
+     68.651,
+     57.84,
+     101.8
+    ],
+    [
+     68.662,
+     63.24,
+     101.8
+    ],
+    [
+     68.735,
+     63.24,
+     102.1
+    ],
+    [
+     68.819,
+     63.14,
+     102.1
+    ],
+    [
+     68.83,
+     64.94,
+     102.1
+    ],
+    [
+     68.922,
+     64.94,
+     102.2
+    ],
+    [
+     68.932,
+     64.94,
+     102.6
+    ],
+    [
+     68.942,
+     64.94,
+     104.3
+    ],
+    [
+     69.038,
+     64.94,
+     104.1
+    ],
+    [
+     69.061,
+     64.94,
+     105.0
+    ],
+    [
+     69.07,
+     65.44,
+     105.0
+    ],
+    [
+     69.139,
+     65.72,
+     105.0
+    ],
+    [
+     69.17,
+     66.0,
+     105.0
+    ],
+    [
+     69.204,
+     66.4,
+     105.0
+    ],
+    [
+     69.32,
+     66.4,
+     119.4
+    ],
+    [
+     69.397,
+     67.1,
+     119.4
+    ],
+    [
+     69.45,
+     67.2,
+     119.4
+    ],
+    [
+     69.49,
+     74.4,
+     119.4
+    ],
+    [
+     69.628,
+     74.3,
+     119.4
+    ],
+    [
+     69.821,
+     74.2,
+     119.4
+    ],
+    [
+     69.901,
+     74.3,
+     119.4
+    ],
+    [
+     69.91,
+     74.3,
+     119.7
+    ],
+    [
+     70.049,
+     74.8,
+     119.7
+    ],
+    [
+     70.051,
+     75.2,
+     119.7
+    ],
+    [
+     70.069,
+     75.48,
+     119.7
+    ],
+    [
+     70.079,
+     76.4,
+     119.7
+    ],
+    [
+     70.1,
+     76.48,
+     119.7
+    ],
+    [
+     70.177,
+     76.58,
+     119.7
+    ],
+    [
+     70.243,
+     77.08,
+     119.7
+    ],
+    [
+     70.29,
+     79.76,
+     119.7
+    ],
+    [
+     70.31,
+     80.26,
+     119.7
+    ],
+    [
+     70.321,
+     80.74,
+     119.7
+    ],
+    [
+     70.332,
+     80.44,
+     119.7
+    ],
+    [
+     70.342,
+     82.98,
+     119.7
+    ],
+    [
+     70.364,
+     81.98,
+     119.7
+    ],
+    [
+     70.551,
+     81.98,
+     122.1
+    ],
+    [
+     70.56,
+     81.98,
+     123.8
+    ],
+    [
+     70.573,
+     81.98,
+     124.1
+    ],
+    [
+     70.596,
+     81.98,
+     131.7
+    ],
+    [
+     70.668,
+     83.4,
+     131.7
+    ],
+    [
+     70.682,
+     93.4,
+     131.7
+    ],
+    [
+     70.692,
+     94.3,
+     131.7
+    ],
+    [
+     70.698,
+     96.56,
+     131.7
+    ],
+    [
+     70.708,
+     101.34,
+     131.7
+    ],
+    [
+     70.731,
+     101.44,
+     131.7
+    ],
+    [
+     70.741,
+     105.64,
+     131.7
+    ],
+    [
+     70.931,
+     105.94,
+     131.7
+    ],
+    [
+     70.937,
+     108.2,
+     131.7
+    ],
+    [
+     70.945,
+     108.84,
+     131.7
+    ],
+    [
+     70.965,
+     109.4,
+     131.7
+    ],
+    [
+     70.976,
+     109.56,
+     131.7
+    ],
+    [
+     71.002,
+     114.0,
+     131.7
+    ],
+    [
+     71.167,
+     114.24,
+     131.7
+    ],
+    [
+     71.174,
+     114.74,
+     131.7
+    ],
+    [
+     71.179,
+     115.78,
+     131.7
+    ],
+    [
+     71.45,
+     148.52,
+     147.5
+    ],
+    [
+     72.143,
+     149.92,
+     147.5
+    ],
+    [
+     72.166,
+     150.82,
+     147.5
+    ],
+    [
+     72.201,
+     150.92,
+     147.5
+    ],
+    [
+     72.212,
+     152.52,
+     147.5
+    ],
+    [
+     72.351,
+     152.52,
+     147.8
+    ],
+    [
+     72.425,
+     153.82,
+     147.8
+    ],
+    [
+     72.458,
+     153.82,
+     149.8
+    ],
+    [
+     72.47,
+     154.02,
+     149.8
+    ],
+    [
+     72.603,
+     154.02,
+     152.5
+    ],
+    [
+     72.887,
+     156.32,
+     152.5
+    ],
+    [
+     73.119,
+     157.42,
+     152.5
+    ],
+    [
+     73.14,
+     157.42,
+     154.8
+    ],
+    [
+     73.166,
+     164.62,
+     154.8
+    ],
+    [
+     73.279,
+     164.82,
+     154.8
+    ],
+    [
+     73.291,
+     165.54,
+     157.6
+    ],
+    [
+     73.302,
+     165.54,
+     158.0
+    ],
+    [
+     73.373,
+     165.62,
+     158.0
+    ],
+    [
+     73.536,
+     165.62,
+     160.4
+    ],
+    [
+     73.566,
+     165.62,
+     162.6
+    ],
+    [
+     73.627,
+     165.52,
+     162.6
+    ],
+    [
+     73.876,
+     165.52,
+     163.2
+    ],
+    [
+     73.886,
+     165.52,
+     163.5
+    ],
+    [
+     73.897,
+     165.52,
+     163.4
+    ],
+    [
+     73.909,
+     165.68,
+     164.8
+    ],
+    [
+     74.034,
+     165.98,
+     164.8
+    ],
+    [
+     74.082,
+     166.48,
+     164.8
+    ],
+    [
+     74.105,
+     167.18,
+     164.8
+    ],
+    [
+     74.131,
+     174.58,
+     164.8
+    ],
+    [
+     74.21,
+     174.3,
+     165.1
+    ],
+    [
+     74.294,
+     174.4,
+     165.1
+    ],
+    [
+     74.306,
+     175.5,
+     165.1
+    ],
+    [
+     74.319,
+     177.1,
+     165.1
+    ],
+    [
+     74.396,
+     177.3,
+     165.1
+    ],
+    [
+     74.454,
+     178.58,
+     165.1
+    ],
+    [
+     74.464,
+     178.9,
+     165.1
+    ],
+    [
+     74.501,
+     179.14,
+     165.1
+    ],
+    [
+     74.523,
+     184.02,
+     165.1
+    ],
+    [
+     74.605,
+     184.12,
+     165.1
+    ],
+    [
+     74.63,
+     184.52,
+     165.1
+    ],
+    [
+     74.748,
+     184.84,
+     166.9
+    ],
+    [
+     74.757,
+     184.96,
+     168.2
+    ],
+    [
+     74.767,
+     185.36,
+     168.2
+    ],
+    [
+     74.835,
+     190.44,
+     168.2
+    ],
+    [
+     75.147,
+     192.44,
+     168.2
+    ],
+    [
+     98.973,
+     192.44,
+     172.2
+    ]
+   ],
+   "rebuilt_matches_official": true
+  },
+  {
+   "matchup_id": 2,
+   "winner": 5,
+   "loser": 3,
+   "margin": 0.24,
+   "sides": [
+    {
+     "roster_id": 5,
+     "points": 172.72,
+     "starters": [
+      {
+       "id": "9758",
+       "name": "C.J. Stroud",
+       "pos": "QB",
+       "nfl_team": "HOU",
+       "pts": 21.44,
+       "game_day": "Sun"
+      },
+      {
+       "id": "12545",
+       "name": "Tyler Shough",
+       "pos": "QB",
+       "nfl_team": "NO",
+       "pts": 10.98,
+       "game_day": "Sun"
+      },
+      {
+       "id": "9509",
+       "name": "Bijan Robinson",
+       "pos": "RB",
+       "nfl_team": "ATL",
+       "pts": 17.7,
+       "game_day": "Sun"
+      },
+      {
+       "id": "7594",
+       "name": "Chuba Hubbard",
+       "pos": "RB",
+       "nfl_team": "CAR",
+       "pts": 34.2,
+       "game_day": "Sun"
+      },
+      {
+       "id": "12526",
+       "name": "Tetairoa McMillan",
+       "pos": "WR",
+       "nfl_team": "CAR",
+       "pts": 6.5,
+       "game_day": "Sun"
+      },
+      {
+       "id": "12501",
+       "name": "Matthew Golden",
+       "pos": "WR",
+       "nfl_team": "GB",
+       "pts": 12.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "8130",
+       "name": "Trey McBride",
+       "pos": "TE",
+       "nfl_team": "ARI",
+       "pts": 8.7,
+       "game_day": "Sun"
+      },
+      {
+       "id": "12495",
+       "name": "Ollie Gordon II",
+       "pos": "RB",
+       "nfl_team": "MIA",
+       "pts": 15.5,
+       "game_day": "Sun"
+      },
+      {
+       "id": "8138",
+       "name": "James Cook III",
+       "pos": "RB",
+       "nfl_team": "BUF",
+       "pts": 21.7,
+       "game_day": "Sun"
+      },
+      {
+       "id": "7839",
+       "name": "Evan McPherson",
+       "pos": "K",
+       "nfl_team": "CIN",
+       "pts": 7.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "LAR",
+       "name": "Los Angeles Rams D/ST",
+       "pos": "DEF",
+       "nfl_team": "LAR",
+       "pts": 17.0,
+       "game_day": "Sun"
+      }
+     ],
+     "bench": [
+      {
+       "id": "1166",
+       "name": "Kirk Cousins",
+       "pos": "QB",
+       "nfl_team": "MIN",
+       "pts": 16.38,
+       "game_day": "Sun"
+      },
+      {
+       "id": "9500",
+       "name": "Josh Downs",
+       "pos": "WR",
+       "nfl_team": "KC",
+       "pts": 15.3,
+       "game_day": "Sun"
+      },
+      {
+       "id": "9753",
+       "name": "Zach Charbonnet",
+       "pos": "RB",
+       "nfl_team": "SEA",
+       "pts": 9.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11635",
+       "name": "Ladd McConkey",
+       "pos": "WR",
+       "nfl_team": "LAC",
+       "pts": 0.0,
+       "game_day": "Mon"
+      },
+      {
+       "id": "CHI",
+       "name": "Chicago Bears D/ST",
+       "pos": "DEF",
+       "nfl_team": "CHI",
+       "pts": 0.0,
+       "on_bye": true
+      }
+     ],
+     "optimal_points": 186.92,
+     "points_left_on_bench": 14.2,
+     "should_have_started": [
+      {
+       "name": "Kirk Cousins",
+       "pos": "QB",
+       "pts": 16.38
+      },
+      {
+       "name": "Josh Downs",
+       "pos": "WR",
+       "pts": 15.3
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "Tyler Shough",
+       "pos": "QB",
+       "pts": 10.98
+      },
+      {
+       "name": "Tetairoa McMillan",
+       "pos": "WR",
+       "pts": 6.5
+      }
+     ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "Josh Downs",
+        "pos": "WR",
+        "pts": 15.3
+       },
+       "instead_of": {
+        "name": "Tetairoa McMillan",
+        "pos": "WR",
+        "pts": 6.5
+       },
+       "gain": 8.8
+      },
+      {
+       "start": {
+        "name": "Kirk Cousins",
+        "pos": "QB",
+        "pts": 16.38
+       },
+       "instead_of": {
+        "name": "Tyler Shough",
+        "pos": "QB",
+        "pts": 10.98
+       },
+       "gain": 5.4
+      }
+     ],
+     "max_lead_before_final_day": {
+      "margin": 26.56,
+      "time": "Sun 12:57 PM"
+     },
+     "starter_stacks": {
+      "CAR": {
+       "players": [
+        "Chuba Hubbard",
+        "Tetairoa McMillan"
+       ],
+       "pts": 40.7
+      }
+     },
+     "zero_starters": [],
+     "busted_starters": [],
+     "bye_starters": [],
+     "best_bench": {
+      "id": "1166",
+      "name": "Kirk Cousins",
+      "pos": "QB",
+      "nfl_team": "MIN",
+      "pts": 16.38,
+      "game_day": "Sun"
+     },
+     "max_lead": {
+      "margin": 26.56,
+      "time": "Sun 12:57 PM"
+     },
+     "optimal_would_have_won": null
+    },
+    {
+     "roster_id": 3,
+     "points": 172.48,
+     "starters": [
+      {
+       "id": "8183",
+       "name": "Brock Purdy",
+       "pos": "QB",
+       "nfl_team": "SF",
+       "pts": 31.66,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11564",
+       "name": "Drake Maye",
+       "pos": "QB",
+       "nfl_team": "NE",
+       "pts": 3.02,
+       "game_day": "Sun"
+      },
+      {
+       "id": "8155",
+       "name": "Breece Hall",
+       "pos": "RB",
+       "nfl_team": "NYJ",
+       "pts": 14.8,
+       "game_day": "Sun"
+      },
+      {
+       "id": "13337",
+       "name": "Emmett Johnson",
+       "pos": "RB",
+       "nfl_team": "KC",
+       "pts": 35.1,
+       "game_day": "Sun"
+      },
+      {
+       "id": "7547",
+       "name": "Amon-Ra St. Brown",
+       "pos": "WR",
+       "nfl_team": "DET",
+       "pts": 25.8,
+       "game_day": "Sun"
+      },
+      {
+       "id": "9997",
+       "name": "Zay Flowers",
+       "pos": "WR",
+       "nfl_team": "BAL",
+       "pts": 11.4,
+       "game_day": "Mon"
+      },
+      {
+       "id": "12506",
+       "name": "Harold Fannin Jr.",
+       "pos": "TE",
+       "nfl_team": "CLE",
+       "pts": 16.1,
+       "game_day": "Sun"
+      },
+      {
+       "id": "8167",
+       "name": "Christian Watson",
+       "pos": "WR",
+       "nfl_team": "GB",
+       "pts": 6.7,
+       "game_day": "Sun"
+      },
+      {
+       "id": "8112",
+       "name": "Drake London",
+       "pos": "WR",
+       "nfl_team": "ATL",
+       "pts": 16.9,
+       "game_day": "Sun"
+      },
+      {
+       "id": "6083",
+       "name": "Matt Gay",
+       "pos": "K",
+       "nfl_team": "LV",
+       "pts": 8.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "CLE",
+       "name": "Cleveland Browns D/ST",
+       "pos": "DEF",
+       "nfl_team": "CLE",
+       "pts": 3.0,
+       "game_day": "Sun"
+      }
+     ],
+     "bench": [
+      {
+       "id": "12507",
+       "name": "Omarion Hampton",
+       "pos": "RB",
+       "nfl_team": "LAC",
+       "pts": 17.5,
+       "game_day": "Mon"
+      },
+      {
+       "id": "5859",
+       "name": "A.J. Brown",
+       "pos": "WR",
+       "nfl_team": "NE",
+       "pts": 4.7,
+       "game_day": "Sun"
+      },
+      {
+       "id": "8132",
+       "name": "Tyler Allgeier",
+       "pos": "RB",
+       "nfl_team": "ARI",
+       "pts": 1.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11584",
+       "name": "Bucky Irving",
+       "pos": "RB",
+       "nfl_team": "TB",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "7526",
+       "name": "Jaylen Waddle",
+       "pos": "WR",
+       "nfl_team": "DEN",
+       "pts": 0.0,
+       "on_bye": true
+      }
+     ],
+     "optimal_points": 183.28,
+     "points_left_on_bench": 10.8,
+     "should_have_started": [
+      {
+       "name": "Omarion Hampton",
+       "pos": "RB",
+       "pts": 17.5
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "Christian Watson",
+       "pos": "WR",
+       "pts": 6.7
+      }
+     ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "Omarion Hampton",
+        "pos": "RB",
+        "pts": 17.5
+       },
+       "instead_of": {
+        "name": "Christian Watson",
+        "pos": "WR",
+        "pts": 6.7
+       },
+       "gain": 10.8
+      }
+     ],
+     "max_lead_before_final_day": {
+      "margin": 35.72,
+      "time": "Sun 10:17 AM"
+     },
+     "starter_stacks": {},
+     "zero_starters": [],
+     "busted_starters": [],
+     "bye_starters": [],
+     "best_bench": {
+      "id": "12507",
+      "name": "Omarion Hampton",
+      "pos": "RB",
+      "nfl_team": "LAC",
+      "pts": 17.5,
+      "game_day": "Mon"
+     },
+     "max_lead": {
+      "margin": 35.72,
+      "time": "Sun 10:17 AM"
+     },
+     "optimal_would_have_won": true
+    }
+   ],
+   "lead_changes": [
+    {
+     "time": "Sun 11:13 AM",
+     "new_leader": 5,
+     "score": [
+      56.08,
+      54.92
+     ],
+     "player": "Tetairoa McMillan",
+     "play": "(2:36) (No Huddle) 9-B.Young pass deep middle to 4-T.McMillan to CAR 49 for 20 yards (55-K.Elliss).",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 11:16 AM",
+     "new_leader": 3,
+     "score": [
+      56.08,
+      59.32
+     ],
+     "player": "Emmett Johnson",
+     "play": "(2:00) 15-P.Mahomes pass short right to 10-E.Johnson to ATL 43 for 34 yards (23-D.Hellams).",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 11:47 AM",
+     "new_leader": 5,
+     "score": [
+      68.5,
+      66.42
+     ],
+     "player": "Matthew Golden",
+     "play": "(13:35) (Shotgun) 10-J.Love pass short middle to 0-M.Golden to GB 48 for 14 yards (23-J.Pierre).",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 11:56 AM",
+     "new_leader": 3,
+     "score": [
+      69.36,
+      70.52
+     ],
+     "player": "Harold Fannin Jr.",
+     "play": "(9:00) 4-D.Watson pass short right to 44-H.Fannin to HOU 13 for 7 yards (29-M.Stewart). PENALTY on HOU-29-M.Stewart, Face Mask, 7 yards, enforced at HOU 13.",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 12:01 PM",
+     "new_leader": 5,
+     "score": [
+      72.8,
+      72.72
+     ],
+     "player": "Matthew Golden",
+     "play": "(6:01) (No Huddle, Shotgun) 10-J.Love pass short left to 0-M.Golden ran ob at MIN 32 for 12 yards.",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 12:12 PM",
+     "new_leader": 3,
+     "score": [
+      78.62,
+      80.32
+     ],
+     "player": "Christian Watson",
+     "play": "(3:34) (No Huddle, Shotgun) 10-J.Love pass short left to 9-C.Watson to GB 24 for 13 yards (26-T.Jackson; 41-J.Golday) [50-L.Rodriguez]. The first down was assis",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 12:14 PM",
+     "new_leader": 5,
+     "score": [
+      81.02,
+      80.32
+     ],
+     "player": "Matthew Golden",
+     "play": "(2:07) (No Huddle, Shotgun) 10-J.Love pass short right to 0-M.Golden to MIN 39 for 14 yards (7-B.Murphy).",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 12:28 PM",
+     "new_leader": 3,
+     "score": [
+      87.82,
+      91.62
+     ],
+     "player": "Emmett Johnson",
+     "play": "(10:01) (Shotgun) 15-P.Mahomes pass short right to 10-E.Johnson for 6 yards, TOUCHDOWN.",
+     "time_estimated": false
+    },
+    {
+     "time": "Sun 12:36 PM",
+     "new_leader": 5,
+     "score": [
+      100.96,
+      95.72
+     ],
+     "player": "Bijan Robinson",
+     "play": "(8:15) (Shotgun) 7-B.Robinson right guard for 3 yards, TOUCHDOWN.",
+     "time_estimated": false
+    },
+    {
+     "time": "Mon 8:09 PM",
+     "new_leader": 3,
+     "score": [
+      172.72,
+      174.48
+     ],
+     "player": "Zay Flowers",
+     "play": "(2:11) 11-J.Brissett pass short left to 4-Z.Flowers to LAC 46 for 15 yards (4-T.Still). FUMBLES (4-T.Still), RECOVERED by LAC-2-E.Molden at LAC 46.",
+     "time_estimated": false
+    },
+    {
+     "time": "Mon 8:09 PM",
+     "new_leader": 5,
+     "score": [
+      172.72,
+      172.48
+     ],
+     "player": "Zay Flowers",
+     "play": "(2:11) 11-J.Brissett pass short left to 4-Z.Flowers to LAC 46 for 15 yards (4-T.Still). FUMBLES (4-T.Still), RECOVERED by LAC-2-E.Molden at LAC 46.",
+     "time_estimated": false
+    }
+   ],
+   "big_plays": [
+    {
+     "time": "Sun 6:34 AM",
+     "game": "NE @ DET",
+     "quarter": 1,
+     "desc": "(14:55) D.Maye right end to NE 36 for 11 yards (R.McCreary).",
+     "net_for_winner": -1.1,
+     "players": {
+      "5": [],
+      "3": [
+       {
+        "name": "Drake Maye",
+        "pts": 1.1
+       }
+      ]
+     },
+     "score_before": [
+      0.0,
+      0.0
+     ],
+     "score_after": [
+      0.0,
+      1.1
+     ],
+     "changed_lead": true,
+     "id": "m2-p1"
+    },
+    {
+     "time": "Sun 6:50 AM",
+     "game": "NE @ DET",
+     "quarter": 1,
+     "desc": "(6:26) J.Goff pass short right to A.St. Brown for 56 yards, TOUCHDOWN.",
+     "net_for_winner": -12.6,
+     "players": {
+      "5": [],
+      "3": [
+       {
+        "name": "Amon-Ra St. Brown",
+        "pts": 6.6
+       },
+       {
+        "name": "Amon-Ra St. Brown",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      0.0,
+      4.72
+     ],
+     "score_after": [
+      0.0,
+      17.32
+     ],
+     "changed_lead": false,
+     "id": "m2-p2"
+    },
+    {
+     "time": "Sun 8:35 AM",
+     "game": "NE @ DET",
+     "quarter": 3,
+     "desc": "(8:28) J.Goff pass short middle to A.St. Brown for 28 yards, TOUCHDOWN.",
+     "net_for_winner": -9.8,
+     "players": {
+      "5": [],
+      "3": [
+       {
+        "name": "Amon-Ra St. Brown",
+        "pts": 3.8
+       },
+       {
+        "name": "Amon-Ra St. Brown",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      0.0,
+      19.02
+     ],
+     "score_after": [
+      0.0,
+      28.82
+     ],
+     "changed_lead": false,
+     "id": "m2-p3"
+    },
+    {
+     "time": "Sun 10:11 AM",
+     "game": "KC @ ATL",
+     "quarter": 1,
+     "desc": "(9:00) P.Mahomes pass short left to E.Johnson for 12 yards, TOUCHDOWN.",
+     "net_for_winner": -8.2,
+     "players": {
+      "5": [],
+      "3": [
+       {
+        "name": "Emmett Johnson",
+        "pts": 2.2
+       },
+       {
+        "name": "Emmett Johnson",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      7.9,
+      34.12
+     ],
+     "score_after": [
+      7.9,
+      42.32
+     ],
+     "changed_lead": false,
+     "id": "m2-p4"
+    },
+    {
+     "time": "Sun 11:13 AM",
+     "game": "CAR @ NO",
+     "quarter": 2,
+     "desc": "(2:36) B.Young pass deep middle to T.McMillan to CAR 49 for 20 yards (K.Elliss).",
+     "net_for_winner": 3.0,
+     "players": {
+      "5": [
+       {
+        "name": "Tetairoa McMillan",
+        "pts": 3.0
+       }
+      ],
+      "3": []
+     },
+     "score_before": [
+      53.08,
+      54.92
+     ],
+     "score_after": [
+      56.08,
+      54.92
+     ],
+     "changed_lead": true,
+     "id": "m2-p5"
+    },
+    {
+     "time": "Sun 11:16 AM",
+     "game": "KC @ ATL",
+     "quarter": 2,
+     "desc": "(2:00) P.Mahomes pass short right to E.Johnson to ATL 43 for 34 yards (D.Hellams).",
+     "net_for_winner": -4.4,
+     "players": {
+      "5": [],
+      "3": [
+       {
+        "name": "Emmett Johnson",
+        "pts": 4.4
+       }
+      ]
+     },
+     "score_before": [
+      56.08,
+      54.92
+     ],
+     "score_after": [
+      56.08,
+      59.32
+     ],
+     "changed_lead": true,
+     "id": "m2-p6"
+    },
+    {
+     "time": "Sun 11:47 AM",
+     "game": "MIN @ GB",
+     "quarter": 3,
+     "desc": "(13:35) J.Love pass short middle to M.Golden to GB 48 for 14 yards (J.Pierre).",
+     "net_for_winner": 2.4,
+     "players": {
+      "5": [
+       {
+        "name": "Matthew Golden",
+        "pts": 2.4
+       }
+      ],
+      "3": []
+     },
+     "score_before": [
+      66.1,
+      66.42
+     ],
+     "score_after": [
+      68.5,
+      66.42
+     ],
+     "changed_lead": true,
+     "id": "m2-p7"
+    },
+    {
+     "time": "Sun 11:56 AM",
+     "game": "HOU @ CLE",
+     "quarter": 3,
+     "desc": "(9:00) D.Watson pass short right to H.Fannin to HOU 13 for 7 yards (M.Stewart). PENALTY on HOU-M.Stewart, Face Mask, 7 yards, enforced at HOU 13.",
+     "net_for_winner": -1.7,
+     "players": {
+      "5": [],
+      "3": [
+       {
+        "name": "Harold Fannin Jr.",
+        "pts": 1.7
+       }
+      ]
+     },
+     "score_before": [
+      69.36,
+      68.82
+     ],
+     "score_after": [
+      69.36,
+      70.52
+     ],
+     "changed_lead": true,
+     "id": "m2-p8"
+    },
+    {
+     "time": "Sun 12:01 PM",
+     "game": "MIN @ GB",
+     "quarter": 3,
+     "desc": "(6:01) J.Love pass short left to M.Golden ran ob at MIN 32 for 12 yards.",
+     "net_for_winner": 2.2,
+     "players": {
+      "5": [
+       {
+        "name": "Matthew Golden",
+        "pts": 2.2
+       }
+      ],
+      "3": []
+     },
+     "score_before": [
+      70.6,
+      72.72
+     ],
+     "score_after": [
+      72.8,
+      72.72
+     ],
+     "changed_lead": true,
+     "id": "m2-p9"
+    },
+    {
+     "time": "Sun 12:03 PM",
+     "game": "CAR @ NO",
+     "quarter": 3,
+     "desc": "(5:07) B.Young pass short right to T.McMillan ran ob at CAR 41 for 9 yards.",
+     "net_for_winner": 1.9,
+     "players": {
+      "5": [
+       {
+        "name": "Tetairoa McMillan",
+        "pts": 1.9
+       }
+      ],
+      "3": []
+     },
+     "score_before": [
+      73.12,
+      73.12
+     ],
+     "score_after": [
+      75.02,
+      73.12
+     ],
+     "changed_lead": true,
+     "id": "m2-p10"
+    },
+    {
+     "time": "Sun 12:12 PM",
+     "game": "MIN @ GB",
+     "quarter": 3,
+     "desc": "(3:34) J.Love pass short left to C.Watson to GB 24 for 13 yards (T.Jackson; J.Golday) [L.Rodriguez]. The first down was assis",
+     "net_for_winner": -2.3,
+     "players": {
+      "5": [],
+      "3": [
+       {
+        "name": "Christian Watson",
+        "pts": 2.3
+       }
+      ]
+     },
+     "score_before": [
+      78.62,
+      78.02
+     ],
+     "score_after": [
+      78.62,
+      80.32
+     ],
+     "changed_lead": true,
+     "id": "m2-p11"
+    },
+    {
+     "time": "Sun 12:14 PM",
+     "game": "MIN @ GB",
+     "quarter": 3,
+     "desc": "(2:07) J.Love pass short right to M.Golden to MIN 39 for 14 yards (B.Murphy).",
+     "net_for_winner": 2.4,
+     "players": {
+      "5": [
+       {
+        "name": "Matthew Golden",
+        "pts": 2.4
+       }
+      ],
+      "3": []
+     },
+     "score_before": [
+      78.62,
+      80.32
+     ],
+     "score_after": [
+      81.02,
+      80.32
+     ],
+     "changed_lead": true,
+     "id": "m2-p12"
+    },
+    {
+     "time": "Sun 12:28 PM",
+     "game": "KC @ ATL",
+     "quarter": 4,
+     "desc": "(10:01) P.Mahomes pass short right to E.Johnson for 6 yards, TOUCHDOWN.",
+     "net_for_winner": -7.6,
+     "players": {
+      "5": [],
+      "3": [
+       {
+        "name": "Emmett Johnson",
+        "pts": 1.6
+       },
+       {
+        "name": "Emmett Johnson",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      87.82,
+      84.02
+     ],
+     "score_after": [
+      87.82,
+      91.62
+     ],
+     "changed_lead": true,
+     "id": "m2-p13"
+    },
+    {
+     "time": "Sun 12:36 PM",
+     "game": "KC @ ATL",
+     "quarter": 4,
+     "desc": "(8:15) B.Robinson right guard for 3 yards, TOUCHDOWN.",
+     "net_for_winner": 6.3,
+     "players": {
+      "5": [
+       {
+        "name": "Bijan Robinson",
+        "pts": 0.3
+       },
+       {
+        "name": "Bijan Robinson",
+        "pts": 6.0
+       }
+      ],
+      "3": []
+     },
+     "score_before": [
+      94.66,
+      95.72
+     ],
+     "score_after": [
+      100.96,
+      95.72
+     ],
+     "changed_lead": true,
+     "id": "m2-p14"
+    },
+    {
+     "time": "Sun 12:51 PM",
+     "game": "BUF @ NYJ",
+     "quarter": 4,
+     "desc": "(4:52) J.Cook right tackle for 74 yards, TOUCHDOWN.",
+     "net_for_winner": 13.4,
+     "players": {
+      "5": [
+       {
+        "name": "James Cook III",
+        "pts": 7.4
+       },
+       {
+        "name": "James Cook III",
+        "pts": 6.0
+       }
+      ],
+      "3": []
+     },
+     "score_before": [
+      116.18,
+      109.22
+     ],
+     "score_after": [
+      129.58,
+      109.22
+     ],
+     "changed_lead": false,
+     "id": "m2-p15"
+    },
+    {
+     "time": "Sun 2:34 PM",
+     "game": "SF @ DAL",
+     "quarter": 2,
+     "desc": "(2:43) B.Purdy pass short right to C.McCaffrey for 74 yards, TOUCHDOWN.",
+     "net_for_winner": -6.96,
+     "players": {
+      "5": [],
+      "3": [
+       {
+        "name": "Brock Purdy",
+        "pts": 2.96
+       },
+       {
+        "name": "Brock Purdy",
+        "pts": 4.0
+       }
+      ]
+     },
+     "score_before": [
+      145.62,
+      130.26
+     ],
+     "score_after": [
+      145.62,
+      137.22
+     ],
+     "changed_lead": false,
+     "id": "m2-p16"
+    }
+   ],
+   "entering_final_day": {
+    "day": "Monday",
+    "score": [
+     172.72,
+     161.08
+    ],
+    "remaining": {
+     "5": [],
+     "3": [
+      "Zay Flowers"
+     ]
+    }
+   },
+   "race": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     61.309,
+     0.0,
+     1.1
+    ],
+    [
+     61.329,
+     0.0,
+     1.5
+    ],
+    [
+     61.358,
+     0.0,
+     1.98
+    ],
+    [
+     61.368,
+     0.0,
+     3.02
+    ],
+    [
+     61.576,
+     0.0,
+     4.72
+    ],
+    [
+     61.588,
+     0.0,
+     17.32
+    ],
+    [
+     62.713,
+     0.0,
+     19.02
+    ],
+    [
+     63.332,
+     0.0,
+     28.82
+    ],
+    [
+     64.798,
+     0.0,
+     30.52
+    ],
+    [
+     64.799,
+     0.44,
+     30.52
+    ],
+    [
+     64.82,
+     0.84,
+     30.52
+    ],
+    [
+     64.832,
+     1.14,
+     30.52
+    ],
+    [
+     64.836,
+     1.14,
+     31.52
+    ],
+    [
+     64.852,
+     0.14,
+     31.52
+    ],
+    [
+     64.855,
+     0.14,
+     32.12
+    ],
+    [
+     64.863,
+     0.54,
+     33.32
+    ],
+    [
+     64.869,
+     2.9,
+     33.32
+    ],
+    [
+     64.877,
+     3.42,
+     33.32
+    ],
+    [
+     64.898,
+     3.42,
+     33.72
+    ],
+    [
+     64.908,
+     3.42,
+     34.12
+    ],
+    [
+     64.916,
+     7.9,
+     34.12
+    ],
+    [
+     64.93,
+     7.9,
+     42.32
+    ],
+    [
+     64.954,
+     7.9,
+     42.42
+    ],
+    [
+     64.983,
+     8.4,
+     42.42
+    ],
+    [
+     65.0,
+     9.2,
+     42.42
+    ],
+    [
+     65.026,
+     9.2,
+     44.92
+    ],
+    [
+     65.046,
+     9.5,
+     44.92
+    ],
+    [
+     65.049,
+     9.7,
+     44.92
+    ],
+    [
+     65.061,
+     11.6,
+     44.92
+    ],
+    [
+     65.078,
+     12.7,
+     44.92
+    ],
+    [
+     65.079,
+     13.58,
+     44.92
+    ],
+    [
+     65.083,
+     13.68,
+     44.92
+    ],
+    [
+     65.095,
+     14.38,
+     44.92
+    ],
+    [
+     65.1,
+     14.38,
+     45.02
+    ],
+    [
+     65.101,
+     14.66,
+     45.02
+    ],
+    [
+     65.106,
+     16.16,
+     45.02
+    ],
+    [
+     65.111,
+     16.16,
+     46.72
+    ],
+    [
+     65.112,
+     16.56,
+     46.72
+    ],
+    [
+     65.118,
+     16.86,
+     46.72
+    ],
+    [
+     65.134,
+     17.56,
+     46.72
+    ],
+    [
+     65.14,
+     17.66,
+     46.72
+    ],
+    [
+     65.144,
+     17.56,
+     46.72
+    ],
+    [
+     65.184,
+     17.66,
+     46.72
+    ],
+    [
+     65.226,
+     17.9,
+     46.72
+    ],
+    [
+     65.272,
+     18.02,
+     46.72
+    ],
+    [
+     65.31,
+     18.42,
+     46.72
+    ],
+    [
+     65.316,
+     18.42,
+     47.92
+    ],
+    [
+     65.326,
+     18.42,
+     50.52
+    ],
+    [
+     65.347,
+     19.58,
+     50.52
+    ],
+    [
+     65.349,
+     19.58,
+     50.92
+    ],
+    [
+     65.356,
+     20.68,
+     50.92
+    ],
+    [
+     65.362,
+     22.58,
+     50.92
+    ],
+    [
+     65.372,
+     24.28,
+     50.92
+    ],
+    [
+     65.399,
+     25.18,
+     50.92
+    ],
+    [
+     65.439,
+     25.5,
+     50.92
+    ],
+    [
+     65.481,
+     25.82,
+     50.92
+    ],
+    [
+     65.485,
+     30.26,
+     50.92
+    ],
+    [
+     65.489,
+     30.26,
+     51.42
+    ],
+    [
+     65.492,
+     31.06,
+     51.42
+    ],
+    [
+     65.497,
+     31.06,
+     51.32
+    ],
+    [
+     65.502,
+     28.46,
+     51.32
+    ],
+    [
+     65.571,
+     30.16,
+     51.32
+    ],
+    [
+     65.574,
+     30.16,
+     54.02
+    ],
+    [
+     65.581,
+     30.46,
+     54.02
+    ],
+    [
+     65.614,
+     30.86,
+     54.02
+    ],
+    [
+     65.627,
+     31.66,
+     54.02
+    ],
+    [
+     65.639,
+     31.96,
+     54.02
+    ],
+    [
+     65.646,
+     32.86,
+     54.02
+    ],
+    [
+     65.656,
+     33.56,
+     54.02
+    ],
+    [
+     65.671,
+     33.66,
+     54.02
+    ],
+    [
+     65.696,
+     33.86,
+     54.02
+    ],
+    [
+     65.705,
+     34.06,
+     54.02
+    ],
+    [
+     65.712,
+     34.46,
+     54.02
+    ],
+    [
+     65.716,
+     34.74,
+     54.02
+    ],
+    [
+     65.726,
+     35.14,
+     54.02
+    ],
+    [
+     65.732,
+     41.34,
+     54.02
+    ],
+    [
+     65.736,
+     43.24,
+     54.02
+    ],
+    [
+     65.752,
+     43.94,
+     54.02
+    ],
+    [
+     65.755,
+     43.78,
+     54.02
+    ],
+    [
+     65.764,
+     46.48,
+     54.02
+    ],
+    [
+     65.771,
+     46.48,
+     55.12
+    ],
+    [
+     65.791,
+     46.48,
+     54.72
+    ],
+    [
+     65.817,
+     48.08,
+     54.72
+    ],
+    [
+     65.823,
+     48.88,
+     54.72
+    ],
+    [
+     65.836,
+     50.58,
+     54.72
+    ],
+    [
+     65.849,
+     50.9,
+     54.72
+    ],
+    [
+     65.907,
+     51.4,
+     54.72
+    ],
+    [
+     65.944,
+     51.88,
+     54.72
+    ],
+    [
+     65.947,
+     52.48,
+     54.72
+    ],
+    [
+     65.959,
+     53.08,
+     54.72
+    ],
+    [
+     65.961,
+     53.08,
+     54.92
+    ],
+    [
+     65.965,
+     56.08,
+     54.92
+    ],
+    [
+     66.012,
+     56.08,
+     59.32
+    ],
+    [
+     66.017,
+     56.6,
+     59.32
+    ],
+    [
+     66.029,
+     57.04,
+     59.32
+    ],
+    [
+     66.035,
+     57.14,
+     59.32
+    ],
+    [
+     66.037,
+     56.14,
+     59.32
+    ],
+    [
+     66.046,
+     57.04,
+     59.32
+    ],
+    [
+     66.079,
+     57.04,
+     61.12
+    ],
+    [
+     66.091,
+     57.36,
+     61.12
+    ],
+    [
+     66.106,
+     57.6,
+     61.12
+    ],
+    [
+     66.165,
+     57.9,
+     61.12
+    ],
+    [
+     66.17,
+     60.9,
+     61.12
+    ],
+    [
+     66.18,
+     60.9,
+     65.92
+    ],
+    [
+     66.182,
+     62.9,
+     65.92
+    ],
+    [
+     66.427,
+     62.9,
+     66.02
+    ],
+    [
+     66.432,
+     63.8,
+     66.02
+    ],
+    [
+     66.504,
+     63.9,
+     66.42
+    ],
+    [
+     66.507,
+     65.3,
+     66.42
+    ],
+    [
+     66.513,
+     65.4,
+     66.42
+    ],
+    [
+     66.514,
+     65.5,
+     66.42
+    ],
+    [
+     66.517,
+     66.1,
+     66.42
+    ],
+    [
+     66.525,
+     68.5,
+     66.42
+    ],
+    [
+     66.532,
+     68.5,
+     66.92
+    ],
+    [
+     66.537,
+     68.4,
+     66.92
+    ],
+    [
+     66.544,
+     68.4,
+     66.82
+    ],
+    [
+     66.545,
+     68.2,
+     66.82
+    ],
+    [
+     66.622,
+     68.6,
+     66.82
+    ],
+    [
+     66.64,
+     69.32,
+     66.82
+    ],
+    [
+     66.647,
+     69.32,
+     68.82
+    ],
+    [
+     66.676,
+     69.36,
+     68.82
+    ],
+    [
+     66.687,
+     69.36,
+     70.52
+    ],
+    [
+     66.69,
+     69.8,
+     70.52
+    ],
+    [
+     66.704,
+     69.8,
+     72.72
+    ],
+    [
+     66.714,
+     70.0,
+     72.72
+    ],
+    [
+     66.726,
+     70.5,
+     72.72
+    ],
+    [
+     66.737,
+     70.4,
+     72.72
+    ],
+    [
+     66.741,
+     70.6,
+     72.72
+    ],
+    [
+     66.745,
+     70.7,
+     72.72
+    ],
+    [
+     66.751,
+     70.6,
+     72.72
+    ],
+    [
+     66.762,
+     72.8,
+     72.72
+    ],
+    [
+     66.774,
+     73.2,
+     72.72
+    ],
+    [
+     66.777,
+     73.04,
+     72.72
+    ],
+    [
+     66.787,
+     73.12,
+     72.72
+    ],
+    [
+     66.795,
+     73.12,
+     73.12
+    ],
+    [
+     66.796,
+     75.02,
+     73.12
+    ],
+    [
+     66.8,
+     75.22,
+     73.12
+    ],
+    [
+     66.804,
+     76.82,
+     73.12
+    ],
+    [
+     66.805,
+     76.82,
+     73.22
+    ],
+    [
+     66.84,
+     76.92,
+     73.22
+    ],
+    [
+     66.869,
+     77.12,
+     73.22
+    ],
+    [
+     66.88,
+     78.62,
+     73.22
+    ],
+    [
+     66.905,
+     78.62,
+     76.22
+    ],
+    [
+     66.927,
+     78.62,
+     78.02
+    ],
+    [
+     66.939,
+     78.62,
+     80.32
+    ],
+    [
+     66.974,
+     81.02,
+     80.32
+    ],
+    [
+     66.981,
+     83.12,
+     80.32
+    ],
+    [
+     66.983,
+     83.12,
+     82.22
+    ],
+    [
+     67.018,
+     83.42,
+     82.22
+    ],
+    [
+     67.041,
+     85.32,
+     82.22
+    ],
+    [
+     67.059,
+     85.32,
+     82.42
+    ],
+    [
+     67.087,
+     85.32,
+     82.72
+    ],
+    [
+     67.098,
+     85.32,
+     82.62
+    ],
+    [
+     67.11,
+     87.02,
+     82.62
+    ],
+    [
+     67.122,
+     87.02,
+     83.52
+    ],
+    [
+     67.133,
+     87.02,
+     83.82
+    ],
+    [
+     67.143,
+     87.22,
+     83.82
+    ],
+    [
+     67.155,
+     87.62,
+     83.82
+    ],
+    [
+     67.164,
+     87.82,
+     83.82
+    ],
+    [
+     67.167,
+     87.82,
+     84.02
+    ],
+    [
+     67.21,
+     87.82,
+     91.62
+    ],
+    [
+     67.213,
+     88.12,
+     91.62
+    ],
+    [
+     67.259,
+     88.42,
+     91.62
+    ],
+    [
+     67.269,
+     88.62,
+     91.62
+    ],
+    [
+     67.285,
+     88.62,
+     95.02
+    ],
+    [
+     67.312,
+     90.22,
+     95.02
+    ],
+    [
+     67.337,
+     90.22,
+     95.72
+    ],
+    [
+     67.339,
+     94.66,
+     95.72
+    ],
+    [
+     67.345,
+     100.96,
+     95.72
+    ],
+    [
+     67.365,
+     101.24,
+     95.72
+    ],
+    [
+     67.371,
+     101.4,
+     95.72
+    ],
+    [
+     67.384,
+     101.68,
+     95.72
+    ],
+    [
+     67.398,
+     101.88,
+     95.72
+    ],
+    [
+     67.438,
+     101.88,
+     97.52
+    ],
+    [
+     67.443,
+     101.96,
+     97.52
+    ],
+    [
+     67.448,
+     101.96,
+     99.92
+    ],
+    [
+     67.449,
+     102.56,
+     99.92
+    ],
+    [
+     67.468,
+     102.76,
+     99.92
+    ],
+    [
+     67.484,
+     103.36,
+     99.92
+    ],
+    [
+     67.492,
+     103.36,
+     100.42
+    ],
+    [
+     67.496,
+     107.52,
+     100.42
+    ],
+    [
+     67.505,
+     107.52,
+     102.22
+    ],
+    [
+     67.532,
+     107.52,
+     104.12
+    ],
+    [
+     67.536,
+     107.48,
+     104.12
+    ],
+    [
+     67.548,
+     111.38,
+     104.12
+    ],
+    [
+     67.553,
+     111.38,
+     107.52
+    ],
+    [
+     67.56,
+     111.78,
+     108.42
+    ],
+    [
+     67.567,
+     111.78,
+     109.22
+    ],
+    [
+     67.571,
+     116.18,
+     109.22
+    ],
+    [
+     67.603,
+     129.58,
+     109.22
+    ],
+    [
+     67.626,
+     129.48,
+     109.22
+    ],
+    [
+     67.628,
+     129.58,
+     109.22
+    ],
+    [
+     67.644,
+     129.68,
+     109.22
+    ],
+    [
+     67.697,
+     135.78,
+     109.22
+    ],
+    [
+     67.757,
+     135.78,
+     113.22
+    ],
+    [
+     67.763,
+     136.26,
+     113.22
+    ],
+    [
+     67.768,
+     136.56,
+     113.22
+    ],
+    [
+     67.781,
+     136.76,
+     113.22
+    ],
+    [
+     67.787,
+     136.76,
+     113.52
+    ],
+    [
+     67.802,
+     136.76,
+     113.82
+    ],
+    [
+     67.809,
+     136.84,
+     113.82
+    ],
+    [
+     67.813,
+     137.44,
+     113.82
+    ],
+    [
+     67.822,
+     137.6,
+     113.82
+    ],
+    [
+     67.823,
+     138.6,
+     113.82
+    ],
+    [
+     67.852,
+     138.6,
+     116.52
+    ],
+    [
+     67.853,
+     138.6,
+     116.72
+    ],
+    [
+     67.854,
+     140.6,
+     116.72
+    ],
+    [
+     67.875,
+     141.12,
+     116.72
+    ],
+    [
+     67.882,
+     141.22,
+     116.72
+    ],
+    [
+     67.915,
+     142.52,
+     116.72
+    ],
+    [
+     67.929,
+     142.52,
+     118.42
+    ],
+    [
+     67.933,
+     142.72,
+     118.42
+    ],
+    [
+     67.977,
+     143.32,
+     121.42
+    ],
+    [
+     68.36,
+     143.32,
+     122.3
+    ],
+    [
+     68.439,
+     143.32,
+     122.54
+    ],
+    [
+     68.45,
+     143.32,
+     123.34
+    ],
+    [
+     68.462,
+     143.32,
+     127.78
+    ],
+    [
+     68.942,
+     143.32,
+     128.06
+    ],
+    [
+     68.983,
+     143.32,
+     128.98
+    ],
+    [
+     69.006,
+     143.32,
+     129.38
+    ],
+    [
+     69.026,
+     143.32,
+     129.94
+    ],
+    [
+     69.153,
+     145.62,
+     129.94
+    ],
+    [
+     69.309,
+     145.62,
+     130.26
+    ],
+    [
+     69.32,
+     145.62,
+     137.22
+    ],
+    [
+     69.534,
+     145.62,
+     137.66
+    ],
+    [
+     69.551,
+     145.62,
+     138.86
+    ],
+    [
+     69.585,
+     145.62,
+     139.3
+    ],
+    [
+     69.917,
+     147.02,
+     139.3
+    ],
+    [
+     69.92,
+     147.02,
+     140.38
+    ],
+    [
+     69.951,
+     147.02,
+     140.98
+    ],
+    [
+     69.962,
+     147.02,
+     141.42
+    ],
+    [
+     70.157,
+     148.72,
+     141.42
+    ],
+    [
+     70.187,
+     148.72,
+     142.32
+    ],
+    [
+     70.419,
+     148.72,
+     142.68
+    ],
+    [
+     70.439,
+     148.72,
+     142.76
+    ],
+    [
+     70.461,
+     148.72,
+     143.08
+    ],
+    [
+     70.498,
+     148.72,
+     147.08
+    ],
+    [
+     70.551,
+     148.72,
+     147.64
+    ],
+    [
+     70.568,
+     165.72,
+     147.64
+    ],
+    [
+     70.584,
+     165.72,
+     148.04
+    ],
+    [
+     70.682,
+     165.72,
+     152.04
+    ],
+    [
+     70.816,
+     165.72,
+     152.44
+    ],
+    [
+     71.45,
+     165.72,
+     161.08
+    ],
+    [
+     72.274,
+     168.72,
+     161.08
+    ],
+    [
+     72.949,
+     167.72,
+     161.08
+    ],
+    [
+     75.147,
+     172.72,
+     161.08
+    ],
+    [
+     96.695,
+     172.72,
+     163.78
+    ],
+    [
+     98.11,
+     172.72,
+     164.98
+    ],
+    [
+     98.405,
+     172.72,
+     167.48
+    ],
+    [
+     98.44,
+     172.72,
+     170.08
+    ],
+    [
+     98.475,
+     172.72,
+     171.98
+    ],
+    [
+     98.897,
+     172.72,
+     172.48
+    ]
+   ],
+   "rebuilt_matches_official": true
+  },
+  {
+   "matchup_id": 3,
+   "winner": 7,
+   "loser": 8,
+   "margin": 50.44,
+   "sides": [
+    {
+     "roster_id": 7,
+     "points": 190.86,
+     "starters": [
+      {
+       "id": "6770",
+       "name": "Joe Burrow",
+       "pos": "QB",
+       "nfl_team": "CIN",
+       "pts": 33.16,
+       "game_day": "Sun"
+      },
+      {
+       "id": "9228",
+       "name": "Bryce Young",
+       "pos": "QB",
+       "nfl_team": "CAR",
+       "pts": 8.1,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11586",
+       "name": "Blake Corum",
+       "pos": "RB",
+       "nfl_team": "LAR",
+       "pts": 20.9,
+       "game_day": "Sun"
+      },
+      {
+       "id": "12490",
+       "name": "Bhayshul Tuten",
+       "pos": "RB",
+       "nfl_team": "JAX",
+       "pts": 20.3,
+       "game_day": "Sun"
+      },
+      {
+       "id": "13346",
+       "name": "Denzel Boston",
+       "pos": "WR",
+       "nfl_team": "CLE",
+       "pts": 2.6,
+       "game_day": "Sun"
+      },
+      {
+       "id": "2449",
+       "name": "Stefon Diggs",
+       "pos": "WR",
+       "nfl_team": "WAS",
+       "pts": 20.3,
+       "game_day": "Thu"
+      },
+      {
+       "id": "8131",
+       "name": "Isaiah Likely",
+       "pos": "TE",
+       "nfl_team": "NYG",
+       "pts": 27.7,
+       "game_day": "Thu"
+      },
+      {
+       "id": "12481",
+       "name": "Cam Skattebo",
+       "pos": "RB",
+       "nfl_team": "NYG",
+       "pts": 27.2,
+       "game_day": "Thu"
+      },
+      {
+       "id": "8146",
+       "name": "Garrett Wilson",
+       "pos": "WR",
+       "nfl_team": "NYJ",
+       "pts": 15.6,
+       "game_day": "Sun"
+      },
+      {
+       "id": "12185",
+       "name": "Spencer Shrader",
+       "pos": "K",
+       "nfl_team": "IND",
+       "pts": 8.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "HOU",
+       "name": "Houston Texans D/ST",
+       "pos": "DEF",
+       "nfl_team": "HOU",
+       "pts": 7.0,
+       "game_day": "Sun"
+      }
+     ],
+     "bench": [
+      {
+       "id": "12489",
+       "name": "RJ Harvey",
+       "pos": "RB",
+       "nfl_team": "DEN",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "12517",
+       "name": "Colston Loveland",
+       "pos": "TE",
+       "nfl_team": "CHI",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "13287",
+       "name": "Jeremiyah Love",
+       "pos": "RB",
+       "nfl_team": "ARI",
+       "pts": 0.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "4892",
+       "name": "Baker Mayfield",
+       "pos": "QB",
+       "nfl_team": "TB",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "6806",
+       "name": "J.K. Dobbins",
+       "pos": "RB",
+       "nfl_team": "DEN",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "8151",
+       "name": "Kenneth Walker III",
+       "pos": "RB",
+       "nfl_team": "KC",
+       "pts": 0.0,
+       "game_day": "Sun"
+      }
+     ],
+     "optimal_points": 190.86,
+     "points_left_on_bench": 0.0,
+     "should_have_started": [],
+     "should_have_sat": [],
+     "bench_swaps": [],
+     "max_lead_before_final_day": {
+      "margin": 116.3,
+      "time": "Sun 1:15 PM"
+     },
+     "starter_stacks": {
+      "NYG": {
+       "players": [
+        "Isaiah Likely",
+        "Cam Skattebo"
+       ],
+       "pts": 54.9
+      }
+     },
+     "zero_starters": [],
+     "busted_starters": [],
+     "bye_starters": [],
+     "best_bench": {
+      "id": "12489",
+      "name": "RJ Harvey",
+      "pos": "RB",
+      "nfl_team": "DEN",
+      "pts": 0.0,
+      "on_bye": true
+     },
+     "max_lead": {
+      "margin": 116.3,
+      "time": "Sun 1:15 PM"
+     },
+     "optimal_would_have_won": null
+    },
+    {
+     "roster_id": 8,
+     "points": 140.42,
+     "starters": [
+      {
+       "id": "6797",
+       "name": "Justin Herbert",
+       "pos": "QB",
+       "nfl_team": "LAC",
+       "pts": 16.26,
+       "game_day": "Mon"
+      },
+      {
+       "id": "421",
+       "name": "Matthew Stafford",
+       "pos": "QB",
+       "nfl_team": "LAR",
+       "pts": 20.76,
+       "game_day": "Sun"
+      },
+      {
+       "id": "3198",
+       "name": "Derrick Henry",
+       "pos": "RB",
+       "nfl_team": "BAL",
+       "pts": 19.0,
+       "game_day": "Mon"
+      },
+      {
+       "id": "8150",
+       "name": "Kyren Williams",
+       "pos": "RB",
+       "nfl_team": "LAR",
+       "pts": 5.2,
+       "game_day": "Sun"
+      },
+      {
+       "id": "9488",
+       "name": "Jaxon Smith-Njigba",
+       "pos": "WR",
+       "nfl_team": "SEA",
+       "pts": 31.1,
+       "game_day": "Sun"
+      },
+      {
+       "id": "13274",
+       "name": "Germie Bernard",
+       "pos": "WR",
+       "nfl_team": "PIT",
+       "pts": 1.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "5012",
+       "name": "Mark Andrews",
+       "pos": "TE",
+       "nfl_team": "BAL",
+       "pts": 16.2,
+       "game_day": "Mon"
+      },
+      {
+       "id": "7611",
+       "name": "Rhamondre Stevenson",
+       "pos": "RB",
+       "nfl_team": "NE",
+       "pts": 1.5,
+       "game_day": "Sun"
+      },
+      {
+       "id": "7021",
+       "name": "Rico Dowdle",
+       "pos": "RB",
+       "nfl_team": "PIT",
+       "pts": 5.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "11786",
+       "name": "Cam Little",
+       "pos": "K",
+       "nfl_team": "JAX",
+       "pts": 19.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "CIN",
+       "name": "Cincinnati Bengals D/ST",
+       "pos": "DEF",
+       "nfl_team": "CIN",
+       "pts": 5.0,
+       "game_day": "Sun"
+      }
+     ],
+     "bench": [
+      {
+       "id": "4217",
+       "name": "George Kittle",
+       "pos": "TE",
+       "nfl_team": "SF",
+       "pts": 13.4,
+       "game_day": "Sun"
+      },
+      {
+       "id": "2216",
+       "name": "Mike Evans",
+       "pos": "WR",
+       "nfl_team": "SF",
+       "pts": 0.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "4943",
+       "name": "Sam Darnold",
+       "pos": "QB",
+       "nfl_team": "SEA",
+       "pts": 0.0,
+       "game_day": "Sun"
+      },
+      {
+       "id": "6904",
+       "name": "Jalen Hurts",
+       "pos": "QB",
+       "nfl_team": "PHI",
+       "pts": 0.0,
+       "on_bye": true
+      },
+      {
+       "id": "7525",
+       "name": "DeVonta Smith",
+       "pos": "WR",
+       "nfl_team": "PHI",
+       "pts": 0.0,
+       "on_bye": true
+      }
+     ],
+     "optimal_points": 152.32,
+     "points_left_on_bench": 11.9,
+     "should_have_started": [
+      {
+       "name": "George Kittle",
+       "pos": "TE",
+       "pts": 13.4
+      }
+     ],
+     "should_have_sat": [
+      {
+       "name": "Rhamondre Stevenson",
+       "pos": "RB",
+       "pts": 1.5
+      }
+     ],
+     "bench_swaps": [
+      {
+       "start": {
+        "name": "George Kittle",
+        "pos": "TE",
+        "pts": 13.4
+       },
+       "instead_of": {
+        "name": "Rhamondre Stevenson",
+        "pos": "RB",
+        "pts": 1.5
+       },
+       "gain": 11.9
+      }
+     ],
+     "max_lead_before_final_day": {
+      "margin": 0,
+      "time": null
+     },
+     "starter_stacks": {
+      "LAR": {
+       "players": [
+        "Matthew Stafford",
+        "Kyren Williams"
+       ],
+       "pts": 25.96
+      },
+      "BAL": {
+       "players": [
+        "Derrick Henry",
+        "Mark Andrews"
+       ],
+       "pts": 35.2
+      },
+      "PIT": {
+       "players": [
+        "Germie Bernard",
+        "Rico Dowdle"
+       ],
+       "pts": 6.4
+      }
+     },
+     "zero_starters": [],
+     "busted_starters": [],
+     "bye_starters": [],
+     "best_bench": {
+      "id": "4217",
+      "name": "George Kittle",
+      "pos": "TE",
+      "nfl_team": "SF",
+      "pts": 13.4,
+      "game_day": "Sun"
+     },
+     "max_lead": {
+      "margin": 0,
+      "time": null
+     },
+     "optimal_would_have_won": false
+    }
+   ],
+   "lead_changes": [],
+   "big_plays": [
+    {
+     "time": "Thu 5:16 PM",
+     "game": "WAS @ NYG",
+     "quarter": 1,
+     "desc": "(14:52) J.McCarthy pass short left to C.Skattebo to NYG 28 for 3 yards (A.Robertson).",
+     "net_for_winner": 1.3,
+     "players": {
+      "7": [
+       {
+        "name": "Cam Skattebo",
+        "pts": 1.3
+       }
+      ],
+      "8": []
+     },
+     "score_before": [
+      0.0,
+      0.0
+     ],
+     "score_after": [
+      1.3,
+      0.0
+     ],
+     "changed_lead": true,
+     "id": "m3-p1"
+    },
+    {
+     "time": "Thu 6:15 PM",
+     "game": "WAS @ NYG",
+     "quarter": 2,
+     "desc": "(2:40) A.Stinnie reported in as eligible. C.Skattebo right guard for 1 yard, TOUCHDOWN.",
+     "net_for_winner": 6.1,
+     "players": {
+      "7": [
+       {
+        "name": "Cam Skattebo",
+        "pts": 0.1
+       },
+       {
+        "name": "Cam Skattebo",
+        "pts": 6.0
+       }
+      ],
+      "8": []
+     },
+     "score_before": [
+      19.4,
+      0.0
+     ],
+     "score_after": [
+      25.5,
+      0.0
+     ],
+     "changed_lead": false,
+     "id": "m3-p2"
+    },
+    {
+     "time": "Thu 6:58 PM",
+     "game": "WAS @ NYG",
+     "quarter": 3,
+     "desc": "(10:28) C.Skattebo right end for 13 yards, TOUCHDOWN.",
+     "net_for_winner": 7.3,
+     "players": {
+      "7": [
+       {
+        "name": "Cam Skattebo",
+        "pts": 1.3
+       },
+       {
+        "name": "Cam Skattebo",
+        "pts": 6.0
+       }
+      ],
+      "8": []
+     },
+     "score_before": [
+      32.2,
+      0.0
+     ],
+     "score_after": [
+      39.5,
+      0.0
+     ],
+     "changed_lead": false,
+     "id": "m3-p3"
+    },
+    {
+     "time": "Sun 2:52 PM",
+     "game": "LA @ ARI",
+     "quarter": 3,
+     "desc": "(10:20) B.Corum right tackle for 1 yard, TOUCHDOWN.",
+     "net_for_winner": 6.1,
+     "players": {
+      "7": [
+       {
+        "name": "Blake Corum",
+        "pts": 0.1
+       },
+       {
+        "name": "Blake Corum",
+        "pts": 6.0
+       }
+      ],
+      "8": []
+     },
+     "score_before": [
+      148.3,
+      46.0
+     ],
+     "score_after": [
+      154.4,
+      46.0
+     ],
+     "changed_lead": false,
+     "id": "m3-p4"
+    },
+    {
+     "time": "Sun 2:57 PM",
+     "game": "SEA @ LV",
+     "quarter": 3,
+     "desc": "(7:24) D.Lock pass deep middle to J.Smith-Njigba for 71 yards, TOUCHDOWN.",
+     "net_for_winner": -14.1,
+     "players": {
+      "7": [],
+      "8": [
+       {
+        "name": "Jaxon Smith-Njigba",
+        "pts": 8.1
+       },
+       {
+        "name": "Jaxon Smith-Njigba",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      154.4,
+      46.0
+     ],
+     "score_after": [
+      154.4,
+      60.1
+     ],
+     "changed_lead": false,
+     "id": "m3-p5"
+    },
+    {
+     "time": "Mon 6:04 PM",
+     "game": "LAC @ BAL",
+     "quarter": 2,
+     "desc": "(12:37) C.Vinson reported in as eligible. D.Henry right tackle for 2 yards, TOUCHDOWN.",
+     "net_for_winner": -6.2,
+     "players": {
+      "7": [],
+      "8": [
+       {
+        "name": "Derrick Henry",
+        "pts": 0.2
+       },
+       {
+        "name": "Derrick Henry",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      190.86,
+      99.48
+     ],
+     "score_after": [
+      190.86,
+      105.68
+     ],
+     "changed_lead": false,
+     "id": "m3-p6"
+    },
+    {
+     "time": "Mon 7:48 PM",
+     "game": "LAC @ BAL",
+     "quarter": 4,
+     "desc": "(10:27) C.Vinson reported in as eligible. D.Henry left end for 1 yard, TOUCHDOWN.",
+     "net_for_winner": -6.1,
+     "players": {
+      "7": [],
+      "8": [
+       {
+        "name": "Derrick Henry",
+        "pts": 0.1
+       },
+       {
+        "name": "Derrick Henry",
+        "pts": 6.0
+       }
+      ]
+     },
+     "score_before": [
+      190.86,
+      117.08
+     ],
+     "score_after": [
+      190.86,
+      123.18
+     ],
+     "changed_lead": false,
+     "id": "m3-p7"
+    }
+   ],
+   "entering_final_day": {
+    "day": "Monday",
+    "score": [
+     190.86,
+     88.96
+    ],
+    "remaining": {
+     "7": [],
+     "8": [
+      "Justin Herbert",
+      "Derrick Henry",
+      "Mark Andrews"
+     ]
+    }
+   },
+   "race": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.015,
+     1.3,
+     0.0
+    ],
+    [
+     0.026,
+     2.2,
+     0.0
+    ],
+    [
+     0.037,
+     4.1,
+     0.0
+    ],
+    [
+     0.048,
+     5.5,
+     0.0
+    ],
+    [
+     0.21,
+     6.9,
+     0.0
+    ],
+    [
+     0.297,
+     8.5,
+     0.0
+    ],
+    [
+     0.308,
+     12.9,
+     0.0
+    ],
+    [
+     0.654,
+     13.0,
+     0.0
+    ],
+    [
+     0.807,
+     14.5,
+     0.0
+    ],
+    [
+     0.83,
+     16.6,
+     0.0
+    ],
+    [
+     0.862,
+     16.8,
+     0.0
+    ],
+    [
+     0.924,
+     17.1,
+     0.0
+    ],
+    [
+     0.936,
+     18.9,
+     0.0
+    ],
+    [
+     0.947,
+     19.4,
+     0.0
+    ],
+    [
+     0.992,
+     25.5,
+     0.0
+    ],
+    [
+     1.122,
+     29.5,
+     0.0
+    ],
+    [
+     1.699,
+     31.5,
+     0.0
+    ],
+    [
+     1.711,
+     32.2,
+     0.0
+    ],
+    [
+     1.722,
+     39.5,
+     0.0
+    ],
+    [
+     1.842,
+     41.0,
+     0.0
+    ],
+    [
+     1.942,
+     41.3,
+     0.0
+    ],
+    [
+     1.964,
+     41.1,
+     0.0
+    ],
+    [
+     2.058,
+     42.4,
+     0.0
+    ],
+    [
+     2.086,
+     44.0,
+     0.0
+    ],
+    [
+     2.092,
+     45.7,
+     0.0
+    ],
+    [
+     2.102,
+     46.0,
+     0.0
+    ],
+    [
+     2.128,
+     47.6,
+     0.0
+    ],
+    [
+     2.392,
+     47.9,
+     0.0
+    ],
+    [
+     2.639,
+     48.4,
+     0.0
+    ],
+    [
+     2.652,
+     48.8,
+     0.0
+    ],
+    [
+     2.776,
+     50.7,
+     0.0
+    ],
+    [
+     2.81,
+     51.2,
+     0.0
+    ],
+    [
+     2.83,
+     51.4,
+     0.0
+    ],
+    [
+     3.051,
+     75.2,
+     0.0
+    ],
+    [
+     61.382,
+     75.2,
+     0.4
+    ],
+    [
+     61.677,
+     75.2,
+     0.5
+    ],
+    [
+     62.077,
+     75.2,
+     0.0
+    ],
+    [
+     62.416,
+     75.2,
+     1.1
+    ],
+    [
+     63.164,
+     75.2,
+     1.5
+    ],
+    [
+     63.173,
+     75.2,
+     1.4
+    ],
+    [
+     63.617,
+     75.2,
+     1.5
+    ],
+    [
+     64.843,
+     77.3,
+     1.5
+    ],
+    [
+     64.868,
+     78.2,
+     1.5
+    ],
+    [
+     64.881,
+     78.44,
+     1.5
+    ],
+    [
+     64.91,
+     78.74,
+     1.5
+    ],
+    [
+     64.922,
+     78.64,
+     1.5
+    ],
+    [
+     65.061,
+     79.0,
+     1.5
+    ],
+    [
+     65.123,
+     79.12,
+     1.5
+    ],
+    [
+     65.156,
+     79.42,
+     1.5
+    ],
+    [
+     65.163,
+     79.66,
+     1.5
+    ],
+    [
+     65.356,
+     80.06,
+     1.5
+    ],
+    [
+     65.362,
+     80.42,
+     1.5
+    ],
+    [
+     65.44,
+     80.52,
+     1.5
+    ],
+    [
+     65.452,
+     80.82,
+     1.5
+    ],
+    [
+     65.462,
+     80.82,
+     5.5
+    ],
+    [
+     65.612,
+     81.02,
+     5.5
+    ],
+    [
+     65.613,
+     82.38,
+     5.5
+    ],
+    [
+     65.626,
+     82.66,
+     5.5
+    ],
+    [
+     65.643,
+     82.36,
+     5.5
+    ],
+    [
+     65.654,
+     82.96,
+     5.5
+    ],
+    [
+     65.69,
+     83.48,
+     5.5
+    ],
+    [
+     65.698,
+     83.48,
+     9.5
+    ],
+    [
+     65.863,
+     85.28,
+     9.5
+    ],
+    [
+     65.898,
+     86.18,
+     9.5
+    ],
+    [
+     65.924,
+     86.28,
+     9.5
+    ],
+    [
+     65.965,
+     87.08,
+     9.5
+    ],
+    [
+     66.046,
+     87.04,
+     9.5
+    ],
+    [
+     66.096,
+     89.64,
+     9.5
+    ],
+    [
+     66.111,
+     93.94,
+     9.5
+    ],
+    [
+     66.126,
+     96.44,
+     9.5
+    ],
+    [
+     66.298,
+     96.44,
+     12.5
+    ],
+    [
+     66.516,
+     100.34,
+     12.5
+    ],
+    [
+     66.524,
+     100.44,
+     12.5
+    ],
+    [
+     66.735,
+     102.24,
+     12.5
+    ],
+    [
+     66.784,
+     102.28,
+     12.5
+    ],
+    [
+     66.796,
+     102.64,
+     12.5
+    ],
+    [
+     66.804,
+     102.88,
+     12.5
+    ],
+    [
+     66.863,
+     103.04,
+     12.5
+    ],
+    [
+     66.866,
+     103.74,
+     12.5
+    ],
+    [
+     66.879,
+     103.94,
+     12.5
+    ],
+    [
+     66.892,
+     103.84,
+     12.5
+    ],
+    [
+     66.981,
+     108.84,
+     12.5
+    ],
+    [
+     67.197,
+     110.14,
+     12.5
+    ],
+    [
+     67.239,
+     110.24,
+     12.5
+    ],
+    [
+     67.25,
+     110.68,
+     12.5
+    ],
+    [
+     67.366,
+     110.98,
+     12.5
+    ],
+    [
+     67.39,
+     111.28,
+     12.5
+    ],
+    [
+     67.531,
+     113.58,
+     12.5
+    ],
+    [
+     67.548,
+     114.74,
+     12.5
+    ],
+    [
+     67.571,
+     116.1,
+     12.5
+    ],
+    [
+     67.582,
+     115.2,
+     12.5
+    ],
+    [
+     67.586,
+     117.3,
+     12.5
+    ],
+    [
+     67.598,
+     117.7,
+     12.5
+    ],
+    [
+     67.695,
+     119.4,
+     12.5
+    ],
+    [
+     67.767,
+     119.8,
+     12.5
+    ],
+    [
+     67.802,
+     119.9,
+     12.5
+    ],
+    [
+     67.946,
+     126.8,
+     20.5
+    ],
+    [
+     67.977,
+     133.8,
+     20.5
+    ],
+    [
+     67.996,
+     136.8,
+     20.5
+    ],
+    [
+     68.059,
+     136.8,
+     22.48
+    ],
+    [
+     68.068,
+     136.8,
+     22.68
+    ],
+    [
+     68.079,
+     136.8,
+     22.98
+    ],
+    [
+     68.111,
+     138.7,
+     23.34
+    ],
+    [
+     68.155,
+     138.7,
+     24.58
+    ],
+    [
+     68.178,
+     138.7,
+     24.88
+    ],
+    [
+     68.392,
+     139.9,
+     24.96
+    ],
+    [
+     68.404,
+     139.9,
+     25.84
+    ],
+    [
+     68.414,
+     139.9,
+     26.04
+    ],
+    [
+     68.484,
+     140.1,
+     26.04
+    ],
+    [
+     68.496,
+     140.1,
+     27.32
+    ],
+    [
+     68.507,
+     141.9,
+     27.64
+    ],
+    [
+     68.548,
+     141.9,
+     26.64
+    ],
+    [
+     68.583,
+     141.9,
+     28.74
+    ],
+    [
+     68.691,
+     141.9,
+     28.84
+    ],
+    [
+     68.703,
+     141.9,
+     29.56
+    ],
+    [
+     68.76,
+     141.9,
+     29.84
+    ],
+    [
+     68.939,
+     143.0,
+     29.84
+    ],
+    [
+     68.949,
+     143.9,
+     29.84
+    ],
+    [
+     68.96,
+     144.3,
+     29.84
+    ],
+    [
+     68.97,
+     144.3,
+     29.88
+    ],
+    [
+     68.981,
+     144.3,
+     30.96
+    ],
+    [
+     68.994,
+     145.0,
+     30.96
+    ],
+    [
+     69.043,
+     145.9,
+     30.96
+    ],
+    [
+     69.071,
+     146.6,
+     30.96
+    ],
+    [
+     69.089,
+     146.3,
+     30.96
+    ],
+    [
+     69.204,
+     146.3,
+     31.36
+    ],
+    [
+     69.224,
+     146.3,
+     36.24
+    ],
+    [
+     69.444,
+     146.3,
+     40.24
+    ],
+    [
+     69.478,
+     146.3,
+     43.54
+    ],
+    [
+     69.521,
+     146.3,
+     43.94
+    ],
+    [
+     69.531,
+     146.3,
+     43.84
+    ],
+    [
+     69.542,
+     146.3,
+     45.6
+    ],
+    [
+     69.557,
+     146.7,
+     45.6
+    ],
+    [
+     69.568,
+     147.4,
+     45.6
+    ],
+    [
+     69.58,
+     148.3,
+     45.6
+    ],
+    [
+     69.604,
+     148.3,
+     46.0
+    ],
+    [
+     69.616,
+     154.4,
+     46.0
+    ],
+    [
+     69.695,
+     154.4,
+     60.1
+    ],
+    [
+     69.774,
+     154.6,
+     60.1
+    ],
+    [
+     69.786,
+     156.2,
+     60.1
+    ],
+    [
+     69.797,
+     156.9,
+     60.1
+    ],
+    [
+     69.808,
+     157.3,
+     60.1
+    ],
+    [
+     69.82,
+     157.3,
+     64.86
+    ],
+    [
+     69.832,
+     157.3,
+     66.76
+    ],
+    [
+     69.842,
+     157.3,
+     68.06
+    ],
+    [
+     69.889,
+     157.3,
+     69.86
+    ],
+    [
+     70.002,
+     157.3,
+     70.56
+    ],
+    [
+     70.015,
+     157.3,
+     70.36
+    ],
+    [
+     70.026,
+     157.7,
+     70.36
+    ],
+    [
+     70.05,
+     157.7,
+     70.16
+    ],
+    [
+     70.061,
+     157.7,
+     70.36
+    ],
+    [
+     70.072,
+     157.7,
+     70.96
+    ],
+    [
+     70.558,
+     157.7,
+     70.86
+    ],
+    [
+     70.568,
+     157.7,
+     74.96
+    ],
+    [
+     70.682,
+     157.7,
+     77.56
+    ],
+    [
+     72.132,
+     158.06,
+     77.56
+    ],
+    [
+     72.143,
+     158.22,
+     77.56
+    ],
+    [
+     72.155,
+     158.42,
+     77.56
+    ],
+    [
+     72.176,
+     159.5,
+     77.56
+    ],
+    [
+     72.189,
+     159.74,
+     77.56
+    ],
+    [
+     72.212,
+     159.98,
+     77.56
+    ],
+    [
+     72.224,
+     160.5,
+     77.56
+    ],
+    [
+     72.425,
+     160.62,
+     77.56
+    ],
+    [
+     72.437,
+     161.06,
+     77.56
+    ],
+    [
+     72.446,
+     161.22,
+     77.56
+    ],
+    [
+     72.458,
+     161.62,
+     77.56
+    ],
+    [
+     72.48,
+     161.7,
+     77.56
+    ],
+    [
+     72.492,
+     161.9,
+     77.56
+    ],
+    [
+     72.569,
+     162.7,
+     77.56
+    ],
+    [
+     72.603,
+     163.38,
+     77.56
+    ],
+    [
+     72.69,
+     167.5,
+     77.56
+    ],
+    [
+     72.875,
+     167.66,
+     77.56
+    ],
+    [
+     72.887,
+     168.18,
+     77.56
+    ],
+    [
+     72.899,
+     169.58,
+     77.56
+    ],
+    [
+     73.011,
+     169.58,
+     78.56
+    ],
+    [
+     73.021,
+     169.58,
+     78.66
+    ],
+    [
+     73.126,
+     171.7,
+     78.66
+    ],
+    [
+     73.14,
+     172.22,
+     78.66
+    ],
+    [
+     73.166,
+     176.3,
+     78.66
+    ],
+    [
+     73.312,
+     176.3,
+     79.36
+    ],
+    [
+     73.373,
+     176.3,
+     80.56
+    ],
+    [
+     73.518,
+     176.5,
+     80.56
+    ],
+    [
+     73.536,
+     177.06,
+     80.56
+    ],
+    [
+     73.55,
+     177.5,
+     80.56
+    ],
+    [
+     73.566,
+     177.98,
+     80.56
+    ],
+    [
+     73.579,
+     182.58,
+     80.56
+    ],
+    [
+     74.022,
+     183.14,
+     80.56
+    ],
+    [
+     74.046,
+     183.42,
+     80.56
+    ],
+    [
+     74.058,
+     183.62,
+     80.56
+    ],
+    [
+     74.093,
+     183.86,
+     80.56
+    ],
+    [
+     74.116,
+     184.7,
+     80.56
+    ],
+    [
+     74.131,
+     188.86,
+     80.56
+    ],
+    [
+     74.306,
+     188.9,
+     80.56
+    ],
+    [
+     74.319,
+     189.14,
+     80.56
+    ],
+    [
+     74.471,
+     189.14,
+     80.66
+    ],
+    [
+     74.481,
+     189.14,
+     81.66
+    ],
+    [
+     74.501,
+     189.14,
+     83.26
+    ],
+    [
+     74.616,
+     190.86,
+     83.26
+    ],
+    [
+     74.797,
+     190.86,
+     83.96
+    ],
+    [
+     75.147,
+     190.86,
+     88.96
+    ],
+    [
+     96.025,
+     190.86,
+     88.76
+    ],
+    [
+     96.047,
+     190.86,
+     90.46
+    ],
+    [
+     96.092,
+     190.86,
+     91.34
+    ],
+    [
+     96.204,
+     190.86,
+     91.54
+    ],
+    [
+     96.215,
+     190.86,
+     92.74
+    ],
+    [
+     96.296,
+     190.86,
+     92.94
+    ],
+    [
+     96.486,
+     190.86,
+     93.24
+    ],
+    [
+     96.498,
+     190.86,
+     94.48
+    ],
+    [
+     96.596,
+     190.86,
+     94.88
+    ],
+    [
+     96.673,
+     190.86,
+     96.88
+    ],
+    [
+     96.767,
+     190.86,
+     99.48
+    ],
+    [
+     96.812,
+     190.86,
+     105.68
+    ],
+    [
+     96.891,
+     190.86,
+     105.78
+    ],
+    [
+     96.911,
+     190.86,
+     106.14
+    ],
+    [
+     96.973,
+     190.86,
+     105.84
+    ],
+    [
+     97.066,
+     190.86,
+     106.64
+    ],
+    [
+     97.09,
+     190.86,
+     107.28
+    ],
+    [
+     97.176,
+     190.86,
+     107.98
+    ],
+    [
+     97.385,
+     190.86,
+     109.78
+    ],
+    [
+     97.836,
+     190.86,
+     109.88
+    ],
+    [
+     97.9,
+     190.86,
+     110.48
+    ],
+    [
+     97.922,
+     190.86,
+     110.72
+    ],
+    [
+     98.009,
+     190.86,
+     112.12
+    ],
+    [
+     98.021,
+     190.86,
+     113.62
+    ],
+    [
+     98.04,
+     190.86,
+     114.22
+    ],
+    [
+     98.049,
+     190.86,
+     116.22
+    ],
+    [
+     98.3,
+     190.86,
+     116.18
+    ],
+    [
+     98.312,
+     190.86,
+     116.78
+    ],
+    [
+     98.521,
+     190.86,
+     117.08
+    ],
+    [
+     98.553,
+     190.86,
+     123.18
+    ],
+    [
+     98.667,
+     190.86,
+     123.46
+    ],
+    [
+     98.731,
+     190.86,
+     124.46
+    ],
+    [
+     98.773,
+     190.86,
+     125.56
+    ],
+    [
+     98.784,
+     190.86,
+     126.76
+    ],
+    [
+     98.874,
+     190.86,
+     129.16
+    ],
+    [
+     98.973,
+     190.86,
+     140.42
+    ]
+   ],
+   "rebuilt_matches_official": true
+  }
+ ],
+ "transactions": [
+  {
+   "time": "Wed 12:10 AM",
+   "ts": 1794384657048,
+   "type": "waiver",
+   "rosters": [
+    5
+   ],
+   "adds": [
+    {
+     "name": "Los Angeles Rams D/ST",
+     "to": 5,
+     "pts": 17.0,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Malik Willis",
+     "from": 5,
+     "pts_this_week": 0.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Wed 12:10 AM",
+   "ts": 1794384657048,
+   "type": "waiver",
+   "rosters": [
+    5
+   ],
+   "adds": [
+    {
+     "name": "Josh Downs",
+     "to": 5,
+     "pts": 15.3,
+     "started": false
+    }
+   ],
+   "drops": [
+    {
+     "name": "Michael Wilson",
+     "from": 5,
+     "pts_this_week": 0.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Wed 12:10 AM",
+   "ts": 1794384657048,
+   "type": "waiver",
+   "rosters": [
+    7
+   ],
+   "adds": [
+    {
+     "name": "Baker Mayfield",
+     "to": 7,
+     "pts": 0.0,
+     "started": false
+    }
+   ],
+   "drops": [
+    {
+     "name": "Lamar Jackson",
+     "from": 7,
+     "pts_this_week": 0.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Thu 4:17 PM",
+   "ts": 1794529067865,
+   "type": "free_agent",
+   "rosters": [
+    7
+   ],
+   "adds": [
+    {
+     "name": "Bryce Young",
+     "to": 7,
+     "pts": 8.1,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Hunter Henry",
+     "from": 7,
+     "pts_this_week": 4.2
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Thu 4:19 PM",
+   "ts": 1794529180136,
+   "type": "free_agent",
+   "rosters": [
+    7
+   ],
+   "adds": [
+    {
+     "name": "Isaiah Likely",
+     "to": 7,
+     "pts": 27.7,
+     "started": true
+    }
+   ],
+   "drops": [],
+   "faab": null
+  },
+  {
+   "time": "Thu 6:53 PM",
+   "ts": 1794538439588,
+   "type": "free_agent",
+   "rosters": [
+    7
+   ],
+   "adds": [
+    {
+     "name": "Houston Texans D/ST",
+     "to": 7,
+     "pts": 7.0,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Atlanta Falcons D/ST",
+     "from": 7,
+     "pts_this_week": -2.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Fri 3:12 PM",
+   "ts": 1794611541530,
+   "type": "free_agent",
+   "rosters": [
+    1
+   ],
+   "adds": [
+    {
+     "name": "Tyler Bass",
+     "to": 1,
+     "pts": 7.0,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Chase McLaughlin",
+     "from": 1,
+     "pts_this_week": 0.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Sat 7:56 AM",
+   "ts": 1794671793506,
+   "type": "free_agent",
+   "rosters": [
+    3
+   ],
+   "adds": [
+    {
+     "name": "Emmett Johnson",
+     "to": 3,
+     "pts": 35.1,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Aaron Jones Sr.",
+     "from": 3,
+     "pts_this_week": 12.5
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Sun 9:28 AM",
+   "ts": 1794763696349,
+   "type": "free_agent",
+   "rosters": [
+    2
+   ],
+   "adds": [
+    {
+     "name": "Aaron Rodgers",
+     "to": 2,
+     "pts": 15.62,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Chris Godwin Jr.",
+     "from": 2,
+     "pts_this_week": 0.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Sun 4:33 PM",
+   "ts": 1794789191594,
+   "type": "free_agent",
+   "rosters": [
+    8
+   ],
+   "adds": [
+    {
+     "name": "Justin Herbert",
+     "to": 8,
+     "pts": 16.26,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Joe Milton",
+     "from": 8,
+     "pts_this_week": 0.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Sun 4:34 PM",
+   "ts": 1794789256077,
+   "type": "free_agent",
+   "rosters": [
+    8
+   ],
+   "adds": [
+    {
+     "name": "Rico Dowdle",
+     "to": 8,
+     "pts": 5.4,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Makai Lemon",
+     "from": 8,
+     "pts_this_week": 0.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Sun 4:36 PM",
+   "ts": 1794789417615,
+   "type": "free_agent",
+   "rosters": [
+    8
+   ],
+   "adds": [
+    {
+     "name": "Germie Bernard",
+     "to": 8,
+     "pts": 1.0,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Dallas Goedert",
+     "from": 8,
+     "pts_this_week": 0.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Sun 4:38 PM",
+   "ts": 1794789515011,
+   "type": "free_agent",
+   "rosters": [
+    8
+   ],
+   "adds": [
+    {
+     "name": "Cincinnati Bengals D/ST",
+     "to": 8,
+     "pts": 5.0,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Darius Cooper",
+     "from": 8,
+     "pts_this_week": 0.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Sun 4:40 PM",
+   "ts": 1794789639395,
+   "type": "free_agent",
+   "rosters": [
+    8
+   ],
+   "adds": [
+    {
+     "name": "Mike Gesicki",
+     "to": 8,
+     "pts": 0.0,
+     "started": false
+    }
+   ],
+   "drops": [
+    {
+     "name": "Philadelphia Eagles D/ST",
+     "from": 8,
+     "pts_this_week": 0.0
+    }
+   ],
+   "faab": null
+  },
+  {
+   "time": "Sun 4:42 PM",
+   "ts": 1794789759769,
+   "type": "free_agent",
+   "rosters": [
+    8
+   ],
+   "adds": [
+    {
+     "name": "Mark Andrews",
+     "to": 8,
+     "pts": 16.2,
+     "started": true
+    }
+   ],
+   "drops": [
+    {
+     "name": "Mike Gesicki",
+     "from": 8,
+     "pts_this_week": 1.9
+    }
+   ],
+   "faab": null
+  }
+ ],
+ "timeline_segments": [
+  {
+   "label": "THU",
+   "start_h": 0.0,
+   "end_h": 3.051
+  },
+  {
+   "label": "SUN",
+   "start_h": 61.298,
+   "end_h": 75.147
+  },
+  {
+   "label": "MON",
+   "start_h": 96.011,
+   "end_h": 98.973
+  }
+ ],
+ "first_kick_utc": "2026-11-13T01:15:38.757000+00:00",
+ "pbp_complete": true,
+ "pbp_missing_games": [],
+ "awards": {
+  "high_score": [
+   192.44,
+   2
+  ],
+  "low_score": [
+   123.24,
+   1
+  ],
+  "closest": 2,
+  "biggest_blowout": 1,
+  "best_pickup_started": {
+   "name": "Emmett Johnson",
+   "to": 3,
+   "pts": 35.1,
+   "started": true
+  }
+ },
+ "history": {
+  "seasons": {
+   "2026": {
+    "teams": {
+     "1": {
+      "owner": "mikestric",
+      "name": "Big Stric Energy",
+      "record": "2-8",
+      "pf": 1431.64,
+      "moves": 13,
+      "bench_20plus_games": 3,
+      "current_roster_id": 1
+     },
+     "2": {
+      "owner": "Poochinskii",
+      "name": "Poochinski",
+      "record": "8-2",
+      "pf": 1706.92,
+      "moves": 6,
+      "bench_20plus_games": 2,
+      "current_roster_id": 2
+     },
+     "3": {
+      "owner": "csalguero",
+      "name": "Maye I touch your TDs?",
+      "record": "2-8",
+      "pf": 1586.7,
+      "moves": 13,
+      "bench_20plus_games": 6,
+      "current_roster_id": 3
+     },
+     "4": {
+      "owner": "benshapiro12",
+      "name": "Cherry Blossom",
+      "record": "5-5",
+      "pf": 1675.16,
+      "moves": 5,
+      "bench_20plus_games": 6,
+      "current_roster_id": 4
+     },
+     "5": {
+      "owner": "originallobcity",
+      "name": "Bad things man bad things",
+      "record": "8-2",
+      "pf": 1678.02,
+      "moves": 29,
+      "bench_20plus_games": 5,
+      "current_roster_id": 5
+     },
+     "6": {
+      "owner": "deeboliciouskins",
+      "name": "deeboliciouskins",
+      "record": "5-5",
+      "pf": 1625.54,
+      "moves": 5,
+      "bench_20plus_games": 4,
+      "current_roster_id": 6
+     },
+     "7": {
+      "owner": "PurdyAvg",
+      "name": "Santa Clara\u2019s Finest",
+      "record": "3-7",
+      "pf": 1433.42,
+      "moves": 23,
+      "bench_20plus_games": 0,
+      "current_roster_id": 7
+     },
+     "8": {
+      "owner": "AB81",
+      "name": "AB81",
+      "record": "7-3",
+      "pf": 1494.0,
+      "moves": 10,
+      "bench_20plus_games": 3,
+      "current_roster_id": 8
+     }
+    },
+    "champion": null,
+    "playoffs": [],
+    "notable_draft_picks": [
+     {
+      "round": 1,
+      "pick": 1,
+      "roster_id": 2,
+      "player": "Jahmyr Gibbs",
+      "pos": "RB",
+      "nfl_team_now": "DET",
+      "birth_year": "2002"
+     },
+     {
+      "round": 1,
+      "pick": 2,
+      "roster_id": 8,
+      "player": "Jaxon Smith-Njigba",
+      "pos": "WR",
+      "nfl_team_now": "SEA",
+      "birth_year": "2002"
+     },
+     {
+      "round": 1,
+      "pick": 3,
+      "roster_id": 1,
+      "player": "Josh Allen",
+      "pos": "QB",
+      "nfl_team_now": "BUF",
+      "birth_year": "1996"
+     },
+     {
+      "round": 1,
+      "pick": 4,
+      "roster_id": 5,
+      "player": "Bijan Robinson",
+      "pos": "RB",
+      "nfl_team_now": "ATL",
+      "birth_year": "2002"
+     },
+     {
+      "round": 1,
+      "pick": 5,
+      "roster_id": 6,
+      "player": "Ja'Marr Chase",
+      "pos": "WR",
+      "nfl_team_now": "CIN",
+      "birth_year": "2000"
+     },
+     {
+      "round": 1,
+      "pick": 6,
+      "roster_id": 4,
+      "player": "Puka Nacua",
+      "pos": "WR",
+      "nfl_team_now": "LAR",
+      "birth_year": "2001"
+     },
+     {
+      "round": 1,
+      "pick": 7,
+      "roster_id": 3,
+      "player": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "nfl_team_now": "DET",
+      "birth_year": "1999"
+     },
+     {
+      "round": 1,
+      "pick": 8,
+      "roster_id": 7,
+      "player": "Joe Burrow",
+      "pos": "QB",
+      "nfl_team_now": "CIN",
+      "birth_year": "1996"
+     },
+     {
+      "round": 2,
+      "pick": 9,
+      "roster_id": 7,
+      "player": "Lamar Jackson",
+      "pos": "QB",
+      "nfl_team_now": "BAL",
+      "birth_year": "1997"
+     },
+     {
+      "round": 2,
+      "pick": 10,
+      "roster_id": 3,
+      "player": "Drake Maye",
+      "pos": "QB",
+      "nfl_team_now": "NE",
+      "birth_year": "2002"
+     },
+     {
+      "round": 2,
+      "pick": 11,
+      "roster_id": 4,
+      "player": "Christian McCaffrey",
+      "pos": "RB",
+      "nfl_team_now": "SF",
+      "birth_year": "1996"
+     },
+     {
+      "round": 2,
+      "pick": 12,
+      "roster_id": 6,
+      "player": "Jonathan Taylor",
+      "pos": "RB",
+      "nfl_team_now": "IND",
+      "birth_year": "1999"
+     },
+     {
+      "round": 2,
+      "pick": 13,
+      "roster_id": 5,
+      "player": "James Cook",
+      "pos": "RB",
+      "nfl_team_now": "BUF",
+      "birth_year": "1999"
+     },
+     {
+      "round": 2,
+      "pick": 14,
+      "roster_id": 1,
+      "player": "Saquon Barkley",
+      "pos": "RB",
+      "nfl_team_now": "PHI",
+      "birth_year": "1997"
+     },
+     {
+      "round": 2,
+      "pick": 15,
+      "roster_id": 8,
+      "player": "Jalen Hurts",
+      "pos": "QB",
+      "nfl_team_now": "PHI",
+      "birth_year": "1998"
+     },
+     {
+      "round": 2,
+      "pick": 16,
+      "roster_id": 2,
+      "player": "CeeDee Lamb",
+      "pos": "WR",
+      "nfl_team_now": "DAL",
+      "birth_year": "1999"
+     },
+     {
+      "round": 9,
+      "pick": 70,
+      "roster_id": 4,
+      "player": "Rob Gronkowski",
+      "pos": "TE",
+      "nfl_team_now": null,
+      "birth_year": "1989"
+     },
+     {
+      "round": 14,
+      "pick": 107,
+      "roster_id": 4,
+      "player": "Tom Brady",
+      "pos": "QB",
+      "nfl_team_now": null,
+      "birth_year": "1977"
+     },
+     {
+      "round": 16,
+      "pick": 128,
+      "roster_id": 2,
+      "player": "Marquise Goodwin",
+      "pos": "WR",
+      "nfl_team_now": null,
+      "birth_year": "1990"
+     }
+    ]
+   },
+   "2025": {
+    "teams": {
+     "1": {
+      "owner": "mikestric",
+      "name": "Big Stric Energy",
+      "record": "6-8",
+      "pf": 2056.5,
+      "moves": 16,
+      "bench_20plus_games": 11,
+      "current_roster_id": 1
+     },
+     "2": {
+      "owner": "Poochinskii",
+      "name": "Poochinski",
+      "record": "8-6",
+      "pf": 2171.96,
+      "moves": 11,
+      "bench_20plus_games": 6,
+      "current_roster_id": 2
+     },
+     "3": {
+      "owner": "csalguero",
+      "name": "Maye I touch your TDs?",
+      "record": "9-5",
+      "pf": 2308.24,
+      "moves": 46,
+      "bench_20plus_games": 4,
+      "current_roster_id": 3
+     },
+     "4": {
+      "owner": "benshapiro12",
+      "name": "benshapiro12",
+      "record": "5-9",
+      "pf": 2046.04,
+      "moves": 3,
+      "bench_20plus_games": 7,
+      "current_roster_id": 4
+     },
+     "5": {
+      "owner": "originallobcity",
+      "name": "Bad things man bad things",
+      "record": "9-5",
+      "pf": 2250.06,
+      "moves": 29,
+      "bench_20plus_games": 13,
+      "current_roster_id": 5
+     },
+     "6": {
+      "owner": "deeboliciouskins",
+      "name": "deeboliciouskins",
+      "record": "6-8",
+      "pf": 1901.24,
+      "moves": 33,
+      "bench_20plus_games": 8,
+      "current_roster_id": 6
+     },
+     "7": {
+      "owner": "PurdyAvg",
+      "name": "PurdyAvg",
+      "record": "10-4",
+      "pf": 2209.54,
+      "moves": 16,
+      "bench_20plus_games": 8,
+      "current_roster_id": 7
+     },
+     "8": {
+      "owner": "AB81",
+      "name": "AB81",
+      "record": "3-11",
+      "pf": 1545.14,
+      "moves": 8,
+      "bench_20plus_games": 16,
+      "current_roster_id": 8
+     }
+    },
+    "champion": 3,
+    "playoffs": [
+     {
+      "round": "Round 1",
+      "week": 15,
+      "winner": 2,
+      "loser": 1,
+      "score": [
+       139.78,
+       124.58
+      ],
+      "loser_best_bench": {
+       "name": "Trevor Lawrence",
+       "pts": 44.3
+      }
+     },
+     {
+      "round": "Round 1",
+      "week": 15,
+      "winner": 5,
+      "loser": 6,
+      "score": [
+       187.94,
+       104.96
+      ],
+      "loser_best_bench": {
+       "name": "Jakobi Meyers",
+       "pts": 12.1
+      }
+     },
+     {
+      "round": "Round 2",
+      "week": 16,
+      "winner": 7,
+      "loser": 2,
+      "score": [
+       161.84,
+       154.6
+      ],
+      "loser_best_bench": {
+       "name": "Aaron Jones Sr.",
+       "pts": 11.3
+      }
+     },
+     {
+      "round": "Round 2",
+      "week": 16,
+      "winner": 3,
+      "loser": 5,
+      "score": [
+       180.7,
+       153.28
+      ],
+      "loser_best_bench": {
+       "name": "Dak Prescott",
+       "pts": 19.16
+      }
+     },
+     {
+      "round": "5th place",
+      "week": 16,
+      "winner": 6,
+      "loser": 1,
+      "score": [
+       167.18,
+       141.82
+      ],
+      "loser_best_bench": {
+       "name": "Trevor Lawrence",
+       "pts": 31.16
+      }
+     },
+     {
+      "round": "Championship",
+      "week": 17,
+      "winner": 3,
+      "loser": 7,
+      "score": [
+       143.92,
+       136.52
+      ],
+      "loser_best_bench": {
+       "name": "Philadelphia Eagles D/ST",
+       "pts": 14.0
+      }
+     },
+     {
+      "round": "3rd place",
+      "week": 17,
+      "winner": 5,
+      "loser": 2,
+      "score": [
+       156.46,
+       146.52
+      ],
+      "loser_best_bench": {
+       "name": "Aaron Jones Sr.",
+       "pts": 15.3
+      }
+     }
+    ],
+    "notable_draft_picks": [
+     {
+      "round": 1,
+      "pick": 1,
+      "roster_id": 3,
+      "player": "Josh Allen",
+      "pos": "QB",
+      "nfl_team_now": "BUF",
+      "birth_year": "1996"
+     },
+     {
+      "round": 1,
+      "pick": 2,
+      "roster_id": 5,
+      "player": "Ja'Marr Chase",
+      "pos": "WR",
+      "nfl_team_now": "CIN",
+      "birth_year": "2000"
+     },
+     {
+      "round": 1,
+      "pick": 3,
+      "roster_id": 7,
+      "player": "Lamar Jackson",
+      "pos": "QB",
+      "nfl_team_now": "BAL",
+      "birth_year": "1997"
+     },
+     {
+      "round": 1,
+      "pick": 4,
+      "roster_id": 4,
+      "player": "Bijan Robinson",
+      "pos": "RB",
+      "nfl_team_now": "ATL",
+      "birth_year": "2002"
+     },
+     {
+      "round": 1,
+      "pick": 5,
+      "roster_id": 8,
+      "player": "Jalen Hurts",
+      "pos": "QB",
+      "nfl_team_now": "PHI",
+      "birth_year": "1998"
+     },
+     {
+      "round": 1,
+      "pick": 6,
+      "roster_id": 1,
+      "player": "Justin Jefferson",
+      "pos": "WR",
+      "nfl_team_now": "MIN",
+      "birth_year": "1999"
+     },
+     {
+      "round": 1,
+      "pick": 7,
+      "roster_id": 6,
+      "player": "Jayden Daniels",
+      "pos": "QB",
+      "nfl_team_now": "WAS",
+      "birth_year": "2000"
+     },
+     {
+      "round": 1,
+      "pick": 8,
+      "roster_id": 2,
+      "player": "Joe Burrow",
+      "pos": "QB",
+      "nfl_team_now": "CIN",
+      "birth_year": "1996"
+     },
+     {
+      "round": 2,
+      "pick": 9,
+      "roster_id": 2,
+      "player": "Jahmyr Gibbs",
+      "pos": "RB",
+      "nfl_team_now": "DET",
+      "birth_year": "2002"
+     },
+     {
+      "round": 2,
+      "pick": 10,
+      "roster_id": 6,
+      "player": "Saquon Barkley",
+      "pos": "RB",
+      "nfl_team_now": "PHI",
+      "birth_year": "1997"
+     },
+     {
+      "round": 2,
+      "pick": 11,
+      "roster_id": 1,
+      "player": "CeeDee Lamb",
+      "pos": "WR",
+      "nfl_team_now": "DAL",
+      "birth_year": "1999"
+     },
+     {
+      "round": 2,
+      "pick": 12,
+      "roster_id": 8,
+      "player": "A.J. Brown",
+      "pos": "WR",
+      "nfl_team_now": "NE",
+      "birth_year": "1997"
+     },
+     {
+      "round": 2,
+      "pick": 13,
+      "roster_id": 4,
+      "player": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "nfl_team_now": "DET",
+      "birth_year": "1999"
+     },
+     {
+      "round": 2,
+      "pick": 14,
+      "roster_id": 7,
+      "player": "Patrick Mahomes",
+      "pos": "QB",
+      "nfl_team_now": "KC",
+      "birth_year": "1995"
+     },
+     {
+      "round": 2,
+      "pick": 15,
+      "roster_id": 5,
+      "player": "Nico Collins",
+      "pos": "WR",
+      "nfl_team_now": "HOU",
+      "birth_year": "1999"
+     },
+     {
+      "round": 2,
+      "pick": 16,
+      "roster_id": 3,
+      "player": "Christian McCaffrey",
+      "pos": "RB",
+      "nfl_team_now": "SF",
+      "birth_year": "1996"
+     },
+     {
+      "round": 7,
+      "pick": 55,
+      "roster_id": 6,
+      "player": "Tyreek Hill",
+      "pos": "WR",
+      "nfl_team_now": null,
+      "birth_year": "1994"
+     }
+    ]
+   }
+  },
+  "trades_all_time": 0,
+  "close_games": {
+   "5": {
+    "wins": 3,
+    "losses": 1
+   },
+   "1": {
+    "wins": 1,
+    "losses": 4
+   },
+   "2": {
+    "wins": 4,
+    "losses": 2
+   },
+   "4": {
+    "wins": 2,
+    "losses": 2
+   },
+   "8": {
+    "wins": 4,
+    "losses": 1
+   },
+   "3": {
+    "wins": 2,
+    "losses": 5
+   },
+   "6": {
+    "wins": 2,
+    "losses": 3
+   }
+  },
+  "repeat_adds": [
+   {
+    "roster_id": 6,
+    "player": "Marcus Mariota",
+    "times": 4
+   },
+   {
+    "roster_id": 5,
+    "player": "Los Angeles Rams D/ST",
+    "times": 3
+   },
+   {
+    "roster_id": 5,
+    "player": "Seattle Seahawks D/ST",
+    "times": 3
+   },
+   {
+    "roster_id": 3,
+    "player": "Darren Waller",
+    "times": 3
+   }
+  ],
+  "late_night_moves_this_season": {
+   "3": 1,
+   "7": 2
+  }
+ },
+ "unrostered_scorers": [
+  {
+   "name": "Deebo Samuel Sr.",
+   "pos": "WR",
+   "nfl_team": "SF",
+   "pts": 25.9
+  },
+  {
+   "name": "Deshaun Watson",
+   "pos": "QB",
+   "nfl_team": "CLE",
+   "pts": 22.38
+  },
+  {
+   "name": "Cam Ward",
+   "pos": "QB",
+   "nfl_team": "TEN",
+   "pts": 20.14
+  },
+  {
+   "name": "Ryan Flournoy",
+   "pos": "WR",
+   "nfl_team": "DAL",
+   "pts": 19.1
+  },
+  {
+   "name": "Jordyn Tyson",
+   "pos": "WR",
+   "nfl_team": "NO",
+   "pts": 19.0
+  },
+  {
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "nfl_team": "NYG",
+   "pts": 18.12
+  },
+  {
+   "name": "Joey Slye",
+   "pos": "K",
+   "nfl_team": "TEN",
+   "pts": 18.0
+  },
+  {
+   "name": "Alvin Kamara",
+   "pos": "RB",
+   "nfl_team": "NO",
+   "pts": 16.4
+  },
+  {
+   "name": "Myles Price",
+   "pos": "WR",
+   "nfl_team": "MIN",
+   "pts": 16.1
+  },
+  {
+   "name": "Xavier Hutchinson",
+   "pos": "WR",
+   "nfl_team": "HOU",
+   "pts": 15.8
+  }
+ ],
+ "decision_candidates": [
+  {
+   "kind": "lineup_cost",
+   "roster_id": 6,
+   "impact": 46.1,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 224.18,
+    "actual": 178.08,
+    "opponent": 123.24,
+    "should_have_started": [
+     {
+      "name": "Tony Pollard",
+      "pos": "RB",
+      "pts": 23.9
+     },
+     {
+      "name": "Minnesota Vikings D/ST",
+      "pos": "DEF",
+      "pts": 21.0
+     },
+     {
+      "name": "DJ Moore",
+      "pos": "WR",
+      "pts": 19.4
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "D'Andre Swift",
+      "pos": "RB",
+      "pts": 0.0
+     },
+     {
+      "name": "Rachaad White",
+      "pos": "RB",
+      "pts": 6.2
+     },
+     {
+      "name": "Kansas City Chiefs D/ST",
+      "pos": "DEF",
+      "pts": 12.0
+     }
+    ]
+   }
+  },
+  {
+   "kind": "pickup_paid_off",
+   "roster_id": 3,
+   "impact": 35.1,
+   "detail": {
+    "name": "Emmett Johnson",
+    "to": 3,
+    "pts": 35.1,
+    "started": true,
+    "time": "Sat 7:56 AM"
+   }
+  },
+  {
+   "kind": "pickup_paid_off",
+   "roster_id": 7,
+   "impact": 27.7,
+   "detail": {
+    "name": "Isaiah Likely",
+    "to": 7,
+    "pts": 27.7,
+    "started": true,
+    "time": "Thu 4:19 PM"
+   }
+  },
+  {
+   "kind": "pickup_paid_off",
+   "roster_id": 5,
+   "impact": 17.0,
+   "detail": {
+    "name": "Los Angeles Rams D/ST",
+    "to": 5,
+    "pts": 17.0,
+    "started": true,
+    "time": "Wed 12:10 AM"
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 2,
+   "impact": 16.5,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 208.94,
+    "actual": 192.44,
+    "opponent": 172.2,
+    "should_have_started": [
+     {
+      "name": "Quinshon Judkins",
+      "pos": "RB",
+      "pts": 16.1
+     },
+     {
+      "name": "Tyler Higbee",
+      "pos": "TE",
+      "pts": 10.7
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "pts": 2.6
+     },
+     {
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "pts": 7.7
+     }
+    ]
+   }
+  },
+  {
+   "kind": "pickup_paid_off",
+   "roster_id": 8,
+   "impact": 16.26,
+   "detail": {
+    "name": "Justin Herbert",
+    "to": 8,
+    "pts": 16.26,
+    "started": true,
+    "time": "Sun 4:33 PM"
+   }
+  },
+  {
+   "kind": "pickup_paid_off",
+   "roster_id": 8,
+   "impact": 16.2,
+   "detail": {
+    "name": "Mark Andrews",
+    "to": 8,
+    "pts": 16.2,
+    "started": true,
+    "time": "Sun 4:42 PM"
+   }
+  },
+  {
+   "kind": "pickup_paid_off",
+   "roster_id": 2,
+   "impact": 15.62,
+   "detail": {
+    "name": "Aaron Rodgers",
+    "to": 2,
+    "pts": 15.62,
+    "started": true,
+    "time": "Sun 9:28 AM"
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 1,
+   "impact": 15.1,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 138.34,
+    "actual": 123.24,
+    "opponent": 178.08,
+    "should_have_started": [
+     {
+      "name": "DK Metcalf",
+      "pos": "WR",
+      "pts": 15.4
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "Jalen Coker",
+      "pos": "WR",
+      "pts": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 5,
+   "impact": 14.2,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 186.92,
+    "actual": 172.72,
+    "opponent": 172.48,
+    "should_have_started": [
+     {
+      "name": "Kirk Cousins",
+      "pos": "QB",
+      "pts": 16.38
+     },
+     {
+      "name": "Josh Downs",
+      "pos": "WR",
+      "pts": 15.3
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "Tyler Shough",
+      "pos": "QB",
+      "pts": 10.98
+     },
+     {
+      "name": "Tetairoa McMillan",
+      "pos": "WR",
+      "pts": 6.5
+     }
+    ]
+   }
+  },
+  {
+   "kind": "drop_backfired",
+   "roster_id": 3,
+   "impact": 12.5,
+   "detail": {
+    "name": "Aaron Jones Sr.",
+    "from": 3,
+    "pts_this_week": 12.5,
+    "time": "Sat 7:56 AM"
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 8,
+   "impact": 11.9,
+   "changed_result": false,
+   "detail": {
+    "optimal_points": 152.32,
+    "actual": 140.42,
+    "opponent": 190.86,
+    "should_have_started": [
+     {
+      "name": "George Kittle",
+      "pos": "TE",
+      "pts": 13.4
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "Rhamondre Stevenson",
+      "pos": "RB",
+      "pts": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "kind": "lineup_cost",
+   "roster_id": 3,
+   "impact": 10.8,
+   "changed_result": true,
+   "detail": {
+    "optimal_points": 183.28,
+    "actual": 172.48,
+    "opponent": 172.72,
+    "should_have_started": [
+     {
+      "name": "Omarion Hampton",
+      "pos": "RB",
+      "pts": 17.5
+     }
+    ],
+    "should_have_sat": [
+     {
+      "name": "Christian Watson",
+      "pos": "WR",
+      "pts": 6.7
+     }
+    ]
+   }
+  },
+  {
+   "kind": "started_player_on_bye",
+   "roster_id": 6,
+   "impact": 0,
+   "detail": {
+    "player": "D'Andre Swift",
+    "won_anyway": true
+   }
+  }
+ ],
+ "analysis": {
+  "teams": {
+   "1": {
+    "all_play": "23-47",
+    "all_play_pct": 0.329,
+    "expected_wins": 3.3,
+    "luck": -1.3,
+    "avg_points": 143.16,
+    "last3_avg": 142.52,
+    "high": 213.66,
+    "low": 111.6,
+    "playoff_odds": 0.177,
+    "top2_odds": 0.0,
+    "projected_final_wins": 3.7,
+    "games_left": 4,
+    "next_week": {
+     "projected": 137.68,
+     "lineup": [
+      {
+       "name": "Josh Allen",
+       "pos": "QB",
+       "proj": 25.18,
+       "slot": "QB"
+      },
+      {
+       "slot": "QB",
+       "empty": true
+      },
+      {
+       "name": "Saquon Barkley",
+       "pos": "RB",
+       "proj": 12.49,
+       "slot": "RB"
+      },
+      {
+       "name": "Ashton Jeanty",
+       "pos": "RB",
+       "proj": 12.04,
+       "slot": "RB"
+      },
+      {
+       "name": "Justin Jefferson",
+       "pos": "WR",
+       "proj": 18.91,
+       "slot": "WR"
+      },
+      {
+       "name": "Nico Collins",
+       "pos": "WR",
+       "proj": 16.11,
+       "slot": "WR"
+      },
+      {
+       "name": "Dalton Kincaid",
+       "pos": "TE",
+       "proj": 10.15,
+       "slot": "TE"
+      },
+      {
+       "name": "Tyler Bass",
+       "pos": "K",
+       "proj": 6.8,
+       "slot": "K"
+      },
+      {
+       "name": "Jacksonville Jaguars D/ST",
+       "pos": "DEF",
+       "proj": 8.04,
+       "slot": "DEF"
+      },
+      {
+       "name": "Rashee Rice",
+       "pos": "WR",
+       "proj": 15.07,
+       "slot": "FLEX"
+      },
+      {
+       "name": "Jalen Coker",
+       "pos": "WR",
+       "proj": 12.89,
+       "slot": "FLEX"
+      }
+     ],
+     "bye_players": [
+      "Davante Adams",
+      "Josh Jacobs",
+      "Jordan Love",
+      "Tucker Kraft"
+     ],
+     "qbs_available": 1,
+     "qb_slots": 2,
+     "empty_slots": [
+      "QB"
+     ]
+    }
+   },
+   "2": {
+    "all_play": "47-23",
+    "all_play_pct": 0.671,
+    "expected_wins": 6.7,
+    "luck": 1.3,
+    "avg_points": 170.69,
+    "last3_avg": 169.49,
+    "high": 206.16,
+    "low": 128.02,
+    "playoff_odds": 1.0,
+    "top2_odds": 0.985,
+    "projected_final_wins": 11.0,
+    "games_left": 4,
+    "next_week": {
+     "projected": 174.8,
+     "lineup": [
+      {
+       "name": "Dak Prescott",
+       "pos": "QB",
+       "proj": 22.16,
+       "slot": "QB"
+      },
+      {
+       "name": "Caleb Williams",
+       "pos": "QB",
+       "proj": 20.72,
+       "slot": "QB"
+      },
+      {
+       "name": "Jahmyr Gibbs",
+       "pos": "RB",
+       "proj": 23.71,
+       "slot": "RB"
+      },
+      {
+       "name": "Javonte Williams",
+       "pos": "RB",
+       "proj": 20.06,
+       "slot": "RB"
+      },
+      {
+       "name": "CeeDee Lamb",
+       "pos": "WR",
+       "proj": 22.43,
+       "slot": "WR"
+      },
+      {
+       "name": "Luther Burden III",
+       "pos": "WR",
+       "proj": 15.64,
+       "slot": "WR"
+      },
+      {
+       "name": "Sam LaPorta",
+       "pos": "TE",
+       "proj": 12.2,
+       "slot": "TE"
+      },
+      {
+       "name": "Brandon Aubrey",
+       "pos": "K",
+       "proj": 7.6,
+       "slot": "K"
+      },
+      {
+       "slot": "DEF",
+       "empty": true
+      },
+      {
+       "name": "Chris Olave",
+       "pos": "WR",
+       "proj": 15.57,
+       "slot": "FLEX"
+      },
+      {
+       "name": "Chase Brown",
+       "pos": "RB",
+       "proj": 14.71,
+       "slot": "FLEX"
+      }
+     ],
+     "bye_players": [
+      "Quinshon Judkins",
+      "Jadarian Price",
+      "Tyler Higbee",
+      "Seattle Seahawks D/ST"
+     ],
+     "qbs_available": 3,
+     "qb_slots": 2,
+     "empty_slots": [
+      "DEF"
+     ]
+    }
+   },
+   "3": {
+    "all_play": "31-39",
+    "all_play_pct": 0.443,
+    "expected_wins": 4.4,
+    "luck": -2.4,
+    "avg_points": 158.67,
+    "last3_avg": 156.95,
+    "high": 205.82,
+    "low": 112.76,
+    "playoff_odds": 0.252,
+    "top2_odds": 0.0,
+    "projected_final_wins": 3.4,
+    "games_left": 4,
+    "next_week": {
+     "projected": 106.96,
+     "lineup": [
+      {
+       "name": "Brock Purdy",
+       "pos": "QB",
+       "proj": 17.71,
+       "slot": "QB"
+      },
+      {
+       "slot": "QB",
+       "empty": true
+      },
+      {
+       "name": "Bucky Irving",
+       "pos": "RB",
+       "proj": 17.17,
+       "slot": "RB"
+      },
+      {
+       "name": "Breece Hall",
+       "pos": "RB",
+       "proj": 12.62,
+       "slot": "RB"
+      },
+      {
+       "name": "Amon-Ra St. Brown",
+       "pos": "WR",
+       "proj": 19.09,
+       "slot": "WR"
+      },
+      {
+       "name": "Zay Flowers",
+       "pos": "WR",
+       "proj": 14.76,
+       "slot": "WR"
+      },
+      {
+       "slot": "TE",
+       "empty": true
+      },
+      {
+       "name": "Matt Gay",
+       "pos": "K",
+       "proj": 6.47,
+       "slot": "K"
+      },
+      {
+       "slot": "DEF",
+       "empty": true
+      },
+      {
+       "name": "Emmett Johnson",
+       "pos": "RB",
+       "proj": 10.67,
+       "slot": "FLEX"
+      },
+      {
+       "name": "Omarion Hampton",
+       "pos": "RB",
+       "proj": 8.47,
+       "slot": "FLEX"
+      }
+     ],
+     "bye_players": [
+      "Drake Maye",
+      "Harold Fannin Jr.",
+      "A.J. Brown",
+      "Drake London",
+      "Christian Watson",
+      "Cleveland Browns D/ST"
+     ],
+     "qbs_available": 1,
+     "qb_slots": 2,
+     "empty_slots": [
+      "QB",
+      "TE",
+      "DEF"
+     ]
+    }
+   },
+   "4": {
+    "all_play": "39-31",
+    "all_play_pct": 0.557,
+    "expected_wins": 5.6,
+    "luck": -0.6,
+    "avg_points": 167.52,
+    "last3_avg": 182.97,
+    "high": 228.58,
+    "low": 116.14,
+    "playoff_odds": 0.999,
+    "top2_odds": 0.072,
+    "projected_final_wins": 7.7,
+    "games_left": 4,
+    "next_week": {
+     "projected": 161.15,
+     "lineup": [
+      {
+       "name": "Trevor Lawrence",
+       "pos": "QB",
+       "proj": 20.66,
+       "slot": "QB"
+      },
+      {
+       "name": "Bo Nix",
+       "pos": "QB",
+       "proj": 17.84,
+       "slot": "QB"
+      },
+      {
+       "name": "Christian McCaffrey",
+       "pos": "RB",
+       "proj": 19.88,
+       "slot": "RB"
+      },
+      {
+       "name": "Jonah Coleman",
+       "pos": "RB",
+       "proj": 17.05,
+       "slot": "RB"
+      },
+      {
+       "name": "Tee Higgins",
+       "pos": "WR",
+       "proj": 18.3,
+       "slot": "WR"
+      },
+      {
+       "name": "Parker Washington",
+       "pos": "WR",
+       "proj": 14.56,
+       "slot": "WR"
+      },
+      {
+       "name": "Travis Kelce",
+       "pos": "TE",
+       "proj": 12.56,
+       "slot": "TE"
+      },
+      {
+       "name": "Jake Bates",
+       "pos": "K",
+       "proj": 7.12,
+       "slot": "K"
+      },
+      {
+       "name": "Baltimore Ravens D/ST",
+       "pos": "DEF",
+       "proj": 6.26,
+       "slot": "DEF"
+      },
+      {
+       "name": "Jaylen Warren",
+       "pos": "RB",
+       "proj": 14.66,
+       "slot": "FLEX"
+      },
+      {
+       "name": "Jameson Williams",
+       "pos": "WR",
+       "proj": 12.26,
+       "slot": "FLEX"
+      }
+     ],
+     "bye_players": [
+      "Michael Penix Jr.",
+      "Puka Nacua"
+     ],
+     "qbs_available": 3,
+     "qb_slots": 2,
+     "empty_slots": []
+    }
+   },
+   "5": {
+    "all_play": "46-24",
+    "all_play_pct": 0.657,
+    "expected_wins": 6.6,
+    "luck": 1.4,
+    "avg_points": 167.8,
+    "last3_avg": 175.94,
+    "high": 206.42,
+    "low": 117.94,
+    "playoff_odds": 1.0,
+    "top2_odds": 0.877,
+    "projected_final_wins": 10.2,
+    "games_left": 4,
+    "next_week": {
+     "projected": 137.08,
+     "lineup": [
+      {
+       "name": "C.J. Stroud",
+       "pos": "QB",
+       "proj": 20.38,
+       "slot": "QB"
+      },
+      {
+       "name": "Kirk Cousins",
+       "pos": "QB",
+       "proj": 17.82,
+       "slot": "QB"
+      },
+      {
+       "name": "James Cook III",
+       "pos": "RB",
+       "proj": 18.61,
+       "slot": "RB"
+      },
+      {
+       "name": "Chuba Hubbard",
+       "pos": "RB",
+       "proj": 15.94,
+       "slot": "RB"
+      },
+      {
+       "name": "Tetairoa McMillan",
+       "pos": "WR",
+       "proj": 14.88,
+       "slot": "WR"
+      },
+      {
+       "name": "Josh Downs",
+       "pos": "WR",
+       "proj": 8.65,
+       "slot": "WR"
+      },
+      {
+       "name": "Trey McBride",
+       "pos": "TE",
+       "proj": 13.68,
+       "slot": "TE"
+      },
+      {
+       "name": "Evan McPherson",
+       "pos": "K",
+       "proj": 7.5,
+       "slot": "K"
+      },
+      {
+       "name": "Chicago Bears D/ST",
+       "pos": "DEF",
+       "proj": 8.25,
+       "slot": "DEF"
+      },
+      {
+       "name": "Ollie Gordon II",
+       "pos": "RB",
+       "proj": 11.37,
+       "slot": "FLEX"
+      },
+      {
+       "slot": "FLEX",
+       "empty": true
+      }
+     ],
+     "bye_players": [
+      "Matthew Golden",
+      "Bijan Robinson",
+      "Zach Charbonnet",
+      "Los Angeles Rams D/ST"
+     ],
+     "qbs_available": 3,
+     "qb_slots": 2,
+     "empty_slots": [
+      "FLEX"
+     ]
+    }
+   },
+   "6": {
+    "all_play": "38-32",
+    "all_play_pct": 0.543,
+    "expected_wins": 5.4,
+    "luck": -0.4,
+    "avg_points": 162.55,
+    "last3_avg": 154.13,
+    "high": 223.42,
+    "low": 116.64,
+    "playoff_odds": 1.0,
+    "top2_odds": 0.048,
+    "projected_final_wins": 7.6,
+    "games_left": 4,
+    "next_week": {
+     "projected": 168.98,
+     "lineup": [
+      {
+       "name": "Patrick Mahomes",
+       "pos": "QB",
+       "proj": 22.48,
+       "slot": "QB"
+      },
+      {
+       "name": "Jayden Daniels",
+       "pos": "QB",
+       "proj": 21.28,
+       "slot": "QB"
+      },
+      {
+       "name": "D'Andre Swift",
+       "pos": "RB",
+       "proj": 19.38,
+       "slot": "RB"
+      },
+      {
+       "name": "Jonathan Taylor",
+       "pos": "RB",
+       "proj": 14.6,
+       "slot": "RB"
+      },
+      {
+       "name": "Ja'Marr Chase",
+       "pos": "WR",
+       "proj": 21.23,
+       "slot": "WR"
+      },
+      {
+       "name": "Malik Nabers",
+       "pos": "WR",
+       "proj": 16.57,
+       "slot": "WR"
+      },
+      {
+       "name": "Tyler Warren",
+       "pos": "TE",
+       "proj": 10.82,
+       "slot": "TE"
+      },
+      {
+       "slot": "K",
+       "empty": true
+      },
+      {
+       "name": "Kansas City Chiefs D/ST",
+       "pos": "DEF",
+       "proj": 12.35,
+       "slot": "DEF"
+      },
+      {
+       "name": "George Pickens",
+       "pos": "WR",
+       "proj": 15.68,
+       "slot": "FLEX"
+      },
+      {
+       "name": "Tony Pollard",
+       "pos": "RB",
+       "proj": 14.59,
+       "slot": "FLEX"
+      }
+     ],
+     "bye_players": [
+      "Jason Myers"
+     ],
+     "qbs_available": 2,
+     "qb_slots": 2,
+     "empty_slots": [
+      "K"
+     ]
+    }
+   },
+   "7": {
+    "all_play": "26-44",
+    "all_play_pct": 0.371,
+    "expected_wins": 3.7,
+    "luck": -0.7,
+    "avg_points": 143.34,
+    "last3_avg": 155.79,
+    "high": 190.86,
+    "low": 115.08,
+    "playoff_odds": 0.571,
+    "top2_odds": 0.0,
+    "projected_final_wins": 4.6,
+    "games_left": 4,
+    "next_week": {
+     "projected": 155.75,
+     "lineup": [
+      {
+       "name": "Joe Burrow",
+       "pos": "QB",
+       "proj": 25.38,
+       "slot": "QB"
+      },
+      {
+       "name": "Bryce Young",
+       "pos": "QB",
+       "proj": 18.47,
+       "slot": "QB"
+      },
+      {
+       "name": "Cam Skattebo",
+       "pos": "RB",
+       "proj": 16.78,
+       "slot": "RB"
+      },
+      {
+       "name": "Bhayshul Tuten",
+       "pos": "RB",
+       "proj": 15.43,
+       "slot": "RB"
+      },
+      {
+       "name": "Garrett Wilson",
+       "pos": "WR",
+       "proj": 15.24,
+       "slot": "WR"
+      },
+      {
+       "name": "Stefon Diggs",
+       "pos": "WR",
+       "proj": 13.14,
+       "slot": "WR"
+      },
+      {
+       "name": "Isaiah Likely",
+       "pos": "TE",
+       "proj": 15.23,
+       "slot": "TE"
+      },
+      {
+       "name": "Spencer Shrader",
+       "pos": "K",
+       "proj": 7.92,
+       "slot": "K"
+      },
+      {
+       "name": "Houston Texans D/ST",
+       "pos": "DEF",
+       "proj": 8.81,
+       "slot": "DEF"
+      },
+      {
+       "name": "Colston Loveland",
+       "pos": "TE",
+       "proj": 11.25,
+       "slot": "FLEX"
+      },
+      {
+       "name": "J.K. Dobbins",
+       "pos": "RB",
+       "proj": 8.1,
+       "slot": "FLEX"
+      }
+     ],
+     "bye_players": [
+      "Blake Corum",
+      "Denzel Boston"
+     ],
+     "qbs_available": 3,
+     "qb_slots": 2,
+     "empty_slots": []
+    }
+   },
+   "8": {
+    "all_play": "30-40",
+    "all_play_pct": 0.429,
+    "expected_wins": 4.3,
+    "luck": 2.7,
+    "avg_points": 149.4,
+    "last3_avg": 128.43,
+    "high": 190.74,
+    "low": 120.56,
+    "playoff_odds": 1.0,
+    "top2_odds": 0.018,
+    "projected_final_wins": 7.7,
+    "games_left": 4,
+    "next_week": {
+     "projected": 78.28,
+     "lineup": [
+      {
+       "name": "Justin Herbert",
+       "pos": "QB",
+       "proj": 15.33,
+       "slot": "QB"
+      },
+      {
+       "slot": "QB",
+       "empty": true
+      },
+      {
+       "name": "Derrick Henry",
+       "pos": "RB",
+       "proj": 15.56,
+       "slot": "RB"
+      },
+      {
+       "name": "Rico Dowdle",
+       "pos": "RB",
+       "proj": 8.37,
+       "slot": "RB"
+      },
+      {
+       "name": "Germie Bernard",
+       "pos": "WR",
+       "proj": 7.16,
+       "slot": "WR"
+      },
+      {
+       "slot": "WR",
+       "empty": true
+      },
+      {
+       "name": "George Kittle",
+       "pos": "TE",
+       "proj": 12.62,
+       "slot": "TE"
+      },
+      {
+       "name": "Cam Little",
+       "pos": "K",
+       "proj": 6.51,
+       "slot": "K"
+      },
+      {
+       "name": "Cincinnati Bengals D/ST",
+       "pos": "DEF",
+       "proj": 6.47,
+       "slot": "DEF"
+      },
+      {
+       "name": "Mark Andrews",
+       "pos": "TE",
+       "proj": 6.26,
+       "slot": "FLEX"
+      },
+      {
+       "slot": "FLEX",
+       "empty": true
+      }
+     ],
+     "bye_players": [
+      "Matthew Stafford",
+      "Sam Darnold",
+      "Rhamondre Stevenson",
+      "Kyren Williams",
+      "Jaxon Smith-Njigba"
+     ],
+     "qbs_available": 1,
+     "qb_slots": 2,
+     "empty_slots": [
+      "QB",
+      "WR",
+      "FLEX"
+     ]
+    }
+   }
+  },
+  "next_week": [
+   {
+    "key": "w11-m1",
+    "week": 11,
+    "teams": [
+     1,
+     3
+    ],
+    "projected": [
+     137.68,
+     106.96
+    ],
+    "win_prob": [
+     0.774,
+     0.226
+    ],
+    "favorite": 1,
+    "spread": 30.72
+   },
+   {
+    "key": "w11-m4",
+    "week": 11,
+    "teams": [
+     2,
+     7
+    ],
+    "projected": [
+     174.8,
+     155.75
+    ],
+    "win_prob": [
+     0.68,
+     0.32
+    ],
+    "favorite": 2,
+    "spread": 19.05
+   },
+   {
+    "key": "w11-m3",
+    "week": 11,
+    "teams": [
+     4,
+     5
+    ],
+    "projected": [
+     161.15,
+     137.08
+    ],
+    "win_prob": [
+     0.722,
+     0.278
+    ],
+    "favorite": 4,
+    "spread": 24.07
+   },
+   {
+    "key": "w11-m2",
+    "week": 11,
+    "teams": [
+     6,
+     8
+    ],
+    "projected": [
+     168.98,
+     78.28
+    ],
+    "win_prob": [
+     0.987,
+     0.013
+    ],
+    "favorite": 6,
+    "spread": 90.7
+   }
+  ],
+  "next_week_number": 11,
+  "usage_rising": [
+   {
+    "player_id": "13337",
+    "name": "Emmett Johnson",
+    "pos": "RB",
+    "nfl_team": "KC",
+    "roster_id": 3,
+    "games": 9,
+    "opps_last2": 17.5,
+    "opps_before": 5.1,
+    "opps_change": 12.4,
+    "snap_last2": 0.59,
+    "snap_before": 0.26,
+    "target_share_last2": 0.11,
+    "rz_opps_season": 8.0,
+    "ppg": 10.66,
+    "ppg_last2": 22.25,
+    "td_share_of_points": 0.25,
+    "proj_next": 10.67
+   },
+   {
+    "player_id": "13345",
+    "name": "Jonah Coleman",
+    "pos": "RB",
+    "nfl_team": "DEN",
+    "roster_id": 4,
+    "games": 5,
+    "opps_last2": 18.5,
+    "opps_before": 8.0,
+    "opps_change": 10.5,
+    "snap_last2": 0.72,
+    "snap_before": 0.32,
+    "target_share_last2": 0.15,
+    "rz_opps_season": 13.0,
+    "ppg": 12.58,
+    "ppg_last2": 19.6,
+    "td_share_of_points": 0.29,
+    "proj_next": 17.05
+   },
+   {
+    "player_id": "12534",
+    "name": "Kyle Monangai",
+    "pos": "RB",
+    "nfl_team": "CHI",
+    "roster_id": null,
+    "games": 4,
+    "opps_last2": 20.5,
+    "opps_before": 12.0,
+    "opps_change": 8.5,
+    "snap_last2": 0.42,
+    "snap_before": 0.38,
+    "target_share_last2": 0.02,
+    "rz_opps_season": 15.0,
+    "ppg": 14.82,
+    "ppg_last2": 15.55,
+    "td_share_of_points": 0.3,
+    "proj_next": 8.48
+   },
+   {
+    "player_id": "12495",
+    "name": "Ollie Gordon II",
+    "pos": "RB",
+    "nfl_team": "MIA",
+    "roster_id": 5,
+    "games": 9,
+    "opps_last2": 21.0,
+    "opps_before": 14.3,
+    "opps_change": 6.7,
+    "snap_last2": 0.71,
+    "snap_before": 0.57,
+    "target_share_last2": 0.1,
+    "rz_opps_season": 25.0,
+    "ppg": 10.57,
+    "ppg_last2": 11.45,
+    "td_share_of_points": 0.25,
+    "proj_next": 11.37
+   },
+   {
+    "player_id": "7594",
+    "name": "Chuba Hubbard",
+    "pos": "RB",
+    "nfl_team": "CAR",
+    "roster_id": 5,
+    "games": 9,
+    "opps_last2": 26.5,
+    "opps_before": 20.6,
+    "opps_change": 5.9,
+    "snap_last2": 0.87,
+    "snap_before": 0.79,
+    "target_share_last2": 0.15,
+    "rz_opps_season": 30.0,
+    "ppg": 20.09,
+    "ppg_last2": 23.9,
+    "td_share_of_points": 0.3,
+    "proj_next": 15.94
+   },
+   {
+    "player_id": "11586",
+    "name": "Blake Corum",
+    "pos": "RB",
+    "nfl_team": "LAR",
+    "roster_id": 7,
+    "games": 10,
+    "opps_last2": 17.0,
+    "opps_before": 11.2,
+    "opps_change": 5.8,
+    "snap_last2": 0.44,
+    "snap_before": 0.3,
+    "target_share_last2": 0.1,
+    "rz_opps_season": 17.0,
+    "ppg": 11.55,
+    "ppg_last2": 16.35,
+    "td_share_of_points": 0.31,
+    "proj_next": 0.0
+   },
+   {
+    "player_id": "8146",
+    "name": "Garrett Wilson",
+    "pos": "WR",
+    "nfl_team": "NYJ",
+    "roster_id": 7,
+    "games": 9,
+    "opps_last2": 13.0,
+    "opps_before": 7.3,
+    "opps_change": 5.7,
+    "snap_last2": 0.88,
+    "snap_before": 0.9,
+    "target_share_last2": 0.37,
+    "rz_opps_season": 8.0,
+    "ppg": 14.37,
+    "ppg_last2": 14.95,
+    "td_share_of_points": 0.14,
+    "proj_next": 15.24
+   },
+   {
+    "player_id": "11584",
+    "name": "Bucky Irving",
+    "pos": "RB",
+    "nfl_team": "TB",
+    "roster_id": 3,
+    "games": 9,
+    "opps_last2": 26.0,
+    "opps_before": 20.4,
+    "opps_change": 5.6,
+    "snap_last2": 0.6,
+    "snap_before": 0.64,
+    "target_share_last2": 0.08,
+    "rz_opps_season": 38.0,
+    "ppg": 17.68,
+    "ppg_last2": 24.75,
+    "td_share_of_points": 0.3,
+    "proj_next": 17.17
+   },
+   {
+    "player_id": "6794",
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "nfl_team": "MIN",
+    "roster_id": 1,
+    "games": 8,
+    "opps_last2": 12.0,
+    "opps_before": 6.8,
+    "opps_change": 5.2,
+    "snap_last2": 0.95,
+    "snap_before": 0.8,
+    "target_share_last2": 0.4,
+    "rz_opps_season": 9.0,
+    "ppg": 13.95,
+    "ppg_last2": 12.6,
+    "td_share_of_points": 0.22,
+    "proj_next": 18.91
+   },
+   {
+    "player_id": "12499",
+    "name": "Elic Ayomanor",
+    "pos": "WR",
+    "nfl_team": "TEN",
+    "roster_id": null,
+    "games": 9,
+    "opps_last2": 7.5,
+    "opps_before": 3.0,
+    "opps_change": 4.5,
+    "snap_last2": 0.8,
+    "snap_before": 0.64,
+    "target_share_last2": 0.2,
+    "rz_opps_season": 10.0,
+    "ppg": 5.89,
+    "ppg_last2": 9.65,
+    "td_share_of_points": 0.11,
+    "proj_next": 8.57
+   }
+  ],
+  "usage_falling": [
+   {
+    "player_id": "6806",
+    "name": "J.K. Dobbins",
+    "pos": "RB",
+    "nfl_team": "DEN",
+    "roster_id": 7,
+    "games": 9,
+    "opps_last2": 6.0,
+    "opps_before": 13.7,
+    "opps_change": -7.7,
+    "snap_last2": 0.18,
+    "snap_before": 0.41,
+    "target_share_last2": 0.01,
+    "rz_opps_season": 14.0,
+    "ppg": 6.94,
+    "ppg_last2": 2.25,
+    "td_share_of_points": 0.29,
+    "proj_next": 8.1
+   },
+   {
+    "player_id": "11576",
+    "name": "Braelon Allen",
+    "pos": "RB",
+    "nfl_team": "NYJ",
+    "roster_id": 1,
+    "games": 10,
+    "opps_last2": 9.5,
+    "opps_before": 16.8,
+    "opps_change": -7.2,
+    "snap_last2": 0.53,
+    "snap_before": 0.69,
+    "target_share_last2": 0.05,
+    "rz_opps_season": 18.0,
+    "ppg": 11.06,
+    "ppg_last2": 5.5,
+    "td_share_of_points": 0.16,
+    "proj_next": 9.12
+   },
+   {
+    "player_id": "7611",
+    "name": "Rhamondre Stevenson",
+    "pos": "RB",
+    "nfl_team": "NE",
+    "roster_id": 8,
+    "games": 10,
+    "opps_last2": 8.5,
+    "opps_before": 15.4,
+    "opps_change": -6.9,
+    "snap_last2": 0.52,
+    "snap_before": 0.64,
+    "target_share_last2": 0.07,
+    "rz_opps_season": 12.0,
+    "ppg": 11.52,
+    "ppg_last2": 8.15,
+    "td_share_of_points": 0.21,
+    "proj_next": 0.0
+   },
+   {
+    "player_id": "12527",
+    "name": "Ashton Jeanty",
+    "pos": "RB",
+    "nfl_team": "LV",
+    "roster_id": 1,
+    "games": 10,
+    "opps_last2": 13.0,
+    "opps_before": 19.5,
+    "opps_change": -6.5,
+    "snap_last2": 0.68,
+    "snap_before": 0.66,
+    "target_share_last2": 0.18,
+    "rz_opps_season": 36.0,
+    "ppg": 14.97,
+    "ppg_last2": 8.7,
+    "td_share_of_points": 0.16,
+    "proj_next": 12.04
+   },
+   {
+    "player_id": "13287",
+    "name": "Jeremiyah Love",
+    "pos": "RB",
+    "nfl_team": "ARI",
+    "roster_id": 7,
+    "games": 6,
+    "opps_last2": 11.0,
+    "opps_before": 17.0,
+    "opps_change": -6.0,
+    "snap_last2": 0.34,
+    "snap_before": 0.48,
+    "target_share_last2": 0.01,
+    "rz_opps_season": 16.0,
+    "ppg": 8.9,
+    "ppg_last2": 2.25,
+    "td_share_of_points": 0.22,
+    "proj_next": 0.0
+   },
+   {
+    "player_id": "3198",
+    "name": "Derrick Henry",
+    "pos": "RB",
+    "nfl_team": "BAL",
+    "roster_id": 8,
+    "games": 10,
+    "opps_last2": 16.0,
+    "opps_before": 21.5,
+    "opps_change": -5.5,
+    "snap_last2": 0.5,
+    "snap_before": 0.56,
+    "target_share_last2": 0.05,
+    "rz_opps_season": 43.0,
+    "ppg": 16.13,
+    "ppg_last2": 12.29,
+    "td_share_of_points": 0.41,
+    "proj_next": 15.56
+   },
+   {
+    "player_id": "11604",
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "nfl_team": "LV",
+    "roster_id": 4,
+    "games": 8,
+    "opps_last2": 5.5,
+    "opps_before": 10.3,
+    "opps_change": -4.8,
+    "snap_last2": 0.59,
+    "snap_before": 0.83,
+    "target_share_last2": 0.16,
+    "rz_opps_season": 11.0,
+    "ppg": 18.73,
+    "ppg_last2": 13.05,
+    "td_share_of_points": 0.24,
+    "proj_next": 14.79
+   },
+   {
+    "player_id": "8130",
+    "name": "Trey McBride",
+    "pos": "TE",
+    "nfl_team": "ARI",
+    "roster_id": 5,
+    "games": 10,
+    "opps_last2": 6.5,
+    "opps_before": 10.8,
+    "opps_change": -4.2,
+    "snap_last2": 0.83,
+    "snap_before": 0.91,
+    "target_share_last2": 0.28,
+    "rz_opps_season": 20.0,
+    "ppg": 17.15,
+    "ppg_last2": 10.55,
+    "td_share_of_points": 0.17,
+    "proj_next": 13.68
+   },
+   {
+    "player_id": "2133",
+    "name": "Davante Adams",
+    "pos": "WR",
+    "nfl_team": "LAR",
+    "roster_id": 1,
+    "games": 6,
+    "opps_last2": 5.5,
+    "opps_before": 9.5,
+    "opps_change": -4.0,
+    "snap_last2": 0.74,
+    "snap_before": 0.74,
+    "target_share_last2": 0.13,
+    "rz_opps_season": 7.0,
+    "ppg": 17.0,
+    "ppg_last2": 14.5,
+    "td_share_of_points": 0.24,
+    "proj_next": 0.0
+   },
+   {
+    "player_id": "9224",
+    "name": "Chase Brown",
+    "pos": "RB",
+    "nfl_team": "CIN",
+    "roster_id": 2,
+    "games": 9,
+    "opps_last2": 15.5,
+    "opps_before": 19.4,
+    "opps_change": -3.9,
+    "snap_last2": 0.68,
+    "snap_before": 0.71,
+    "target_share_last2": 0.16,
+    "rz_opps_season": 18.0,
+    "ppg": 14.41,
+    "ppg_last2": 19.4,
+    "td_share_of_points": 0.14,
+    "proj_next": 14.71
+   }
+  ],
+  "td_dependent": [
+   {
+    "player_id": "3198",
+    "name": "Derrick Henry",
+    "pos": "RB",
+    "nfl_team": "BAL",
+    "roster_id": 8,
+    "games": 10,
+    "opps_last2": 16.0,
+    "opps_before": 21.5,
+    "opps_change": -5.5,
+    "snap_last2": 0.5,
+    "snap_before": 0.56,
+    "target_share_last2": 0.05,
+    "rz_opps_season": 43.0,
+    "ppg": 16.13,
+    "ppg_last2": 12.29,
+    "td_share_of_points": 0.41,
+    "proj_next": 15.56
+   }
+  ],
+  "waiver_targets": [
+   {
+    "player_id": "12522",
+    "name": "Cam Ward",
+    "pos": "QB",
+    "nfl_team": "TEN",
+    "proj_next": 17.09,
+    "season_points": 125.66,
+    "last_week": 20.14,
+    "opps_change": null,
+    "snap_last2": null
+   },
+   {
+    "player_id": "11565",
+    "name": "J.J. McCarthy",
+    "pos": "QB",
+    "nfl_team": "NYG",
+    "proj_next": 15.27,
+    "season_points": 53.1,
+    "last_week": 18.12,
+    "opps_change": null,
+    "snap_last2": null
+   },
+   {
+    "player_id": "13269",
+    "name": "Fernando Mendoza",
+    "pos": "QB",
+    "nfl_team": "LV",
+    "proj_next": 12.12,
+    "season_points": 16.14,
+    "last_week": 13.92,
+    "opps_change": null,
+    "snap_last2": null
+   },
+   {
+    "player_id": "11557",
+    "name": "Joe Milton",
+    "pos": "QB",
+    "nfl_team": "PHI",
+    "proj_next": 12.09,
+    "season_points": 13.16,
+    "last_week": 0.0,
+    "opps_change": null,
+    "snap_last2": null
+   },
+   {
+    "player_id": "3257",
+    "name": "Jacoby Brissett",
+    "pos": "QB",
+    "nfl_team": "BAL",
+    "proj_next": 11.57,
+    "season_points": 130.96,
+    "last_week": 12.8,
+    "opps_change": null,
+    "snap_last2": null
+   },
+   {
+    "player_id": "5892",
+    "name": "David Montgomery",
+    "pos": "RB",
+    "nfl_team": "HOU",
+    "proj_next": 13.99,
+    "season_points": 45.5,
+    "last_week": 0.0,
+    "opps_change": -7.2,
+    "snap_last2": 0.35
+   },
+   {
+    "player_id": "5870",
+    "name": "Daniel Jones",
+    "pos": "QB",
+    "nfl_team": "IND",
+    "proj_next": 10.75,
+    "season_points": 98.7,
+    "last_week": 7.22,
+    "opps_change": null,
+    "snap_last2": null
+   },
+   {
+    "player_id": "12494",
+    "name": "Kyle McCord",
+    "pos": "QB",
+    "nfl_team": "MIA",
+    "proj_next": 10.68,
+    "season_points": 12.76,
+    "last_week": 12.76,
+    "opps_change": null,
+    "snap_last2": null
+   },
+   {
+    "player_id": "13279",
+    "name": "Carnell Tate",
+    "pos": "WR",
+    "nfl_team": "TEN",
+    "proj_next": 12.39,
+    "season_points": 77.3,
+    "last_week": 0.0,
+    "opps_change": -0.4,
+    "snap_last2": 0.81
+   },
+   {
+    "player_id": "13272",
+    "name": "Carson Beck",
+    "pos": "QB",
+    "nfl_team": "ARI",
+    "proj_next": 8.97,
+    "season_points": 2.42,
+    "last_week": 2.42,
+    "opps_change": null,
+    "snap_last2": null
+   },
+   {
+    "player_id": "11620",
+    "name": "Rome Odunze",
+    "pos": "WR",
+    "nfl_team": "CHI",
+    "proj_next": 11.63,
+    "season_points": 88.8,
+    "last_week": 0.0,
+    "opps_change": 1.1,
+    "snap_last2": 0.87
+   },
+   {
+    "player_id": "13281",
+    "name": "Jordyn Tyson",
+    "pos": "WR",
+    "nfl_team": "NO",
+    "proj_next": 11.46,
+    "season_points": 24.0,
+    "last_week": 19.0,
+    "opps_change": null,
+    "snap_last2": null
+   }
+  ],
+  "qbs_rostered": {
+   "1": 3,
+   "2": 3,
+   "3": 2,
+   "4": 4,
+   "5": 3,
+   "6": 3,
+   "7": 3,
+   "8": 4
+  },
+  "model_notes": {
+   "score_sd": 28.87,
+   "sims": 10000,
+   "method": "Each remaining game simulated with team scores drawn from a normal distribution: mean = 60% season average + 40% next-week projection; tiebreak = points for."
+  }
+ },
+ "bench_report": [
+  {
+   "roster_id": 3,
+   "points_left": 10.8,
+   "optimal_points": 183.28,
+   "actual": 172.48,
+   "opponent": 172.72,
+   "lost": true,
+   "cost_the_game": true,
+   "margin": 0.24,
+   "swaps": [
+    {
+     "start": {
+      "name": "Omarion Hampton",
+      "pos": "RB",
+      "pts": 17.5
+     },
+     "instead_of": {
+      "name": "Christian Watson",
+      "pos": "WR",
+      "pts": 6.7
+     },
+     "gain": 10.8
+    }
+   ]
+  },
+  {
+   "roster_id": 6,
+   "points_left": 46.1,
+   "optimal_points": 224.18,
+   "actual": 178.08,
+   "opponent": 123.24,
+   "lost": false,
+   "cost_the_game": false,
+   "margin": 54.84,
+   "swaps": [
+    {
+     "start": {
+      "name": "DJ Moore",
+      "pos": "WR",
+      "pts": 19.4
+     },
+     "instead_of": {
+      "name": "D'Andre Swift",
+      "pos": "RB",
+      "pts": 0.0
+     },
+     "gain": 19.4
+    },
+    {
+     "start": {
+      "name": "Tony Pollard",
+      "pos": "RB",
+      "pts": 23.9
+     },
+     "instead_of": {
+      "name": "Rachaad White",
+      "pos": "RB",
+      "pts": 6.2
+     },
+     "gain": 17.7
+    },
+    {
+     "start": {
+      "name": "Minnesota Vikings D/ST",
+      "pos": "DEF",
+      "pts": 21.0
+     },
+     "instead_of": {
+      "name": "Kansas City Chiefs D/ST",
+      "pos": "DEF",
+      "pts": 12.0
+     },
+     "gain": 9.0
+    }
+   ]
+  },
+  {
+   "roster_id": 2,
+   "points_left": 16.5,
+   "optimal_points": 208.94,
+   "actual": 192.44,
+   "opponent": 172.2,
+   "lost": false,
+   "cost_the_game": false,
+   "margin": 20.24,
+   "swaps": [
+    {
+     "start": {
+      "name": "Quinshon Judkins",
+      "pos": "RB",
+      "pts": 16.1
+     },
+     "instead_of": {
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "pts": 7.7
+     },
+     "gain": 8.4
+    },
+    {
+     "start": {
+      "name": "Tyler Higbee",
+      "pos": "TE",
+      "pts": 10.7
+     },
+     "instead_of": {
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "pts": 2.6
+     },
+     "gain": 8.1
+    }
+   ]
+  },
+  {
+   "roster_id": 1,
+   "points_left": 15.1,
+   "optimal_points": 138.34,
+   "actual": 123.24,
+   "opponent": 178.08,
+   "lost": true,
+   "cost_the_game": false,
+   "margin": 54.84,
+   "swaps": [
+    {
+     "start": {
+      "name": "DK Metcalf",
+      "pos": "WR",
+      "pts": 15.4
+     },
+     "instead_of": {
+      "name": "Jalen Coker",
+      "pos": "WR",
+      "pts": 0.3
+     },
+     "gain": 15.1
+    }
+   ]
+  },
+  {
+   "roster_id": 5,
+   "points_left": 14.2,
+   "optimal_points": 186.92,
+   "actual": 172.72,
+   "opponent": 172.48,
+   "lost": false,
+   "cost_the_game": false,
+   "margin": 0.24,
+   "swaps": [
+    {
+     "start": {
+      "name": "Josh Downs",
+      "pos": "WR",
+      "pts": 15.3
+     },
+     "instead_of": {
+      "name": "Tetairoa McMillan",
+      "pos": "WR",
+      "pts": 6.5
+     },
+     "gain": 8.8
+    },
+    {
+     "start": {
+      "name": "Kirk Cousins",
+      "pos": "QB",
+      "pts": 16.38
+     },
+     "instead_of": {
+      "name": "Tyler Shough",
+      "pos": "QB",
+      "pts": 10.98
+     },
+     "gain": 5.4
+    }
+   ]
+  },
+  {
+   "roster_id": 8,
+   "points_left": 11.9,
+   "optimal_points": 152.32,
+   "actual": 140.42,
+   "opponent": 190.86,
+   "lost": true,
+   "cost_the_game": false,
+   "margin": 50.44,
+   "swaps": [
+    {
+     "start": {
+      "name": "George Kittle",
+      "pos": "TE",
+      "pts": 13.4
+     },
+     "instead_of": {
+      "name": "Rhamondre Stevenson",
+      "pos": "RB",
+      "pts": 1.5
+     },
+     "gain": 11.9
+    }
+   ]
+  },
+  {
+   "roster_id": 4,
+   "points_left": 0.0,
+   "optimal_points": 172.2,
+   "actual": 172.2,
+   "opponent": 192.44,
+   "lost": true,
+   "cost_the_game": false,
+   "margin": 20.24,
+   "swaps": []
+  },
+  {
+   "roster_id": 7,
+   "points_left": 0.0,
+   "optimal_points": 190.86,
+   "actual": 190.86,
+   "opponent": 140.42,
+   "lost": false,
+   "cost_the_game": false,
+   "margin": 50.44,
+   "swaps": []
+  }
+ ],
+ "busted_lineups": [
+  {
+   "roster_id": 6,
+   "starters": [
+    {
+     "name": "D'Andre Swift",
+     "pos": "RB",
+     "reason": "bye week",
+     "injury_status_now": null,
+     "best_replacement": {
+      "name": "DJ Moore",
+      "pos": "WR",
+      "pts": 19.4
+     },
+     "points_lost": 19.4
+    }
+   ],
+   "points_lost": 19.4,
+   "won_anyway": true,
+   "cost_the_game": false
+  }
+ ]
+}
