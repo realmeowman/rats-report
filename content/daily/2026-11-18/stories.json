@@ -1,0 +1,151 @@
+{
+"lead": {
+"kicker": "Waiver Grades",
+"headline": "The champ cut Drake Maye and landed Cam Ward",
+"dek": "AB81 had the No. 1 claim and nothing came through. Maye I touch your TDs? picked fifth, took the best quarterback on the wire and released the quarterback whose name is on the marquee. Three claims processed at 12:11 AM. Here’s every grade.",
+"matchup_key": "w11-m1",
+"by_roster_id": 3,
+"roster_ids": [3, 1, 8, 7, 5],
+"pull": "Cam Ward in. Drake Maye out. The team name stays.",
+"body": [
+"I’ve covered this franchise all season, and I did not have this on my card. Claims ran at Wed 12:11 AM. AB81 held the first spot in line and no claim came through for it. Poochinski, deeboliciouskins and Cherry Blossom didn’t need a quarterback. So the champ, picking fifth, walked up to the window and took Cam Ward, the No. 1 arm on the wire, projecting for 16.95 this week.",
+"The price was the quarterback on the letterhead. Maye I touch your TDs? dropped Drake Maye, who is Out with an ankle and on bye anyway. That’s cold and it’s correct: a two-QB team with one healthy quarterback can’t carry a 0.0 on the roster in a must-win week. The team name stays. The namesake goes to waivers.",
+"Now the stakes. The champ is 2-8 with 25.2% playoff odds and plays Big Stric Energy, also 2-8, at 17.7%. Big Stric made no claim, and it may not have needed one: Geno Smith is now listed Questionable, not Out, and projects for 15.65 on the bench behind Jordan Love’s bye. Swap him in and Saquon Barkley (12.67) for Braelon Allen (8.76), and Big Stric’s best lineup is 152.87.",
+"The champ’s best is 126.16, and that still leaves two holes the bench can’t fill: Harold Fannin Jr. and the Cleveland Browns D/ST are on bye and nobody on the roster plays tight end or defense. The wire has both. Michael Mayer projects for 8.58 and is the most-added player in Sleeper (1,924,092 adds). The Detroit Lions D/ST projects for 7.56. Add those two and the gap closes to something you could win with a good Sunday.",
+"Then there’s the free one: Bucky Irving (17.0) is on the bench behind Emmett Johnson (10.71). Ward, Irving, Mayer and the Lions, all by Sun 10:00 AM. That’s the to-do list for an elimination game.",
+"My pick is still Big Stric Energy, 74.3% to 25.7%. But the champ won Wednesday, and Wednesday was the only day it could."
+]
+},
+"quick_hits": [
+{
+"kicker": "AB81",
+"headline": "First in line, nothing came through",
+"roster_ids": [8, 6],
+"body": "AB81 kept the No. 1 waiver spot, and its lineup still has an empty QB slot with Matthew Stafford on bye, Sam Darnold Out and Jalen Hurts on IR. As set it projects for 67.45, at best 105.68, against deeboliciouskins’ 170.41: 5.6%. The FLEX is a hole too, with Rhamondre Stevenson on bye; David Montgomery (14.07, unrostered, 305,988 adds) is the cleanest fill on the wire."
+},
+{
+"kicker": "Santa Clara’s Finest",
+"headline": "A Lamar Jackson stash for a playoff push",
+"roster_ids": [7, 2],
+"body": "The Finest claimed Lamar Jackson, on IR with a thumb and projecting 0.0 this week, and cut J.K. Dobbins (8.11). That’s a bet on December from a 3-7 team holding the last playoff spot at 57.1%. It also cost a Corum fill-in, but Kenneth Walker III is now Questionable, not Out, and projects for 18.47 on the bench."
+},
+{
+"kicker": "Bad things",
+"headline": "The co-leader trades McConkey for the hot hand",
+"roster_ids": [5, 4],
+"body": "Picking eighth, Bad things man bad things still got Jordyn Tyson (10.99), who scored 19.0 for nobody last week, and dropped Ladd McConkey (11.91, Questionable, back). The lineup is already fixed at RB, WR and defense: Ollie Gordon II, Josh Downs and the Chicago Bears D/ST are in. Tyson is the obvious FLEX for Bijan Robinson’s bye."
+},
+{
+"kicker": "Poochinski",
+"headline": "Still no defense, and the Finest got healthier",
+"roster_ids": [2, 7],
+"body": "Poochinski didn’t claim a defense, so the Seattle Seahawks D/ST’s bye is still open, and the Lions D/ST (7.56) is still out there. Good news: Luther Burden III no longer carries an injury tag and projects for 15.56 at FLEX. Bad news: with Walker back in play, the Finest’s best lineup is 166.06 against Poochinski’s 174.43, and this is now 58.1% to 41.9%."
+},
+{
+"kicker": "Cherry Blossom",
+"headline": "Bowers is back to Questionable",
+"roster_ids": [4],
+"body": "Brock Bowers moved from Out to Questionable (14.85) and Travis Kelce no longer carries a tag. That makes the FLEX a real call: Bowers or Jonah Coleman (17.05) from the bench. Bo Nix (17.89) is still sitting behind Jared Goff (16.66)."
+},
+{
+"kicker": "Kicker Watch",
+"headline": "deeboliciouskins still needs a leg",
+"roster_ids": [6],
+"body": "Jason Myers is on bye and no kicker came through on waivers. Cairo Santos projects for 6.57, Chase McLaughlin for 6.21. A 94.4% favorite can take either one."
+}
+],
+"previews": {
+"w11-m1": {
+"headline": "Ward gives the champ a pulse",
+"blurb": "Big Stric Energy 152.87 at best, Maye I touch your TDs? 126.16, 74.3% Big Stric. Geno Smith is the in-house answer for Big Stric; the champ still needs a tight end and a defense off the wire.",
+"pick": 1
+},
+"w11-m2": {
+"headline": "AB81 still needs a quarterback",
+"blurb": "deeboliciouskins 170.41, AB81 105.68 at best with an empty QB slot. 94.4% deeboliciouskins, which needs only a kicker.",
+"pick": 6
+},
+"w11-m3": {
+"headline": "Bowers or Coleman decides the ceiling",
+"blurb": "Cherry Blossom 164.21 at best, Bad things man bad things 147.27, 66.1% Cherry Blossom. Bad things has its lineup nearly set; Tyson at FLEX finishes it.",
+"pick": 4
+},
+"w11-m4": {
+"headline": "Walker’s tag change tightens it",
+"blurb": "Poochinski 174.43, Santa Clara’s Finest 166.06, 58.1% Poochinski. Poochinski needs a defense; the Finest need Walker at RB and Loveland at FLEX for Denzel Boston.",
+"pick": 2
+}
+},
+"decision_notes": {
+"w11-r3-s1": {
+"headline": "Ward into the empty QB slot",
+"blurb": "The champ has its quarterback. Cam Ward (16.95) sits on the bench next to an empty QB slot beside Brock Purdy. This one is a formality. Deadline Sun 10:00 AM."
+},
+"w11-r3-s6": {
+"headline": "What will the champ do at tight end?",
+"blurb": "Harold Fannin Jr. is on bye and nobody on the bench plays the position. Michael Mayer (8.58) is unrostered and the most-added player in Sleeper. I’d add him first."
+},
+"w11-r3-s10": {
+"headline": "And at defense?",
+"blurb": "The Cleveland Browns D/ST is on bye with no backup. The Detroit Lions D/ST (7.56) is the best unrostered option, and Poochinski needs a defense too."
+},
+"w11-r1-s1": {
+"headline": "Geno Smith is suddenly an option",
+"blurb": "Jordan Love is on bye. Geno Smith went from Out to Questionable and projects for 15.65 on the bench. If he plays, Big Stric doesn’t need the wire at all. Deadline Sun 1:05 PM."
+},
+"w11-r8-s1": {
+"headline": "What will AB81 do at QB?",
+"blurb": "Stafford on bye, Darnold Out, Hurts on IR, Herbert alone. No claim came through, so the answer has to come off the wire. A 7-3 team at 100% playoff odds is playing for seeding, and an empty QB slot is a lot of seeding to give away."
+},
+"w11-r8-s7": {
+"headline": "AB81’s FLEX: Montgomery?",
+"blurb": "Rhamondre Stevenson is on bye and the bench’s answers are already covering Kyren Williams and Jaxon Smith-Njigba. David Montgomery (14.07) is unrostered."
+},
+"w11-r2-s10": {
+"headline": "Poochinski still needs a defense",
+"blurb": "The Seattle Seahawks D/ST is on bye and there’s no defense on the bench. The Lions D/ST (7.56) is the pick of the wire, and the champ wants it too."
+},
+"w11-r4-s7": {
+"headline": "Bowers or Coleman?",
+"blurb": "Brock Bowers is Questionable (14.85). Jonah Coleman projects for 17.05 on the bench and is healthy. I’d start Coleman and let Bowers prove it next week. Deadline Sun 1:25 PM."
+},
+"w11-r7-s2": {
+"headline": "Walker for Corum",
+"blurb": "Blake Corum is on bye. Kenneth Walker III (18.47) is Questionable with a groin, and with Dobbins gone he’s the only RB answer on the bench. Watch the injury report. Deadline Sun 10:00 AM."
+},
+"w11-r6-s9": {
+"headline": "deeboliciouskins needs a kicker",
+"blurb": "Jason Myers is on bye. Cairo Santos (6.57) edges Chase McLaughlin (6.21), the kicker Big Stric Energy cut on Friday."
+}
+},
+"alert_notes": {},
+"trending_notes": {
+"9482": "Michael Mayer is the most-added player in Sleeper (1,924,092) and unrostered here. Maye I touch your TDs? has an empty TE slot.",
+"DET": "The Detroit Lions D/ST (7.56) is still free. Poochinski and Maye I touch your TDs? both need a defense.",
+"5892": "David Montgomery projects for 14.07 and is unrostered. AB81 has an empty FLEX.",
+"2020": "Cairo Santos (6.57) is the best kicker on the wire for deeboliciouskins.",
+"6650": "Chase McLaughlin (6.21), cut by Big Stric Energy on Friday, is the other kicker option.",
+"13281": "Jordyn Tyson is Bad things man bad things’ now, claimed Wed 12:11 AM. He projects for 10.99.",
+"11563": "Bo Nix is being added 441,006 times elsewhere. In R.A.T.S. he’s on Cherry Blossom’s bench, projecting 17.89."
+},
+"move_grades": {
+"2026-11-18-m3": {
+"grade": "A",
+"blurb": "The best quarterback on the wire, from the No. 5 spot, for a 0.0 on bye. Sentiment had no vote. The champ got the one thing an elimination game required."
+},
+"2026-11-18-m2": {
+"grade": "B-",
+"blurb": "Lamar Jackson projects 0.0 this week and is on IR, so this is a December bet from a 3-7 team. It works if Walker plays Sunday; if he doesn’t, the Dobbins cut leaves Corum’s bye uncovered."
+},
+"2026-11-18-m1": {
+"grade": "C+",
+"blurb": "Tyson (10.99) for McConkey (11.91, Questionable). Chasing a 19.0-point week by cutting a higher projection is a coin flip. It does fill Bijan Robinson’s FLEX bye cleanly."
+}
+},
+"external_facts": [
+{
+"claim": "Waiver order for Week 11 claims: AB81, Poochinski, deeboliciouskins, Cherry Blossom, Maye I touch your TDs?, Big Stric Energy, Santa Clara’s Finest, Bad things man bad things. After processing, Maye I touch your TDs?, Santa Clara’s Finest and Bad things man bad things moved to the back (positions 6, 7, 8) and AB81 kept position 1, consistent with no successful AB81 claim.",
+"source": "Sleeper rosters API settings.waiver_position (data/raw/2026/rosters.json fetched 2026-11-17 and 2026-11-18)"
+}
+]
+}
