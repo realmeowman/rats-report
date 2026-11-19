@@ -1,10 +1,9 @@
 {
- "date": "2026-11-18",
- "since_ms": 1794789759769,
- "last_tx_ms": 1794989486170,
- "last_run": "2026-11-18T05:43-08:00",
+ "date": "2026-11-19",
+ "since_ms": 1794989486170,
+ "last_tx_ms": 1795031308965,
+ "last_run": "2026-11-19T05:42-08:00",
  "decisions_by_date": {
-  "2026-11-09": {},
   "2026-11-10": {
    "w10-r1-s2": {
     "roster_id": 1,
@@ -1561,6 +1560,217 @@
      "name": "Stefon Diggs",
      "pos": "WR",
      "proj": 13.31,
+     "injury": null
+    }
+   }
+  },
+  "2026-11-19": {
+   "w11-r1-s1": {
+    "roster_id": 1,
+    "slot": "QB",
+    "reason": "bye",
+    "current": {
+     "name": "Jordan Love",
+     "pos": "QB",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w11-r1-s6": {
+    "roster_id": 1,
+    "slot": "TE",
+    "reason": "injury",
+    "current": {
+     "name": "Dalton Kincaid",
+     "pos": "TE",
+     "proj": 9.68,
+     "injury": "Questionable"
+    }
+   },
+   "w11-r3-s9": {
+    "roster_id": 3,
+    "slot": "K",
+    "reason": "injury",
+    "current": {
+     "name": "Matt Gay",
+     "pos": "K",
+     "proj": 6.48,
+     "injury": "Questionable"
+    }
+   },
+   "w11-r6-s9": {
+    "roster_id": 6,
+    "slot": "K",
+    "reason": "bye",
+    "current": {
+     "name": "Jason Myers",
+     "pos": "K",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w11-r8-s1": {
+    "roster_id": 8,
+    "slot": "QB",
+    "reason": "bye",
+    "current": {
+     "name": "Matthew Stafford",
+     "pos": "QB",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w11-r8-s3": {
+    "roster_id": 8,
+    "slot": "RB",
+    "reason": "bye",
+    "current": {
+     "name": "Kyren Williams",
+     "pos": "RB",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w11-r8-s4": {
+    "roster_id": 8,
+    "slot": "WR",
+    "reason": "bye",
+    "current": {
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w11-r8-s5": {
+    "roster_id": 8,
+    "slot": "WR",
+    "reason": "upgrade",
+    "current": {
+     "name": "Germie Bernard",
+     "pos": "WR",
+     "proj": 6.56,
+     "injury": null
+    }
+   },
+   "w11-r8-s6": {
+    "roster_id": 8,
+    "slot": "TE",
+    "reason": "upgrade",
+    "current": {
+     "name": "Mark Andrews",
+     "pos": "TE",
+     "proj": 7.25,
+     "injury": null
+    }
+   },
+   "w11-r8-s7": {
+    "roster_id": 8,
+    "slot": "FLEX",
+    "reason": "bye",
+    "current": {
+     "name": "Rhamondre Stevenson",
+     "pos": "RB",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w11-r4-s7": {
+    "roster_id": 4,
+    "slot": "FLEX",
+    "reason": "injury",
+    "current": {
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "proj": 14.85,
+     "injury": "Questionable"
+    }
+   },
+   "w11-r4-s8": {
+    "roster_id": 4,
+    "slot": "FLEX",
+    "reason": "upgrade",
+    "current": {
+     "name": "Jameson Williams",
+     "pos": "WR",
+     "proj": 11.96,
+     "injury": null
+    }
+   },
+   "w11-r5-s7": {
+    "roster_id": 5,
+    "slot": "FLEX",
+    "reason": "injury",
+    "current": {
+     "name": "Jordyn Tyson",
+     "pos": "WR",
+     "proj": 10.93,
+     "injury": "Questionable"
+    }
+   },
+   "w11-r2-s8": {
+    "roster_id": 2,
+    "slot": "FLEX",
+    "reason": "bye",
+    "current": {
+     "name": "Jadarian Price",
+     "pos": "RB",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w11-r2-s10": {
+    "roster_id": 2,
+    "slot": "DEF",
+    "reason": "bye",
+    "current": {
+     "name": "Seattle Seahawks D/ST",
+     "pos": "DEF",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w11-r7-s2": {
+    "roster_id": 7,
+    "slot": "RB",
+    "reason": "bye",
+    "current": {
+     "name": "Blake Corum",
+     "pos": "RB",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w11-r7-s3": {
+    "roster_id": 7,
+    "slot": "RB",
+    "reason": "injury",
+    "current": {
+     "name": "Bhayshul Tuten",
+     "pos": "RB",
+     "proj": 15.54,
+     "injury": "Questionable"
+    }
+   },
+   "w11-r7-s4": {
+    "roster_id": 7,
+    "slot": "WR",
+    "reason": "bye",
+    "current": {
+     "name": "Denzel Boston",
+     "pos": "WR",
+     "proj": 0.0,
+     "injury": null
+    }
+   },
+   "w11-r7-s5": {
+    "roster_id": 7,
+    "slot": "WR",
+    "reason": "upgrade",
+    "current": {
+     "name": "Stefon Diggs",
+     "pos": "WR",
+     "proj": 13.24,
      "injury": null
     }
    }
