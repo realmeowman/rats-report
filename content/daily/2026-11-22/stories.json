@@ -1,141 +1,149 @@
 {
  "lead": {
-  "kicker": "Last Call",
-  "headline": "Kincaid is out. Big Stric’s tight end spot is empty.",
-  "dek": "Overnight Dalton Kincaid went from Doubtful to Out, and Big Stric Energy has no tight end on the bench. It now projects 142.63 to the champ’s 158.37 and is a 34.6% underdog in the game that decides who stays alive.",
+  "kicker": "Busted",
+  "headline": "Big Stric played the early window a man down",
+  "dek": "Dalton Kincaid never played, and Big Stric Energy’s tight end slot went into the books at 0.0. The champ leads 116.42 to 88.22 and is 83.2% to win the game that decides who stays alive.",
   "matchup_key": "w11-m1",
+  "by_roster_id": 1,
   "roster_ids": [
    1,
    3
   ],
-  "pull": "The 2-8 bowl has a clock now, and only one of these front offices is racing it.",
+  "pull": "You can survive a bad game from your quarterback. Surviving a position that doesn’t exist is harder.",
   "body": [
-   "Last call, 8:48 AM. One thing in this league changed overnight, and it landed on the team that could least afford it. Big Stric Energy’s tight end, Dalton Kincaid, is now Out with the thumb. Tucker Kraft is on bye. The bench has Saquon Barkley, DK Metcalf and nobody who plays tight end. This is no longer a game-time decision. It’s a waiver claim.",
-   "The wire has answers, and none of them are glamorous. Darren Waller projects 8.78 and is free. Dawson Knox is the most-added tight end in football this week and projects 5.84. Either one beats the 0.0 sitting in that slot right now. My call: Waller, and do it before his game kicks off, not after.",
-   "Here’s why it matters. Fill the hole and make the Barkley swap (12.69 over Braelon Allen’s 9.1) and Big Stric’s best is 143.99. The champ, Maye I touch your TDs?, projects 158.37 without touching a thing. Emmett Johnson (19.6), Amon-Ra St. Brown (19.33) and Bucky Irving (18.39) are all still in the building. Big Stric has 14.8 from Nico Collins in the bank and 10 players left. The champ has 11 left and hasn’t scored yet.",
-   "The champ has one call of its own, same as yesterday: Matt Gay is still Questionable with a hip, still one of the most-dropped players in football, and still the kicker. Chase McLaughlin (6.68) is free and projects above Gay (6.48). In a game the champ leads as projected, it’s a small call. In the playoff race, small calls are the only ones left.",
-   "The stakes haven’t moved: Santa Clara’s Finest hold the last spot at 57.1%. The champ is at 25.2%. Big Stric is at 17.7%. My pick: the champ, and more comfortably than this morning’s column would have said. Big Stric’s path is Josh Allen and Justin Jefferson going off, and a tight end showing up from the wire."
+   "1:49 PM, and it’s official. Big Stric Energy started Dalton Kincaid, Kincaid was Out with the thumb, and Big Stric’s tight end slot is a final 0.0. Tucker Kraft was on bye. The bench never had a tight end. Both of this morning’s wire answers, Darren Waller and Dawson Knox, have already played. That spot is closed for the week. That’s a busted lineup in the biggest game this franchise has left.",
+   "And it stings worse because of who’s across the field. The champ, Maye I touch your TDs?, is starting Michael Mayer at tight end, the most-added player in football this week. Mayer is playing right now. Big Stric’s guy is in street clothes.",
+   "The rest of the early window didn’t bail it out. Josh Allen finished with 14.16 against a 24.67 projection. Tyler Bass kicked in 17.0, Nico Collins 14.8, Rashee Rice 11.3. Saquon Barkley put up 13.5 on the bench while Braelon Allen sits at 2.6 in the lineup. Meanwhile the champ cashed Emmett Johnson (24.3), Cam Ward (22.22) and Bucky Irving (19.0). Scoreboard: 116.42 to 88.22.",
+   "It isn’t over. Big Stric has 5 players left: Justin Jefferson hasn’t kicked off, and Geno Smith, Braelon Allen, Ashton Jeanty and the Jacksonville Jaguars D/ST are on the field. The champ also has 5 left, starting with Brock Purdy. The live projection says 168.32 to 144.65. Big Stric needs 23.67 points it isn’t projected to find, and Jefferson is the only player big enough to find them.",
+   "My read: 16.8% sounds about right. The zero at tight end didn’t lose this game by itself. It just made sure the margin for everything else was gone before lunch. If Big Stric loses this one, this is the slot everyone will point to."
   ]
  },
  "quick_hits": [
   {
-   "kicker": "The Clock",
-   "headline": "Poochinski’s 10:00 AM call decides the favorite",
+   "kicker": "Before Lunch",
+   "headline": "Poochinski hung 175.04 on the early window",
    "roster_ids": [
     2,
     7
    ],
-   "body": "As set, Poochinski projects 153.47 and Santa Clara’s Finest project 159.34. Swap Luther Burden III (15.09) in for Jadarian Price, who is on bye, and Caleb Williams (20.04) in for Aaron Rodgers (16.57), and Poochinski’s best is 172.03 and a 63.2% favorite. Burden’s deadline is Sun 10:00 AM, the first one on the board. The Seattle Seahawks D/ST is still on bye; the Detroit Lions D/ST (6.58) is still free."
+   "body": "Poochinski made its calls this morning and then the lineup went off: Dak Prescott 35.9, CeeDee Lamb 30.2, Jahmyr Gibbs 27.8, Javonte Williams 24.1. It leads Santa Clara’s Finest 175.04 to 55.86 and is 98% to win with Chase Brown and the San Francisco 49ers D/ST still to go. The first call of the morning, Luther Burden III, gave it 3.3. Nobody will remember."
   },
   {
-   "kicker": "Cherry Blossom",
-   "headline": "Bowers projects 0.0. Coleman is the answer.",
+   "kicker": "Bubble Watch",
+   "headline": "Santa Clara’s Finest has 6 left and a 2% shot",
+   "roster_ids": [
+    7,
+    3,
+    1
+   ],
+   "body": "Santa Clara’s Finest hold the last playoff spot at 57.1%, but this week is slipping: 6 players left, including Joe Burrow (26.4) and Stefon Diggs (13.41), and a 148.65 live projection against 197.67. With the champ 83.2% to win its own game, the race for that last spot is about to tighten."
+  },
+  {
+   "kicker": "Down, Favored",
+   "headline": "Cherry Blossom trails by a lot and is 74.1% anyway",
    "roster_ids": [
     4,
     5
    ],
-   "body": "Brock Bowers is still Questionable with the ankle, and his projection has dropped to 0.0. Jonah Coleman (17.21) is on the bench, and Bo Nix (17.88) sits behind Jared Goff (17.24). Cherry Blossom as set is 144.92; at its best it’s 162.77 and 62.7% against Bad things man bad things. Deadline Sun 1:25 PM."
+   "body": "Bad things man bad things posted 136.16 in the early window, with Chuba Hubbard at 26.0 and C.J. Stroud at 21.46. It has 2 left: Kirk Cousins and Evan McPherson. Cherry Blossom has 91.58 and 5 left, including Christian McCaffrey (19.95) and Tee Higgins (18.91), and projects 175.98 to 160.37. Travis Kelce’s 25.4 is why the math still works."
   },
   {
-   "kicker": "AB81",
-   "headline": "AB81: four byes and a 1:25 PM deadline",
-   "roster_ids": [
-    8,
-    6
-   ],
-   "body": "Matthew Stafford, Kyren Williams, Jaxon Smith-Njigba and Rhamondre Stevenson are all on bye in AB81’s lineup. Mike Evans (13.81, Questionable), DeVonta Smith (13.6) and George Kittle (12.4) are the bench answers. As set it’s 69.76; filled, 109.57 and an 11.1% shot. The second quarterback still has to come off the wire."
-  },
-  {
-   "kicker": "Kicker Watch",
-   "headline": "Two kickers needed. McLaughlin and Santos are free.",
+   "kicker": "Formality",
+   "headline": "deeboliciouskins is 100% and still has three to play",
    "roster_ids": [
     6,
-    3
+    8
    ],
-   "body": "deeboliciouskins still lists Jason Myers, on bye, and is 88.9% to win anyway with 9.9 already banked. The champ still lists Matt Gay, Questionable. Chase McLaughlin (6.68) and Cairo Santos (6.47) are both on the wire. One each."
+   "body": "deeboliciouskins leads AB81 89.56 to 46.08 with Jayden Daniels, Ja’Marr Chase and its new kicker Drew Stevens still to play. AB81 is down to 3 players and a 71.49 live projection, with four bye starters still in the lineup."
   },
   {
-   "kicker": "Done Early",
-   "headline": "Two teams are set and waiting",
+   "kicker": "Calls Made",
+   "headline": "Four lineup calls, four answers",
    "roster_ids": [
-    7,
-    5
+    6,
+    4,
+    2
    ],
-   "body": "Santa Clara’s Finest (16.0 banked, 159.34 as set) and Bad things man bad things (21.46 banked from C.J. Stroud, 149.1 as set) have nothing left to decide. They’re 36.8% and 37.3%. Both lead on the scoreboard. Both need the other front office to leave something on the table."
+   "body": "deeboliciouskins added Drew Stevens for Jason Myers at 9:42 AM. Cherry Blossom went Jonah Coleman over Brock Bowers. Poochinski slotted Burden for Jadarian Price and added the 49ers D/ST at 12:51 PM. The champ kept Matt Gay, and Gay is kicking right now."
   }
  ],
  "previews": {
   "w11-m1": {
-   "headline": "Big Stric needs a tight end by kickoff",
-   "blurb": "Kincaid is Out and the bench has no tight end. Maye I touch your TDs? projects 158.37 to 142.63 and is 65.4% to win. Big Stric leads 14.8 to 0.0 on Thursday points. The winner stays in the race for the last spot.",
+   "headline": "The champ leads, and Big Stric has a zero",
+   "blurb": "Maye I touch your TDs? leads 116.42 to 88.22 and is 83.2% to win. Both teams have 5 players left. Big Stric needs Justin Jefferson to cover a 0.0 at tight end and then some.",
    "pick": 3
   },
   "w11-m2": {
-   "headline": "deeboliciouskins only needs a kicker",
-   "blurb": "deeboliciouskins is 88.9% to win with 9.9 banked and a 172.16 lineup. AB81 has four starters on bye and a 109.57 ceiling.",
+   "headline": "deeboliciouskins is done in all but name",
+   "blurb": "89.56 to 46.08, with Jayden Daniels and Ja’Marr Chase still to play. deeboliciouskins projects 154.28 to 71.49 and is 100%.",
    "pick": 6
   },
   "w11-m3": {
-   "headline": "Bad things leads, Cherry Blossom favored",
-   "blurb": "Bad things man bad things leads 21.46 to 0.0 and is done at 149.1. Cherry Blossom is 62.7% if Jonah Coleman and Bo Nix go in by 1:25 PM.",
+   "headline": "Bad things banked 136.16. Cherry Blossom has the bullets.",
+   "blurb": "Cherry Blossom trails 136.16 to 91.58 but has 5 players left to Bad things’ 2. Live projection: 175.98 to 160.37, Cherry Blossom 74.1%.",
    "pick": 4
   },
   "w11-m4": {
-   "headline": "Poochinski is favored only if it moves first",
-   "blurb": "Santa Clara’s Finest lead 16.0 to 0.0 and project 159.34 as set, ahead of Poochinski’s 153.47. Poochinski’s best is 172.03 and 63.2%, and the first piece of it, Burden, is due at 10:00 AM.",
+   "headline": "Poochinski put this one away early",
+   "blurb": "Poochinski leads 175.04 to 55.86 and is 98% to win. Santa Clara’s Finest has 6 players left and needs nearly all of them to go off.",
    "pick": 2
   }
  },
  "decision_notes": {
-  "w11-r1-s6": {
-   "headline": "Big Stric’s tight end: Waller or Knox?",
-   "blurb": "Dalton Kincaid is Out, Tucker Kraft is on bye, and there’s no tight end on the bench. Darren Waller (8.78) is free. Dawson Knox (5.84) is the most-added tight end in football. I’d take Waller."
-  },
-  "w11-r2-s8": {
-   "headline": "Burden for Price, due at 10:00 AM",
-   "blurb": "Jadarian Price is on bye. Luther Burden III (15.09) is the answer, and his deadline is Sun 10:00 AM. The earliest call on the board, and the one that flips the favorite."
-  },
-  "w11-r2-s10": {
-   "headline": "Poochinski still needs a defense",
-   "blurb": "The Seattle Seahawks D/ST is on bye with no backup. The Detroit Lions D/ST (6.58) is free."
-  },
-  "w11-r3-s9": {
-   "headline": "The champ’s kicker, last call",
-   "blurb": "Matt Gay (6.48) is still Questionable with a hip. Chase McLaughlin (6.68) projects higher and is free."
-  },
-  "w11-r6-s9": {
-   "headline": "deeboliciouskins needs a kicker",
-   "blurb": "Jason Myers is on bye. Chase McLaughlin (6.68) or Cairo Santos (6.47). The last hole in a 172.16 lineup."
-  },
-  "w11-r8-s1": {
-   "headline": "Where does AB81 find a quarterback?",
-   "blurb": "Matthew Stafford is on bye, Sam Darnold is Out, Jalen Hurts is on IR. Justin Herbert (16.81) is the only one playing. The second QB comes from the wire."
-  },
   "w11-r8-s3": {
-   "headline": "AB81’s shuffle at running back",
-   "blurb": "Kyren Williams is on bye. The fix is a flex shuffle: Mike Evans (13.81, Questionable), DeVonta Smith (13.6) or George Kittle (12.4). Deadline Sun 1:25 PM."
+   "headline": "AB81’s last shuffle, due 5:20 PM",
+   "blurb": "Kyren Williams is on bye. Mike Evans (13.86, Questionable) or George Kittle (12.44) can slide in through the flex. The game is gone at 100% the other way, but the points still count for the record books."
   },
   "w11-r8-s7": {
-   "headline": "Kittle fills the last flex",
-   "blurb": "Rhamondre Stevenson is on bye. George Kittle (12.4) is on the bench. Deadline Sun 5:20 PM."
+   "headline": "Kittle is still on the bench",
+   "blurb": "Rhamondre Stevenson is on bye in the flex. George Kittle (12.44) is the answer, deadline Sun 5:20 PM."
+  },
+  "w11-r8-s1": {
+   "headline": "AB81’s second quarterback",
+   "blurb": "Matthew Stafford is on bye and there’s no quarterback on the bench. Justin Herbert is the only one playing, at 2.18 so far."
+  },
+  "w11-r6-s9": {
+   "headline": "deeboliciouskins found its kicker",
+   "blurb": "Jason Myers out, Drew Stevens (6.99) in, added at 9:42 AM. He hasn’t kicked yet."
   },
   "w11-r4-s7": {
-   "headline": "Bowers or Coleman?",
-   "blurb": "Brock Bowers is Questionable with an ankle and now projects 0.0. Jonah Coleman (17.21) is the call. Deadline Sun 1:25 PM."
+   "headline": "Cherry Blossom made the Coleman call",
+   "blurb": "Brock Bowers out, Jonah Coleman (17.46) in. Coleman is on the field now with 2.7."
+  },
+  "w11-r2-s8": {
+   "headline": "Burden in for Price",
+   "blurb": "Poochinski made the first call on the board. Luther Burden III gave it 3.3. The rest of the lineup made it irrelevant."
+  },
+  "w11-r2-s10": {
+   "headline": "Poochinski grabbed the 49ers D/ST",
+   "blurb": "Added at 12:51 PM for Tyler Higbee, with the Seattle Seahawks D/ST on bye. Projects 7.56 and hasn’t played yet."
   }
  },
- "alert_notes": {},
- "trending_notes": {
-  "2505": "Darren Waller (8.78) is free, and Big Stric Energy needs a tight end right now.",
-  "5906": "Dawson Knox (5.84) is the most-added tight end in football. The other answer for Big Stric Energy.",
-  "10236": "Dalton Kincaid is Out with the thumb and still in Big Stric Energy’s lineup, with no tight end behind him.",
-  "6650": "Chase McLaughlin (6.68) is free and projects above Matt Gay. deeboliciouskins needs a kicker; the champ might.",
-  "2020": "Cairo Santos (6.47) is the other free kicker for deeboliciouskins or the champ.",
-  "6083": "Matt Gay is Questionable with a hip and one of the most-dropped players in football. He’s still the champ’s kicker.",
-  "2747": "Jason Myers is on bye and still in deeboliciouskins’ lineup.",
-  "DET": "The Detroit Lions D/ST (6.58) is free. Poochinski needs a defense.",
-  "9493": "Puka Nacua is on IR and the most-dropped player in football. He’s on Cherry Blossom’s bench."
+ "alert_notes": {
+  "1": "Started Dalton Kincaid, who was Out. 0.0 at tight end in a game it trails 116.42 to 88.22."
  },
- "move_grades": {},
+ "trending_notes": {
+  "10236": "Dalton Kincaid was Out and still started for Big Stric Energy. 0.0 at tight end.",
+  "9482": "Michael Mayer is the most-added player in football and the champ’s starting tight end. He’s playing now.",
+  "2505": "Darren Waller was the answer for Big Stric Energy this morning. Nobody in R.A.T.S. picked him up.",
+  "6083": "Matt Gay is one of the most-dropped players in football and is kicking for the champ right now.",
+  "2747": "Jason Myers is out of deeboliciouskins’ lineup; Drew Stevens took his spot.",
+  "3271": "Tyler Higbee is gone from Poochinski, swapped for the 49ers D/ST at 12:51 PM.",
+  "5012": "Mark Andrews gave AB81 3.4 at tight end."
+ },
+ "move_grades": {
+  "2026-11-22-m1": {
+   "grade": "C",
+   "blurb": "Poochinski cut Aaron Rodgers (16.61 projected) for Kaelon Black (4.65) at 9:23 AM. Caleb Williams had the start anyway, but in a two-quarterback league, a spare quarterback is worth more than a spare back."
+  },
+  "2026-11-22-m2": {
+   "grade": "A-",
+   "blurb": "deeboliciouskins dropped Kyler Murray, who was Out, for kicker Drew Stevens (6.99) at 9:42 AM. Filled the last hole in the lineup. Clean."
+  },
+  "2026-11-22-m3": {
+   "grade": "B+",
+   "blurb": "Poochinski added the San Francisco 49ers D/ST (7.56) for Tyler Higbee at 12:51 PM, covering the Seattle bye. A defense beats an empty slot every time."
+  }
+ },
  "external_facts": []
 }
