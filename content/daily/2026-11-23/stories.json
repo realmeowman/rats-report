@@ -1,0 +1,96 @@
+{
+ "lead": {
+  "kicker": "Busted Lineup",
+  "headline": "AB81 started four byes. Evans and Kittle watched.",
+  "dek": "Matthew Stafford, Kyren Williams, Jaxon Smith-Njigba and Rhamondre Stevenson went into the books at 0.0 in AB81’s starting lineup while Mike Evans (22.9) and George Kittle (18.4) finished on the bench. AB81 trails deeboliciouskins 108.06 to 75.34 with one Monday player left.",
+  "matchup_key": "w11-m2",
+  "by_roster_id": 8,
+  "roster_ids": [8, 6],
+  "pull": "Evans and Kittle, by themselves, outscored the deficit. From the bench.",
+  "body": [
+   "Sunday is over, so this is no longer a lineup call. It’s a busted lineup, four times over. AB81 started Matthew Stafford at quarterback, Kyren Williams at running back, Jaxon Smith-Njigba at receiver and Rhamondre Stevenson at flex. All four were on bye. All four slots went into the books at 0.0. I’ve covered this franchise all season, and I have never had to type that sentence four times in one paragraph.",
+   "Here’s the part that stings. The bench had answers for two of those holes. Mike Evans scored 22.9 on the AB81 bench. George Kittle scored 18.4 on the AB81 bench. DeVonta Smith added 9.1 on the AB81 bench. Put Evans at receiver and Kittle at flex and AB81 doesn’t wake up Monday down 108.06 to 75.34. It wakes up ahead of deeboliciouskins. Evans and Kittle, by themselves, outscored the deficit.",
+   "The other two holes had no fix on the roster. The quarterback depth behind Stafford is Sam Darnold (Out, and on bye anyway) and Jalen Hurts (IR), in a two-quarterback league. There was no running back on the bench at all. Those two zeros needed a waiver add that never came.",
+   "Would the right lineup have won? Honestly, this desk doubts it. deeboliciouskins still has Jayden Daniels, Ja’Marr Chase and Drew Stevens to play Monday night, and the live projection is 158.32 to 81.86. A corrected AB81 lineup would have led going into Monday and still been chasing at the end. But there is a difference between losing to Jayden Daniels on Monday night and losing to four empty chairs on Sunday morning.",
+   "The bigger picture: AB81 came into the week 7-3 with an all-play record of 30-40, the league’s highest luck number at 2.7, and a 4-1 record in close games. The playoff odds were 100% coming in, so this won’t cost a playoff ticket. It costs ground on Poochinski and Bad things man bad things at the top, and it’s the clearest sign yet that this record has been running on fumes and good fortune. The luck didn’t run out this week. AB81 just didn’t give it anything to work with."
+  ]
+ },
+ "quick_hits": [
+  {
+   "kicker": "Sixth Seed",
+   "headline": "Three weeks, three teams, one playoff ticket",
+   "roster_ids": [7, 3, 1],
+   "body": "Six teams make the playoffs, five are all but in, and the last spot is a three-team brawl with three regular-season weeks left. Santa Clara’s Finest (57.1% coming in) is losing 191.04 to 78.86 to Poochinski and falls to eight losses; the champ, Maye I touch your TDs? (25.2%), won and is also at eight losses with a far bigger points-for total, 1586.7 to 1433.42 entering the week. Big Stric Energy (17.7%) sits a game back at nine."
+  },
+  {
+   "kicker": "Chasing 200",
+   "headline": "Poochinski needs about 9 from Chase Brown for 200",
+   "roster_ids": [2],
+   "body": "Poochinski is at 191.04 with Chase Brown (14.9 projected) still to play Monday night, and the live projection says 205.94. The win over Santa Clara’s Finest is already done; Brown is playing for a round number. The front office that came in 8-2 with a 47-23 all-play record is about to get its ninth win the honest way."
+  },
+  {
+   "kicker": "QB Watch",
+   "headline": "AB81’s quarterback room just got scarier",
+   "roster_ids": [8],
+   "body": "Sleeper now lists Justin Herbert as Questionable with a concussion, and Derrick Henry the same. Herbert scored 22.44 Sunday and Henry 19.1, so neither missed this week. But AB81’s other quarterbacks are Stafford, Darnold (Out) and Hurts (IR) in a two-quarterback league. If Herbert can’t go next week, the second QB slot is a waiver problem; Fernando Mendoza is one of the most-added quarterbacks in football."
+  },
+  {
+   "kicker": "Deadline Week",
+   "headline": "Trade-deadline week, and the all-time count is still 0",
+   "roster_ids": [8, 1, 3, 7],
+   "body": "Week 11 is the league’s trade-deadline week. All-time trades in R.A.T.S.: 0. AB81 has receivers to spare on its bench and holes at quarterback; Big Stric Energy, the champ and Santa Clara’s Finest are fighting for one playoff spot. Somebody has a reason to pick up the phone. History says nobody will."
+  },
+  {
+   "kicker": "IR Watch",
+   "headline": "The world dropped Puka Nacua. Cherry Blossom didn’t.",
+   "roster_ids": [4, 5],
+   "body": "Puka Nacua is the most-dropped player in football this week, on IR with a knee (MCL). He’s still on Cherry Blossom’s bench, next to Brock Bowers (Out). It hasn’t mattered yet: Cherry Blossom leads Bad things man bad things 169.1 to 144.56 with Tee Higgins left Monday, and is at 99.9%."
+  }
+ ],
+ "previews": {
+  "w11-m1": {
+   "headline": "Final: the champ by 23.12",
+   "blurb": "Maye I touch your TDs? 163.52, Big Stric Energy 140.4. Nobody plays Monday. The champ climbs into the sixth-seed race; Big Stric Energy falls to nine losses.",
+   "pick": 3
+  },
+  "w11-m2": {
+   "headline": "deeboliciouskins has three Monday players; AB81 has a defense",
+   "blurb": "Up 108.06 to 75.34 with Jayden Daniels, Ja’Marr Chase and Drew Stevens left. AB81 has only the Cincinnati Bengals D/ST (6.52 projected) and four bye slots. Live projection 158.32 to 81.86.",
+   "pick": 6
+  },
+  "w11-m3": {
+   "headline": "Cherry Blossom needs nothing from Tee Higgins",
+   "blurb": "Leads 169.1 to 144.56. Higgins (18.74 projected) plays for Cherry Blossom, kicker Evan McPherson (7.59) for Bad things man bad things. 99.9% Cherry Blossom.",
+   "pick": 4
+  },
+  "w11-m4": {
+   "headline": "Poochinski, 191.04 and one back to go",
+   "blurb": "Leads Santa Clara’s Finest 191.04 to 78.86. Chase Brown plays for Poochinski; Joe Burrow and Stefon Diggs play for Santa Clara’s Finest’s points-for column. Live projection 205.94 to 118.3.",
+   "pick": 2
+  }
+ },
+ "decision_notes": {
+  "w11-r8-s3": {
+   "headline": "AB81’s Monday option at RB: Samaje Perine",
+   "blurb": "Kyren Williams holds the running back slot on a bye and the bench has no back. The only fix left is a Monday player, and the wire has one: Samaje Perine (7.57 projected) plays Monday night. It won’t flip the game. It would turn a zero into something."
+  },
+  "w11-r8-s7": {
+   "headline": "Flex: Mike Gesicki is the Monday play",
+   "blurb": "Rhamondre Stevenson is on a bye at flex, and Kittle’s 18.4 is already spent on the bench. Mike Gesicki (9.07 projected) is on the wire and plays Monday night. The call has to come before kickoff."
+  }
+ },
+ "alert_notes": {
+  "8": "Started four players on bye (Stafford, Kyren Williams, Smith-Njigba, Stevenson) with Mike Evans (22.9) and George Kittle (18.4) on the bench. Trails 108.06 to 75.34 into Monday.",
+  "1": "Started Dalton Kincaid, who was Out. 0.0 at tight end in a 163.52 to 140.4 loss."
+ },
+ "trending_notes": {
+  "9493": "Most-dropped player in football, on IR. Still on Cherry Blossom’s bench.",
+  "4147": "Available in R.A.T.S. and plays Monday night. A running back for any team with a Monday zero to fill, AB81 first.",
+  "4993": "Available, a tight end, plays Monday night (9.07 projected). Flex-eligible for AB81’s open bye slot.",
+  "5012": "Mark Andrews is one of the most-dropped tight ends in football after a 3.4 Sunday in AB81’s lineup.",
+  "5906": "Still on the R.A.T.S. wire. Big Stric Energy, which took a 0.0 at tight end this week, should be first in line.",
+  "13269": "Fernando Mendoza is available and trending. In a two-quarterback league, AB81 should be watching Herbert’s status and this name together."
+ },
+ "move_grades": {},
+ "external_facts": []
+}
